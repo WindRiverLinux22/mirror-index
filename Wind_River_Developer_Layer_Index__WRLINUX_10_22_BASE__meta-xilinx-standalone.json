@@ -1,0 +1,897 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_22_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1806,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell gatesgarth wrl"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 13938,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42584,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.22-20220426",
+            "comparison": false,
+            "hidden": false,
+            "id": 292,
+            "name": "WRLINUX_10_22_BASE",
+            "short_description": "Wind River Linux 10_22 Baseline",
+            "sort_priority": 6,
+            "update_environment": null,
+            "updated": "2022-06-02T07:06:11+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [
+        {
+            "description": "Xilinx Standalone Distro",
+            "id": 10459,
+            "layerbranch": 904889,
+            "name": "xilinx-standalone-nolto",
+            "updated": "2022-04-26T22:04:47+0000"
+        },
+        {
+            "description": "Xilinx Standalone Distro (lto)",
+            "id": 10460,
+            "layerbranch": 904889,
+            "name": "xilinx-standalone",
+            "updated": "2022-04-26T22:04:47+0000"
+        }
+    ],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.22-20220426",
+            "branch": 292,
+            "collection": "core",
+            "id": 904828,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2022-05-30T03:05:28+0000",
+            "vcs_last_commit": "2022-05-27T00:05:30+0000",
+            "vcs_last_fetch": "2022-05-30T03:05:28+0000",
+            "vcs_last_rev": "2014709be1e091bb394d245625328dff417f8cc8",
+            "vcs_subdir": "meta",
+            "version": "14",
+            "yp_compatible_version": 42580
+        },
+        {
+            "actual_branch": "wr-10.22-20220426",
+            "branch": 292,
+            "collection": "xilinx",
+            "id": 904853,
+            "layer": 436,
+            "local_path": "",
+            "updated": "2022-04-26T22:04:58+0000",
+            "vcs_last_commit": "2022-04-01T19:04:49+0000",
+            "vcs_last_fetch": "2022-04-26T21:04:42+0000",
+            "vcs_last_rev": "e26d6476ebf05e652f7df0c84a62dd12b2528afb",
+            "vcs_subdir": "meta-xilinx-core",
+            "version": null,
+            "yp_compatible_version": 42579
+        },
+        {
+            "actual_branch": "wr-10.22-20220426",
+            "branch": 292,
+            "collection": "xilinx-standalone",
+            "id": 904889,
+            "layer": 435,
+            "local_path": "",
+            "updated": "2022-05-30T03:05:21+0000",
+            "vcs_last_commit": "2022-05-29T19:05:33+0000",
+            "vcs_last_fetch": "2022-05-30T03:05:21+0000",
+            "vcs_last_rev": "e5db67c484518d39f538e1b310383732b198b55b",
+            "vcs_subdir": "meta-xilinx-standalone",
+            "version": null,
+            "yp_compatible_version": 42579
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 95001,
+            "layerbranch": 904889,
+            "required": true
+        },
+        {
+            "dependency": 436,
+            "id": 95002,
+            "layerbranch": 904889,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-standalone",
+            "comparison": false,
+            "description": "This layer is meant to augment Yocto/OE functionality to provide a\r\nBaremetal/Standalone Toolchain as well as a generic version of various\r\nfirmware that is required to boot a ZynqMP or Versal system.\r\n\r\nFor optimized versions of the firmware and additional components you must\r\nuse the meta-xilinx-tools layer.",
+            "id": 435,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-standalone",
+            "status": "P",
+            "summary": "This layer provides a Baremetal/Standalone Toolchain as well as a generic version of various firmware that is required to boot a ZynqMP or Versal system.",
+            "updated": "2022-03-03T00:03:58+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx",
+            "comparison": false,
+            "description": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "id": 436,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-core",
+            "status": "P",
+            "summary": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "updated": "2022-03-03T00:03:48+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": "",
+            "id": 49137,
+            "layerbranch": 904889,
+            "name": "microblaze-tc",
+            "updated": "2022-04-26T22:04:47+0000"
+        },
+        {
+            "description": "",
+            "id": 49138,
+            "layerbranch": 904889,
+            "name": "aarch32-tc",
+            "updated": "2022-04-26T22:04:47+0000"
+        },
+        {
+            "description": "",
+            "id": 49139,
+            "layerbranch": 904889,
+            "name": "arm-rm-tc",
+            "updated": "2022-04-26T22:04:47+0000"
+        },
+        {
+            "description": "",
+            "id": 49140,
+            "layerbranch": 904889,
+            "name": "aarch64-tc",
+            "updated": "2022-04-26T22:04:47+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Platform Loader and Manager",
+            "filename": "plm-firmware_2021.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 1537092,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 904889,
+            "license": "MIT",
+            "pe": "",
+            "pn": "plm-firmware",
+            "pr": "r0",
+            "provides": "plm-firmware ",
+            "pv": "2021.2+gitX",
+            "section": "base",
+            "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
+            "summary": "Platform Loader and Manager for Versal devices",
+            "updated": "2022-04-26T22:04:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "First Stage Bootloader",
+            "filename": "fsbl-firmware_git.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 1537093,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 904889,
+            "license": "MIT",
+            "pe": "",
+            "pn": "fsbl-firmware",
+            "pr": "r0",
+            "provides": "fsbl-firmware ",
+            "pv": "git+gitX",
+            "section": "base",
+            "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
+            "summary": "",
+            "updated": "2022-04-26T22:04:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "First Stage Bootloader",
+            "filename": "fsbl-firmware_2021.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 1537094,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 904889,
+            "license": "MIT",
+            "pe": "",
+            "pn": "fsbl-firmware",
+            "pr": "r0",
+            "provides": "fsbl-firmware ",
+            "pv": "2021.2+gitX",
+            "section": "base",
+            "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
+            "summary": "",
+            "updated": "2022-04-26T22:04:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "psm-firmware_git.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 1537095,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 904889,
+            "license": "MIT",
+            "pe": "",
+            "pn": "psm-firmware",
+            "pr": "r0",
+            "provides": "psm-firmware ",
+            "pv": "git+gitX",
+            "section": "base",
+            "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
+            "summary": "PSM firmware for versal devices",
+            "updated": "2022-04-26T22:04:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Platform Loader and Manager",
+            "filename": "plm-firmware_git.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 1537096,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 904889,
+            "license": "MIT",
+            "pe": "",
+            "pn": "plm-firmware",
+            "pr": "r0",
+            "provides": "plm-firmware ",
+            "pv": "git+gitX",
+            "section": "base",
+            "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
+            "summary": "Platform Loader and Manager for Versal devices",
+            "updated": "2022-04-26T22:04:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "psm-firmware_2021.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 1537097,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 904889,
+            "license": "MIT",
+            "pe": "",
+            "pn": "psm-firmware",
+            "pr": "r0",
+            "provides": "psm-firmware ",
+            "pv": "2021.2+gitX",
+            "section": "base",
+            "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
+            "summary": "PSM firmware for versal devices",
+            "updated": "2022-04-26T22:04:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "PMU Firmware",
+            "filename": "pmu-firmware_2021.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 1537098,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 904889,
+            "license": "MIT",
+            "pe": "",
+            "pn": "pmu-firmware",
+            "pr": "r0",
+            "provides": "pmu-firmware ",
+            "pv": "2021.2+gitX",
+            "section": "base",
+            "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
+            "summary": "",
+            "updated": "2022-04-26T22:04:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "PMU Firmware",
+            "filename": "pmu-firmware_git.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 1537099,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 904889,
+            "license": "MIT",
+            "pe": "",
+            "pn": "pmu-firmware",
+            "pr": "r0",
+            "provides": "pmu-firmware ",
+            "pv": "git+gitX",
+            "section": "base",
+            "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
+            "summary": "",
+            "updated": "2022-04-26T22:04:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Platform Loader and Manager",
+            "filename": "plm-firmware_2020.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 1537100,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 904889,
+            "license": "MIT",
+            "pe": "",
+            "pn": "plm-firmware",
+            "pr": "r0",
+            "provides": "plm-firmware ",
+            "pv": "2020.1+gitX",
+            "section": "base",
+            "srcrev": "338150ab3628a1ea6b06e964b16e712b131882dd",
+            "summary": "Platform Loader and Manager for Versal devices",
+            "updated": "2022-04-26T22:04:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "PMU Firmware",
+            "filename": "pmu-firmware_2020.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 1537101,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 904889,
+            "license": "MIT",
+            "pe": "",
+            "pn": "pmu-firmware",
+            "pr": "r0",
+            "provides": "pmu-firmware ",
+            "pv": "2020.1+gitX",
+            "section": "base",
+            "srcrev": "338150ab3628a1ea6b06e964b16e712b131882dd",
+            "summary": "",
+            "updated": "2022-04-26T22:04:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "gnu-toolchain-canadian.bb",
+            "filepath": "recipes-core/meta",
+            "homepage": "",
+            "id": 1537102,
+            "inherits": "cross-canadian",
+            "layerbranch": 904889,
+            "license": "MIT",
+            "pe": "",
+            "pn": "gnu-toolchain-canadian-i686-xilinx-linux",
+            "pr": "r0",
+            "provides": "gnu-toolchain-canadian-i686-xilinx-linux ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Links to the various GNU toolchains for use with the Xilinx multilib toolchain",
+            "updated": "2022-04-26T22:04:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "packagegroup-newlib-standalone-sdk-target.bb",
+            "filepath": "recipes-core/packagegroups",
+            "homepage": "",
+            "id": 1537103,
+            "inherits": "packagegroup",
+            "layerbranch": 904889,
+            "license": "",
+            "pe": "",
+            "pn": "packagegroup-newlib-standalone-sdk-target",
+            "pr": "r0",
+            "provides": "packagegroup-newlib-standalone-sdk-target ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Target packages for the standalone SDK",
+            "updated": "2022-04-26T22:04:49+0000"
+        }
+    ],
+    "wrtemplates": []
+}

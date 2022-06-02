@@ -1,0 +1,967 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_22_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1806,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell gatesgarth wrl"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 13938,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42584,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.22-20220426",
+            "comparison": false,
+            "hidden": false,
+            "id": 292,
+            "name": "WRLINUX_10_22_BASE",
+            "short_description": "Wind River Linux 10_22 Baseline",
+            "sort_priority": 6,
+            "update_environment": null,
+            "updated": "2022-06-02T07:06:11+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.22-20220601",
+            "branch": 292,
+            "collection": "meta-intel-fpga",
+            "id": 908617,
+            "layer": 380,
+            "local_path": "",
+            "updated": "2022-06-01T03:06:31+0000",
+            "vcs_last_commit": "2022-06-01T02:06:26+0000",
+            "vcs_last_fetch": "2022-06-01T03:06:31+0000",
+            "vcs_last_rev": "5edcf67c43581b83add80b6e23084bebf8c42ea5",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 42579
+        }
+    ],
+    "layerDependencies": [],
+    "layerItems": [
+        {
+            "collection": "meta-intel-fpga",
+            "comparison": false,
+            "description": "This is a layer used by BSP intel-socfpga",
+            "id": 380,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-intel-fpga",
+            "status": "P",
+            "summary": "This is a layer used by BSP intel-socfpga",
+            "updated": "2021-04-21T00:04:44+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel-fpga",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " nios2 machines",
+            "id": 51140,
+            "layerbranch": 908617,
+            "name": "10m50",
+            "updated": "2022-06-01T03:06:27+0000"
+        },
+        {
+            "description": " Stratix 10 SoCFPGA",
+            "id": 51141,
+            "layerbranch": 908617,
+            "name": "stratix10",
+            "updated": "2022-06-01T03:06:27+0000"
+        },
+        {
+            "description": " N5X eASIC devices",
+            "id": 51142,
+            "layerbranch": 908617,
+            "name": "n5x",
+            "updated": "2022-06-01T03:06:27+0000"
+        },
+        {
+            "description": " Agilex SoCFPGA",
+            "id": 51143,
+            "layerbranch": 908617,
+            "name": "agilex",
+            "updated": "2022-06-01T03:06:27+0000"
+        },
+        {
+            "description": " Arria 10 SoCFPGA",
+            "id": 51144,
+            "layerbranch": 908617,
+            "name": "arria10",
+            "updated": "2022-06-01T03:06:27+0000"
+        },
+        {
+            "description": " nios2 machines",
+            "id": 51145,
+            "layerbranch": 908617,
+            "name": "generic-nios2",
+            "updated": "2022-06-01T03:06:27+0000"
+        },
+        {
+            "description": " Cyclone V SoC\"",
+            "id": 51146,
+            "layerbranch": 908617,
+            "name": "cyclone5",
+            "updated": "2022-06-01T03:06:27+0000"
+        },
+        {
+            "description": " Arria V SoC\"",
+            "id": 51147,
+            "layerbranch": 908617,
+            "name": "arria5",
+            "updated": "2022-06-01T03:06:28+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "u-boot-socfpga_v2021.07.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 1568092,
+            "inherits": "cml1 deploy kernel-arch python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-socfpga",
+            "pr": "r0",
+            "provides": "u-boot-socfpga virtual/bootloader",
+            "pv": "v2021.07+gitX",
+            "section": "bootloaders",
+            "srcrev": "ee63370553cd01f7237174fe1971991271b7648b",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2022-06-01T03:06:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "u-boot-socfpga_v2021.04.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 1568093,
+            "inherits": "cml1 deploy kernel-arch python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-socfpga",
+            "pr": "r0",
+            "provides": "u-boot-socfpga virtual/bootloader",
+            "pv": "v2021.04+gitX",
+            "section": "bootloaders",
+            "srcrev": "bdc9a4409de9cef4408eebd81196fd63887ac78f",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2022-06-01T03:06:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "u-boot-socfpga_v2021.01.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 1568094,
+            "inherits": "cml1 deploy kernel-arch python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-socfpga",
+            "pr": "r0",
+            "provides": "u-boot-socfpga virtual/bootloader",
+            "pv": "v2021.01+gitX",
+            "section": "bootloaders",
+            "srcrev": "c11f4e161a2d86a3657fbbc21f87bc4afb815eb9",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2022-06-01T03:06:29+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "u-boot-socfpga_v2022.01.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 1568095,
+            "inherits": "cml1 deploy kernel-arch python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-socfpga",
+            "pr": "r0",
+            "provides": "u-boot-socfpga virtual/bootloader",
+            "pv": "v2022.01+gitX",
+            "section": "bootloaders",
+            "srcrev": "f75f1833a5c1507cba717d6673ded7b7aecb43cc",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2022-06-01T03:06:29+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "u-boot-socfpga_v2021.10.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 1568096,
+            "inherits": "cml1 deploy kernel-arch python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-socfpga",
+            "pr": "r0",
+            "provides": "u-boot-socfpga virtual/bootloader",
+            "pv": "v2021.10+gitX",
+            "section": "bootloaders",
+            "srcrev": "1efdc969a15c123d172e703ff51b4ee0d9a205cb",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2022-06-01T03:06:29+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ARM Trusted Firmware",
+            "filename": "arm-trusted-firmware_v2.4.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 1568097,
+            "inherits": "deploy",
+            "layerbranch": 908617,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "arm-trusted-firmware",
+            "pr": "r0",
+            "provides": "arm-trusted-firmware arm-trusted-firmware",
+            "pv": "v2.4",
+            "section": "base",
+            "srcrev": "c841485a3730ba9193afc35b88b161ab0b30eaf7",
+            "summary": "",
+            "updated": "2022-06-01T03:06:29+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ARM Trusted Firmware",
+            "filename": "arm-trusted-firmware_v2.3.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 1568098,
+            "inherits": "deploy",
+            "layerbranch": 908617,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "arm-trusted-firmware",
+            "pr": "r0",
+            "provides": "arm-trusted-firmware arm-trusted-firmware",
+            "pv": "v2.3",
+            "section": "base",
+            "srcrev": "7009a0d7a0a0c7c8fa5834958dfdd8ee60cbf21d",
+            "summary": "",
+            "updated": "2022-06-01T03:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ARM Trusted Firmware",
+            "filename": "arm-trusted-firmware_v2.5.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 1568099,
+            "inherits": "deploy",
+            "layerbranch": 908617,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "arm-trusted-firmware",
+            "pr": "r0",
+            "provides": "arm-trusted-firmware arm-trusted-firmware",
+            "pv": "v2.5",
+            "section": "base",
+            "srcrev": "f8cd53053ed7065f083ba89a99e5404a0b8b8194",
+            "summary": "",
+            "updated": "2022-06-01T03:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ARM Trusted Firmware",
+            "filename": "arm-trusted-firmware_v2.6.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 1568100,
+            "inherits": "deploy",
+            "layerbranch": 908617,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "arm-trusted-firmware",
+            "pr": "r0",
+            "provides": "arm-trusted-firmware arm-trusted-firmware",
+            "pv": "v2.6",
+            "section": "base",
+            "srcrev": "2c26c0efb117d8a5bb02379f7d439373cd703cfd",
+            "summary": "",
+            "updated": "2022-06-01T03:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga_5.13.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1568101,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-socfpga",
+            "pr": "r0",
+            "provides": "linux-socfpga  virtual/kernel",
+            "pv": "5.13+gitX",
+            "section": "kernel",
+            "srcrev": "d3040907268d4d1f71d1b918d4f6ac1b86ce4611",
+            "summary": "Linux kernel",
+            "updated": "2022-06-01T03:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga_5.16.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1568102,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-socfpga",
+            "pr": "r0",
+            "provides": "linux-socfpga  virtual/kernel",
+            "pv": "5.16+gitX",
+            "section": "kernel",
+            "srcrev": "e31f7632002fe0db43def19b65e995c448f3c4b3",
+            "summary": "Linux kernel",
+            "updated": "2022-06-01T03:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga_5.15.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1568103,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-socfpga",
+            "pr": "r0",
+            "provides": "linux-socfpga  virtual/kernel",
+            "pv": "5.15+gitX",
+            "section": "kernel",
+            "srcrev": "3076c4717c3b50ced044c64bb59578fca0641793",
+            "summary": "Linux kernel",
+            "updated": "2022-06-01T03:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga-lts_5.15.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1568104,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-socfpga-lts",
+            "pr": "r0",
+            "provides": "linux-socfpga-lts  virtual/kernel",
+            "pv": "5.15.30-lts+gitX",
+            "section": "kernel",
+            "srcrev": "3167fda5ead46114f623c0113ae465183e2498ec",
+            "summary": "Linux kernel",
+            "updated": "2022-06-01T03:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga_5.12.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1568105,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-socfpga",
+            "pr": "r0",
+            "provides": "linux-socfpga  virtual/kernel",
+            "pv": "5.12+gitX",
+            "section": "kernel",
+            "srcrev": "4b159443997466eb36133c59e7aaef4e76f62f4a",
+            "summary": "Linux kernel",
+            "updated": "2022-06-01T03:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga-lts_5.10.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1568106,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-socfpga-lts",
+            "pr": "r0",
+            "provides": "linux-socfpga-lts  virtual/kernel",
+            "pv": "5.10.100-lts+gitX",
+            "section": "kernel",
+            "srcrev": "8f3ee0421d07aa94f1081d61f8cb0c8600774a9f",
+            "summary": "Linux kernel",
+            "updated": "2022-06-01T03:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga_5.11.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1568107,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-socfpga",
+            "pr": "r0",
+            "provides": "linux-socfpga  virtual/kernel",
+            "pv": "5.11+gitX",
+            "section": "kernel",
+            "srcrev": "27e8b9142bfe1aab0494e08692214f3438a4ea67",
+            "summary": "Linux kernel",
+            "updated": "2022-06-01T03:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga_5.14.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1568108,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-socfpga",
+            "pr": "r0",
+            "provides": "linux-socfpga  virtual/kernel",
+            "pv": "5.14+gitX",
+            "section": "kernel",
+            "srcrev": "73c8c03ffdea4aaed3e100349af967d8c9faeea0",
+            "summary": "Linux kernel",
+            "updated": "2022-06-01T03:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga-lts_5.4.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1568109,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-socfpga-lts",
+            "pr": "r0",
+            "provides": "linux-socfpga-lts  virtual/kernel",
+            "pv": "5.4.124-lts+gitX",
+            "section": "kernel",
+            "srcrev": "85d7cb262602855c4f22ff5e96b14d6147d1ab80",
+            "summary": "Linux kernel",
+            "updated": "2022-06-01T03:06:31+0000"
+        }
+    ],
+    "wrtemplates": []
+}
