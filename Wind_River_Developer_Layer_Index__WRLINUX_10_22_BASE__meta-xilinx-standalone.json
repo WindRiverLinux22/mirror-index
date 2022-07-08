@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220426",
+            "bitbake_branch": "wr-10.22-20220622",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,7 +445,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-06-02T07:06:11+0000",
+            "updated": "2022-07-08T07:07:08+0000",
             "updates_enabled": true
         }
     ],
@@ -467,16 +467,16 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-05-30T03:05:28+0000",
-            "vcs_last_commit": "2022-05-27T00:05:30+0000",
-            "vcs_last_fetch": "2022-05-30T03:05:28+0000",
-            "vcs_last_rev": "2014709be1e091bb394d245625328dff417f8cc8",
+            "updated": "2022-07-04T21:07:28+0000",
+            "vcs_last_commit": "2022-07-04T21:07:08+0000",
+            "vcs_last_fetch": "2022-07-04T21:07:28+0000",
+            "vcs_last_rev": "de86f702a3facb1a2d3c91c904b9b0355fc9a3bb",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -488,10 +488,10 @@
             "id": 904853,
             "layer": 436,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-01T19:04:49+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:42+0000",
-            "vcs_last_rev": "e26d6476ebf05e652f7df0c84a62dd12b2528afb",
+            "updated": "2022-07-08T04:07:40+0000",
+            "vcs_last_commit": "2022-07-08T02:07:14+0000",
+            "vcs_last_fetch": "2022-07-08T04:07:40+0000",
+            "vcs_last_rev": "d9d9b4320c9bd8d00a8da1ae03c4e85faf589c13",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 42579

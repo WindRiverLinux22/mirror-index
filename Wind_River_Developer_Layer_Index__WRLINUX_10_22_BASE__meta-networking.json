@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220426",
+            "bitbake_branch": "wr-10.22-20220622",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,68 +445,68 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-06-02T07:06:11+0000",
+            "updated": "2022-07-08T07:07:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-05-30T03:05:28+0000",
-            "vcs_last_commit": "2022-05-27T00:05:30+0000",
-            "vcs_last_fetch": "2022-05-30T03:05:28+0000",
-            "vcs_last_rev": "2014709be1e091bb394d245625328dff417f8cc8",
+            "updated": "2022-07-04T21:07:28+0000",
+            "vcs_last_commit": "2022-07-04T21:07:08+0000",
+            "vcs_last_fetch": "2022-07-04T21:07:28+0000",
+            "vcs_last_rev": "de86f702a3facb1a2d3c91c904b9b0355fc9a3bb",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:35+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:29+0000",
-            "vcs_last_rev": "9053f6328084d2978120d3e46e0d02105a7ce995",
+            "updated": "2022-06-22T23:06:43+0000",
+            "vcs_last_commit": "2022-06-21T19:06:53+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:43+0000",
+            "vcs_last_rev": "96c65fef4c1f0589b25c41c031ee5eb2781e9093",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2022-04-26T22:04:57+0000",
-            "vcs_last_commit": "2022-04-23T17:04:31+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:42+0000",
-            "vcs_last_rev": "bb2b5b31a80eb164e47649036878773614e4dbdf",
+            "updated": "2022-06-22T23:06:53+0000",
+            "vcs_last_commit": "2022-06-03T07:06:48+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:53+0000",
+            "vcs_last_rev": "fcc7d7eae82be4c180f2e8fa3db90a8ab3be07b7",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "networking-layer",
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:35+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:09+0000",
-            "vcs_last_rev": "5deae5495296b44619011d7c9977e2357c462ce5",
+            "updated": "2022-06-22T23:06:00+0000",
+            "vcs_last_commit": "2022-06-21T19:06:54+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:00+0000",
+            "vcs_last_rev": "77067e0fbc1527c81b2a88db994b0f176bad833f",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
@@ -892,13 +892,13 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-fpm                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmplsz2gtwr/tmp-glibc/work/core2-32-oe-linux/frr/8.2.2-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
+            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-fpm                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmp3s7jog82/tmp-glibc/work/core2-32-oe-linux/frr/8.2.2-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
             "description": "FRRouting is a free and open source Internet routing protocol suite for Linux and Unix platforms. It implements BGP, OSPF, RIP, IS-IS, PIM, LDP, BFD, Babel, PBR, OpenFabric and VRRP, with alpha support for EIGRP and NHRP.",
             "filename": "frr_8.2.2.bb",
             "filepath": "recipes-protocols/frr",
             "homepage": "https://frrouting.org/",
             "id": 1535884,
-            "inherits": "autotools pkgconfig python3-dir python3native siteconfig siteinfo systemd useradd useradd_base",
+            "inherits": "autotools autotools-brokensep pkgconfig python3-dir python3native siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 904855,
             "license": "GPL-2.0-only & LGPL-2.1-only",
             "pe": "",
@@ -909,7 +909,7 @@
             "section": "net",
             "srcrev": "79188bf710e92acf42fb5b9b0a2e9593a5ee9b05",
             "summary": "BGP/OSPF/RIP routing daemon",
-            "updated": "2022-04-26T21:04:02+0000"
+            "updated": "2022-06-22T23:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1162,7 +1162,7 @@
             "section": "base",
             "srcrev": "a96b81da4a9b619e4045805f5f13a1e982c95663",
             "summary": "IPTables based firewall scripts",
-            "updated": "2022-04-26T21:04:05+0000"
+            "updated": "2022-06-22T23:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1214,7 +1214,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " LIBS=-ltirpc CPPFLAGS=-I/tmp/tmplsz2gtwr/tmp-glibc/work/core2-32-oe-linux/conntrack-tools/1.4.6-r0/recipe-sysroot/usr/include/tirpc ",
+            "configopts": " LIBS=-ltirpc CPPFLAGS=-I/tmp/tmp3s7jog82/tmp-glibc/work/core2-32-oe-linux/conntrack-tools/1.4.6-r0/recipe-sysroot/usr/include/tirpc ",
             "description": "",
             "filename": "conntrack-tools_1.4.6.bb",
             "filepath": "recipes-filter/conntrack-tools",
@@ -1231,7 +1231,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Connection tracking userspace tools for Linux",
-            "updated": "2022-04-26T21:04:06+0000"
+            "updated": "2022-06-22T23:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2082,7 +2082,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Drivers and tools to support ATM networking under Linux",
-            "updated": "2022-04-26T21:04:18+0000"
+            "updated": "2022-06-22T23:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -3355,7 +3355,7 @@
             "bugtracker": "https://github.com/twekkel/htpdate/issues",
             "configopts": "",
             "description": "The  HTTP Time Protocol (HTP) is used to synchronize a computer's time with web servers as reference time source. This program can be used instead ntpdate or similar, in networks that has a firewall blocking the NTP port. Htpdate will synchronize the computer time to Greenwich Mean Time (GMT), using the timestamps from HTTP headers found in web servers response (the HEAD method will be used to get the information). Htpdate works through proxy servers. Accuracy of htpdate will be usually within 0.5 seconds (better with multiple servers).",
-            "filename": "htpdate_1.3.3.bb",
+            "filename": "htpdate_1.3.4.bb",
             "filepath": "recipes-support/htpdate",
             "homepage": "https://github.com/twekkel/htpdate",
             "id": 1535991,
@@ -3366,11 +3366,11 @@
             "pn": "htpdate",
             "pr": "r0",
             "provides": "htpdate ",
-            "pv": "1.3.3",
+            "pv": "1.3.4",
             "section": "base",
             "srcrev": "",
             "summary": "HTTP based time synchronization tool",
-            "updated": "2022-04-26T21:04:37+0000"
+            "updated": "2022-06-22T23:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4681,7 +4681,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Uncomplicated Firewall",
-            "updated": "2022-04-26T21:04:57+0000"
+            "updated": "2022-06-22T23:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -5302,7 +5302,7 @@
             "section": "net/misc",
             "srcrev": "",
             "summary": "NetworkManager",
-            "updated": "2022-04-26T21:04:07+0000"
+            "updated": "2022-06-22T23:06:58+0000"
         },
         {
             "bbclassextend": "",

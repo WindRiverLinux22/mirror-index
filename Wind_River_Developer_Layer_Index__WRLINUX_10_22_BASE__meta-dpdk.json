@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220426",
+            "bitbake_branch": "wr-10.22-20220622",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,38 +445,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-06-02T07:06:11+0000",
+            "updated": "2022-07-08T07:07:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-05-30T03:05:28+0000",
-            "vcs_last_commit": "2022-05-27T00:05:30+0000",
-            "vcs_last_fetch": "2022-05-30T03:05:28+0000",
-            "vcs_last_rev": "2014709be1e091bb394d245625328dff417f8cc8",
+            "updated": "2022-07-04T21:07:28+0000",
+            "vcs_last_commit": "2022-07-04T21:07:08+0000",
+            "vcs_last_fetch": "2022-07-04T21:07:28+0000",
+            "vcs_last_rev": "de86f702a3facb1a2d3c91c904b9b0355fc9a3bb",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "dpdk",
             "id": 904845,
             "layer": 192,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-03-27T19:03:34+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:40+0000",
-            "vcs_last_rev": "ee7aaa0b363f6801a45cb3664a3df379b69e5189",
+            "updated": "2022-06-22T23:06:45+0000",
+            "vcs_last_commit": "2022-06-21T19:06:54+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:45+0000",
+            "vcs_last_rev": "f5e059555e401871a33c21eff62bcc7efbcc905f",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42583
@@ -544,7 +544,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk-module_21.11.0.bb",
+            "filename": "dpdk-module_21.11.1.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
             "id": 1535660,
@@ -555,11 +555,11 @@
             "pn": "dpdk-module",
             "pr": "r0",
             "provides": "dpdk-module ",
-            "pv": "21.11.0",
+            "pv": "21.11.1",
             "section": "base",
-            "srcrev": "45f04d88ae8fa6217812abdaa623d66b05fc7b6a",
+            "srcrev": "fcd039e4663bf2b595d7af3a8175a3e0bc09b367",
             "summary": "",
-            "updated": "2022-04-26T21:04:39+0000"
+            "updated": "2022-06-22T23:06:45+0000"
         },
         {
             "bbclassextend": "",
@@ -567,7 +567,7 @@
             "bugtracker": "",
             "configopts": " -Denable_kmods=false                 -Dexamples=all  ",
             "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk_21.11.0.bb",
+            "filename": "dpdk_21.11.1.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
             "id": 1535661,
@@ -578,11 +578,11 @@
             "pn": "dpdk",
             "pr": "r0",
             "provides": "dpdk ",
-            "pv": "21.11.0",
+            "pv": "21.11.1",
             "section": "base",
-            "srcrev": "45f04d88ae8fa6217812abdaa623d66b05fc7b6a",
+            "srcrev": "fcd039e4663bf2b595d7af3a8175a3e0bc09b367",
             "summary": "",
-            "updated": "2022-04-26T21:04:39+0000"
+            "updated": "2022-06-22T23:06:45+0000"
         },
         {
             "bbclassextend": "",
@@ -590,7 +590,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk-module_20.11.1.bb",
+            "filename": "dpdk-module_20.11.5.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
             "id": 1535662,
@@ -601,11 +601,11 @@
             "pn": "dpdk-module",
             "pr": "r0",
             "provides": "dpdk-module ",
-            "pv": "20.11.1",
+            "pv": "20.11.5",
             "section": "base",
-            "srcrev": "b1e71cf43153cca07db6cbb69fdca030ccf52234",
+            "srcrev": "abf68ccc8b1f923f0eb0b6bf2a8b944378e1ebeb",
             "summary": "",
-            "updated": "2022-04-26T21:04:39+0000"
+            "updated": "2022-06-22T23:06:45+0000"
         },
         {
             "bbclassextend": "",
@@ -636,7 +636,7 @@
             "bugtracker": "",
             "configopts": " -Denable_kmods=false                 -Dexamples=all  ",
             "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk_20.11.1.bb",
+            "filename": "dpdk_20.11.5.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
             "id": 1535664,
@@ -647,11 +647,11 @@
             "pn": "dpdk",
             "pr": "r0",
             "provides": "dpdk ",
-            "pv": "20.11.1",
+            "pv": "20.11.5",
             "section": "base",
-            "srcrev": "b1e71cf43153cca07db6cbb69fdca030ccf52234",
+            "srcrev": "abf68ccc8b1f923f0eb0b6bf2a8b944378e1ebeb",
             "summary": "",
-            "updated": "2022-04-26T21:04:40+0000"
+            "updated": "2022-06-22T23:06:45+0000"
         }
     ],
     "wrtemplates": []

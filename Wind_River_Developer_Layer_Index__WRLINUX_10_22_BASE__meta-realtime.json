@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220426",
+            "bitbake_branch": "wr-10.22-20220622",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,53 +445,53 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-06-02T07:06:11+0000",
+            "updated": "2022-07-08T07:07:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-05-30T03:05:28+0000",
-            "vcs_last_commit": "2022-05-27T00:05:30+0000",
-            "vcs_last_fetch": "2022-05-30T03:05:28+0000",
-            "vcs_last_rev": "2014709be1e091bb394d245625328dff417f8cc8",
+            "updated": "2022-07-04T21:07:28+0000",
+            "vcs_last_commit": "2022-07-04T21:07:08+0000",
+            "vcs_last_fetch": "2022-07-04T21:07:28+0000",
+            "vcs_last_rev": "de86f702a3facb1a2d3c91c904b9b0355fc9a3bb",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:35+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:29+0000",
-            "vcs_last_rev": "9053f6328084d2978120d3e46e0d02105a7ce995",
+            "updated": "2022-06-22T23:06:43+0000",
+            "vcs_last_commit": "2022-06-21T19:06:53+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:43+0000",
+            "vcs_last_rev": "96c65fef4c1f0589b25c41c031ee5eb2781e9093",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "realtime",
             "id": 904837,
             "layer": 48,
             "local_path": "",
-            "updated": "2022-04-26T22:04:57+0000",
-            "vcs_last_commit": "2022-04-26T21:04:53+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:19+0000",
-            "vcs_last_rev": "1dd604e67d77e779249d8e54e2375a54e881580c",
+            "updated": "2022-06-22T23:06:30+0000",
+            "vcs_last_commit": "2022-06-21T19:06:53+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:30+0000",
+            "vcs_last_rev": "331eb8b3117695449e636441bb3c8f3d7ffacd0d",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42582
@@ -613,7 +613,7 @@
             "id": 1535598,
             "inherits": "pkgconfig",
             "layerbranch": 904837,
-            "license": "GPLv2",
+            "license": "GPL-2.0-only",
             "pe": "",
             "pn": "latencytop",
             "pr": "r3",
@@ -622,7 +622,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux tool for measuring and fixing latency",
-            "updated": "2022-04-26T21:04:19+0000"
+            "updated": "2022-06-22T23:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -636,7 +636,7 @@
             "id": 1535599,
             "inherits": "",
             "layerbranch": 904837,
-            "license": "GPLv2",
+            "license": "GPL-2.0-only",
             "pe": "",
             "pn": "schedtool-dl",
             "pr": "r0",
@@ -645,7 +645,7 @@
             "section": "devel",
             "srcrev": "3ffb479929c31cbae09de08f94f58b8f0f061d91",
             "summary": "",
-            "updated": "2022-04-26T21:04:19+0000"
+            "updated": "2022-06-22T23:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -659,7 +659,7 @@
             "id": 1535600,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 904837,
-            "license": "GPLv2",
+            "license": "GPL-2.0-only",
             "pe": "",
             "pn": "rt-app",
             "pr": "r0",
@@ -668,7 +668,7 @@
             "section": "devel",
             "srcrev": "17be4548c4260b80be623e0e1317e98a770dea7a",
             "summary": "",
-            "updated": "2022-04-26T21:04:19+0000"
+            "updated": "2022-06-22T23:06:30+0000"
         }
     ],
     "wrtemplates": []

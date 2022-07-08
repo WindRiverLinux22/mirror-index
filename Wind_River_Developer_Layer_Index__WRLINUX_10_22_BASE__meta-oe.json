@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220426",
+            "bitbake_branch": "wr-10.22-20220622",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,38 +445,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-06-02T07:06:11+0000",
+            "updated": "2022-07-08T07:07:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-05-30T03:05:28+0000",
-            "vcs_last_commit": "2022-05-27T00:05:30+0000",
-            "vcs_last_fetch": "2022-05-30T03:05:28+0000",
-            "vcs_last_rev": "2014709be1e091bb394d245625328dff417f8cc8",
+            "updated": "2022-07-04T21:07:28+0000",
+            "vcs_last_commit": "2022-07-04T21:07:08+0000",
+            "vcs_last_fetch": "2022-07-04T21:07:28+0000",
+            "vcs_last_rev": "de86f702a3facb1a2d3c91c904b9b0355fc9a3bb",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:35+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:29+0000",
-            "vcs_last_rev": "9053f6328084d2978120d3e46e0d02105a7ce995",
+            "updated": "2022-06-22T23:06:43+0000",
+            "vcs_last_commit": "2022-06-21T19:06:53+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:43+0000",
+            "vcs_last_rev": "96c65fef4c1f0589b25c41c031ee5eb2781e9093",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
@@ -925,9 +925,9 @@
             "provides": "abseil-cpp ",
             "pv": "20211102.0+gitX",
             "section": "libs",
-            "srcrev": "215105818dfde3174fe799600bb0f3cae233d0bf",
+            "srcrev": "7c6608d0dbe43cf9bdf7f77787bc6bc89cc42f8b",
             "summary": "Abseil is a cpp library like STL",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-06-22T23:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1203,7 +1203,7 @@
             "section": "base",
             "srcrev": "c6db6fad26a2b83ba301b52ff5dee98cef7558ca",
             "summary": "This script upgrades packages automatically and unattended.",
-            "updated": "2022-04-26T21:04:52+0000"
+            "updated": "2022-06-22T23:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1738,7 +1738,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "https://github.com/stedolan/jq/issues",
-            "configopts": "  --disable-docs --disable-maintainer-mode --with-oniguruma",
+            "configopts": "      --disable-valgrind   --disable-docs --disable-maintainer-mode --with-oniguruma",
             "description": "jq is like sed for JSON data, you can use it to slice and                filter and map and transform structured data with the same                ease that sed, awk, grep and friends let you play with text.",
             "filename": "jq_git.bb",
             "filepath": "recipes-devtools/jq",
@@ -1755,7 +1755,7 @@
             "section": "utils",
             "srcrev": "a9f97e9e61a910a374a5d768244e8ad63f407d3e",
             "summary": "Lightweight and flexible command-line JSON processor",
-            "updated": "2022-04-26T21:04:01+0000"
+            "updated": "2022-06-22T23:06:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2037,9 +2037,9 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/php/8.1.4-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/php/8.1.4-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/php/8.1.4-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/php/8.1.4-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/php/8.1.4-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/php/8.1.4-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/php/8.1.4-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/php/8.1.4-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
+            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
             "description": "",
-            "filename": "php_8.1.4.bb",
+            "filename": "php_8.1.6.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 1534099,
@@ -2050,11 +2050,11 @@
             "pn": "php",
             "pr": "r0",
             "provides": "php ",
-            "pv": "8.1.4",
+            "pv": "8.1.6",
             "section": "console/network",
             "srcrev": "",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2022-04-26T21:04:06+0000"
+            "updated": "2022-06-22T23:06:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3051,7 +3051,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "lsscsi_0.31.bb",
+            "filename": "lsscsi_0.32.bb",
             "filepath": "recipes-bsp/lsscsi",
             "homepage": "http://sg.danny.cz/scsi/lsscsi.html",
             "id": 1534143,
@@ -3062,11 +3062,11 @@
             "pn": "lsscsi",
             "pr": "r0",
             "provides": "lsscsi ",
-            "pv": "0.31",
+            "pv": "0.32",
             "section": "base",
             "srcrev": "",
             "summary": "The lsscsi command lists information about SCSI devices in Linux",
-            "updated": "2022-04-26T21:04:22+0000"
+            "updated": "2022-06-22T23:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3135,7 +3135,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A simple daemon to allow session software to update firmware",
-            "updated": "2022-04-26T21:04:23+0000"
+            "updated": "2022-06-22T23:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -4032,7 +4032,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "C++ bindings for the atk",
-            "updated": "2022-04-26T21:04:36+0000"
+            "updated": "2022-06-22T23:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4055,7 +4055,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "C++ bindings for the atk",
-            "updated": "2022-04-26T21:04:36+0000"
+            "updated": "2022-06-22T23:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4170,7 +4170,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "C++ bindings for the GTK+ toolkit V3",
-            "updated": "2022-04-26T21:04:38+0000"
+            "updated": "2022-06-22T23:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -6156,7 +6156,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "devmem2.bb",
+            "filename": "devmem2_2.0.bb",
             "filepath": "recipes-support/devmem2",
             "homepage": "",
             "id": 1534278,
@@ -6165,13 +6165,13 @@
             "license": "GPL-2.0-or-later",
             "pe": "",
             "pn": "devmem2",
-            "pr": "r7",
+            "pr": "r0",
             "provides": "devmem2 ",
-            "pv": "1.0",
+            "pv": "2.0",
             "section": "base",
-            "srcrev": "",
+            "srcrev": "5b395a946894eb4f4ef5d07c80a50a88573a541e",
             "summary": "Simple program to read/write from/to any location in memory",
-            "updated": "2022-04-26T21:04:06+0000"
+            "updated": "2022-06-22T23:06:42+0000"
         },
         {
             "bbclassextend": "",
@@ -6892,7 +6892,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "vboxguestdrivers_6.1.32.bb",
+            "filename": "vboxguestdrivers_6.1.34.bb",
             "filepath": "recipes-support/vboxguestdrivers",
             "homepage": "",
             "id": 1534310,
@@ -6903,11 +6903,11 @@
             "pn": "vboxguestdrivers",
             "pr": "r0",
             "provides": "vboxguestdrivers ",
-            "pv": "6.1.32",
+            "pv": "6.1.34",
             "section": "core",
             "srcrev": "",
             "summary": "VirtualBox Linux Guest Drivers",
-            "updated": "2022-04-26T21:04:15+0000"
+            "updated": "2022-06-22T23:06:43+0000"
         },
         {
             "bbclassextend": "",
@@ -9054,7 +9054,7 @@
             "bugtracker": "",
             "configopts": " ac_cv_func_memcmp_working=yes --with-yielding-select=yes --enable-dynamic --enable-crypt  --enable-asyncmeta=mod --enable-dnssrv=mod --enable-dyngroup=no --with-tls=gnutls --enable-ipv6 --enable-ldap=mod --enable-mdb=yes --enable-meta=mod lt_cv_dlopen_self=yes --enable-modules --enable-ndb=no --enable-null=mod --enable-passwd=mod --enable-perl=no --enable-proxycache=mod --enable-relay=no --without-cyrus-sasl --enable-sock=no --enable-sql=no --enable-wt=no",
             "description": "OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.",
-            "filename": "openldap_2.5.9.bb",
+            "filename": "openldap_2.5.12.bb",
             "filepath": "recipes-support/openldap",
             "homepage": "http://www.OpenLDAP.org/license.html",
             "id": 1534404,
@@ -9065,11 +9065,11 @@
             "pn": "openldap",
             "pr": "r0",
             "provides": "openldap ",
-            "pv": "2.5.9",
+            "pv": "2.5.12",
             "section": "libs",
             "srcrev": "",
             "summary": "OpenLDAP Directory Service",
-            "updated": "2022-04-26T21:04:50+0000"
+            "updated": "2022-06-22T23:06:43+0000"
         },
         {
             "bbclassextend": " native",
@@ -9552,7 +9552,7 @@
             "section": "libs",
             "srcrev": "ebef1e929807629befafbb2918ea1a08c7194554",
             "summary": "A C++11 library for serialization",
-            "updated": "2022-04-26T21:04:56+0000"
+            "updated": "2022-06-22T23:06:42+0000"
         },
         {
             "bbclassextend": "",
@@ -9805,7 +9805,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T21:04:00+0000"
+            "updated": "2022-06-22T23:06:41+0000"
         },
         {
             "bbclassextend": "",
@@ -9920,7 +9920,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "Feature-rich BSD mail(1)",
-            "updated": "2022-04-26T21:04:02+0000"
+            "updated": "2022-06-22T23:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -10250,7 +10250,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "hexedit_1.5.bb",
+            "filename": "hexedit_1.6.bb",
             "filepath": "recipes-extended/hexedit",
             "homepage": "http://rigaux.org/hexedit.html",
             "id": 1534456,
@@ -10261,11 +10261,11 @@
             "pn": "hexedit",
             "pr": "r0",
             "provides": "hexedit ",
-            "pv": "1.5",
+            "pv": "1.6",
             "section": "console/utils",
-            "srcrev": "baf45a289360a39a05253949fb9d1b50e4668d8a",
+            "srcrev": "eab92dcaa34b66bc5182772afc9fda4ac8a27597",
             "summary": "view and edit files in hexadecimal or in ASCII",
-            "updated": "2022-04-26T21:04:06+0000"
+            "updated": "2022-06-22T23:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -10739,7 +10739,7 @@
             "id": 1534477,
             "inherits": "autotools autotools-brokensep features_check perlnative siteconfig siteinfo",
             "layerbranch": 904830,
-            "license": "OpenSSL & BSD",
+            "license": "OpenSSL & BSD-2-Clause & BSD-3-Clause",
             "pe": "",
             "pn": "pam-ssh-agent-auth",
             "pr": "r0",
@@ -10748,7 +10748,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "pam-ssh-agent-auth",
-            "updated": "2022-04-26T21:04:12+0000"
+            "updated": "2022-06-22T23:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -10840,7 +10840,7 @@
             "section": "base",
             "srcrev": "f1155c8d283c3c85d74d5e1050b0dcf8198f750a",
             "summary": "Versioned Operating System Repository.",
-            "updated": "2022-04-26T21:04:14+0000"
+            "updated": "2022-06-22T23:06:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -11829,7 +11829,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "SpiderMonkey is Mozilla's JavaScript engine written in C/C++",
-            "updated": "2022-04-26T21:04:30+0000"
+            "updated": "2022-06-22T23:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -12594,7 +12594,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/fluent/fluent-bit/issues",
-            "configopts": " -DGNU_HOST=i686-oe-linux -DFLB_ALL=ON -DFLB_TD=1 -DFLB_LUAJIT=Off -DFLB_FILTER_LUA=Off  -DFLB_SHARED_LIB=Off -DFLB_EXAMPLES=Off   ",
+            "configopts": " -DGNU_HOST=i686-oe-linux -DFLB_ALL=ON -DFLB_TD=1 -DFLB_LUAJIT=Off -DFLB_FILTER_LUA=Off  -DFLB_SHARED_LIB=Off -DFLB_EXAMPLES=Off  -DFLB_SYSTEMD=Off ",
             "description": "Fluent Bit is a data collector, processor and  forwarder for Linux. It supports several input sources and backends (destinations) for your data. ",
             "filename": "fluentbit_1.3.5.bb",
             "filepath": "recipes-extended/fluentbit",
@@ -12611,7 +12611,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Fast Log processor and Forwarder",
-            "updated": "2022-04-26T21:04:39+0000"
+            "updated": "2022-06-22T23:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -12686,7 +12686,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --enable-libraries     --enable-unicode     --enable-shared     --enable-dynamic-client-linkage     --enable-client     --disable-server     --disable-static     --disable-manager     --with-ssl=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/boinc-client/7.18.1-r0/recipe-sysroot/usr     --without-wxdir     --without-x     --with-boinc-platform=i686-oe-linux     ac_cv_c_undeclared_builtin_options='none'  --enable-nls ",
+            "configopts": "     --enable-libraries     --enable-unicode     --enable-shared     --enable-dynamic-client-linkage     --enable-client     --disable-server     --disable-static     --disable-manager     --with-ssl=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/boinc-client/7.18.1-r0/recipe-sysroot/usr     --without-wxdir     --without-x     --with-boinc-platform=i686-oe-linux     ac_cv_c_undeclared_builtin_options='none'  --enable-nls ",
             "description": "The Berkeley Open Infrastructure for Network Computing (BOINC) is an open- source software platform which supports distributed computing, primarily in the form of volunteer computing and desktop Grid computing.  It is well suited for problems which are often described as trivially parallel.  BOINC is the underlying software used by projects such as SETI@home, Einstein@Home, ClimatePrediciton.net, the World Community Grid, and many other distributed computing projects. This package installs the BOINC client software, which will allow your computer to participate in one or more BOINC projects, using your spare computer time to search for cures for diseases, model protein folding, study global warming, discover sources of gravitational waves, and many other types of scientific and mathematical research.",
             "filename": "boinc-client_7.18.1.bb",
             "filepath": "recipes-extended/boinc",
@@ -12703,7 +12703,7 @@
             "section": "applications",
             "srcrev": "b49adfb118211e11c719766c0d71e7bdfe7f3363",
             "summary": "Open-source software for volunteer computing",
-            "updated": "2022-04-26T21:04:41+0000"
+            "updated": "2022-06-22T23:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -12893,9 +12893,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpu2_5eeeq/tmp-glibc/work/x86_64-linux/mariadb-native/10.7.3-r0/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpu2_5eeeq/tmp-glibc/work/x86_64-linux/mariadb-native/10.7.3-r0/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DCMAKE_AR:FILEPATH=ar    -DWITH_SSL='bundled' -DWITHOUT_AUTH_PAM=TRUE -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
+            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpgsdfesvf/tmp-glibc/work/x86_64-linux/mariadb-native/10.7.4-r0/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpgsdfesvf/tmp-glibc/work/x86_64-linux/mariadb-native/10.7.4-r0/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DCMAKE_AR:FILEPATH=ar    -DWITH_SSL='bundled' -DWITHOUT_AUTH_PAM=TRUE -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
             "description": "",
-            "filename": "mariadb-native_10.7.3.bb",
+            "filename": "mariadb-native_10.7.4.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 1534571,
@@ -12906,11 +12906,11 @@
             "pn": "mariadb-native",
             "pr": "r0",
             "provides": "mariadb-native  mysql5-native",
-            "pv": "10.7.3",
+            "pv": "10.7.4",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2022-04-26T21:04:43+0000"
+            "updated": "2022-06-22T23:06:26+0000"
         },
         {
             "bbclassextend": "",
@@ -12939,9 +12939,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/mariadb/10.7.3-r0/qemuwrapper -DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DCMAKE_AR:FILEPATH=i686-oe-linux-gcc-ar    -DWITH_SSL='system' -DWITHOUT_AUTH_PAM=TRUE -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
+            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/mariadb/10.7.4-r0/qemuwrapper -DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DCMAKE_AR:FILEPATH=i686-oe-linux-gcc-ar    -DWITH_SSL='system' -DWITHOUT_AUTH_PAM=TRUE -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
             "description": "",
-            "filename": "mariadb_10.7.3.bb",
+            "filename": "mariadb_10.7.4.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 1534573,
@@ -12952,19 +12952,19 @@
             "pn": "mariadb",
             "pr": "r0",
             "provides": "mariadb  mysql5 libmysqlclient",
-            "pv": "10.7.3",
+            "pv": "10.7.4",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2022-04-26T21:04:44+0000"
+            "updated": "2022-06-22T23:06:26+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/postgresql/14.2-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
+            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/postgresql/14.3-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_14.2.bb",
+            "filename": "postgresql_14.3.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 1534574,
@@ -12975,11 +12975,11 @@
             "pn": "postgresql",
             "pr": "r0",
             "provides": "postgresql ",
-            "pv": "14.2",
+            "pv": "14.3",
             "section": "base",
             "srcrev": "",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2022-04-26T21:04:45+0000"
+            "updated": "2022-06-22T23:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -13048,7 +13048,7 @@
             "section": "System Environment/Kernel",
             "srcrev": "",
             "summary": "TOMOYO Linux tools",
-            "updated": "2022-04-26T21:04:46+0000"
+            "updated": "2022-06-22T23:06:41+0000"
         },
         {
             "bbclassextend": "",
@@ -13485,7 +13485,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T21:04:53+0000"
+            "updated": "2022-06-22T23:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -13907,7 +13907,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "    This program is used to extract a subset of the memory available either     via /dev/mem or /proc/vmcore (for crashdumps). It is used to get memory     images without extra uneeded information (zero pages, userspace programs,     etc). ",
-            "filename": "makedumpfile_1.7.0.bb",
+            "filename": "makedumpfile_1.7.1.bb",
             "filepath": "recipes-kernel/makedumpfile",
             "homepage": "https://github.com/makedumpfile/makedumpfile",
             "id": 1534615,
@@ -13918,11 +13918,11 @@
             "pn": "makedumpfile",
             "pr": "r0",
             "provides": "makedumpfile ",
-            "pv": "1.7.0",
+            "pv": "1.7.1",
             "section": "base",
-            "srcrev": "06ef8e2b814feb08a668b7a3783c86674e49a7b1",
+            "srcrev": "74bbdd14ec861552ace1ca63953eb2ef73e1f965",
             "summary": "VMcore extraction tool",
-            "updated": "2022-04-26T21:04:58+0000"
+            "updated": "2022-06-22T23:06:41+0000"
         },
         {
             "bbclassextend": "native cross",
@@ -13945,7 +13945,7 @@
             "section": "devel",
             "srcrev": "ec568e2ea515b66343d3488d5d4b9a625d55b7ae",
             "summary": "Kernel analysis utility for live systems, netdump, diskdump, kdump, LKCD or mcore dumpfiles",
-            "updated": "2022-04-26T21:04:58+0000"
+            "updated": "2022-06-22T23:06:41+0000"
         },
         {
             "bbclassextend": "",
@@ -14229,7 +14229,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Bats is a TAP-compliant testing framework for Bash. It provides a simple way to verify that the UNIX programs you write behave as expected.",
-            "filename": "bats_1.6.0.bb",
+            "filename": "bats_1.6.1.bb",
             "filepath": "recipes-test/bats",
             "homepage": "https://github.com/bats-core/bats-core",
             "id": 1534629,
@@ -14240,11 +14240,11 @@
             "pn": "bats",
             "pr": "r0",
             "provides": "bats ",
-            "pv": "1.6.0",
+            "pv": "1.6.1",
             "section": "base",
-            "srcrev": "210acf3a8ed318ddedad3137c15451739beba7d4",
+            "srcrev": "1977254c2a7faa2e0af17355856f91dc471d1daa",
             "summary": "Bash Automated Testing System",
-            "updated": "2022-04-26T21:04:03+0000"
+            "updated": "2022-06-22T23:06:43+0000"
         },
         {
             "bbclassextend": "native",
@@ -15170,7 +15170,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-systemdsystemunitdir=/lib/systemd/system                  --disable-staticimages ",
+            "configopts": " --with-systemdsystemunitdir=/lib/systemd/system                  --disable-staticimages --with-rootdir= ",
             "description": "",
             "filename": "dietsplash_git.bb",
             "filepath": "recipes-graphics/dietsplash",
@@ -15187,7 +15187,7 @@
             "section": "base",
             "srcrev": "ef2e1a390e768e21e6a6268977580ee129a96633",
             "summary": "Simple bootsplash for systemd systems",
-            "updated": "2022-04-26T21:04:16+0000"
+            "updated": "2022-06-22T23:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -17372,7 +17372,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "C++ bindings for the pango library",
-            "updated": "2022-04-26T21:04:44+0000"
+            "updated": "2022-06-22T23:06:40+0000"
         },
         {
             "bbclassextend": "",
@@ -17579,7 +17579,7 @@
             "section": "libs",
             "srcrev": "01424487e360383a039dc123bc2a345fe7ea2535",
             "summary": "A graphic library for file loading, saving, rendering, and manipulation",
-            "updated": "2022-04-26T21:04:47+0000"
+            "updated": "2022-06-22T23:06:40+0000"
         },
         {
             "bbclassextend": "",
@@ -18706,7 +18706,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2022-04-26T21:04:02+0000"
+            "updated": "2022-06-22T23:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -19003,9 +19003,9 @@
             "provides": "sdbus-c++-libsystemd ",
             "pv": "250.3",
             "section": "libs",
-            "srcrev": "1b003bbc806198dbdd57b405d968f30565495e70",
+            "srcrev": "73be9643910c3f7f3ff84765d63060846c110016",
             "summary": "libsystemd static library",
-            "updated": "2022-04-26T21:04:06+0000"
+            "updated": "2022-06-22T23:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -19028,7 +19028,7 @@
             "section": "libs",
             "srcrev": "65782bbf435d91e5eb6af9ddab110df406a824a9",
             "summary": "sdbus-c++",
-            "updated": "2022-04-26T21:04:06+0000"
+            "updated": "2022-06-22T23:06:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20017,7 +20017,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "libmtp is an Initiator implementation of the Media Transfer Protocol (MTP)",
-            "updated": "2022-04-26T21:04:19+0000"
+            "updated": "2022-06-22T23:06:32+0000"
         },
         {
             "bbclassextend": "",

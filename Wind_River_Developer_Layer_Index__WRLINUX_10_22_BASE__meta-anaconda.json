@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220426",
+            "bitbake_branch": "wr-10.22-20220622",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,7 +445,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-06-02T07:06:11+0000",
+            "updated": "2022-07-08T07:07:08+0000",
             "updates_enabled": true
         }
     ],
@@ -460,58 +460,58 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-05-30T03:05:28+0000",
-            "vcs_last_commit": "2022-05-27T00:05:30+0000",
-            "vcs_last_fetch": "2022-05-30T03:05:28+0000",
-            "vcs_last_rev": "2014709be1e091bb394d245625328dff417f8cc8",
+            "updated": "2022-07-04T21:07:28+0000",
+            "vcs_last_commit": "2022-07-04T21:07:08+0000",
+            "vcs_last_fetch": "2022-07-04T21:07:28+0000",
+            "vcs_last_rev": "de86f702a3facb1a2d3c91c904b9b0355fc9a3bb",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "meta-initramfs",
             "id": 904829,
             "layer": 4,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-23T17:04:31+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:34+0000",
-            "vcs_last_rev": "bb2b5b31a80eb164e47649036878773614e4dbdf",
+            "updated": "2022-06-22T23:06:17+0000",
+            "vcs_last_commit": "2022-05-03T06:05:07+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:17+0000",
+            "vcs_last_rev": "ecaa905714490111aace0901dfdd7cb1da4937ca",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:35+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:29+0000",
-            "vcs_last_rev": "9053f6328084d2978120d3e46e0d02105a7ce995",
+            "updated": "2022-06-22T23:06:43+0000",
+            "vcs_last_commit": "2022-06-21T19:06:53+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:43+0000",
+            "vcs_last_rev": "96c65fef4c1f0589b25c41c031ee5eb2781e9093",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "filesystems-layer",
             "id": 904831,
             "layer": 8,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
+            "updated": "2022-06-22T23:06:29+0000",
             "vcs_last_commit": "2022-04-23T17:04:31+0000",
             "vcs_last_fetch": "2022-04-26T21:04:45+0000",
             "vcs_last_rev": "bb2b5b31a80eb164e47649036878773614e4dbdf",
@@ -520,61 +520,61 @@
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2022-04-26T22:04:57+0000",
-            "vcs_last_commit": "2022-04-23T17:04:31+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:42+0000",
-            "vcs_last_rev": "bb2b5b31a80eb164e47649036878773614e4dbdf",
+            "updated": "2022-06-22T23:06:53+0000",
+            "vcs_last_commit": "2022-06-03T07:06:48+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:53+0000",
+            "vcs_last_rev": "fcc7d7eae82be4c180f2e8fa3db90a8ab3be07b7",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "networking-layer",
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:35+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:09+0000",
-            "vcs_last_rev": "5deae5495296b44619011d7c9977e2357c462ce5",
+            "updated": "2022-06-22T23:06:00+0000",
+            "vcs_last_commit": "2022-06-21T19:06:54+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:00+0000",
+            "vcs_last_rev": "77067e0fbc1527c81b2a88db994b0f176bad833f",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "gnome-layer",
             "id": 904856,
             "layer": 15,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-23T17:04:31+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:51+0000",
-            "vcs_last_rev": "bb2b5b31a80eb164e47649036878773614e4dbdf",
+            "updated": "2022-06-22T23:06:14+0000",
+            "vcs_last_commit": "2022-06-03T06:06:59+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:14+0000",
+            "vcs_last_rev": "79e28d1c8748e6ac1044d01fcf0e17daedf137e0",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "meta-anaconda",
             "id": 904873,
             "layer": 235,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-01T23:04:42+0000",
-            "vcs_last_fetch": "2022-04-26T22:04:00+0000",
-            "vcs_last_rev": "561bbb1523b78d3aff5fbd8f2f5c1ed51c45413d",
+            "updated": "2022-06-22T23:06:11+0000",
+            "vcs_last_commit": "2022-06-21T19:06:00+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:11+0000",
+            "vcs_last_rev": "d83c4387885c9de05f2b60f85e6c28e377527197",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42579
@@ -798,7 +798,7 @@
             "id": 1536782,
             "inherits": "autotools features_check gettext gnomebase gobject-introspection gobject-introspection-data gsettings pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 904873,
-            "license": "LGPLv2",
+            "license": "LGPL-2.0-only",
             "pe": "",
             "pn": "libgnomekbd",
             "pr": "r0",
@@ -807,7 +807,7 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "GNOME keyboard library",
-            "updated": "2022-04-26T21:04:58+0000"
+            "updated": "2022-06-22T23:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -821,7 +821,7 @@
             "id": 1536783,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 904873,
-            "license": "LGPLv2.1",
+            "license": "LGPL-2.1-only",
             "pe": "",
             "pn": "python3-productmd",
             "pr": "r0",
@@ -830,7 +830,7 @@
             "section": "devel",
             "srcrev": "a8268944c8a6064697ccb4d24e52dc666ab03ed4",
             "summary": "ProductMD is a Python library providing parsers for metadatarelated to composes and installation media",
-            "updated": "2022-04-26T21:04:58+0000"
+            "updated": "2022-06-22T23:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -844,7 +844,7 @@
             "id": 1536784,
             "inherits": "systemd update-rc.d useradd useradd_base",
             "layerbranch": 904873,
-            "license": "GPLv2",
+            "license": "GPL-2.0-only",
             "pe": "",
             "pn": "anaconda-init",
             "pr": "r0",
@@ -853,7 +853,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T21:04:59+0000"
+            "updated": "2022-06-22T23:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -867,7 +867,7 @@
             "id": 1536785,
             "inherits": "python3-dir python3native python3targetconfig setuptools3-base setuptools3_legacy",
             "layerbranch": 904873,
-            "license": "GPLv2",
+            "license": "GPL-2.0-only",
             "pe": "",
             "pn": "python3-simpleline",
             "pr": "r0",
@@ -876,7 +876,7 @@
             "section": "devel",
             "srcrev": "1c21ffdeda9eed27e5ad8ec16aee467f8daecd50",
             "summary": "A text UI framework",
-            "updated": "2022-04-26T21:04:59+0000"
+            "updated": "2022-06-22T23:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -959,7 +959,7 @@
             "id": 1536789,
             "inherits": "allarch",
             "layerbranch": 904873,
-            "license": "GPLv2",
+            "license": "GPL-2.0-only",
             "pe": "",
             "pn": "yocto-compat-logos",
             "pr": "r0",
@@ -968,7 +968,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T22:04:00+0000"
+            "updated": "2022-06-22T23:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -982,7 +982,7 @@
             "id": 1536790,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 904873,
-            "license": "LGPLv2.1",
+            "license": "LGPL-2.1-only",
             "pe": "",
             "pn": "python3-dasbus",
             "pr": "r0",
@@ -991,7 +991,7 @@
             "section": "devel",
             "srcrev": "63b22fe4a7b2f98739279b2a4c6107eebd8d5a58",
             "summary": "Dasbus is a DBus library written in Python 3, based on GLib and inspired by pydbus.",
-            "updated": "2022-04-26T22:04:00+0000"
+            "updated": "2022-06-22T23:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1005,7 +1005,7 @@
             "id": 1536791,
             "inherits": "autotools autotools-brokensep features_check gettext gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 904873,
-            "license": "GPLv2",
+            "license": "GPL-2.0-only",
             "pe": "",
             "pn": "python3-anaconda",
             "pr": "r0",
@@ -1014,7 +1014,7 @@
             "section": "devel",
             "srcrev": "43ce5dfb0566d14926bfb60e11564a656829e92d",
             "summary": "The anaconda package",
-            "updated": "2022-04-26T22:04:00+0000"
+            "updated": "2022-06-22T23:06:10+0000"
         },
         {
             "bbclassextend": "",

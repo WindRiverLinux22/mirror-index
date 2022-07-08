@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220426",
+            "bitbake_branch": "wr-10.22-20220622",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,68 +445,83 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-06-02T07:06:11+0000",
+            "updated": "2022-07-08T07:07:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-05-30T03:05:28+0000",
-            "vcs_last_commit": "2022-05-27T00:05:30+0000",
-            "vcs_last_fetch": "2022-05-30T03:05:28+0000",
-            "vcs_last_rev": "2014709be1e091bb394d245625328dff417f8cc8",
+            "updated": "2022-07-04T21:07:28+0000",
+            "vcs_last_commit": "2022-07-04T21:07:08+0000",
+            "vcs_last_fetch": "2022-07-04T21:07:28+0000",
+            "vcs_last_rev": "de86f702a3facb1a2d3c91c904b9b0355fc9a3bb",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:35+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:29+0000",
-            "vcs_last_rev": "9053f6328084d2978120d3e46e0d02105a7ce995",
+            "updated": "2022-06-22T23:06:43+0000",
+            "vcs_last_commit": "2022-06-21T19:06:53+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:43+0000",
+            "vcs_last_rev": "96c65fef4c1f0589b25c41c031ee5eb2781e9093",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
+            "branch": 292,
+            "collection": "meta-python",
+            "id": 904833,
+            "layer": 12,
+            "local_path": "",
+            "updated": "2022-06-22T23:06:53+0000",
+            "vcs_last_commit": "2022-06-03T07:06:48+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:53+0000",
+            "vcs_last_rev": "fcc7d7eae82be4c180f2e8fa3db90a8ab3be07b7",
+            "vcs_subdir": "meta-python",
+            "version": "1",
+            "yp_compatible_version": 42579
+        },
+        {
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "networking-layer",
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:35+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:09+0000",
-            "vcs_last_rev": "5deae5495296b44619011d7c9977e2357c462ce5",
+            "updated": "2022-06-22T23:06:00+0000",
+            "vcs_last_commit": "2022-06-21T19:06:54+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:00+0000",
+            "vcs_last_rev": "77067e0fbc1527c81b2a88db994b0f176bad833f",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "gnome-layer",
             "id": 904856,
             "layer": 15,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-23T17:04:31+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:51+0000",
-            "vcs_last_rev": "bb2b5b31a80eb164e47649036878773614e4dbdf",
+            "updated": "2022-06-22T23:06:14+0000",
+            "vcs_last_commit": "2022-06-03T06:06:59+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:14+0000",
+            "vcs_last_rev": "79e28d1c8748e6ac1044d01fcf0e17daedf137e0",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 42579
@@ -520,14 +535,20 @@
             "required": true
         },
         {
+            "dependency": 12,
+            "id": 98465,
+            "layerbranch": 904856,
+            "required": true
+        },
+        {
             "dependency": 11,
-            "id": 94791,
+            "id": 98466,
             "layerbranch": 904856,
             "required": true
         },
         {
             "dependency": 7,
-            "id": 94792,
+            "id": 98467,
             "layerbranch": 904856,
             "required": true
         }
@@ -583,6 +604,25 @@
             "status": "P",
             "summary": "Networking-related packages and configuration",
             "updated": "2018-05-30T22:05:09+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-python",
+            "comparison": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T22:05:58+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -1032,7 +1072,7 @@
             "bugtracker": "",
             "configopts": "-Dintrospection=true ",
             "description": "",
-            "filename": "gspell_1.9.1.bb",
+            "filename": "gspell_1.10.0.bb",
             "filepath": "recipes-gnome/gspell",
             "homepage": "https://wiki.gnome.org/Projects/gspell",
             "id": 1536100,
@@ -1043,11 +1083,11 @@
             "pn": "gspell",
             "pr": "r0",
             "provides": "gspell ",
-            "pv": "1.9.1",
+            "pv": "1.10.0",
             "section": "base",
             "srcrev": "",
             "summary": "gspell adds spell-checking to a GTK+ applications",
-            "updated": "2022-04-26T21:04:24+0000"
+            "updated": "2022-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1354,7 +1394,7 @@
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=enabled   -Dexamples=false",
             "description": "",
-            "filename": "libadwaita_1.1.0.bb",
+            "filename": "libadwaita_1.1.1.bb",
             "filepath": "recipes-gnome/libadwaita",
             "homepage": "",
             "id": 1536114,
@@ -1365,11 +1405,11 @@
             "pn": "libadwaita",
             "pr": "r0",
             "provides": "libadwaita ",
-            "pv": "1.1.0",
+            "pv": "1.1.1",
             "section": "base",
             "srcrev": "",
             "summary": "Building blocks for modern GNOME applications",
-            "updated": "2022-04-26T21:04:29+0000"
+            "updated": "2022-06-22T23:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1427,7 +1467,7 @@
             "filepath": "recipes-gnome/libportal",
             "homepage": "https://github.com/flatpak/libportal",
             "id": 1536117,
-            "inherits": "gobject-introspection gobject-introspection-data gtk-doc meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "inherits": "features_check gobject-introspection gobject-introspection-data gtk-doc meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
             "layerbranch": 904856,
             "license": "LGPL-3.0-only",
             "pe": "",
@@ -1438,7 +1478,7 @@
             "section": "base",
             "srcrev": "13df0b887a7eb7b0f9b14069561a41f62e813155",
             "summary": "libportal provides GIO-style async APIs for most Flatpak portals.",
-            "updated": "2022-04-26T21:04:30+0000"
+            "updated": "2022-06-22T23:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1584,7 +1624,7 @@
             "bugtracker": "",
             "configopts": "-Ddocs=false -Dintrospection=true       -Dtests=none   -Dextensions=true -Dlibportal=false",
             "description": "",
-            "filename": "nautilus_42.0.bb",
+            "filename": "nautilus_42.1.1.bb",
             "filepath": "recipes-gnome/nautilus",
             "homepage": "",
             "id": 1536124,
@@ -1595,11 +1635,11 @@
             "pn": "nautilus",
             "pr": "r0",
             "provides": "nautilus ",
-            "pv": "42.0",
+            "pv": "42.1.1",
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "File manager for GNOME",
-            "updated": "2022-04-26T21:04:32+0000"
+            "updated": "2022-06-22T23:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1998,7 +2038,7 @@
             "bugtracker": "",
             "configopts": "-Dintrospection=enabled -Dgtk_doc=false  ",
             "description": "",
-            "filename": "gtksourceview5_5.4.0.bb",
+            "filename": "gtksourceview5_5.4.1.bb",
             "filepath": "recipes-gnome/gtksourceview",
             "homepage": "http://projects.gnome.org/gtksourceview/",
             "id": 1536142,
@@ -2009,11 +2049,11 @@
             "pn": "gtksourceview5",
             "pr": "r0",
             "provides": "gtksourceview5 ",
-            "pv": "5.4.0",
+            "pv": "5.4.1",
             "section": "base",
             "srcrev": "",
             "summary": "Portable C library for multiline text editing",
-            "updated": "2022-04-26T21:04:37+0000"
+            "updated": "2022-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2412,7 +2452,7 @@
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=true      -Dsystemduserunitdir=no   -Dnautilus=false",
             "description": "",
-            "filename": "evince_42.1.bb",
+            "filename": "evince_42.2.bb",
             "filepath": "recipes-gnome/evince",
             "homepage": "",
             "id": 1536160,
@@ -2423,11 +2463,11 @@
             "pn": "evince",
             "pr": "r0",
             "provides": "evince ",
-            "pv": "42.1",
+            "pv": "42.2",
             "section": "x11/office",
             "srcrev": "",
             "summary": "Evince is a document viewer for document formats like pdf, ps, djvu",
-            "updated": "2022-04-26T21:04:44+0000"
+            "updated": "2022-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2818,7 +2858,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A partition editor to graphically manage disk partitions ",
-            "updated": "2022-04-26T21:04:49+0000"
+            "updated": "2022-06-22T23:06:12+0000"
         },
         {
             "bbclassextend": "",

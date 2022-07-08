@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220426",
+            "bitbake_branch": "wr-10.22-20220622",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,53 +445,53 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-06-02T07:06:11+0000",
+            "updated": "2022-07-08T07:07:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-05-30T03:05:28+0000",
-            "vcs_last_commit": "2022-05-27T00:05:30+0000",
-            "vcs_last_fetch": "2022-05-30T03:05:28+0000",
-            "vcs_last_rev": "2014709be1e091bb394d245625328dff417f8cc8",
+            "updated": "2022-07-04T21:07:28+0000",
+            "vcs_last_commit": "2022-07-04T21:07:08+0000",
+            "vcs_last_fetch": "2022-07-04T21:07:28+0000",
+            "vcs_last_rev": "de86f702a3facb1a2d3c91c904b9b0355fc9a3bb",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:35+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:29+0000",
-            "vcs_last_rev": "9053f6328084d2978120d3e46e0d02105a7ce995",
+            "updated": "2022-06-22T23:06:43+0000",
+            "vcs_last_commit": "2022-06-21T19:06:53+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:43+0000",
+            "vcs_last_rev": "96c65fef4c1f0589b25c41c031ee5eb2781e9093",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2022-04-26T22:04:57+0000",
-            "vcs_last_commit": "2022-04-23T17:04:31+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:42+0000",
-            "vcs_last_rev": "bb2b5b31a80eb164e47649036878773614e4dbdf",
+            "updated": "2022-06-22T23:06:53+0000",
+            "vcs_last_commit": "2022-06-03T07:06:48+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:53+0000",
+            "vcs_last_rev": "fcc7d7eae82be4c180f2e8fa3db90a8ab3be07b7",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42579
@@ -593,7 +593,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T21:04:07+0000"
+            "updated": "2022-06-22T23:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2157,7 +2157,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "matplotlib: plotting with Python",
-            "updated": "2022-04-26T21:04:31+0000"
+            "updated": "2022-06-22T23:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -3560,7 +3560,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Command line interface for testing internet bandwidth using speedtest.net",
-            "updated": "2022-04-26T21:04:52+0000"
+            "updated": "2022-06-22T23:06:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -6420,7 +6420,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "python3-astroid_2.11.2.bb",
+            "filename": "python3-astroid_2.11.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/astroid",
             "id": 1535206,
@@ -6431,11 +6431,11 @@
             "pn": "python3-astroid",
             "pr": "r0",
             "provides": "python3-astroid ",
-            "pv": "2.11.2",
+            "pv": "2.11.3",
             "section": "devel/python",
             "srcrev": "",
             "summary": "An abstract syntax tree for Python with inference support.",
-            "updated": "2022-04-26T21:04:33+0000"
+            "updated": "2022-06-22T23:06:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10644,7 +10644,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-python ptest packagegroups",
-            "updated": "2022-04-26T21:04:38+0000"
+            "updated": "2022-06-22T23:06:52+0000"
         },
         {
             "bbclassextend": "",

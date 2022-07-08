@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220426",
+            "bitbake_branch": "wr-10.22-20220622",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,68 +445,68 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-06-02T07:06:11+0000",
+            "updated": "2022-07-08T07:07:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-05-30T03:05:28+0000",
-            "vcs_last_commit": "2022-05-27T00:05:30+0000",
-            "vcs_last_fetch": "2022-05-30T03:05:28+0000",
-            "vcs_last_rev": "2014709be1e091bb394d245625328dff417f8cc8",
+            "updated": "2022-07-04T21:07:28+0000",
+            "vcs_last_commit": "2022-07-04T21:07:08+0000",
+            "vcs_last_fetch": "2022-07-04T21:07:28+0000",
+            "vcs_last_rev": "de86f702a3facb1a2d3c91c904b9b0355fc9a3bb",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:35+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:29+0000",
-            "vcs_last_rev": "9053f6328084d2978120d3e46e0d02105a7ce995",
+            "updated": "2022-06-22T23:06:43+0000",
+            "vcs_last_commit": "2022-06-21T19:06:53+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:43+0000",
+            "vcs_last_rev": "96c65fef4c1f0589b25c41c031ee5eb2781e9093",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2022-04-26T22:04:57+0000",
-            "vcs_last_commit": "2022-04-23T17:04:31+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:42+0000",
-            "vcs_last_rev": "bb2b5b31a80eb164e47649036878773614e4dbdf",
+            "updated": "2022-06-22T23:06:53+0000",
+            "vcs_last_commit": "2022-06-03T07:06:48+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:53+0000",
+            "vcs_last_rev": "fcc7d7eae82be4c180f2e8fa3db90a8ab3be07b7",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "multimedia-layer",
             "id": 904835,
             "layer": 16,
             "local_path": "",
-            "updated": "2022-04-26T22:04:57+0000",
-            "vcs_last_commit": "2022-04-23T17:04:31+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:52+0000",
-            "vcs_last_rev": "bb2b5b31a80eb164e47649036878773614e4dbdf",
+            "updated": "2022-06-22T23:06:12+0000",
+            "vcs_last_commit": "2022-05-30T13:05:07+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:12+0000",
+            "vcs_last_rev": "6104aead933382cd1d627bb6b9fe1b68195c878d",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 42579
@@ -886,7 +886,7 @@
             "section": "libs",
             "srcrev": "acf8d028edda0a59b10e15962c2606137a4940af",
             "summary": "Linux libcamera framework",
-            "updated": "2022-04-26T21:04:29+0000"
+            "updated": "2022-06-22T23:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1107,7 +1107,7 @@
             "id": 1535504,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 904835,
-            "license": "MIT &            PD &            CMU-Tex &            BSD &            BSD-2-Clause &            BSD-3-Clause &            flite &            (flite & Sun) &            BellBird &            Apache-2.0            ",
+            "license": "MIT &            PD &            CMU-Tex &            rateconv &            BSD-2-Clause &            BSD-3-Clause &            flite &            (flite & Sun) &            BellBird &            Apache-2.0            ",
             "pe": "",
             "pn": "mimic",
             "pr": "r0",
@@ -1116,7 +1116,7 @@
             "section": "multimedia",
             "srcrev": "adf655da0399530ac1b586590257847eb61be232",
             "summary": "A fast lightweight Text-to-speech engine",
-            "updated": "2022-04-26T21:04:32+0000"
+            "updated": "2022-06-22T23:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1314,7 +1314,7 @@
             "id": 1535513,
             "inherits": "autotools autotools-brokensep gettext siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 904835,
-            "license": "GPL-2.0|BSD-3-Clause",
+            "license": "GPL-2.0-only|BSD-3-Clause",
             "pe": "",
             "pn": "minidlna",
             "pr": "r0",
@@ -1323,7 +1323,7 @@
             "section": "base",
             "srcrev": "109d63cb11ac207c18a784556834eb054b34b00b",
             "summary": "",
-            "updated": "2022-04-26T21:04:35+0000"
+            "updated": "2022-06-22T23:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1975,7 +1975,7 @@
             "bugtracker": "https://gitlab.freedesktop.org/pipewire/pipewire/issues",
             "configopts": "      -Devl=disabled     -Dtests=disabled     -Dudevrulesdir=/lib/udev/rules.d/     -Dsystemd-system-unit-dir=/lib/systemd/system     -Dsystemd-user-unit-dir=/usr/lib/systemd/user     -Dvulkan=disabled     -Dman=disabled     -Dsession-managers='[]'     -Dlv2=disabled     -Droc=disabled     -Dbluez5-codec-aptx=disabled     -Dbluez5-codec-ldac=disabled     -Dlegacy-rtkit=false   -Dalsa=enabled -Davahi=enabled -Dbluez5=enabled -Dbluez5-codec-aac=disabled -Ddocs=disabled -Dffmpeg=disabled -Dgstreamer=enabled -Djack=enabled -Dlibcamera=disabled -Dlibcanberra=disabled -Dlibusb=enabled -Dpipewire-alsa=disabled -Dpipewire-jack=disabled -Dpw-cat=enabled -Draop=enabled -Dsdl2=disabled -Dsndfile=enabled -Dsystemd=disabled -Dsystemd-system-service=disabled -Dsystemd-user-service=disabled -Dv4l2=enabled -Decho-cancel-webrtc=disabled",
             "description": "Linux server for handling and routing audio and video streams between applications and multimedia I/O devices",
-            "filename": "pipewire_0.3.49.bb",
+            "filename": "pipewire_0.3.50.bb",
             "filepath": "recipes-multimedia/pipewire",
             "homepage": "https://pipewire.org/",
             "id": 1535542,
@@ -1986,11 +1986,11 @@
             "pn": "pipewire",
             "pr": "r0",
             "provides": "pipewire ",
-            "pv": "0.3.49",
+            "pv": "0.3.50",
             "section": "multimedia",
-            "srcrev": "075e7b266876802eab0077afd13ea8e1cee5e1fd",
+            "srcrev": "64cf5e80e6240284e6b757907b900507fe56f1b5",
             "summary": "Multimedia processing server for Linux",
-            "updated": "2022-04-26T21:04:44+0000"
+            "updated": "2022-06-22T23:06:12+0000"
         },
         {
             "bbclassextend": "",

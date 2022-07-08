@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220426",
+            "bitbake_branch": "wr-10.22-20220622",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,38 +445,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-06-02T07:06:11+0000",
+            "updated": "2022-07-08T07:07:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "openstack-controller-deploy-layer",
             "id": 904867,
             "layer": 159,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:03+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:32+0000",
-            "vcs_last_rev": "62848acc91cf20ff67e5f9f86ce4dccc0bccfb5e",
+            "updated": "2022-06-22T23:06:00+0000",
+            "vcs_last_commit": "2022-06-21T19:06:00+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:00+0000",
+            "vcs_last_rev": "e84434e13bb3bce8b6d03aba2d5480328565f4c4",
             "vcs_subdir": "meta-openstack-controller-deploy",
             "version": null,
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20220622",
             "branch": 292,
             "collection": "openstack-controller-test-config-layer",
             "id": 904868,
             "layer": 160,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
-            "vcs_last_commit": "2022-04-26T21:04:03+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:39+0000",
-            "vcs_last_rev": "62848acc91cf20ff67e5f9f86ce4dccc0bccfb5e",
+            "updated": "2022-06-22T23:06:06+0000",
+            "vcs_last_commit": "2022-06-21T19:06:00+0000",
+            "vcs_last_fetch": "2022-06-22T23:06:06+0000",
+            "vcs_last_rev": "e84434e13bb3bce8b6d03aba2d5480328565f4c4",
             "vcs_subdir": "meta-openstack-controller-test-config",
             "version": null,
             "yp_compatible_version": 42579
