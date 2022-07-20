@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220622",
+            "bitbake_branch": "wr-10.22-20220713",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,38 +445,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-07-08T07:07:08+0000",
+            "updated": "2022-07-20T07:07:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220622",
+            "actual_branch": "wr-10.22-20220713",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-07-04T21:07:28+0000",
-            "vcs_last_commit": "2022-07-04T21:07:08+0000",
-            "vcs_last_fetch": "2022-07-04T21:07:28+0000",
-            "vcs_last_rev": "de86f702a3facb1a2d3c91c904b9b0355fc9a3bb",
+            "updated": "2022-07-19T00:07:52+0000",
+            "vcs_last_commit": "2022-07-18T06:07:43+0000",
+            "vcs_last_fetch": "2022-07-19T00:07:52+0000",
+            "vcs_last_rev": "0ca21ef3608d4e4211a2c7856f155416ca96426b",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220622",
+            "actual_branch": "wr-10.22-20220713",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-06-22T23:06:43+0000",
-            "vcs_last_commit": "2022-06-21T19:06:53+0000",
-            "vcs_last_fetch": "2022-06-22T23:06:43+0000",
-            "vcs_last_rev": "96c65fef4c1f0589b25c41c031ee5eb2781e9093",
+            "updated": "2022-07-18T19:07:40+0000",
+            "vcs_last_commit": "2022-07-18T19:07:56+0000",
+            "vcs_last_fetch": "2022-07-18T19:07:40+0000",
+            "vcs_last_rev": "6dc516bfe94b6f70aa5f913d9d55e7cdb1b4cf55",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
@@ -9598,7 +9598,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2022-04-26T21:04:57+0000"
+            "updated": "2022-07-13T23:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -9857,7 +9857,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "https://trac.wxwidgets.org/",
-            "configopts": "      -DwxUSE_GLCANVAS_EGL=OFF     -DwxUSE_LIBJPEG=sys     -DwxUSE_LIBPNG=sys     -DwxUSE_LIBTIFF=sys     -DwxUSE_REGEX=builtin     -DwxPLATFORM_LIB_DIR=   -DwxUSE_WEBREQUEST_CURL=OFF -DwxUSE_MEDIACTRL=OFF -DwxBUILD_TOOLKIT=gtk3 -DwxUSE_GUI=ON -DwxUSE_SECRETSTORE=OFF -DwxUSE_LIBLZMA=OFF -DwxUSE_LIBMSPACK=OFF -DwxUSE_OPENGL=OFF -DwxUSE_LIBSDL=OFF -DwxUSE_WEBVIEW_WEBKIT=OFF -DEGREP=\"/bin/grep -E\"",
+            "configopts": "      -DwxUSE_GLCANVAS_EGL=OFF     -DwxUSE_LIBJPEG=sys     -DwxUSE_LIBPNG=sys     -DwxUSE_LIBTIFF=sys     -DwxUSE_REGEX=builtin     -DwxPLATFORM_LIB_DIR=   -DwxUSE_WEBREQUEST_CURL=OFF -DwxUSE_MEDIACTRL=OFF -DwxBUILD_TOOLKIT=gtk3 -DwxUSE_GUI=ON -DwxUSE_PRIVATE_FONTS=ON -DwxUSE_SECRETSTORE=OFF -DwxUSE_LIBLZMA=OFF -DwxUSE_LIBMSPACK=OFF -DwxUSE_OPENGL=OFF -DwxUSE_LIBSDL=OFF -DwxUSE_WEBVIEW_WEBKIT=OFF -DEGREP=\"/bin/grep -E\"",
             "description": "wxWidgets is a free and open source cross-platform C++ framework for writing advanced GUI applications using native controls.",
             "filename": "wxwidgets_3.1.5.bb",
             "filepath": "recipes-extended/wxwidgets",
@@ -9874,7 +9874,7 @@
             "section": "base",
             "srcrev": "9c0a8be1dc32063d91ed1901fd5fcd54f4f955a1",
             "summary": "Cross-Plattform GUI Library",
-            "updated": "2022-04-26T21:04:01+0000"
+            "updated": "2022-07-18T19:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -12795,7 +12795,7 @@
             "section": "base",
             "srcrev": "78b39d68c15ba020c0d60a3906fb66dbf1697595",
             "summary": "LevelDB is a fast key-value storage library",
-            "updated": "2022-04-26T21:04:42+0000"
+            "updated": "2022-07-13T23:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -12962,9 +12962,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmpgsdfesvf/tmp-glibc/work/core2-32-oe-linux/postgresql/14.3-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
+            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmp7zvqnxg5/tmp-glibc/work/core2-32-oe-linux/postgresql/14.4-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_14.3.bb",
+            "filename": "postgresql_14.4.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 1534574,
@@ -12975,11 +12975,11 @@
             "pn": "postgresql",
             "pr": "r0",
             "provides": "postgresql ",
-            "pv": "14.3",
+            "pv": "14.4",
             "section": "base",
             "srcrev": "",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2022-06-22T23:06:34+0000"
+            "updated": "2022-07-13T23:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -17119,7 +17119,7 @@
             "section": "base",
             "srcrev": "4767ea922bcc460e70b87b1d303ebdfed0897da8",
             "summary": "tesseract-ocr language files",
-            "updated": "2022-04-26T21:04:41+0000"
+            "updated": "2022-07-13T23:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -18091,7 +18091,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/esnet/iperf/issues",
-            "configopts": "  ac_cv_header_netinet_sctp_h=no --with-openssl=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/iperf3/3.11-r0/recipe-sysroot/usr",
+            "configopts": "  ac_cv_header_netinet_sctp_h=no --with-openssl=/tmp/tmp7zvqnxg5/tmp-glibc/work/core2-32-oe-linux/iperf3/3.11-r0/recipe-sysroot/usr",
             "description": "iperf is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the bandwidth, loss, and other parameters.",
             "filename": "iperf3_3.11.bb",
             "filepath": "recipes-benchmark/iperf3",
@@ -18108,7 +18108,7 @@
             "section": "console/network",
             "srcrev": "76bd67f6e90e239a7686202d2b1b595159826d24",
             "summary": "Network benchmark tool",
-            "updated": "2022-04-26T21:04:54+0000"
+            "updated": "2022-07-13T23:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -18183,7 +18183,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--exec-prefix=/tmp/tmpu2_5eeeq/tmp-glibc/work/core2-32-oe-linux/iperf2/2.0.13-r0/recipe-sysroot${layout_exec_prefix}  --enable-ipv6",
+            "configopts": "--exec-prefix=/tmp/tmp7zvqnxg5/tmp-glibc/work/core2-32-oe-linux/iperf2/2.0.13-r0/recipe-sysroot${layout_exec_prefix}  --enable-ipv6",
             "description": "Iperf is a tool to measure maximum TCP bandwidth, allowing the tuning of various parameters and UDP characteristics",
             "filename": "iperf2_2.0.13.bb",
             "filepath": "recipes-benchmark/iperf2",
@@ -18200,7 +18200,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T21:04:55+0000"
+            "updated": "2022-07-13T23:07:31+0000"
         },
         {
             "bbclassextend": "",

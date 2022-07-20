@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220622",
+            "bitbake_branch": "wr-10.22-20220713",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,23 +445,23 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-07-08T07:07:08+0000",
+            "updated": "2022-07-20T07:07:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220622",
+            "actual_branch": "wr-10.22-20220713",
             "branch": 292,
             "collection": "yoctobsp",
             "id": 904790,
             "layer": 58,
             "local_path": "",
-            "updated": "2022-06-22T23:06:09+0000",
-            "vcs_last_commit": "2022-06-21T19:06:00+0000",
-            "vcs_last_fetch": "2022-06-22T23:06:09+0000",
-            "vcs_last_rev": "1e73570a9d0f994ac07aacc05cd964902ba279a8",
+            "updated": "2022-07-13T23:07:59+0000",
+            "vcs_last_commit": "2022-07-12T19:07:26+0000",
+            "vcs_last_fetch": "2022-07-13T23:07:59+0000",
+            "vcs_last_rev": "a614ac7e8dcfa2972aab6caf445f2bb1053c9452",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "4",
             "yp_compatible_version": 42580

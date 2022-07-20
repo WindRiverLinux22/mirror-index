@@ -437,7 +437,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220622",
+            "bitbake_branch": "wr-10.22-20220713",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -445,23 +445,23 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-07-08T07:07:08+0000",
+            "updated": "2022-07-20T07:07:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220622",
+            "actual_branch": "wr-10.22-20220713",
             "branch": 292,
             "collection": "meta-intel-fpga",
             "id": 908617,
             "layer": 380,
             "local_path": "",
-            "updated": "2022-06-22T23:06:14+0000",
-            "vcs_last_commit": "2022-06-21T19:06:53+0000",
-            "vcs_last_fetch": "2022-06-22T23:06:14+0000",
-            "vcs_last_rev": "6e0d80e43e440ef9e38e124383a998a906e6c382",
+            "updated": "2022-07-13T23:07:05+0000",
+            "vcs_last_commit": "2022-07-12T19:07:02+0000",
+            "vcs_last_fetch": "2022-07-13T23:07:05+0000",
+            "vcs_last_rev": "ed28736f2fbb734882adf1ebcf66ecb6ab619781",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -636,9 +636,9 @@
             "provides": "u-boot-socfpga virtual/bootloader",
             "pv": "v2022.01+gitX",
             "section": "bootloaders",
-            "srcrev": "f75f1833a5c1507cba717d6673ded7b7aecb43cc",
+            "srcrev": "84763e7db2f4bd79aa592f7dcdb2a2100b6283a1",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-06-01T03:06:29+0000"
+            "updated": "2022-07-13T23:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -751,9 +751,9 @@
             "provides": "arm-trusted-firmware arm-trusted-firmware",
             "pv": "v2.6",
             "section": "base",
-            "srcrev": "339ddd28daded023f11f696809491c17704e7fef",
+            "srcrev": "6fd554cdd10b9b68b1409b1b9aeb1af52f9edae6",
             "summary": "",
-            "updated": "2022-06-22T23:06:14+0000"
+            "updated": "2022-07-13T23:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -797,9 +797,9 @@
             "provides": "linux-socfpga  virtual/kernel",
             "pv": "5.16+gitX",
             "section": "kernel",
-            "srcrev": "e31f7632002fe0db43def19b65e995c448f3c4b3",
+            "srcrev": "813cb0d24cd0cef4da36aa6d0f9d154291ac15e1",
             "summary": "Linux kernel",
-            "updated": "2022-06-01T03:06:30+0000"
+            "updated": "2022-07-13T23:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -820,9 +820,9 @@
             "provides": "linux-socfpga  virtual/kernel",
             "pv": "5.15+gitX",
             "section": "kernel",
-            "srcrev": "3076c4717c3b50ced044c64bb59578fca0641793",
+            "srcrev": "ad617140bb242ff9971717f61489c7bb785a1483",
             "summary": "Linux kernel",
-            "updated": "2022-06-01T03:06:30+0000"
+            "updated": "2022-07-13T23:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -843,9 +843,9 @@
             "provides": "linux-socfpga-lts  virtual/kernel",
             "pv": "5.15.30-lts+gitX",
             "section": "kernel",
-            "srcrev": "3167fda5ead46114f623c0113ae465183e2498ec",
+            "srcrev": "548455e5d4a8c121115b314cc2cb5ea950d75921",
             "summary": "Linux kernel",
-            "updated": "2022-06-01T03:06:30+0000"
+            "updated": "2022-07-13T23:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -889,9 +889,9 @@
             "provides": "linux-socfpga-lts  virtual/kernel",
             "pv": "5.10.100-lts+gitX",
             "section": "kernel",
-            "srcrev": "8f3ee0421d07aa94f1081d61f8cb0c8600774a9f",
+            "srcrev": "89affd122a189259bbc51d34d7144108c055fd95",
             "summary": "Linux kernel",
-            "updated": "2022-06-01T03:06:30+0000"
+            "updated": "2022-07-13T23:07:05+0000"
         },
         {
             "bbclassextend": "",
