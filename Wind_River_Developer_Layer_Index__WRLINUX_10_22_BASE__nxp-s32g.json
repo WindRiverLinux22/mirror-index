@@ -135,13 +135,6 @@
         },
         {
             "description": "",
-            "id": 1806,
-            "image_url": "",
-            "link_url": "",
-            "name": "dunfell gatesgarth wrl"
-        },
-        {
-            "description": "",
             "id": 1808,
             "image_url": "",
             "link_url": "",
@@ -445,7 +438,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-07-20T07:07:10+0000",
+            "updated": "2022-07-26T07:07:10+0000",
             "updates_enabled": true
         }
     ],
@@ -473,10 +466,10 @@
             "id": 904876,
             "layer": 49,
             "local_path": "",
-            "updated": "2022-07-20T01:07:55+0000",
-            "vcs_last_commit": "2022-07-20T00:07:15+0000",
-            "vcs_last_fetch": "2022-07-20T01:07:55+0000",
-            "vcs_last_rev": "04883dd5a9e346e4c63968ef507c034829df2328",
+            "updated": "2022-07-26T13:07:58+0000",
+            "vcs_last_commit": "2022-07-26T13:07:26+0000",
+            "vcs_last_fetch": "2022-07-26T13:07:58+0000",
+            "vcs_last_rev": "35eac34dbe701616dc24e84cf8befb52c4937c55",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42580
@@ -488,10 +481,10 @@
             "id": 904882,
             "layer": 439,
             "local_path": "",
-            "updated": "2022-07-16T01:07:40+0000",
-            "vcs_last_commit": "2022-07-16T01:07:31+0000",
-            "vcs_last_fetch": "2022-07-16T01:07:40+0000",
-            "vcs_last_rev": "dc3c34ab7a8981bab13429ff5b1e6d468bf6e19e",
+            "updated": "2022-07-21T17:07:40+0000",
+            "vcs_last_commit": "2022-07-21T05:07:57+0000",
+            "vcs_last_fetch": "2022-07-21T17:07:40+0000",
+            "vcs_last_rev": "f0b2e6c980961c7bf447bf8b4fe03f76a98749e2",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42580
@@ -605,9 +598,9 @@
             "provides": "pkcs11-hse  pkcs11-hse",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "2ab4eb6b73f1f1296576e45f333eb0911a2cae00",
+            "srcrev": "9d8a6339f521f009c4df1811b2ba9686d223c31d",
             "summary": "",
-            "updated": "2022-04-26T22:04:41+0000"
+            "updated": "2022-07-20T19:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -651,9 +644,9 @@
             "provides": "u-boot-s32 virtual/bootloader u-boot",
             "pv": "2020.04",
             "section": "base",
-            "srcrev": "7cc85e188554fb38b6bd39a98b6149b033ebd53e",
+            "srcrev": "9cdfca686e27add82d8f23e2ef9bd86c1270e137",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-06-15T00:06:40+0000"
+            "updated": "2022-07-21T17:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -674,9 +667,9 @@
             "provides": "atf-s32g ",
             "pv": "2.5",
             "section": "base",
-            "srcrev": "b6b0419ec2d8cf84d1bf17cb3cd13d16558d639f",
+            "srcrev": "a420c6d442c9d122a1b72d89c7e964fc64eebd38",
             "summary": "",
-            "updated": "2022-07-07T23:07:30+0000"
+            "updated": "2022-07-21T17:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -720,9 +713,9 @@
             "provides": "ipc-shm  kernel-module-ipc-shm-sample kernel-module-ipc-shm-dev kernel-module-ipc-shm-uio",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "79164a0b055c759557a00f2ce3ec73a90361937c",
+            "srcrev": "d80b27e5fc6c3d6a9d53de6ae23fa84a17560fd3",
             "summary": "Support for Inter-Process(or) Communication over Shared Memory (ipc-shm)",
-            "updated": "2022-04-26T22:04:41+0000"
+            "updated": "2022-07-20T19:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -766,9 +759,9 @@
             "provides": "pfe ",
             "pv": "1.0.0",
             "section": "base",
-            "srcrev": "d6aac63e29e1dd06db925f200846937f78db327a",
+            "srcrev": "0669f53e2cc0b3c133406e3db2ae72f5b3934e5f",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2022-06-15T00:06:40+0000"
+            "updated": "2022-07-20T19:07:43+0000"
         }
     ],
     "wrtemplates": [

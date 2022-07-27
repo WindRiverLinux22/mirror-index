@@ -135,13 +135,6 @@
         },
         {
             "description": "",
-            "id": 1806,
-            "image_url": "",
-            "link_url": "",
-            "name": "dunfell gatesgarth wrl"
-        },
-        {
-            "description": "",
             "id": 1808,
             "image_url": "",
             "link_url": "",
@@ -445,7 +438,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-07-20T07:07:10+0000",
+            "updated": "2022-07-26T07:07:10+0000",
             "updates_enabled": true
         }
     ],
@@ -473,10 +466,10 @@
             "id": 904876,
             "layer": 49,
             "local_path": "",
-            "updated": "2022-07-20T01:07:55+0000",
-            "vcs_last_commit": "2022-07-20T00:07:15+0000",
-            "vcs_last_fetch": "2022-07-20T01:07:55+0000",
-            "vcs_last_rev": "04883dd5a9e346e4c63968ef507c034829df2328",
+            "updated": "2022-07-26T13:07:58+0000",
+            "vcs_last_commit": "2022-07-26T13:07:26+0000",
+            "vcs_last_fetch": "2022-07-26T13:07:58+0000",
+            "vcs_last_rev": "35eac34dbe701616dc24e84cf8befb52c4937c55",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42580
@@ -488,10 +481,10 @@
             "id": 904879,
             "layer": 296,
             "local_path": "",
-            "updated": "2022-04-26T22:04:06+0000",
-            "vcs_last_commit": "2022-03-22T19:03:59+0000",
-            "vcs_last_fetch": "2022-04-26T22:04:06+0000",
-            "vcs_last_rev": "a791bd369cee0cf900b2d864829a21329237edde",
+            "updated": "2022-07-20T22:07:36+0000",
+            "vcs_last_commit": "2022-07-20T19:07:13+0000",
+            "vcs_last_fetch": "2022-07-20T22:07:36+0000",
+            "vcs_last_rev": "1090af7f4cceb04414a1c24bb7c11f3c0d59d5af",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42580
@@ -582,7 +575,7 @@
             "id": 49132,
             "layerbranch": 904879,
             "name": "marvell-cn96xx",
-            "updated": "2022-04-26T22:04:06+0000"
+            "updated": "2022-07-20T22:07:36+0000"
         }
     ],
     "recipes": [

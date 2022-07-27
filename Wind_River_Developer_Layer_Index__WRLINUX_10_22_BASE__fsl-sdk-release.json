@@ -135,13 +135,6 @@
         },
         {
             "description": "",
-            "id": 1806,
-            "image_url": "",
-            "link_url": "",
-            "name": "dunfell gatesgarth wrl"
-        },
-        {
-            "description": "",
             "id": 1808,
             "image_url": "",
             "link_url": "",
@@ -445,55 +438,55 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2022-07-20T07:07:10+0000",
+            "updated": "2022-07-26T07:07:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "",
-            "id": 10636,
+            "id": 10884,
             "layerbranch": 908031,
             "name": "fsl-imx-xwayland",
-            "updated": "2022-05-31T03:05:41+0000"
+            "updated": "2022-07-26T16:07:05+0000"
         },
         {
             "description": "",
-            "id": 10637,
+            "id": 10885,
             "layerbranch": 908031,
             "name": "fsl-imx-fb",
-            "updated": "2022-05-31T03:05:41+0000"
+            "updated": "2022-07-26T16:07:05+0000"
         },
         {
             "description": "",
-            "id": 10638,
+            "id": 10886,
             "layerbranch": 908031,
             "name": "fsl-imx-x11",
-            "updated": "2022-05-31T03:05:41+0000"
+            "updated": "2022-07-26T16:07:05+0000"
         },
         {
             "description": "",
-            "id": 10639,
+            "id": 10887,
             "layerbranch": 908031,
             "name": "fsl-imx-wayland",
-            "updated": "2022-05-31T03:05:41+0000"
+            "updated": "2022-07-26T16:07:05+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220511",
+            "actual_branch": "wr-10.22-20220725",
             "branch": 292,
             "collection": "fsl-sdk-release",
             "id": 908031,
             "layer": 471,
             "local_path": "",
-            "updated": "2022-06-30T00:06:58+0000",
-            "vcs_last_commit": "2022-06-29T23:06:38+0000",
-            "vcs_last_fetch": "2022-06-30T00:06:58+0000",
-            "vcs_last_rev": "8c977a6f99a38abb33ff1857c7f60d5b7d972bc5",
+            "updated": "2022-07-26T16:07:16+0000",
+            "vcs_last_commit": "2022-07-22T00:07:00+0000",
+            "vcs_last_fetch": "2022-07-26T16:07:16+0000",
+            "vcs_last_rev": "958b279b1f5fe491cd0bf80b40e75681d4e8fc04",
             "vcs_subdir": "meta-sdk",
             "version": null,
-            "yp_compatible_version": 42589
+            "yp_compatible_version": 42579
         }
     ],
     "layerDependencies": [],
@@ -529,7 +522,7 @@
             "filename": "packagegroup-imx-security.bb",
             "filepath": "recipes-fsl/packagegroup",
             "homepage": "",
-            "id": 1559217,
+            "id": 1603267,
             "inherits": "packagegroup",
             "layerbranch": 908031,
             "license": "",
@@ -541,30 +534,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:41+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Contains the modules needed by eRPC.",
-            "filename": "packagegroup-imx-erpc.bb",
-            "filepath": "recipes-fsl/packagegroup",
-            "homepage": "",
-            "id": 1559218,
-            "inherits": "allarch packagegroup",
-            "layerbranch": 908031,
-            "license": "MIT",
-            "pe": "",
-            "pn": "packagegroup-imx-erpc",
-            "pr": "r0",
-            "provides": "packagegroup-imx-erpc ",
-            "pv": "1.0",
-            "section": "base",
-            "srcrev": "",
-            "summary": "i.MX package group - embedded RPC",
-            "updated": "2022-05-31T03:05:41+0000"
+            "updated": "2022-07-26T16:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -575,7 +545,7 @@
             "filename": "packagegroup-imx-v2x.bb",
             "filepath": "recipes-fsl/packagegroup",
             "homepage": "",
-            "id": 1559219,
+            "id": 1603268,
             "inherits": "packagegroup",
             "layerbranch": 908031,
             "license": "MIT",
@@ -587,7 +557,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:42+0000"
+            "updated": "2022-07-26T16:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -598,7 +568,7 @@
             "filename": "packagegroup-fsl-pulseaudio.bb",
             "filepath": "recipes-fsl/packagegroup",
             "homepage": "",
-            "id": 1559220,
+            "id": 1603269,
             "inherits": "allarch packagegroup",
             "layerbranch": 908031,
             "license": "MIT",
@@ -610,7 +580,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale package group - pulseaudio",
-            "updated": "2022-05-31T03:05:42+0000"
+            "updated": "2022-07-26T16:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -621,7 +591,7 @@
             "filename": "packagegroup-imx-core-tools.bb",
             "filepath": "recipes-fsl/packagegroup",
             "homepage": "",
-            "id": 1559221,
+            "id": 1603270,
             "inherits": "packagegroup",
             "layerbranch": 908031,
             "license": "",
@@ -633,7 +603,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:42+0000"
+            "updated": "2022-07-26T16:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -644,8 +614,8 @@
             "filename": "packagegroup-fsl-tools-audio.bb",
             "filepath": "recipes-fsl/packagegroup",
             "homepage": "",
-            "id": 1559222,
-            "inherits": "allarch packagegroup",
+            "id": 1603271,
+            "inherits": "packagegroup",
             "layerbranch": 908031,
             "license": "MIT",
             "pe": "",
@@ -656,7 +626,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Set of audio tools for inclusion on images",
-            "updated": "2022-05-31T03:05:42+0000"
+            "updated": "2022-07-26T16:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -667,7 +637,7 @@
             "filename": "packagegroup-fsl-tools-gpu-external.bb",
             "filepath": "recipes-fsl/packagegroup",
             "homepage": "",
-            "id": 1559223,
+            "id": 1603272,
             "inherits": "packagegroup",
             "layerbranch": 908031,
             "license": "",
@@ -679,7 +649,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community Package group - tools/gpu/external",
-            "updated": "2022-05-31T03:05:42+0000"
+            "updated": "2022-07-26T16:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -690,7 +660,7 @@
             "filename": "packagegroup-fsl-optee-imx.bb",
             "filepath": "recipes-fsl/packagegroup",
             "homepage": "",
-            "id": 1559224,
+            "id": 1603273,
             "inherits": "allarch packagegroup",
             "layerbranch": 908031,
             "license": "MIT",
@@ -702,7 +672,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:42+0000"
+            "updated": "2022-07-26T16:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -713,8 +683,8 @@
             "filename": "packagegroup-imx-isp.bb",
             "filepath": "recipes-fsl/packagegroup",
             "homepage": "",
-            "id": 1559225,
-            "inherits": "allarch packagegroup",
+            "id": 1603274,
+            "inherits": "packagegroup",
             "layerbranch": 908031,
             "license": "MIT",
             "pe": "",
@@ -725,7 +695,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:42+0000"
+            "updated": "2022-07-26T16:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -736,7 +706,7 @@
             "filename": "imx-image-multimedia.bb",
             "filepath": "recipes-fsl/images",
             "homepage": "",
-            "id": 1559226,
+            "id": 1603275,
             "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 908031,
             "license": "MIT",
@@ -748,7 +718,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:42+0000"
+            "updated": "2022-07-26T16:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -759,7 +729,7 @@
             "filename": "fsl-image-validation-imx.bb",
             "filepath": "recipes-fsl/images",
             "homepage": "",
-            "id": 1559227,
+            "id": 1603276,
             "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 908031,
             "license": "MIT",
@@ -771,7 +741,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:43+0000"
+            "updated": "2022-07-26T16:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -782,7 +752,7 @@
             "filename": "fsl-image-gui.bb",
             "filepath": "recipes-fsl/images",
             "homepage": "",
-            "id": 1559228,
+            "id": 1603277,
             "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 908031,
             "license": "MIT",
@@ -794,7 +764,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:43+0000"
+            "updated": "2022-07-26T16:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -805,7 +775,7 @@
             "filename": "imx-image-core.bb",
             "filepath": "recipes-fsl/images",
             "homepage": "",
-            "id": 1559229,
+            "id": 1603278,
             "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 908031,
             "license": "",
@@ -817,7 +787,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:43+0000"
+            "updated": "2022-07-26T16:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -828,7 +798,7 @@
             "filename": "stb_git.bb",
             "filepath": "recipes-devtools/stb",
             "homepage": "",
-            "id": 1559230,
+            "id": 1603279,
             "inherits": "",
             "layerbranch": 908031,
             "license": "MIT",
@@ -840,7 +810,7 @@
             "section": "base",
             "srcrev": "f67165c2bb2af3060ecae7d20d6f731173485ad0",
             "summary": "single-file public domain (or MIT licensed) libraries for C/C++",
-            "updated": "2022-05-31T03:05:43+0000"
+            "updated": "2022-07-26T16:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -851,7 +821,7 @@
             "filename": "half_2.1.0.bb",
             "filepath": "recipes-devtools/half",
             "homepage": "",
-            "id": 1559231,
+            "id": 1603280,
             "inherits": "",
             "layerbranch": 908031,
             "license": "MIT",
@@ -863,7 +833,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "C++ library for half precision floating point arithmetics",
-            "updated": "2022-05-31T03:05:43+0000"
+            "updated": "2022-07-26T16:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -874,7 +844,7 @@
             "filename": "tinycompress_1.1.6.bb",
             "filepath": "recipes-multimedia/tinycompress",
             "homepage": "",
-            "id": 1559232,
+            "id": 1603281,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 908031,
             "license": "BSD-3-Clause",
@@ -886,18 +856,41 @@
             "section": "base",
             "srcrev": "995f2ed91045dad8c20485ab1a64727d22cd92e5",
             "summary": "tinycompress library for compress audio offload in alsa",
-            "updated": "2022-05-31T03:05:44+0000"
+            "updated": "2022-07-26T16:07:09+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -Denable_kmods=false                 -Dexamples=l2fwd,l3fwd,cmdif,l2fwd-qdma,l2fwd-crypto,ipsec-secgw,vhost,kni,ip_fragmentation,ip_reassembly                 --cross-file /tmp/tmpb0ro73f3/tmp-glibc/work/core2-32-oe-linux/dpdk/21.11-r0/git/config/arm/arm64_poky_linux_gcc  ",
+            "configopts": "",
+            "description": "",
+            "filename": "jailhouse_0.2.bb",
+            "filepath": "recipes-extended/jailhouse",
+            "homepage": "https://github.com/siemens/jailhouse",
+            "id": 1603282,
+            "inherits": "bash-completion deploy kernel-arch kernel-module-split module module-base pkgconfig python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 908031,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "jailhouse",
+            "pr": "r0",
+            "provides": "jailhouse ",
+            "pv": "0.2",
+            "section": "jailhouse",
+            "srcrev": "77c20526bcfd043f57be39656623213dd097b4c2",
+            "summary": "Jailhouse, i.MX fork",
+            "updated": "2022-07-26T16:07:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -Denable_kmods=false                 -Dexamples=l2fwd,l3fwd,cmdif,l2fwd-qdma,l2fwd-crypto,ipsec-secgw,vhost,kni,ip_fragmentation,ip_reassembly                 --cross-file /tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/dpdk/21.11-r0/git/config/arm/arm64_poky_linux_gcc  ",
             "description": "Intel(r) Data Plane Development Kit",
             "filename": "dpdk_21.11.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
-            "id": 1559233,
+            "id": 1603283,
             "inherits": "meson meson-routines python3-dir python3native qemu siteinfo",
             "layerbranch": 908031,
             "license": "BSD-3-Clause & LGPL-2.1-only & GPL-2.0-only",
@@ -907,9 +900,9 @@
             "provides": "dpdk ",
             "pv": "21.11",
             "section": "base",
-            "srcrev": "fb18f98bbc4d02fbab1e103d2155922f62da2759",
+            "srcrev": "a02594c97935a33e395e95b9030acd7a02b6cb50",
             "summary": "",
-            "updated": "2022-06-14T02:06:34+0000"
+            "updated": "2022-07-26T16:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -920,7 +913,7 @@
             "filename": "sudo_1.9.5p2.bb",
             "filepath": "recipes-extended/sudo",
             "homepage": "http://www.sudo.ws",
-            "id": 1559234,
+            "id": 1603284,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 908031,
             "license": "ISC & BSD & Zlib",
@@ -932,7 +925,99 @@
             "section": "admin",
             "srcrev": "",
             "summary": "Provide limited super user privileges to specific users",
-            "updated": "2022-05-31T03:05:44+0000"
+            "updated": "2022-07-26T16:07:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "UEFI EDK2 Firmware for Arm reference platforms",
+            "filename": "edk2-firmware_202202.bb",
+            "filepath": "recipes-security/stmm-imx",
+            "homepage": "https://github.com/tianocore/edk2",
+            "id": 1603285,
+            "inherits": "deploy",
+            "layerbranch": 908031,
+            "license": "BSD-2-Clause-Patent",
+            "pe": "",
+            "pn": "edk2-firmware",
+            "pr": "r0",
+            "provides": "edk2-firmware virtual/bootloader",
+            "pv": "202202",
+            "section": "base",
+            "srcrev": "",
+            "summary": "UEFI EDK2 Firmware",
+            "updated": "2022-07-26T16:07:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "StandAlomeMM is a PE/COFF binary produced by EDK2 for i.MX platforms",
+            "filename": "stmm-imx_git.bb",
+            "filepath": "recipes-security/stmm-imx",
+            "homepage": "https://github.com/tianocore/edk2",
+            "id": 1603286,
+            "inherits": "deploy",
+            "layerbranch": 908031,
+            "license": "BSD-2-Clause-Patent",
+            "pe": "",
+            "pn": "stmm-imx",
+            "pr": "r0",
+            "provides": "stmm-imx virtual/bootloader",
+            "pv": "git",
+            "section": "base",
+            "srcrev": "",
+            "summary": "i.MX StandAlomeMM binary produced by EDK2",
+            "updated": "2022-07-26T16:07:10+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -DJSON_BuildTests=OFF ",
+            "description": "",
+            "filename": "nlohmann-json_3.10.4.bb",
+            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/nlohmann-json",
+            "homepage": "https://nlohmann.github.io/json/",
+            "id": 1603287,
+            "inherits": "cmake",
+            "layerbranch": 908031,
+            "license": "MIT",
+            "pe": "",
+            "pn": "nlohmann-json",
+            "pr": "r0",
+            "provides": "nlohmann-json ",
+            "pv": "3.10.4",
+            "section": "libs",
+            "srcrev": "fec56a1a16c6e1c1b1f4e116a20e79398282626c",
+            "summary": "JSON for modern C++",
+            "updated": "2022-07-26T16:07:10+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -DBUILD_SHARED_LIBS=ON ",
+            "description": "{fmt} is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.",
+            "filename": "fmt_8.1.1.bb",
+            "filepath": "dynamic-layers/openembedded-layer/recipes-support/fmt",
+            "homepage": "https://fmt.dev",
+            "id": 1603288,
+            "inherits": "cmake ptest",
+            "layerbranch": 908031,
+            "license": "MIT",
+            "pe": "",
+            "pn": "fmt",
+            "pr": "r0",
+            "provides": "fmt ",
+            "pv": "8.1.1",
+            "section": "base",
+            "srcrev": "b6f4ceaed0a0a24ccf575fab6c56dd50ccf6f1a9",
+            "summary": "open-source formatting library for C++",
+            "updated": "2022-07-26T16:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -943,7 +1028,7 @@
             "filename": "packagegroup-qt6-webengine.bb",
             "filepath": "dynamic-layers/qt6-layer/recipes-fsl/packagegroup",
             "homepage": "",
-            "id": 1559235,
+            "id": 1603289,
             "inherits": "allarch packagegroup",
             "layerbranch": 908031,
             "license": "MIT",
@@ -955,7 +1040,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:44+0000"
+            "updated": "2022-07-26T16:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -966,8 +1051,8 @@
             "filename": "packagegroup-qt6-imx.bb",
             "filepath": "dynamic-layers/qt6-layer/recipes-fsl/packagegroup",
             "homepage": "",
-            "id": 1559236,
-            "inherits": "allarch packagegroup",
+            "id": 1603290,
+            "inherits": "packagegroup",
             "layerbranch": 908031,
             "license": "MIT",
             "pe": "",
@@ -978,7 +1063,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:44+0000"
+            "updated": "2022-07-26T16:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -989,7 +1074,7 @@
             "filename": "packagegroup-qt6-demos.bb",
             "filepath": "dynamic-layers/qt6-layer/recipes-fsl/packagegroup",
             "homepage": "",
-            "id": 1559237,
+            "id": 1603291,
             "inherits": "allarch packagegroup",
             "layerbranch": 908031,
             "license": "MIT",
@@ -1001,7 +1086,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:44+0000"
+            "updated": "2022-07-26T16:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1012,7 +1097,7 @@
             "filename": "fsl-image-qt6.bb",
             "filepath": "dynamic-layers/qt6-layer/recipes-fsl/images",
             "homepage": "",
-            "id": 1559238,
+            "id": 1603292,
             "inherits": "",
             "layerbranch": 908031,
             "license": "",
@@ -1024,7 +1109,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:44+0000"
+            "updated": "2022-07-26T16:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1035,7 +1120,7 @@
             "filename": "imx-image-full.bb",
             "filepath": "dynamic-layers/qt6-layer/recipes-fsl/images",
             "homepage": "",
-            "id": 1559239,
+            "id": 1603293,
             "inherits": "",
             "layerbranch": 908031,
             "license": "",
@@ -1047,7 +1132,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:44+0000"
+            "updated": "2022-07-26T16:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1058,7 +1143,7 @@
             "filename": "imx-image-full-dev.bb",
             "filepath": "dynamic-layers/qt6-layer/recipes-fsl/images",
             "homepage": "",
-            "id": 1559240,
+            "id": 1603294,
             "inherits": "",
             "layerbranch": 908031,
             "license": "",
@@ -1070,7 +1155,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:44+0000"
+            "updated": "2022-07-26T16:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1081,7 +1166,7 @@
             "filename": "fsl-image-qt6-validation-imx.bb",
             "filepath": "dynamic-layers/qt6-layer/recipes-fsl/images",
             "homepage": "",
-            "id": 1559241,
+            "id": 1603295,
             "inherits": "",
             "layerbranch": 908031,
             "license": "",
@@ -1093,76 +1178,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:44+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Package for testing GNU libc",
-            "filename": "glibc-test.bb",
-            "filepath": "dynamic-layers/ivitest/recipes-ivi-test/glibc",
-            "homepage": "",
-            "id": 1559242,
-            "inherits": "",
-            "layerbranch": 908031,
-            "license": "MIT",
-            "pe": "",
-            "pn": "glibc-test",
-            "pr": "r0",
-            "provides": "glibc-test ",
-            "pv": "1.0",
-            "section": "base",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2022-05-31T03:05:44+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Package for testing libcurl",
-            "filename": "curl-test.bb",
-            "filepath": "dynamic-layers/ivitest/recipes-ivi-test/curl",
-            "homepage": "",
-            "id": 1559243,
-            "inherits": "",
-            "layerbranch": 908031,
-            "license": "MIT",
-            "pe": "",
-            "pn": "curl-test",
-            "pr": "r0",
-            "provides": "curl-test ",
-            "pv": "1.0",
-            "section": "base",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2022-05-31T03:05:44+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "meta-ivi-image-test.bb",
-            "filepath": "dynamic-layers/ivitest/recipes-ivi-test/images",
-            "homepage": "",
-            "id": 1559244,
-            "inherits": "",
-            "layerbranch": 908031,
-            "license": "",
-            "pe": "",
-            "pn": "meta-ivi-image-test",
-            "pr": "",
-            "provides": "",
-            "pv": "",
-            "section": "",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2022-05-31T03:05:44+0000"
+            "updated": "2022-07-26T16:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1173,7 +1189,7 @@
             "filename": "renderdoc_1.17.imx.bb",
             "filepath": "recipes-graphics/renderdoc",
             "homepage": "https://github.com/baldurk/renderdoc",
-            "id": 1559245,
+            "id": 1603296,
             "inherits": "cmake features_check pkgconfig python3-dir python3native",
             "layerbranch": 908031,
             "license": "MIT",
@@ -1185,7 +1201,7 @@
             "section": "base",
             "srcrev": "22d4dc45749c8d1ddbb9e869ec5db142bfe1d7bd",
             "summary": "RenderDoc recipe providing renderdoccmd",
-            "updated": "2022-05-31T03:05:44+0000"
+            "updated": "2022-07-26T16:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1193,10 +1209,10 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Sample program to monitor i.MX GPU performance data",
-            "filename": "gputop_6.4.3.p4.0.bb",
+            "filename": "gputop_6.4.3.p4.2.bb",
             "filepath": "recipes-graphics/libgpuperfcnt",
             "homepage": "",
-            "id": 1559246,
+            "id": 1603297,
             "inherits": "cmake pkgconfig",
             "layerbranch": 908031,
             "license": "MIT",
@@ -1204,11 +1220,11 @@
             "pn": "gputop",
             "pr": "r0",
             "provides": "gputop ",
-            "pv": "6.4.3.p4.0",
+            "pv": "6.4.3.p4.2",
             "section": "base",
             "srcrev": "3dc8dd61ee2bbfbf442209602d98c5f9bdd4a056",
             "summary": "",
-            "updated": "2022-05-31T03:05:45+0000"
+            "updated": "2022-07-26T16:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1216,10 +1232,10 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "libgpuperfcnt_6.4.3.p4.0.bb",
+            "filename": "libgpuperfcnt_6.4.3.p4.2.bb",
             "filepath": "recipes-graphics/libgpuperfcnt",
             "homepage": "",
-            "id": 1559247,
+            "id": 1603298,
             "inherits": "",
             "layerbranch": 908031,
             "license": "",
@@ -1231,7 +1247,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-05-31T03:05:45+0000"
+            "updated": "2022-07-26T16:07:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1239,10 +1255,10 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "rapidvulkan_1.2.176.1.bb",
+            "filename": "rapidvulkan_1.2.189.2.bb",
             "filepath": "recipes-graphics/rapidvulkan",
             "homepage": "",
-            "id": 1559248,
+            "id": 1603299,
             "inherits": "cmake",
             "layerbranch": 908031,
             "license": "BSD-3-Clause",
@@ -1250,11 +1266,11 @@
             "pn": "rapidvulkan",
             "pr": "r0",
             "provides": "rapidvulkan ",
-            "pv": "1.2.176.1",
+            "pv": "1.2.189.2",
             "section": "base",
-            "srcrev": "ec9e4945028465c63fc3ae7df403e72a1b31d6ee",
+            "srcrev": "0a61ed265e87561a0165ee9e472bf20f83e7b0ca",
             "summary": "Low level header only C++11 RAII wrapper classes for the Vulkan API",
-            "updated": "2022-05-31T03:05:45+0000"
+            "updated": "2022-07-26T16:07:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -1265,7 +1281,7 @@
             "filename": "gli_git.bb",
             "filepath": "recipes-graphics/gli",
             "homepage": "http://gli.g-truc.net",
-            "id": 1559249,
+            "id": 1603300,
             "inherits": "cmake",
             "layerbranch": 908031,
             "license": "MIT",
@@ -1277,7 +1293,7 @@
             "section": "libs",
             "srcrev": "0c171ee87fcfe35a7e0e0445adef06f92e0b6a91",
             "summary": "OpenGL Image Library",
-            "updated": "2022-06-08T05:06:50+0000"
+            "updated": "2022-07-26T16:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1288,7 +1304,7 @@
             "filename": "vulkan-headers_1.2.182.0.bb",
             "filepath": "recipes-graphics/vulkan",
             "homepage": "https://www.khronos.org/vulkan/",
-            "id": 1559250,
+            "id": 1603301,
             "inherits": "cmake",
             "layerbranch": 908031,
             "license": "Apache-2.0",
@@ -1300,18 +1316,18 @@
             "section": "libs",
             "srcrev": "37164a5726f7e6113810f9557903a117498421cf",
             "summary": "Vulkan Header files and API registry",
-            "updated": "2022-05-31T03:05:45+0000"
+            "updated": "2022-07-26T16:07:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/KhronosGroup/Vulkan-Loader",
-            "configopts": "                 -DBUILD_TESTS=OFF                  -DPYTHON_EXECUTABLE=/tmp/tmp_959qwfk/tmp-glibc/hosttools/python3                  -DASSEMBLER_WORKS=FALSE                  -DVulkanHeaders_INCLUDE_DIR=/tmp/tmp_959qwfk/tmp-glibc/work/core2-32-oe-linux/vulkan-loader/1.2.182.0-r0/recipe-sysroot/usr/include                  -DVulkanRegistry_DIR=/tmp/tmp_959qwfk/tmp-glibc/work/core2-32-oe-linux/vulkan-loader/1.2.182.0-r0/recipe-sysroot//usr/share                     -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
+            "configopts": "                 -DBUILD_TESTS=OFF                  -DPYTHON_EXECUTABLE=/tmp/tmpcp5fr1si/tmp-glibc/hosttools/python3                  -DASSEMBLER_WORKS=FALSE                  -DVulkanHeaders_INCLUDE_DIR=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/vulkan-loader/1.2.182.0-r0/recipe-sysroot/usr/include                  -DVulkanRegistry_DIR=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/vulkan-loader/1.2.182.0-r0/recipe-sysroot//usr/share                     -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
             "description": "Vulkan is a new generation graphics and compute API that provides efficient access to modern GPUs. These packages provide only the common vendor-agnostic library loader, headers and the vulkaninfo utility.",
             "filename": "vulkan-loader_1.2.182.0.bb",
             "filepath": "recipes-graphics/vulkan",
             "homepage": "https://www.khronos.org/vulkan/",
-            "id": 1559251,
+            "id": 1603302,
             "inherits": "cmake features_check pkgconfig",
             "layerbranch": 908031,
             "license": "Apache-2.0",
@@ -1323,7 +1339,30 @@
             "section": "libs",
             "srcrev": "1896143df69d439b0933c1bb485f5a4587bdf2dc",
             "summary": "3D graphics and compute API common loader",
-            "updated": "2022-05-31T03:05:45+0000"
+            "updated": "2022-07-26T16:07:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DCMAKE_BUILD_TYPE=Release     -DCMAKE_SYSROOT=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/gfxreconstruct/1.2.182.0-r0/recipe-sysroot    -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XCB_SUPPORT=ON",
+            "description": "It provides tools for the capture and replay of Vulkan API calls",
+            "filename": "gfxreconstruct_1.2.182.0.bb",
+            "filepath": "recipes-graphics/vulkan",
+            "homepage": "",
+            "id": 1603303,
+            "inherits": "cmake features_check",
+            "layerbranch": 908031,
+            "license": "MIT",
+            "pe": "",
+            "pn": "gfxreconstruct",
+            "pr": "r0",
+            "provides": "gfxreconstruct ",
+            "pv": "1.2.182.0",
+            "section": "graphics",
+            "srcrev": "75bc5b32da36cb172d57ef28f55d14458279c6f1",
+            "summary": "Vulkan benchmarking suite.",
+            "updated": "2022-07-26T16:07:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1334,8 +1373,8 @@
             "filename": "vulkan-demos_git.bb",
             "filepath": "recipes-graphics/vulkan",
             "homepage": "",
-            "id": 1559252,
-            "inherits": "cmake features_check",
+            "id": 1603304,
+            "inherits": "cmake features_check pkgconfig",
             "layerbranch": 908031,
             "license": "MIT",
             "pe": "",
@@ -1346,18 +1385,18 @@
             "section": "base",
             "srcrev": "a2a604be473c829763854ffb34f7978bc0358afb",
             "summary": "",
-            "updated": "2022-05-31T03:05:45+0000"
+            "updated": "2022-07-26T16:07:14+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/KhronosGroup/Vulkan-ValidationLayers",
-            "configopts": "     -DGLSLANG_INSTALL_DIR=/tmp/tmp_959qwfk/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DSPIRV_HEADERS_INSTALL_DIR=/tmp/tmp_959qwfk/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DSPIRV_TOOLS_INSTALL_DIR=/tmp/tmp_959qwfk/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DUSE_ROBIN_HOOD_HASHING=OFF    -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON -DDEMOS_WSI_SELECTION=XCB",
+            "configopts": "     -DGLSLANG_INSTALL_DIR=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DSPIRV_HEADERS_INSTALL_DIR=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DSPIRV_TOOLS_INSTALL_DIR=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DUSE_ROBIN_HOOD_HASHING=OFF    -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON -DDEMOS_WSI_SELECTION=XCB",
             "description": "This project provides Vulkan validation layers that can be enabled to assist development by enabling developers to verify their applications correct use of the Vulkan API.",
             "filename": "vulkan-validationlayers_1.2.182.0.bb",
             "filepath": "recipes-graphics/vulkan",
             "homepage": "https://www.khronos.org/vulkan/",
-            "id": 1559253,
+            "id": 1603305,
             "inherits": "cmake features_check",
             "layerbranch": 908031,
             "license": "Apache-2.0",
@@ -1369,18 +1408,18 @@
             "section": "libs",
             "srcrev": "91fcffa8eca1a9573c8d736a54a028035ed4e06c",
             "summary": "Vulkan ValidationLayers",
-            "updated": "2022-05-31T03:05:45+0000"
+            "updated": "2022-07-26T16:07:14+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/KhronosGroup/Vulkan-Tools",
-            "configopts": "                 -DBUILD_TESTS=OFF                  -DBUILD_CUBE=OFF                  -DPYTHON_EXECUTABLE=/tmp/tmp_959qwfk/tmp-glibc/hosttools/python3                     -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
+            "configopts": "                 -DBUILD_TESTS=OFF                  -DBUILD_CUBE=OFF                  -DPYTHON_EXECUTABLE=/tmp/tmpcp5fr1si/tmp-glibc/hosttools/python3                     -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
             "description": "Assist development by enabling developers to verify their applications correct use of the Vulkan API.",
             "filename": "vulkan-tools_1.2.182.0.bb",
             "filepath": "recipes-graphics/vulkan",
             "homepage": "https://www.khronos.org/vulkan/",
-            "id": 1559254,
+            "id": 1603306,
             "inherits": "cmake features_check",
             "layerbranch": 908031,
             "license": "Apache-2.0",
@@ -1392,7 +1431,7 @@
             "section": "libs",
             "srcrev": "9d3305731c3be8de05c9f223a79959d448506a37",
             "summary": "Vulkan Utilities and Tools",
-            "updated": "2022-05-31T03:05:45+0000"
+            "updated": "2022-07-26T16:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1403,7 +1442,7 @@
             "filename": "vulkan-samples_git.bb",
             "filepath": "recipes-graphics/vulkan",
             "homepage": "https://www.khronos.org/vulkan/",
-            "id": 1559255,
+            "id": 1603307,
             "inherits": "cmake features_check",
             "layerbranch": 908031,
             "license": "Apache-2.0",
@@ -1415,7 +1454,7 @@
             "section": "base",
             "srcrev": "d2187278cb6632ce35920575832eb6f6e2b2e46c",
             "summary": "",
-            "updated": "2022-05-31T03:05:46+0000"
+            "updated": "2022-07-26T16:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1426,10 +1465,10 @@
             "filename": "vkmark_git.bb",
             "filepath": "recipes-graphics/vulkan",
             "homepage": "",
-            "id": 1559256,
-            "inherits": "meson meson-routines python3-dir python3native qemu siteinfo",
+            "id": 1603308,
+            "inherits": "meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
             "layerbranch": 908031,
-            "license": "LGPL-2.1",
+            "license": "LGPL-2.1-only",
             "pe": "",
             "pn": "vkmark",
             "pr": "r0",
@@ -1438,7 +1477,7 @@
             "section": "graphics",
             "srcrev": "53abc4f660191051fba91ea30de084f412e7c68e",
             "summary": "Vulkan benchmarking suite.",
-            "updated": "2022-05-31T03:05:46+0000"
+            "updated": "2022-07-26T16:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1449,7 +1488,7 @@
             "filename": "intel-gpu-tools_1.22.bb",
             "filepath": "recipes-graphics/intel-gpu-tools",
             "homepage": "http://www.x.org/",
-            "id": 1559257,
+            "id": 1603309,
             "inherits": "autotools features_check gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 908031,
             "license": "MIT & ISC",
@@ -1461,7 +1500,7 @@
             "section": "x11/apps",
             "srcrev": "",
             "summary": "Intel GPU tools",
-            "updated": "2022-05-31T03:05:46+0000"
+            "updated": "2022-07-26T16:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1469,10 +1508,10 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Set of sample applications for i.MX GPU",
-            "filename": "imx-gpu-sdk_5.8.1.bb",
+            "filename": "imx-gpu-sdk_5.9.2.bb",
             "filepath": "recipes-graphics/imx-gpu-sdk",
             "homepage": "",
-            "id": 1559258,
+            "id": 1603310,
             "inherits": "",
             "layerbranch": 908031,
             "license": "BSD-3-Clause",
@@ -1480,11 +1519,11 @@
             "pn": "imx-gpu-sdk",
             "pr": "r0",
             "provides": "imx-gpu-sdk ",
-            "pv": "5.8.1",
+            "pv": "5.9.2",
             "section": "base",
-            "srcrev": "fb908cb32966dc3b80168ef3509379ec71d89be3",
+            "srcrev": "0bb954adfc4740e5df7cd4e511a0f1e87ed309e7",
             "summary": "i.MX GPU SDK Samples",
-            "updated": "2022-05-31T03:05:46+0000"
+            "updated": "2022-07-26T16:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1495,7 +1534,7 @@
             "filename": "opengl-es-cts_3.2.4.0.bb",
             "filepath": "recipes-graphics/vk-gl-cts",
             "homepage": "https://github.com/KhronosGroup/VK-GL-CTS",
-            "id": 1559259,
+            "id": 1603311,
             "inherits": "cmake pkgconfig python3-dir python3native",
             "layerbranch": 908031,
             "license": "Apache-2.0",
@@ -1507,7 +1546,7 @@
             "section": "graphics",
             "srcrev": "",
             "summary": "dEQP OpenGL and OpenGL ES Conformance Tests",
-            "updated": "2022-05-31T03:05:46+0000"
+            "updated": "2022-07-26T16:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1518,7 +1557,7 @@
             "filename": "sigma-dut_git.bb",
             "filepath": "recipes-connectivity/sigma-dut",
             "homepage": "",
-            "id": 1559260,
+            "id": 1603312,
             "inherits": "",
             "layerbranch": 908031,
             "license": "BSD",
@@ -1530,7 +1569,7 @@
             "section": "base",
             "srcrev": "fd7359aed6aaba745e31dd0a9fed80578372d554",
             "summary": "Tools for WFA Sigma DUT/CA",
-            "updated": "2022-05-31T03:05:46+0000"
+            "updated": "2022-07-26T16:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1541,10 +1580,10 @@
             "filename": "wireless-tools_30.pre9.bb",
             "filepath": "recipes-connectivity/wireless-tools",
             "homepage": "https://hewlettpackard.github.io/wireless-tools/Tools.html",
-            "id": 1559261,
+            "id": 1603313,
             "inherits": "",
             "layerbranch": 908031,
-            "license": "GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)",
+            "license": "GPL-2.0-only & (LGPL-2.1-only | MPL-1.1 | BSD)",
             "pe": "1",
             "pn": "wireless-tools",
             "pr": "r0",
@@ -1553,7 +1592,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tools for the Linux Standard Wireless Extension Subsystem",
-            "updated": "2022-05-31T03:05:47+0000"
+            "updated": "2022-07-26T16:07:16+0000"
         }
     ],
     "wrtemplates": []
