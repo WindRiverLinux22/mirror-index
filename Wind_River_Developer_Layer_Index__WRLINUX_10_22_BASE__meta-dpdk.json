@@ -436,40 +436,40 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 6,
+            "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-07-26T07:07:10+0000",
+            "updated": "2022-07-29T07:07:07+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-07-19T00:07:52+0000",
-            "vcs_last_commit": "2022-07-18T06:07:43+0000",
-            "vcs_last_fetch": "2022-07-19T00:07:52+0000",
-            "vcs_last_rev": "0ca21ef3608d4e4211a2c7856f155416ca96426b",
+            "updated": "2022-07-29T00:07:36+0000",
+            "vcs_last_commit": "2022-07-28T23:07:08+0000",
+            "vcs_last_fetch": "2022-07-29T00:07:36+0000",
+            "vcs_last_rev": "dfd4d067fa34d2babd0a1ae2bff52f64cc003ff8",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220622",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "dpdk",
             "id": 904845,
             "layer": 192,
             "local_path": "",
-            "updated": "2022-06-22T23:06:45+0000",
-            "vcs_last_commit": "2022-06-21T19:06:54+0000",
-            "vcs_last_fetch": "2022-06-22T23:06:45+0000",
-            "vcs_last_rev": "f5e059555e401871a33c21eff62bcc7efbcc905f",
+            "updated": "2022-07-27T20:07:28+0000",
+            "vcs_last_commit": "2022-07-26T19:07:01+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:28+0000",
+            "vcs_last_rev": "991749fc9a5faa1b9e269e66dce500396da1aa30",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42583
@@ -575,7 +575,7 @@
             "section": "base",
             "srcrev": "fcd039e4663bf2b595d7af3a8175a3e0bc09b367",
             "summary": "",
-            "updated": "2022-06-22T23:06:45+0000"
+            "updated": "2022-07-27T20:07:28+0000"
         },
         {
             "bbclassextend": "",

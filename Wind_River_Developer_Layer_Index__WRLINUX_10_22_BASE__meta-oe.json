@@ -436,40 +436,40 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 6,
+            "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-07-26T07:07:10+0000",
+            "updated": "2022-07-29T07:07:07+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-07-19T00:07:52+0000",
-            "vcs_last_commit": "2022-07-18T06:07:43+0000",
-            "vcs_last_fetch": "2022-07-19T00:07:52+0000",
-            "vcs_last_rev": "0ca21ef3608d4e4211a2c7856f155416ca96426b",
+            "updated": "2022-07-29T00:07:36+0000",
+            "vcs_last_commit": "2022-07-28T23:07:08+0000",
+            "vcs_last_fetch": "2022-07-29T00:07:36+0000",
+            "vcs_last_rev": "dfd4d067fa34d2babd0a1ae2bff52f64cc003ff8",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-07-26T15:07:03+0000",
-            "vcs_last_commit": "2022-07-18T19:07:56+0000",
-            "vcs_last_fetch": "2022-07-26T15:07:03+0000",
-            "vcs_last_rev": "6dc516bfe94b6f70aa5f913d9d55e7cdb1b4cf55",
+            "updated": "2022-07-27T20:07:46+0000",
+            "vcs_last_commit": "2022-07-26T19:07:01+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:46+0000",
+            "vcs_last_rev": "e734257230d0e8d65750a7a2053795bf6ebcf2d0",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
@@ -2030,9 +2030,9 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpznu47tsl/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpznu47tsl/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpznu47tsl/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpznu47tsl/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmpznu47tsl/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmpznu47tsl/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpznu47tsl/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpznu47tsl/tmp-glibc/work/core2-32-oe-linux/php/8.1.6-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
+            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmp9gmb66ww/tmp-glibc/work/core2-32-oe-linux/php/8.1.7-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmp9gmb66ww/tmp-glibc/work/core2-32-oe-linux/php/8.1.7-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmp9gmb66ww/tmp-glibc/work/core2-32-oe-linux/php/8.1.7-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmp9gmb66ww/tmp-glibc/work/core2-32-oe-linux/php/8.1.7-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmp9gmb66ww/tmp-glibc/work/core2-32-oe-linux/php/8.1.7-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmp9gmb66ww/tmp-glibc/work/core2-32-oe-linux/php/8.1.7-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmp9gmb66ww/tmp-glibc/work/core2-32-oe-linux/php/8.1.7-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmp9gmb66ww/tmp-glibc/work/core2-32-oe-linux/php/8.1.7-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
             "description": "",
-            "filename": "php_8.1.6.bb",
+            "filename": "php_8.1.7.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 1599780,
@@ -2043,11 +2043,11 @@
             "pn": "php",
             "pr": "r0",
             "provides": "php ",
-            "pv": "8.1.6",
+            "pv": "8.1.7",
             "section": "console/network",
             "srcrev": "",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2022-07-26T15:07:47+0000"
+            "updated": "2022-07-27T20:07:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2446,7 +2446,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "This is protobuf-c, a C implementation of the Google Protocol Buffers data serialization format. It includes libprotobuf-c, a pure C library that implements protobuf encoding and decoding, and protoc-c, a code generator that converts Protocol Buffer .proto files to C descriptor code, based on the original protoc. protobuf-c formerly included an RPC implementation; that code has been split out into the protobuf-c-rpc project.",
-            "filename": "protobuf-c_1.4.0.bb",
+            "filename": "protobuf-c_1.4.1.bb",
             "filepath": "recipes-devtools/protobuf",
             "homepage": "https://github.com/protobuf-c/protobuf-c",
             "id": 1599798,
@@ -2457,11 +2457,11 @@
             "pn": "protobuf-c",
             "pr": "r0",
             "provides": "protobuf-c ",
-            "pv": "1.4.0",
+            "pv": "1.4.1",
             "section": "console/tools",
-            "srcrev": "f224ab2eeb648a818eb20687d7150a285442c907",
+            "srcrev": "abc67a11c6db271bedbb9f58be85d6f4e2ea8389",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2022-07-26T15:07:53+0000"
+            "updated": "2022-07-27T20:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -7724,11 +7724,11 @@
             "pn": "imagemagick",
             "pr": "r0",
             "provides": "imagemagick ",
-            "pv": "7.0.10_25",
+            "pv": "7.0.10-62",
             "section": "console/utils",
-            "srcrev": "8b4e00829eb84d4e7b4da11acf1f98f1e8166e5b",
+            "srcrev": "35b4991eb0939a327f3489988c366e21068b0178",
             "summary": "ImageMagick is an image conversion toolkit",
-            "updated": "2022-07-26T15:07:03+0000"
+            "updated": "2022-07-27T20:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -11046,7 +11046,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DWITH_EXTENDED_FILTERING=ON -DSYSTEMD_UNITDIR=/lib/systemd/system  -DWITH_DLT_ADAPTOR=OFF -DWITH_DLT_CONSOLE=OFF -DWITH_DLT_DBUS=OFF -DWITH_DLT_EXAMPLES=OFF -DWITH_DLT_FILETRANSFER=ON -DWITH_DLT_SYSTEM=ON -DWITH_SYSTEMD=OFF -DWITH_DLT_SYSTEM=OFF -DWITH_SYSTEMD_JOURNAL=OFF -DWITH_SYSTEMD_WATCHDOG=OFF -DWITH_UDP_CONNECTION=ON",
+            "configopts": " -DWITH_EXTENDED_FILTERING=ON -DSYSTEMD_UNITDIR=/lib/systemd/system  -DWITH_DLT_ADAPTOR=OFF -DWITH_DLT_ADAPTOR_UDP=OFF -DWITH_DLT_CONSOLE=OFF -DWITH_DLT_DBUS=OFF -DWITH_DLT_EXAMPLES=OFF -DWITH_DLT_FILETRANSFER=ON -DWITH_DLT_SYSTEM=ON -DWITH_SYSTEMD=OFF -DWITH_DLT_SYSTEM=OFF -DWITH_SYSTEMD_JOURNAL=OFF -DWITH_SYSTEMD_WATCHDOG=OFF -DWITH_UDP_CONNECTION=ON",
             "description": "This component provides a standardised log and trace interface, based on the standardised protocol specified in the AUTOSAR standard 4.0 DLT. This component can be used by GENIVI components and other applications as logging facility providing: - the DLT shared library - the DLT daemon, including startup scripts - the DLT daemon adaptors- the DLT client console utilities - the DLT test applications",
             "filename": "dlt-daemon_2.18.8.bb",
             "filepath": "recipes-extended/dlt-daemon",
@@ -11061,9 +11061,9 @@
             "provides": "dlt-daemon ",
             "pv": "2.18.8+2.18.9gitX",
             "section": "console/utils",
-            "srcrev": "0138c00811c86eab4ff6bff3c6528163885ade19",
+            "srcrev": "6a3bd901d825c7206797e36ea98e10a218f5aad2",
             "summary": "Diagnostic Log and Trace",
-            "updated": "2022-07-26T15:07:54+0000"
+            "updated": "2022-07-27T20:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -11761,7 +11761,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Redis is an open source, advanced key-value store.",
-            "filename": "redis_7.0-rc3.bb",
+            "filename": "redis_7.0.2.bb",
             "filepath": "recipes-extended/redis",
             "homepage": "http://redis.io",
             "id": 1600203,
@@ -11772,11 +11772,11 @@
             "pn": "redis",
             "pr": "r0",
             "provides": "redis ",
-            "pv": "7.0-rc3",
+            "pv": "7.0.2",
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2022-07-26T15:07:07+0000"
+            "updated": "2022-07-27T20:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -11784,7 +11784,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Redis is an open source, advanced key-value store.",
-            "filename": "redis_6.2.6.bb",
+            "filename": "redis_6.2.7.bb",
             "filepath": "recipes-extended/redis",
             "homepage": "http://redis.io",
             "id": 1600204,
@@ -11795,11 +11795,11 @@
             "pn": "redis",
             "pr": "r0",
             "provides": "redis ",
-            "pv": "6.2.6",
+            "pv": "6.2.7",
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2022-07-26T15:07:07+0000"
+            "updated": "2022-07-27T20:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -18860,7 +18860,7 @@
             "section": "base",
             "srcrev": "aee53e8dee862f35291242ba41b0ca88010f6c71",
             "summary": "",
-            "updated": "2022-07-26T15:07:40+0000"
+            "updated": "2022-07-27T20:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -19857,7 +19857,7 @@
             "bugtracker": "",
             "configopts": "-Dintrospection=true      -Dudevdir=/lib/udev     -Dqrtr=false   -Dmbim=true -Dpolkit=no -Dqmi=true -Dqrtr=false      -Dsystemdsystemunitdir=no -Dsystemd_journal=false -Dsystemd_suspend_resume=false  -Dvapi=true",
             "description": "ModemManager is a DBus-activated daemon which controls mobile broadband (2G/3G/4G) devices and connections",
-            "filename": "modemmanager_1.18.6.bb",
+            "filename": "modemmanager_1.18.8.bb",
             "filepath": "recipes-connectivity/modemmanager",
             "homepage": "http://www.freedesktop.org/wiki/Software/ModemManager/",
             "id": 1600555,
@@ -19868,11 +19868,11 @@
             "pn": "modemmanager",
             "pr": "r0",
             "provides": "modemmanager ",
-            "pv": "1.18.6",
+            "pv": "1.18.8",
             "section": "base",
-            "srcrev": "a7bcf2036b34d5043dbc33fee7d98bae5859c4d3",
+            "srcrev": "0d8b5e93fc62eb0f41e18a2d9d845331d7af36ec",
             "summary": "ModemManager is a daemon controlling broadband devices/connections",
-            "updated": "2022-07-26T15:07:53+0000"
+            "updated": "2022-07-27T20:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -20131,9 +20131,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --enable-dependency-tracking     --enable-agent     --enable-ipv6     --with-net-snmp     --with-ldap=/tmp/tmpznu47tsl/tmp-glibc/work/qemux86-oe-linux/zabbix/5.2.6-r0/recipe-sysroot/usr     --with-unixodbc     --with-ssh2     --with-sqlite3     --with-zlib     --with-libpthread     --with-libevent     --with-libpcre=/tmp/tmpznu47tsl/tmp-glibc/work/qemux86-oe-linux/zabbix/5.2.6-r0/recipe-sysroot/usr     --with-iconv=/tmp/tmpznu47tsl/tmp-glibc/work/qemux86-oe-linux/zabbix/5.2.6-r0/recipe-sysroot/usr  ",
+            "configopts": "     --enable-dependency-tracking     --enable-agent     --enable-ipv6     --with-net-snmp     --with-ldap=/tmp/tmp9gmb66ww/tmp-glibc/work/qemux86-oe-linux/zabbix/5.4.12-r0/recipe-sysroot/usr     --with-unixodbc     --with-ssh2     --with-sqlite3     --with-zlib     --with-libpthread     --with-libevent     --with-libpcre=/tmp/tmp9gmb66ww/tmp-glibc/work/qemux86-oe-linux/zabbix/5.4.12-r0/recipe-sysroot/usr     --with-iconv=/tmp/tmp9gmb66ww/tmp-glibc/work/qemux86-oe-linux/zabbix/5.4.12-r0/recipe-sysroot/usr  ",
             "description": "ZABBIX is software that monitors numerous parameters of a network and the health and integrity of servers. ZABBIX uses a flexible notification mechanism that allows users to configure e-mail based alerts for virtually any event. This allows a fast reaction to server problems. ZABBIX offers excellent reporting and data visualisation features based on the stored data. This makes ZABBIX ideal for capacity planning. ZABBIX supports both polling and trapping. All ZABBIX reports and statistics, as well as configuration parameters are accessed through a web-based front end. A web-based front end ensures that the status of your network and the health of your servers can be assessed from any location. Properly configured, ZABBIX can play an important role in monitoring IT infrastructure. This is equally true for small organisations with a few servers and for large companies with a multitude of servers.",
-            "filename": "zabbix_5.2.6.bb",
+            "filename": "zabbix_5.4.12.bb",
             "filepath": "recipes-connectivity/zabbix",
             "homepage": "http://www.zabbix.com/",
             "id": 1600567,
@@ -20144,11 +20144,11 @@
             "pn": "zabbix",
             "pr": "r0",
             "provides": "zabbix ",
-            "pv": "5.2.6",
+            "pv": "5.4.12",
             "section": "Applications/Internet",
             "srcrev": "",
             "summary": "Open-source monitoring solution for your IT infrastructure",
-            "updated": "2022-07-26T15:07:57+0000"
+            "updated": "2022-07-27T20:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -20562,7 +20562,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Apache Thrift",
-            "updated": "2022-07-26T15:07:02+0000"
+            "updated": "2022-07-27T20:07:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",

@@ -436,9 +436,9 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 6,
+            "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-07-26T07:07:10+0000",
+            "updated": "2022-07-29T07:07:07+0000",
             "updates_enabled": true
         }
     ],
@@ -460,58 +460,58 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-07-19T00:07:52+0000",
-            "vcs_last_commit": "2022-07-18T06:07:43+0000",
-            "vcs_last_fetch": "2022-07-19T00:07:52+0000",
-            "vcs_last_rev": "0ca21ef3608d4e4211a2c7856f155416ca96426b",
+            "updated": "2022-07-29T00:07:36+0000",
+            "vcs_last_commit": "2022-07-28T23:07:08+0000",
+            "vcs_last_fetch": "2022-07-29T00:07:36+0000",
+            "vcs_last_rev": "dfd4d067fa34d2babd0a1ae2bff52f64cc003ff8",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-07-26T15:07:03+0000",
-            "vcs_last_commit": "2022-07-18T19:07:56+0000",
-            "vcs_last_fetch": "2022-07-26T15:07:03+0000",
-            "vcs_last_rev": "6dc516bfe94b6f70aa5f913d9d55e7cdb1b4cf55",
+            "updated": "2022-07-27T20:07:46+0000",
+            "vcs_last_commit": "2022-07-26T19:07:01+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:46+0000",
+            "vcs_last_rev": "e734257230d0e8d65750a7a2053795bf6ebcf2d0",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "filesystems-layer",
             "id": 904831,
             "layer": 8,
             "local_path": "",
-            "updated": "2022-07-13T23:07:41+0000",
-            "vcs_last_commit": "2022-06-15T06:06:55+0000",
-            "vcs_last_fetch": "2022-07-13T23:07:41+0000",
-            "vcs_last_rev": "fad4c407c9cb58353fc94133888c898abb969b50",
+            "updated": "2022-07-27T20:07:51+0000",
+            "vcs_last_commit": "2022-07-09T12:07:44+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:51+0000",
+            "vcs_last_rev": "4eaa3091e65723730a2fdbf84f8fc57a98f5db47",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2022-07-13T23:07:54+0000",
+            "updated": "2022-07-27T20:07:32+0000",
             "vcs_last_commit": "2022-06-22T16:06:05+0000",
             "vcs_last_fetch": "2022-07-13T23:07:54+0000",
             "vcs_last_rev": "16621ac526d287c3764109b2fbc71d2f5146433e",
@@ -520,13 +520,13 @@
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "multimedia-layer",
             "id": 904835,
             "layer": 16,
             "local_path": "",
-            "updated": "2022-07-13T23:07:28+0000",
+            "updated": "2022-07-27T20:07:32+0000",
             "vcs_last_commit": "2022-05-30T13:05:07+0000",
             "vcs_last_fetch": "2022-06-22T23:06:12+0000",
             "vcs_last_rev": "6104aead933382cd1d627bb6b9fe1b68195c878d",
@@ -535,28 +535,28 @@
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "networking-layer",
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-07-13T23:07:45+0000",
-            "vcs_last_commit": "2022-07-12T19:07:23+0000",
-            "vcs_last_fetch": "2022-07-13T23:07:45+0000",
-            "vcs_last_rev": "68b4c06310e7d112e716cbe4c6a87cf099b66c3b",
+            "updated": "2022-07-27T20:07:05+0000",
+            "vcs_last_commit": "2022-07-26T19:07:01+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:05+0000",
+            "vcs_last_rev": "c67b24045ab117825f626a245bb1c7273960b392",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "gnome-layer",
             "id": 904856,
             "layer": 15,
             "local_path": "",
-            "updated": "2022-07-13T23:07:28+0000",
+            "updated": "2022-07-27T20:07:32+0000",
             "vcs_last_commit": "2022-06-03T06:06:59+0000",
             "vcs_last_fetch": "2022-06-22T23:06:14+0000",
             "vcs_last_rev": "79e28d1c8748e6ac1044d01fcf0e17daedf137e0",
@@ -565,28 +565,28 @@
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "virtualization-layer",
             "id": 904858,
             "layer": 45,
             "local_path": "",
-            "updated": "2022-07-22T09:07:52+0000",
-            "vcs_last_commit": "2022-07-20T16:07:51+0000",
-            "vcs_last_fetch": "2022-07-22T09:07:52+0000",
-            "vcs_last_rev": "ee980d9353e2ee18238b91ec6009243fb7c2b786",
+            "updated": "2022-07-27T20:07:24+0000",
+            "vcs_last_commit": "2022-07-26T19:07:02+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:24+0000",
+            "vcs_last_rev": "8a1df288765b878c704fea8864db60af0064c712",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "xfce-layer",
             "id": 904875,
             "layer": 5,
             "local_path": "",
-            "updated": "2022-07-13T23:07:09+0000",
+            "updated": "2022-07-27T20:07:32+0000",
             "vcs_last_commit": "2022-07-04T06:07:20+0000",
             "vcs_last_fetch": "2022-07-13T23:07:09+0000",
             "vcs_last_rev": "6ff027e8d33414fe03fa41ae80c065a54c0cb1ad",
@@ -601,10 +601,10 @@
             "id": 904881,
             "layer": 421,
             "local_path": "",
-            "updated": "2022-07-21T23:07:46+0000",
-            "vcs_last_commit": "2022-07-21T22:07:55+0000",
-            "vcs_last_fetch": "2022-07-21T23:07:46+0000",
-            "vcs_last_rev": "4700a0e6e48ba7a74f954dab9725847d78edb719",
+            "updated": "2022-07-29T00:07:01+0000",
+            "vcs_last_commit": "2022-07-29T00:07:55+0000",
+            "vcs_last_fetch": "2022-07-29T00:07:01+0000",
+            "vcs_last_rev": "d06ec5dd7f351eb976b63dde9514961b4321a6d0",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -887,7 +887,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-Boot boot.scr SD boot environment generation for ARM targets",
-            "updated": "2022-07-21T03:07:45+0000"
+            "updated": "2022-07-29T00:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1048,7 +1048,7 @@
             "section": "base",
             "srcrev": "5890b72bd68673738b38e67019dadcbcaf643ed8",
             "summary": "Provide wic tool",
-            "updated": "2022-07-21T03:07:47+0000"
+            "updated": "2022-07-29T00:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1071,7 +1071,7 @@
             "section": "base",
             "srcrev": "5890b72bd68673738b38e67019dadcbcaf643ed8",
             "summary": "Provide wic tool",
-            "updated": "2022-07-21T03:07:47+0000"
+            "updated": "2022-07-29T00:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1154,7 +1154,7 @@
             "id": 1591439,
             "inherits": "image-artifact-names native nopackages python3-dir python3native python3targetconfig python_pep517 qemuboot relocatable setuptools3 setuptools3-base",
             "layerbranch": 904881,
-            "license": "GPLv2",
+            "license": "GPL-2.0-only",
             "pe": "",
             "pn": "genimage-native",
             "pr": "r0",
@@ -1163,7 +1163,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Full image create script",
-            "updated": "2022-07-21T03:07:48+0000"
+            "updated": "2022-07-29T00:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1177,7 +1177,7 @@
             "id": 1591440,
             "inherits": "nativesdk python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 904881,
-            "license": "GPLv2",
+            "license": "GPL-2.0-only",
             "pe": "",
             "pn": "nativesdk-genimage",
             "pr": "r0",
@@ -1186,7 +1186,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Full image create script",
-            "updated": "2022-07-21T03:07:49+0000"
+            "updated": "2022-07-29T00:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1209,7 +1209,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-21T21:07:48+0000"
+            "updated": "2022-07-29T00:07:00+0000"
         }
     ],
     "wrtemplates": [

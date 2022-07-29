@@ -436,52 +436,52 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 6,
+            "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-07-26T07:07:10+0000",
+            "updated": "2022-07-29T07:07:07+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-07-19T00:07:52+0000",
-            "vcs_last_commit": "2022-07-18T06:07:43+0000",
-            "vcs_last_fetch": "2022-07-19T00:07:52+0000",
-            "vcs_last_rev": "0ca21ef3608d4e4211a2c7856f155416ca96426b",
+            "updated": "2022-07-29T00:07:36+0000",
+            "vcs_last_commit": "2022-07-28T23:07:08+0000",
+            "vcs_last_fetch": "2022-07-29T00:07:36+0000",
+            "vcs_last_rev": "dfd4d067fa34d2babd0a1ae2bff52f64cc003ff8",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-07-26T15:07:03+0000",
-            "vcs_last_commit": "2022-07-18T19:07:56+0000",
-            "vcs_last_fetch": "2022-07-26T15:07:03+0000",
-            "vcs_last_rev": "6dc516bfe94b6f70aa5f913d9d55e7cdb1b4cf55",
+            "updated": "2022-07-27T20:07:46+0000",
+            "vcs_last_commit": "2022-07-26T19:07:01+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:46+0000",
+            "vcs_last_rev": "e734257230d0e8d65750a7a2053795bf6ebcf2d0",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2022-07-13T23:07:54+0000",
+            "updated": "2022-07-27T20:07:32+0000",
             "vcs_last_commit": "2022-06-22T16:06:05+0000",
             "vcs_last_fetch": "2022-07-13T23:07:54+0000",
             "vcs_last_rev": "16621ac526d287c3764109b2fbc71d2f5146433e",
@@ -490,13 +490,13 @@
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "perl-layer",
             "id": 904834,
             "layer": 13,
             "local_path": "",
-            "updated": "2022-07-13T23:07:28+0000",
+            "updated": "2022-07-27T20:07:32+0000",
             "vcs_last_commit": "2022-05-03T06:05:08+0000",
             "vcs_last_fetch": "2022-06-22T23:06:03+0000",
             "vcs_last_rev": "cac98ae0ab6454dd0b68d03b5202eca31d352f44",
@@ -505,31 +505,31 @@
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "networking-layer",
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-07-13T23:07:45+0000",
-            "vcs_last_commit": "2022-07-12T19:07:23+0000",
-            "vcs_last_fetch": "2022-07-13T23:07:45+0000",
-            "vcs_last_rev": "68b4c06310e7d112e716cbe4c6a87cf099b66c3b",
+            "updated": "2022-07-27T20:07:05+0000",
+            "vcs_last_commit": "2022-07-26T19:07:01+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:05+0000",
+            "vcs_last_rev": "c67b24045ab117825f626a245bb1c7273960b392",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220622",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "security",
             "id": 904857,
             "layer": 18,
             "local_path": "",
-            "updated": "2022-06-22T23:06:27+0000",
-            "vcs_last_commit": "2022-06-21T19:06:53+0000",
-            "vcs_last_fetch": "2022-06-22T23:06:27+0000",
-            "vcs_last_rev": "f56e2dc1a22645f8fcef2a277aaa37d568117edd",
+            "updated": "2022-07-27T20:07:14+0000",
+            "vcs_last_commit": "2022-07-26T19:07:01+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:14+0000",
+            "vcs_last_rev": "8f2fc0fec9be6a8115a7095ee1c3ef3463e805e7",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -804,7 +804,7 @@
             "section": "security",
             "srcrev": "c389dfa4c3af92b006ada4f7595bbc3e6df3f356",
             "summary": "ClamAV anti-virus utility for Unix - command-line interface",
-            "updated": "2022-04-26T21:04:05+0000"
+            "updated": "2022-07-27T20:07:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -1086,7 +1086,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      --disable-cifs-idmap-plugin     --without-nfsv4-idmapd-plugin     --without-ipa-getkeytab     --without-python2-bindings     --enable-pammoddir=/lib/security     --without-python2-bindings     --without-secrets     --with-xml-catalog-path=/tmp/tmpbvo9v9q7/tmp-glibc/work/core2-32-oe-linux/sssd/2.5.2-r0/recipe-sysroot-native/etc/xml/catalog     --with-pid-path=/run   --with-autofs    --without-kcm --with-infopipe  --with-manpages=no  --with-libnl=no --with-nscd=/usr/sbin  --without-python3-bindings  --with-samba=no  --with-selinux=no --with-semanage=no  --with-ssh=no --with-sudo --with-initscript=sysv --enable-nls",
+            "configopts": "      --disable-cifs-idmap-plugin     --without-nfsv4-idmapd-plugin     --without-ipa-getkeytab     --without-python2-bindings     --enable-pammoddir=/lib/security     --without-python2-bindings     --without-secrets     --with-xml-catalog-path=/tmp/tmpbmwpo5cl/tmp-glibc/work/core2-32-oe-linux/sssd/2.5.2-r0/recipe-sysroot-native/etc/xml/catalog     --with-pid-path=/run   --with-autofs    --without-kcm --with-infopipe  --with-manpages=no  --with-libnl=no --with-nscd=/usr/sbin  --without-python3-bindings  --with-samba=no  --with-selinux=no --with-semanage=no  --with-ssh=no --with-sudo --with-initscript=sysv --enable-nls",
             "description": "SSSD is a system security services daemon",
             "filename": "sssd_2.5.2.bb",
             "filepath": "recipes-security/sssd",
@@ -1103,7 +1103,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "system security services daemon",
-            "updated": "2022-04-26T21:04:08+0000"
+            "updated": "2022-07-27T20:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1310,7 +1310,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "identity, multifactor authentication (OTP), authorization, audit",
-            "updated": "2022-04-26T21:04:12+0000"
+            "updated": "2022-07-27T20:07:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -1414,7 +1414,7 @@
             "filepath": "recipes-security/libmhash",
             "homepage": "http://mhash.sourceforge.net/",
             "id": 1536218,
-            "inherits": "autotools autotools-brokensep ptest siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep multilib_header ptest siteconfig siteinfo",
             "layerbranch": 904857,
             "license": "LGPL-2.0-only",
             "pe": "",
@@ -1425,7 +1425,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Library of hashing algorithms.",
-            "updated": "2022-04-26T21:04:13+0000"
+            "updated": "2022-07-27T20:07:13+0000"
         },
         {
             "bbclassextend": "",

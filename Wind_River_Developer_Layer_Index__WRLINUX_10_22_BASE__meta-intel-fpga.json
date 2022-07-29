@@ -436,25 +436,25 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 6,
+            "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-07-26T07:07:10+0000",
+            "updated": "2022-07-29T07:07:07+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "meta-intel-fpga",
             "id": 908617,
             "layer": 380,
             "local_path": "",
-            "updated": "2022-07-13T23:07:05+0000",
-            "vcs_last_commit": "2022-07-12T19:07:02+0000",
-            "vcs_last_fetch": "2022-07-13T23:07:05+0000",
-            "vcs_last_rev": "ed28736f2fbb734882adf1ebcf66ecb6ab619781",
+            "updated": "2022-07-27T20:07:03+0000",
+            "vcs_last_commit": "2022-07-26T19:07:01+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:03+0000",
+            "vcs_last_rev": "f54f48737be970da0a2205ae2e18e2d31eebf1ce",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -629,9 +629,9 @@
             "provides": "u-boot-socfpga virtual/bootloader",
             "pv": "v2022.01+gitX",
             "section": "bootloaders",
-            "srcrev": "84763e7db2f4bd79aa592f7dcdb2a2100b6283a1",
+            "srcrev": "a25cec4490b1c4d9b9d5c04f088915c9da01cabc",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-07-13T23:07:05+0000"
+            "updated": "2022-07-27T20:07:03+0000"
         },
         {
             "bbclassextend": "",

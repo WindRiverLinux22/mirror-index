@@ -436,52 +436,52 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 6,
+            "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-07-26T07:07:10+0000",
+            "updated": "2022-07-29T07:07:07+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-07-19T00:07:52+0000",
-            "vcs_last_commit": "2022-07-18T06:07:43+0000",
-            "vcs_last_fetch": "2022-07-19T00:07:52+0000",
-            "vcs_last_rev": "0ca21ef3608d4e4211a2c7856f155416ca96426b",
+            "updated": "2022-07-29T00:07:36+0000",
+            "vcs_last_commit": "2022-07-28T23:07:08+0000",
+            "vcs_last_fetch": "2022-07-29T00:07:36+0000",
+            "vcs_last_rev": "dfd4d067fa34d2babd0a1ae2bff52f64cc003ff8",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-07-26T15:07:03+0000",
-            "vcs_last_commit": "2022-07-18T19:07:56+0000",
-            "vcs_last_fetch": "2022-07-26T15:07:03+0000",
-            "vcs_last_rev": "6dc516bfe94b6f70aa5f913d9d55e7cdb1b4cf55",
+            "updated": "2022-07-27T20:07:46+0000",
+            "vcs_last_commit": "2022-07-26T19:07:01+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:46+0000",
+            "vcs_last_rev": "e734257230d0e8d65750a7a2053795bf6ebcf2d0",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2022-07-13T23:07:54+0000",
+            "updated": "2022-07-27T20:07:32+0000",
             "vcs_last_commit": "2022-06-22T16:06:05+0000",
             "vcs_last_fetch": "2022-07-13T23:07:54+0000",
             "vcs_last_rev": "16621ac526d287c3764109b2fbc71d2f5146433e",
@@ -490,16 +490,16 @@
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "networking-layer",
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-07-13T23:07:45+0000",
-            "vcs_last_commit": "2022-07-12T19:07:23+0000",
-            "vcs_last_fetch": "2022-07-13T23:07:45+0000",
-            "vcs_last_rev": "68b4c06310e7d112e716cbe4c6a87cf099b66c3b",
+            "updated": "2022-07-27T20:07:05+0000",
+            "vcs_last_commit": "2022-07-26T19:07:01+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:05+0000",
+            "vcs_last_rev": "c67b24045ab117825f626a245bb1c7273960b392",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
@@ -764,7 +764,7 @@
             "section": "net",
             "srcrev": "5ccca75a69f99791659bcfbcf35353ab1921320a",
             "summary": "OpenFlow communications protocol",
-            "updated": "2022-04-26T21:04:59+0000"
+            "updated": "2022-07-27T20:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -787,7 +787,7 @@
             "section": "net",
             "srcrev": "c84f33f09d5dbcfc9b489f64cb30475bf36f653a",
             "summary": "OpenFlow communications protocol",
-            "updated": "2022-04-26T21:04:59+0000"
+            "updated": "2022-07-27T20:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -856,7 +856,7 @@
             "section": "base",
             "srcrev": "a10cd498d964508c0e6ec6bd2be9dd4afcbb4d86",
             "summary": "",
-            "updated": "2022-04-26T21:04:01+0000"
+            "updated": "2022-07-27T20:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1063,7 +1063,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "BGP/OSPF/RIP routing daemon",
-            "updated": "2022-04-26T21:04:04+0000"
+            "updated": "2022-07-27T20:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1830,7 +1830,7 @@
             "bugtracker": "",
             "configopts": " -DENABLE_NETLINK=ON                   -DBUILD_mmdbresolve=OFF                   -DBUILD_randpktdump=OFF                   -DBUILD_androiddump=OFF                   -DBUILD_dcerpcidl2wrs=OFF                   -DM_INCLUDE_DIR=/usr/include                   -DM_LIBRARY=/usr/lib                    -DENABLE_CARES=OFF -DENABLE_GNUTLS=ON -DENABLE_KRB5=OFF -DENABLE_CAP=ON -DENABLE_PCAP=ON -DENABLE_SMI=OFF -DENABLE_LUA=OFF -DENABLE_LZ4=OFF -DENABLE_PLUGINS=OFF -DENABLE_PORTAUDIO=OFF  -DENABLE_QT5=OFF -DBUILD_wireshark=OFF -DENABLE_SBC=ON -DENABLE_ZLIB=OFF -DENABLE_ZSTD=OFF",
             "description": "wireshark - a popular network protocol analyzer",
-            "filename": "wireshark_3.4.11.bb",
+            "filename": "wireshark_3.4.12.bb",
             "filepath": "recipes-support/wireshark",
             "homepage": "http://www.wireshark.org",
             "id": 1535925,
@@ -1841,11 +1841,11 @@
             "pn": "wireshark",
             "pr": "r0",
             "provides": "wireshark ",
-            "pv": "3.4.11",
+            "pv": "3.4.12",
             "section": "net",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T21:04:15+0000"
+            "updated": "2022-07-27T20:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2305,7 +2305,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple Protocol for Independent Computing Environments",
-            "updated": "2022-04-26T21:04:22+0000"
+            "updated": "2022-07-27T20:07:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2794,7 +2794,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-net-snmp-config=no                  --without-ntpsnmpd                  ac_cv_header_readline_history_h=no                  --with-yielding_select=yes                  --with-locfile=redhat                  --without-rpath                    --enable-linuxcaps --enable-debugging --enable-ipv6 ac_cv_header_dns_sd_h=no --with-openssl-libdir=/tmp/tmplsz2gtwr/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/lib                           --with-openssl-incdir=/tmp/tmplsz2gtwr/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/include                           --with-crypto --without-lineeditlibs --enable-all-clocks",
+            "configopts": " --with-net-snmp-config=no                  --without-ntpsnmpd                  ac_cv_header_readline_history_h=no                  --with-yielding_select=yes                  --with-locfile=redhat                  --without-rpath                    --enable-linuxcaps --enable-debugging --enable-ipv6 ac_cv_header_dns_sd_h=no --with-openssl-libdir=/tmp/tmp2gg8nai8/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/lib                           --with-openssl-incdir=/tmp/tmp2gg8nai8/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/include                           --with-crypto --without-lineeditlibs --enable-all-clocks",
             "description": "The Network Time Protocol (NTP) is used to synchronize the time of a computer client or server to another server or reference time source, such as a radio or satellite receiver or modem.",
             "filename": "ntp_4.2.8p15.bb",
             "filepath": "recipes-support/ntp",
@@ -2811,7 +2811,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Network Time Protocol daemon and utilities",
-            "updated": "2022-04-26T21:04:29+0000"
+            "updated": "2022-07-27T20:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4122,7 +4122,7 @@
             "section": "libs",
             "srcrev": "7a6b45b177070198fed0682bea5fa87c18abb084",
             "summary": "Generic client/server library for SASL authentication",
-            "updated": "2022-04-26T21:04:47+0000"
+            "updated": "2022-07-27T20:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -4519,13 +4519,13 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-strict-dependencies         --with-docdir=/usr/share/doc/freeradius-3.0.21         --with-openssl-includes=/tmp/tmplsz2gtwr/tmp-glibc/work/core2-32-oe-linux/freeradius/3.0.21-r0/recipe-sysroot/usr/include         --with-openssl-libraries=/tmp/tmplsz2gtwr/tmp-glibc/work/core2-32-oe-linux/freeradius/3.0.21-r0/recipe-sysroot/usr/lib         --without-rlm_ippool         --without-rlm_cache_memcached         --without-rlm_counter         --without-rlm_couchbase         --without-rlm_dbm         --without-rlm_eap_tnc         --without-rlm_eap_ikev2         --without-rlm_opendirectory         --without-rlm_redis         --without-rlm_rediswho         --without-rlm_sql_db2         --without-rlm_sql_firebird         --without-rlm_sql_freetds         --without-rlm_sql_iodbc         --without-rlm_sql_oracle         --without-rlm_sql_sybase         --without-rlm_sql_mongo         --without-rlm_sqlhpwippool         --without-rlm_securid         --without-rlm_unbound         --without-rlm_python         ac_cv_path_PERL=/usr/bin/perl         ax_cv_cc_builtin_choose_expr=no         ax_cv_cc_builtin_types_compatible_p=no         ax_cv_cc_builtin_bswap64=no         ax_cv_cc_bounded_attribute=no   --without-rlm_krb5 --without-rlm_ldap --with-libcap --without-rlm_sql_mysql --with-openssl --without-rlm_pam --with-pcre --without-rlm_perl --without-rlm_sql_postgresql --without-rlm_python3 --without-rlm_rest --with-rlm_eap_fast --with-rlm_eap_pwd --without-rlm_ruby --without-rlm_sql_sqlite --without-rlm_sql_unixodbc",
+            "configopts": " --enable-strict-dependencies         --with-docdir=/usr/share/doc/freeradius-3.0.21         --with-openssl-includes=/tmp/tmp2gg8nai8/tmp-glibc/work/core2-32-oe-linux/freeradius/3.0.21-r0/recipe-sysroot/usr/include         --with-openssl-libraries=/tmp/tmp2gg8nai8/tmp-glibc/work/core2-32-oe-linux/freeradius/3.0.21-r0/recipe-sysroot/usr/lib         --with-raddbdir=/etc/raddb         --without-rlm_ippool         --without-rlm_cache_memcached         --without-rlm_counter         --without-rlm_couchbase         --without-rlm_dbm         --without-rlm_eap_tnc         --without-rlm_eap_ikev2         --without-rlm_opendirectory         --without-rlm_redis         --without-rlm_rediswho         --without-rlm_sql_db2         --without-rlm_sql_firebird         --without-rlm_sql_freetds         --without-rlm_sql_iodbc         --without-rlm_sql_oracle         --without-rlm_sql_sybase         --without-rlm_sql_mongo         --without-rlm_sqlhpwippool         --without-rlm_securid         --without-rlm_unbound         --without-rlm_python         ac_cv_path_PERL=/usr/bin/perl         ax_cv_cc_builtin_choose_expr=no         ax_cv_cc_builtin_types_compatible_p=no         ax_cv_cc_builtin_bswap64=no         ax_cv_cc_bounded_attribute=no   --without-rlm_krb5 --without-rlm_ldap --with-libcap --without-rlm_sql_mysql --with-openssl --without-rlm_pam --with-pcre --without-rlm_perl --without-rlm_sql_postgresql --without-rlm_python3 --without-rlm_rest --with-rlm_eap_fast --with-rlm_eap_pwd --without-rlm_ruby --without-rlm_sql_sqlite --without-rlm_sql_unixodbc",
             "description": "FreeRADIUS is an Internet authentication daemon, which implements the RADIUS protocol, as defined in RFC 2865 (and others). It allows Network Access Servers (NAS boxes) to perform authentication for dial-up users. There are also RADIUS clients available for Web servers, firewalls, Unix logins, and more.  Using RADIUS allows authentication and authorization for a network to be centralized, and minimizes the amount of re-configuration which has to be done when adding or deleting new users.",
             "filename": "freeradius_3.0.21.bb",
             "filepath": "recipes-connectivity/freeradius",
             "homepage": "http://www.freeradius.org/",
             "id": 1536042,
-            "inherits": "autotools autotools-brokensep cpan-base perl-version python3-dir siteconfig siteinfo systemd update-rc.d useradd useradd_base",
+            "inherits": "autotools autotools-brokensep cpan-base multilib_header multilib_script perl-version python3-dir siteconfig siteinfo systemd update-alternatives update-rc.d useradd useradd_base",
             "layerbranch": 904855,
             "license": "GPL-2.0-only & LGPL-2.0-or-later",
             "pe": "",
@@ -4536,7 +4536,7 @@
             "section": "System/Servers",
             "srcrev": "af428abda249b2279ba0582180985a9f6f4a144a",
             "summary": "High-performance and highly configurable RADIUS server",
-            "updated": "2022-04-26T21:04:55+0000"
+            "updated": "2022-07-27T20:07:03+0000"
         },
         {
             "bbclassextend": "",

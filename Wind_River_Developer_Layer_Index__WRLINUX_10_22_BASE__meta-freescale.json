@@ -436,40 +436,40 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 6,
+            "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-07-26T07:07:10+0000",
+            "updated": "2022-07-29T07:07:07+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-07-19T00:07:52+0000",
-            "vcs_last_commit": "2022-07-18T06:07:43+0000",
-            "vcs_last_fetch": "2022-07-19T00:07:52+0000",
-            "vcs_last_rev": "0ca21ef3608d4e4211a2c7856f155416ca96426b",
+            "updated": "2022-07-29T00:07:36+0000",
+            "vcs_last_commit": "2022-07-28T23:07:08+0000",
+            "vcs_last_fetch": "2022-07-29T00:07:36+0000",
+            "vcs_last_rev": "dfd4d067fa34d2babd0a1ae2bff52f64cc003ff8",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220727",
             "branch": 292,
             "collection": "freescale-layer",
             "id": 907928,
             "layer": 231,
             "local_path": "",
-            "updated": "2022-07-13T23:07:16+0000",
-            "vcs_last_commit": "2022-07-12T19:07:26+0000",
-            "vcs_last_fetch": "2022-07-13T23:07:16+0000",
-            "vcs_last_rev": "fb1ca6e5aac432866373557278932175cee31819",
+            "updated": "2022-07-27T20:07:34+0000",
+            "vcs_last_commit": "2022-07-26T19:07:19+0000",
+            "vcs_last_fetch": "2022-07-27T20:07:34+0000",
+            "vcs_last_rev": "7d3438a8da7c3740614273d6fe515c4a2b05dd87",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -542,7 +542,7 @@
             "id": 50260,
             "layerbranch": 907928,
             "name": "imx8dx-mek",
-            "updated": "2022-06-22T23:06:56+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "description": " NXP i.MX6ULZ 14x14 EVK",
@@ -570,7 +570,7 @@
             "id": 50264,
             "layerbranch": 907928,
             "name": "imx8qxp-mek",
-            "updated": "2022-05-30T03:05:42+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "description": " NXP i.MX6QP/Q/DL SABRE Smart Device",
@@ -633,14 +633,14 @@
             "id": 50273,
             "layerbranch": 907928,
             "name": "mpc8548cds",
-            "updated": "2022-05-30T03:05:42+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "description": "i.MX 8QuadMax Multisensory Enablement Kit board, rev B0",
             "id": 50274,
             "layerbranch": 907928,
             "name": "imx8qm-mek",
-            "updated": "2022-06-22T23:06:56+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "description": " NXP i.MX6UL EVK",
@@ -731,7 +731,7 @@
             "id": 50287,
             "layerbranch": 907928,
             "name": "imx8dxl-ddr3l-evk",
-            "updated": "2022-05-30T03:05:42+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "description": " NXP QorIQ P4080 Development",
@@ -808,7 +808,7 @@
             "id": 50298,
             "layerbranch": 907928,
             "name": "ls1046ardb",
-            "updated": "2022-05-30T03:05:42+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "description": " LX2160ARDB in 64-bit mode",
@@ -822,7 +822,7 @@
             "id": 50300,
             "layerbranch": 907928,
             "name": "imx8dxl-lpddr4-evk",
-            "updated": "2022-06-22T23:06:56+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "description": " LS1028ARDB in 64-bit mode",
@@ -1022,22 +1022,22 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "cst_git.bb",
-            "filepath": "recipes-devtools/cst",
+            "filename": "qoriq-cst_git.bb",
+            "filepath": "recipes-devtools/qoriq-cst",
             "homepage": "",
             "id": 1558205,
             "inherits": "kernel-arch",
             "layerbranch": 907928,
             "license": "BSD-3-Clause",
             "pe": "",
-            "pn": "cst",
+            "pn": "qoriq-cst",
             "pr": "r0",
-            "provides": "cst ",
+            "provides": "qoriq-cst ",
             "pv": "git",
             "section": "cst",
             "srcrev": "dfe30d3f05cfe281896482839e57ed49c52f2088",
             "summary": "utility for security boot",
-            "updated": "2022-05-30T03:05:43+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2049,7 +2049,7 @@
             "section": "base",
             "srcrev": "bb4957067d4b96a6ee197a333425948e409e990d",
             "summary": "",
-            "updated": "2022-05-30T03:05:47+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -3392,7 +3392,7 @@
             "configopts": " ",
             "description": "OPTEE OS",
             "filename": "optee-os-qoriq_3.13.0.bb",
-            "filepath": "recipes-security/optee",
+            "filepath": "recipes-security/optee-qoriq",
             "homepage": "http://www.optee.org/",
             "id": 1558308,
             "inherits": "autotools deploy python3-dir python3native siteconfig siteinfo",
@@ -3406,16 +3406,16 @@
             "section": "base",
             "srcrev": "735d98806dc26fbeeecad7f5e60ffeab8170c67e",
             "summary": "OPTEE OS",
-            "updated": "2022-05-30T03:05:53+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DOPTEE_TEST_SDK=/tmp/tmpws5lj5vk/tmp-glibc/work/qemux86-oe-linux/optee-test-qoriq/3.13.0+gitX-r0/recipe-sysroot/usr/include/optee/export-user_ta  ",
+            "configopts": "     -DOPTEE_TEST_SDK=/tmp/tmpvbv72mvt/tmp-glibc/work/qemux86-oe-linux/optee-test-qoriq/3.13.0+gitX-r0/recipe-sysroot/usr/include/optee/export-user_ta  ",
             "description": "",
             "filename": "optee-test-qoriq_3.13.0.bb",
-            "filepath": "recipes-security/optee",
+            "filepath": "recipes-security/optee-qoriq",
             "homepage": "http://www.optee.org/",
             "id": 1558309,
             "inherits": "cmake python3-dir python3native",
@@ -3429,7 +3429,7 @@
             "section": "base",
             "srcrev": "69722dab8c1f2683e30e0ee3b536053367e37aad",
             "summary": "OPTEE test",
-            "updated": "2022-05-30T03:05:53+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -3438,7 +3438,7 @@
             "configopts": "",
             "description": "",
             "filename": "optee-client-qoriq_3.13.0.bb",
-            "filepath": "recipes-security/optee",
+            "filepath": "recipes-security/optee-qoriq",
             "homepage": "http://www.optee.org/",
             "id": 1558310,
             "inherits": "python3-dir python3native systemd",
@@ -3452,7 +3452,7 @@
             "section": "base",
             "srcrev": "7c9c423d00e96bf51debd5fe10fd70dce83be5cc",
             "summary": "OPTEE Client libs",
-            "updated": "2022-05-30T03:05:53+0000"
+            "updated": "2022-07-27T20:07:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4280,7 +4280,7 @@
             "section": "base",
             "srcrev": "7859a762617682bd804e210ad3bda6bdcd3ea24a",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2022-06-22T23:06:58+0000"
+            "updated": "2022-07-27T20:07:34+0000"
         },
         {
             "bbclassextend": "",
