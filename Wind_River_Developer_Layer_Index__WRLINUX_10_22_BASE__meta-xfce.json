@@ -438,7 +438,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-07-29T07:07:07+0000",
+            "updated": "2022-08-09T00:08:10+0000",
             "updates_enabled": true
         }
     ],
@@ -451,10 +451,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-07-29T00:07:36+0000",
-            "vcs_last_commit": "2022-07-28T23:07:08+0000",
-            "vcs_last_fetch": "2022-07-29T00:07:36+0000",
-            "vcs_last_rev": "dfd4d067fa34d2babd0a1ae2bff52f64cc003ff8",
+            "updated": "2022-08-02T02:08:58+0000",
+            "vcs_last_commit": "2022-08-02T02:08:56+0000",
+            "vcs_last_fetch": "2022-08-02T02:08:58+0000",
+            "vcs_last_rev": "0433e4cc7d906ed55004f78e9f6e0b9c061f8174",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -466,10 +466,10 @@
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-07-27T20:07:46+0000",
-            "vcs_last_commit": "2022-07-26T19:07:01+0000",
-            "vcs_last_fetch": "2022-07-27T20:07:46+0000",
-            "vcs_last_rev": "e734257230d0e8d65750a7a2053795bf6ebcf2d0",
+            "updated": "2022-08-09T01:08:03+0000",
+            "vcs_last_commit": "2022-08-09T01:08:17+0000",
+            "vcs_last_fetch": "2022-08-09T01:08:03+0000",
+            "vcs_last_rev": "abc005d9d2afb3b75de6ef229899614197b57587",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
@@ -481,9 +481,9 @@
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2022-07-27T20:07:32+0000",
+            "updated": "2022-07-31T22:07:06+0000",
             "vcs_last_commit": "2022-06-22T16:06:05+0000",
-            "vcs_last_fetch": "2022-07-13T23:07:54+0000",
+            "vcs_last_fetch": "2022-07-31T22:07:06+0000",
             "vcs_last_rev": "16621ac526d287c3764109b2fbc71d2f5146433e",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -496,9 +496,9 @@
             "id": 904835,
             "layer": 16,
             "local_path": "",
-            "updated": "2022-07-27T20:07:32+0000",
+            "updated": "2022-07-31T22:07:12+0000",
             "vcs_last_commit": "2022-05-30T13:05:07+0000",
-            "vcs_last_fetch": "2022-06-22T23:06:12+0000",
+            "vcs_last_fetch": "2022-07-31T22:07:12+0000",
             "vcs_last_rev": "6104aead933382cd1d627bb6b9fe1b68195c878d",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
@@ -511,9 +511,9 @@
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-07-27T20:07:05+0000",
+            "updated": "2022-07-31T22:07:33+0000",
             "vcs_last_commit": "2022-07-26T19:07:01+0000",
-            "vcs_last_fetch": "2022-07-27T20:07:05+0000",
+            "vcs_last_fetch": "2022-07-31T22:07:33+0000",
             "vcs_last_rev": "c67b24045ab117825f626a245bb1c7273960b392",
             "vcs_subdir": "meta-networking",
             "version": "1",
@@ -526,9 +526,9 @@
             "id": 904856,
             "layer": 15,
             "local_path": "",
-            "updated": "2022-07-27T20:07:32+0000",
+            "updated": "2022-07-31T22:07:13+0000",
             "vcs_last_commit": "2022-06-03T06:06:59+0000",
-            "vcs_last_fetch": "2022-06-22T23:06:14+0000",
+            "vcs_last_fetch": "2022-07-31T22:07:13+0000",
             "vcs_last_rev": "79e28d1c8748e6ac1044d01fcf0e17daedf137e0",
             "vcs_subdir": "meta-gnome",
             "version": "1",
@@ -541,9 +541,9 @@
             "id": 904875,
             "layer": 5,
             "local_path": "",
-            "updated": "2022-07-27T20:07:32+0000",
+            "updated": "2022-07-31T22:07:55+0000",
             "vcs_last_commit": "2022-07-04T06:07:20+0000",
-            "vcs_last_fetch": "2022-07-13T23:07:09+0000",
+            "vcs_last_fetch": "2022-07-31T22:07:55+0000",
             "vcs_last_rev": "6ff027e8d33414fe03fa41ae80c065a54c0cb1ad",
             "vcs_subdir": "meta-xfce",
             "version": "1",
@@ -746,7 +746,7 @@
             "section": "x11/wm",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T22:04:53+0000"
+            "updated": "2022-07-31T22:07:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -769,7 +769,7 @@
             "section": "x11/libs",
             "srcrev": "",
             "summary": "Xfce4 development tools",
-            "updated": "2022-04-26T22:04:53+0000"
+            "updated": "2022-07-31T22:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -792,7 +792,7 @@
             "section": "x11/libs",
             "srcrev": "",
             "summary": "Xfce4 Widget library and X Window System interaction",
-            "updated": "2022-04-26T22:04:54+0000"
+            "updated": "2022-07-31T22:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -815,7 +815,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Xfce4 Panel",
-            "updated": "2022-04-26T22:04:54+0000"
+            "updated": "2022-07-31T22:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -838,7 +838,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T22:04:54+0000"
+            "updated": "2022-07-31T22:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -861,7 +861,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "xfce4-session is a session manager for Xfce 4 Desktop Environment",
-            "updated": "2022-04-26T22:04:55+0000"
+            "updated": "2022-07-31T22:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -884,7 +884,7 @@
             "section": "x11/wm",
             "srcrev": "",
             "summary": "Xfce configuration daemon and utilities",
-            "updated": "2022-04-26T22:04:55+0000"
+            "updated": "2022-07-31T22:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -907,7 +907,7 @@
             "section": "x11/wm",
             "srcrev": "",
             "summary": "All packages for full XFCE installation",
-            "updated": "2022-04-26T22:04:55+0000"
+            "updated": "2022-07-31T22:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -930,7 +930,7 @@
             "section": "x11/wm",
             "srcrev": "",
             "summary": "All packages required for a base installation of XFCE",
-            "updated": "2022-04-26T22:04:55+0000"
+            "updated": "2022-07-31T22:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -953,7 +953,7 @@
             "section": "x11/libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T22:04:56+0000"
+            "updated": "2022-07-31T22:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -976,7 +976,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Automatic management of removable drives and media for thunar",
-            "updated": "2022-04-26T22:04:56+0000"
+            "updated": "2022-07-31T22:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -999,7 +999,7 @@
             "section": "x11/wm",
             "srcrev": "",
             "summary": "Xfce4 settings",
-            "updated": "2022-04-26T22:04:56+0000"
+            "updated": "2022-07-31T22:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1022,7 +1022,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Power manager for the Xfce desktop environment",
-            "updated": "2022-04-26T22:04:57+0000"
+            "updated": "2022-07-31T22:07:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1045,7 +1045,7 @@
             "section": "x11/libs",
             "srcrev": "",
             "summary": "Basic utility library for Xfce4",
-            "updated": "2022-04-26T22:04:57+0000"
+            "updated": "2022-07-31T22:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1068,7 +1068,7 @@
             "section": "x11/libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T22:04:57+0000"
+            "updated": "2022-07-31T22:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1091,7 +1091,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-13T23:07:09+0000"
+            "updated": "2022-07-31T22:07:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1114,7 +1114,7 @@
             "section": "x11/base",
             "srcrev": "",
             "summary": "Xfce4 Desktop Manager",
-            "updated": "2022-04-26T22:04:58+0000"
+            "updated": "2022-07-31T22:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1137,7 +1137,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "File manager for the Xfce Desktop Environment",
-            "updated": "2022-04-26T22:04:59+0000"
+            "updated": "2022-07-31T22:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1160,7 +1160,7 @@
             "section": "x11/wm",
             "srcrev": "",
             "summary": "X11 Mouse Theme",
-            "updated": "2022-04-26T22:04:59+0000"
+            "updated": "2022-07-31T22:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1183,7 +1183,7 @@
             "section": "x11/wm",
             "srcrev": "",
             "summary": "Additional (old) themes for Xfwm4",
-            "updated": "2022-04-26T22:04:59+0000"
+            "updated": "2022-07-31T22:07:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1206,7 +1206,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Modified version of the xfce-dusk theme to support also gtk 3.x too",
-            "updated": "2022-04-26T22:04:59+0000"
+            "updated": "2022-07-31T22:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1229,7 +1229,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Rodent-icon-theme (was xfce4-icon-theme) is a svg icon theme",
-            "updated": "2022-04-26T22:04:59+0000"
+            "updated": "2022-07-31T22:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1252,7 +1252,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Music Player Daemon (MPD) client written in GTK+",
-            "updated": "2022-04-26T22:04:00+0000"
+            "updated": "2022-07-31T22:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1275,7 +1275,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "All packages multimedia packages available for XFCE",
-            "updated": "2022-04-26T22:04:00+0000"
+            "updated": "2022-07-31T22:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1298,7 +1298,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T22:04:00+0000"
+            "updated": "2022-07-31T22:07:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1321,7 +1321,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Simple client plugin for Music Player Daemon",
-            "updated": "2022-04-26T22:04:00+0000"
+            "updated": "2022-07-31T22:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1344,7 +1344,7 @@
             "section": "Applications/System",
             "srcrev": "",
             "summary": "Delivery framework for general Input Method configuration",
-            "updated": "2022-04-26T22:04:01+0000"
+            "updated": "2022-07-31T22:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1367,7 +1367,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Easily themable notification daemon with transparency effects",
-            "updated": "2022-04-26T22:04:01+0000"
+            "updated": "2022-07-31T22:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1390,7 +1390,7 @@
             "section": "x11",
             "srcrev": "2f6c91e756678f0723305d8636e8e393c1eef32c",
             "summary": "Lightweight, desktop independent GTK+ archive manager",
-            "updated": "2022-04-26T22:04:01+0000"
+            "updated": "2022-07-31T22:07:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1413,7 +1413,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Application to take screenshots",
-            "updated": "2022-04-26T22:04:02+0000"
+            "updated": "2022-07-31T22:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1436,7 +1436,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Xfce screensaver Application",
-            "updated": "2022-04-26T22:04:02+0000"
+            "updated": "2022-07-31T22:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1459,7 +1459,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Gigolo is a frontend to easily manage connections to remote filesystems using GIO/GVfs",
-            "updated": "2022-04-26T22:04:02+0000"
+            "updated": "2022-07-31T22:07:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1482,7 +1482,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Terminal emulator for the Xfce desktop environment",
-            "updated": "2022-04-26T22:04:03+0000"
+            "updated": "2022-07-31T22:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1505,7 +1505,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Xfce Calender",
-            "updated": "2022-04-26T22:04:03+0000"
+            "updated": "2022-07-31T22:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1528,7 +1528,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "A simple text editor for Xfce",
-            "updated": "2022-04-26T22:04:03+0000"
+            "updated": "2022-07-31T22:07:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1551,7 +1551,7 @@
             "section": "x11/graphics",
             "srcrev": "86ee9ad7568128fe9555e54799933b2d3762331a",
             "summary": "",
-            "updated": "2022-04-26T22:04:04+0000"
+            "updated": "2022-07-31T22:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1574,7 +1574,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Easy to use task manager",
-            "updated": "2022-04-26T22:04:04+0000"
+            "updated": "2022-07-31T22:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1597,7 +1597,7 @@
             "section": "base",
             "srcrev": "5c7a73a3824b03b91719e05e2604b97c7a72d50f",
             "summary": "",
-            "updated": "2022-04-26T22:04:04+0000"
+            "updated": "2022-07-31T22:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1620,7 +1620,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Backup, restore, import, and export panel layouts",
-            "updated": "2022-04-26T22:04:04+0000"
+            "updated": "2022-07-31T22:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1643,7 +1643,7 @@
             "section": "base",
             "srcrev": "6d3282cc1734c305850d48f5bf4b4d94e88885e9",
             "summary": "A simple PolicyKit authentication agent for XFCE",
-            "updated": "2022-04-26T22:04:05+0000"
+            "updated": "2022-07-31T22:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1666,7 +1666,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Tiny image-viewer",
-            "updated": "2022-04-26T22:04:05+0000"
+            "updated": "2022-07-31T22:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1689,7 +1689,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Catfish is a handy file searching tool for linux and unix",
-            "updated": "2022-04-26T22:04:05+0000"
+            "updated": "2022-07-31T22:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1712,7 +1712,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Xfce4 Vala provides bindings for the Xfce framework",
-            "updated": "2022-04-26T22:04:06+0000"
+            "updated": "2022-07-31T22:07:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1735,7 +1735,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T22:04:06+0000"
+            "updated": "2022-07-31T22:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1758,7 +1758,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Quickly share a folder using Samba from Thunar",
-            "updated": "2022-04-26T22:04:06+0000"
+            "updated": "2022-07-31T22:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1781,7 +1781,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Adds ID3/OGG tag support to the Thunar bulk rename dialog",
-            "updated": "2022-04-26T22:04:07+0000"
+            "updated": "2022-07-31T22:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1804,7 +1804,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Clipman is a clipboard manager for Xfce",
-            "updated": "2022-04-26T22:04:07+0000"
+            "updated": "2022-07-31T22:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1827,7 +1827,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T22:04:07+0000"
+            "updated": "2022-07-31T22:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1850,7 +1850,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Sensors plugin for the Xfce Panel",
-            "updated": "2022-04-26T22:04:08+0000"
+            "updated": "2022-07-31T22:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1873,7 +1873,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Menu for quick access to folders, documents and removable media",
-            "updated": "2022-04-26T22:04:08+0000"
+            "updated": "2022-07-31T22:07:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1896,7 +1896,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "XKB layout switching panel plug-in for the Xfce desktop environment",
-            "updated": "2022-04-26T22:04:08+0000"
+            "updated": "2022-07-31T22:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1919,7 +1919,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T22:04:09+0000"
+            "updated": "2022-07-31T22:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1942,7 +1942,7 @@
             "section": "x11",
             "srcrev": "538f9acfc5d5019f5cde734d056bcc0c95da9b4c",
             "summary": "Plugin displaying close button for application currently active",
-            "updated": "2022-04-26T22:04:09+0000"
+            "updated": "2022-07-31T22:07:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1965,7 +1965,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Mount/umount utility for the xfce panel",
-            "updated": "2022-04-26T22:04:09+0000"
+            "updated": "2022-07-31T22:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1988,7 +1988,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin to display current temperature and weather condition",
-            "updated": "2022-04-26T22:04:10+0000"
+            "updated": "2022-07-31T22:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2011,7 +2011,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "An alternate menu for the Xfce desktop environment",
-            "updated": "2022-04-26T22:04:10+0000"
+            "updated": "2022-07-31T22:07:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2034,7 +2034,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T22:04:11+0000"
+            "updated": "2022-07-31T22:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2057,7 +2057,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Multi-protocol, multi-mailbox mail watcher for the Xfce4 panel",
-            "updated": "2022-04-26T22:04:11+0000"
+            "updated": "2022-07-31T22:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2080,7 +2080,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin with graphical representation of the cpu frequency",
-            "updated": "2022-04-26T22:04:11+0000"
+            "updated": "2022-07-31T22:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2103,7 +2103,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A calculator plugin for the Xfce panel",
-            "updated": "2022-04-26T22:04:11+0000"
+            "updated": "2022-07-31T22:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2126,7 +2126,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin to display frequency of all cpus",
-            "updated": "2022-04-26T22:04:12+0000"
+            "updated": "2022-07-31T22:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2149,7 +2149,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin displaying instant disk/partition performance",
-            "updated": "2022-04-26T22:04:12+0000"
+            "updated": "2022-07-31T22:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2172,7 +2172,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin with graphical representation of the cpu frequency",
-            "updated": "2022-04-26T22:04:12+0000"
+            "updated": "2022-07-31T22:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2195,7 +2195,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin displaying current load of the network interfaces",
-            "updated": "2022-04-26T22:04:13+0000"
+            "updated": "2022-07-31T22:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2218,7 +2218,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Notes plugin for the Xfce Panel",
-            "updated": "2022-04-26T22:04:13+0000"
+            "updated": "2022-07-31T22:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2241,7 +2241,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Pulseaudio mixer for the xfce panel",
-            "updated": "2022-04-26T22:04:13+0000"
+            "updated": "2022-07-31T22:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -2264,7 +2264,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A battery monitor panel plugin for Xfce4, compatible with APM and ACP",
-            "updated": "2022-04-26T22:04:13+0000"
+            "updated": "2022-07-31T22:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2287,7 +2287,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin allowing to send requests directly to browser",
-            "updated": "2022-04-26T22:04:14+0000"
+            "updated": "2022-07-31T22:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2310,7 +2310,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "XFCE panel plugin to generate alarm messages",
-            "updated": "2022-04-26T22:04:14+0000"
+            "updated": "2022-07-31T22:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2333,7 +2333,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Verve panel plugin is a comfortable command line plugin for the Xfce panel",
-            "updated": "2022-04-26T22:04:14+0000"
+            "updated": "2022-07-31T22:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2356,7 +2356,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin displaying date and time and a calendar when left-clicked",
-            "updated": "2022-04-26T22:04:14+0000"
+            "updated": "2022-07-31T22:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2379,7 +2379,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin displaying stats from a wireless lan interface",
-            "updated": "2022-04-26T22:04:14+0000"
+            "updated": "2022-07-31T22:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2402,7 +2402,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "This plugin makes it possible to take periodical breaks",
-            "updated": "2022-04-26T22:04:15+0000"
+            "updated": "2022-07-31T22:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2425,7 +2425,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-26T22:04:15+0000"
+            "updated": "2022-07-31T22:07:55+0000"
         }
     ],
     "wrtemplates": []

@@ -1,2 +1,2 @@
-    <project bare="True" name="github.com.FullMetalUpdate.ostree-push" path="layers/wr-ota-dl/git/github.com.FullMetalUpdate.ostree-push.git" remote="base" />
-    <project bare="True" name="github.com.FullMetalUpdate.fullmetalupdate" path="layers/wr-ota-dl/git/github.com.FullMetalUpdate.fullmetalupdate.git" remote="base" />
+    <project name="github.com.FullMetalUpdate.ostree-push" remote="base" path="layers/wr-ota-dl/git/github.com.FullMetalUpdate.ostree-push.git" bare="True" />
+    <project name="github.com.FullMetalUpdate.fullmetalupdate" remote="base" path="layers/wr-ota-dl/git/github.com.FullMetalUpdate.fullmetalupdate.git" bare="True" />

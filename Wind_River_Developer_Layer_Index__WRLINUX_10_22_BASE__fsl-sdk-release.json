@@ -438,38 +438,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-07-29T07:07:07+0000",
+            "updated": "2022-08-09T00:08:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "",
-            "id": 10884,
+            "id": 10899,
             "layerbranch": 908031,
             "name": "fsl-imx-xwayland",
-            "updated": "2022-07-26T16:07:05+0000"
+            "updated": "2022-07-31T21:07:05+0000"
         },
         {
             "description": "",
-            "id": 10885,
+            "id": 10900,
             "layerbranch": 908031,
             "name": "fsl-imx-fb",
-            "updated": "2022-07-26T16:07:05+0000"
+            "updated": "2022-07-31T21:07:05+0000"
         },
         {
             "description": "",
-            "id": 10886,
+            "id": 10901,
             "layerbranch": 908031,
             "name": "fsl-imx-x11",
-            "updated": "2022-07-26T16:07:05+0000"
+            "updated": "2022-07-31T21:07:05+0000"
         },
         {
             "description": "",
-            "id": 10887,
+            "id": 10902,
             "layerbranch": 908031,
             "name": "fsl-imx-wayland",
-            "updated": "2022-07-26T16:07:05+0000"
+            "updated": "2022-07-31T21:07:05+0000"
         }
     ],
     "layerBranches": [
@@ -480,9 +480,9 @@
             "id": 908031,
             "layer": 471,
             "local_path": "",
-            "updated": "2022-07-26T16:07:16+0000",
+            "updated": "2022-07-31T21:07:05+0000",
             "vcs_last_commit": "2022-07-22T00:07:00+0000",
-            "vcs_last_fetch": "2022-07-26T16:07:16+0000",
+            "vcs_last_fetch": "2022-07-31T21:07:05+0000",
             "vcs_last_rev": "958b279b1f5fe491cd0bf80b40e75681d4e8fc04",
             "vcs_subdir": "meta-sdk",
             "version": null,
@@ -534,7 +534,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:06+0000"
+            "updated": "2022-07-31T21:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -557,7 +557,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:06+0000"
+            "updated": "2022-07-31T21:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -580,7 +580,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale package group - pulseaudio",
-            "updated": "2022-07-26T16:07:06+0000"
+            "updated": "2022-07-31T21:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -603,7 +603,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:06+0000"
+            "updated": "2022-07-31T21:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -626,7 +626,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Set of audio tools for inclusion on images",
-            "updated": "2022-07-26T16:07:06+0000"
+            "updated": "2022-07-31T21:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -649,7 +649,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community Package group - tools/gpu/external",
-            "updated": "2022-07-26T16:07:06+0000"
+            "updated": "2022-07-31T21:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -672,7 +672,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:06+0000"
+            "updated": "2022-07-31T21:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -695,7 +695,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:07+0000"
+            "updated": "2022-07-31T21:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -718,7 +718,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:07+0000"
+            "updated": "2022-07-31T21:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -741,7 +741,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:08+0000"
+            "updated": "2022-07-31T21:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -764,7 +764,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:08+0000"
+            "updated": "2022-07-31T21:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -787,7 +787,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:08+0000"
+            "updated": "2022-07-31T21:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -810,7 +810,7 @@
             "section": "base",
             "srcrev": "f67165c2bb2af3060ecae7d20d6f731173485ad0",
             "summary": "single-file public domain (or MIT licensed) libraries for C/C++",
-            "updated": "2022-07-26T16:07:09+0000"
+            "updated": "2022-07-31T21:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -833,7 +833,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "C++ library for half precision floating point arithmetics",
-            "updated": "2022-07-26T16:07:09+0000"
+            "updated": "2022-07-31T21:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -856,7 +856,7 @@
             "section": "base",
             "srcrev": "995f2ed91045dad8c20485ab1a64727d22cd92e5",
             "summary": "tinycompress library for compress audio offload in alsa",
-            "updated": "2022-07-26T16:07:09+0000"
+            "updated": "2022-07-31T21:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -879,13 +879,13 @@
             "section": "jailhouse",
             "srcrev": "77c20526bcfd043f57be39656623213dd097b4c2",
             "summary": "Jailhouse, i.MX fork",
-            "updated": "2022-07-26T16:07:09+0000"
+            "updated": "2022-07-31T21:07:58+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -Denable_kmods=false                 -Dexamples=l2fwd,l3fwd,cmdif,l2fwd-qdma,l2fwd-crypto,ipsec-secgw,vhost,kni,ip_fragmentation,ip_reassembly                 --cross-file /tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/dpdk/21.11-r0/git/config/arm/arm64_poky_linux_gcc  ",
+            "configopts": " -Denable_kmods=false                 -Dexamples=l2fwd,l3fwd,cmdif,l2fwd-qdma,l2fwd-crypto,ipsec-secgw,vhost,kni,ip_fragmentation,ip_reassembly                 --cross-file /tmp/tmpwic6jf88/tmp-glibc/work/core2-32-oe-linux/dpdk/21.11-r0/git/config/arm/arm64_poky_linux_gcc  ",
             "description": "Intel(r) Data Plane Development Kit",
             "filename": "dpdk_21.11.bb",
             "filepath": "recipes-extended/dpdk",
@@ -902,7 +902,7 @@
             "section": "base",
             "srcrev": "a02594c97935a33e395e95b9030acd7a02b6cb50",
             "summary": "",
-            "updated": "2022-07-26T16:07:10+0000"
+            "updated": "2022-07-31T21:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -925,7 +925,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "Provide limited super user privileges to specific users",
-            "updated": "2022-07-26T16:07:10+0000"
+            "updated": "2022-07-31T21:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -948,7 +948,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "UEFI EDK2 Firmware",
-            "updated": "2022-07-26T16:07:10+0000"
+            "updated": "2022-07-31T21:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -971,7 +971,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "i.MX StandAlomeMM binary produced by EDK2",
-            "updated": "2022-07-26T16:07:10+0000"
+            "updated": "2022-07-31T21:07:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -994,7 +994,7 @@
             "section": "libs",
             "srcrev": "fec56a1a16c6e1c1b1f4e116a20e79398282626c",
             "summary": "JSON for modern C++",
-            "updated": "2022-07-26T16:07:10+0000"
+            "updated": "2022-07-31T21:07:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1017,7 +1017,7 @@
             "section": "base",
             "srcrev": "b6f4ceaed0a0a24ccf575fab6c56dd50ccf6f1a9",
             "summary": "open-source formatting library for C++",
-            "updated": "2022-07-26T16:07:11+0000"
+            "updated": "2022-07-31T21:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1040,7 +1040,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:11+0000"
+            "updated": "2022-07-31T21:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1063,7 +1063,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:11+0000"
+            "updated": "2022-07-31T21:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1086,7 +1086,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T16:07:11+0000"
+            "updated": "2022-07-31T21:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1201,7 +1201,7 @@
             "section": "base",
             "srcrev": "22d4dc45749c8d1ddbb9e869ec5db142bfe1d7bd",
             "summary": "RenderDoc recipe providing renderdoccmd",
-            "updated": "2022-07-26T16:07:12+0000"
+            "updated": "2022-07-31T21:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1224,7 +1224,7 @@
             "section": "base",
             "srcrev": "3dc8dd61ee2bbfbf442209602d98c5f9bdd4a056",
             "summary": "",
-            "updated": "2022-07-26T16:07:12+0000"
+            "updated": "2022-07-31T21:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1270,7 +1270,7 @@
             "section": "base",
             "srcrev": "0a61ed265e87561a0165ee9e472bf20f83e7b0ca",
             "summary": "Low level header only C++11 RAII wrapper classes for the Vulkan API",
-            "updated": "2022-07-26T16:07:12+0000"
+            "updated": "2022-07-31T21:07:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -1293,7 +1293,7 @@
             "section": "libs",
             "srcrev": "0c171ee87fcfe35a7e0e0445adef06f92e0b6a91",
             "summary": "OpenGL Image Library",
-            "updated": "2022-07-26T16:07:13+0000"
+            "updated": "2022-07-31T21:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1316,13 +1316,13 @@
             "section": "libs",
             "srcrev": "37164a5726f7e6113810f9557903a117498421cf",
             "summary": "Vulkan Header files and API registry",
-            "updated": "2022-07-26T16:07:13+0000"
+            "updated": "2022-07-31T21:07:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/KhronosGroup/Vulkan-Loader",
-            "configopts": "                 -DBUILD_TESTS=OFF                  -DPYTHON_EXECUTABLE=/tmp/tmpcp5fr1si/tmp-glibc/hosttools/python3                  -DASSEMBLER_WORKS=FALSE                  -DVulkanHeaders_INCLUDE_DIR=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/vulkan-loader/1.2.182.0-r0/recipe-sysroot/usr/include                  -DVulkanRegistry_DIR=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/vulkan-loader/1.2.182.0-r0/recipe-sysroot//usr/share                     -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
+            "configopts": "                 -DBUILD_TESTS=OFF                  -DPYTHON_EXECUTABLE=/tmp/tmpwic6jf88/tmp-glibc/hosttools/python3                  -DASSEMBLER_WORKS=FALSE                  -DVulkanHeaders_INCLUDE_DIR=/tmp/tmpwic6jf88/tmp-glibc/work/core2-32-oe-linux/vulkan-loader/1.2.182.0-r0/recipe-sysroot/usr/include                  -DVulkanRegistry_DIR=/tmp/tmpwic6jf88/tmp-glibc/work/core2-32-oe-linux/vulkan-loader/1.2.182.0-r0/recipe-sysroot//usr/share                     -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
             "description": "Vulkan is a new generation graphics and compute API that provides efficient access to modern GPUs. These packages provide only the common vendor-agnostic library loader, headers and the vulkaninfo utility.",
             "filename": "vulkan-loader_1.2.182.0.bb",
             "filepath": "recipes-graphics/vulkan",
@@ -1339,13 +1339,13 @@
             "section": "libs",
             "srcrev": "1896143df69d439b0933c1bb485f5a4587bdf2dc",
             "summary": "3D graphics and compute API common loader",
-            "updated": "2022-07-26T16:07:13+0000"
+            "updated": "2022-07-31T21:07:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_BUILD_TYPE=Release     -DCMAKE_SYSROOT=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/gfxreconstruct/1.2.182.0-r0/recipe-sysroot    -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XCB_SUPPORT=ON",
+            "configopts": "     -DCMAKE_BUILD_TYPE=Release     -DCMAKE_SYSROOT=/tmp/tmpwic6jf88/tmp-glibc/work/core2-32-oe-linux/gfxreconstruct/1.2.182.0-r0/recipe-sysroot    -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XCB_SUPPORT=ON",
             "description": "It provides tools for the capture and replay of Vulkan API calls",
             "filename": "gfxreconstruct_1.2.182.0.bb",
             "filepath": "recipes-graphics/vulkan",
@@ -1362,7 +1362,7 @@
             "section": "graphics",
             "srcrev": "75bc5b32da36cb172d57ef28f55d14458279c6f1",
             "summary": "Vulkan benchmarking suite.",
-            "updated": "2022-07-26T16:07:13+0000"
+            "updated": "2022-07-31T21:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1385,13 +1385,13 @@
             "section": "base",
             "srcrev": "a2a604be473c829763854ffb34f7978bc0358afb",
             "summary": "",
-            "updated": "2022-07-26T16:07:14+0000"
+            "updated": "2022-07-31T21:07:03+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/KhronosGroup/Vulkan-ValidationLayers",
-            "configopts": "     -DGLSLANG_INSTALL_DIR=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DSPIRV_HEADERS_INSTALL_DIR=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DSPIRV_TOOLS_INSTALL_DIR=/tmp/tmpcp5fr1si/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DUSE_ROBIN_HOOD_HASHING=OFF    -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON -DDEMOS_WSI_SELECTION=XCB",
+            "configopts": "     -DGLSLANG_INSTALL_DIR=/tmp/tmpwic6jf88/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DSPIRV_HEADERS_INSTALL_DIR=/tmp/tmpwic6jf88/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DSPIRV_TOOLS_INSTALL_DIR=/tmp/tmpwic6jf88/tmp-glibc/work/core2-32-oe-linux/vulkan-validationlayers/1.2.182.0-r0/recipe-sysroot/usr     -DUSE_ROBIN_HOOD_HASHING=OFF    -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON -DDEMOS_WSI_SELECTION=XCB",
             "description": "This project provides Vulkan validation layers that can be enabled to assist development by enabling developers to verify their applications correct use of the Vulkan API.",
             "filename": "vulkan-validationlayers_1.2.182.0.bb",
             "filepath": "recipes-graphics/vulkan",
@@ -1408,13 +1408,13 @@
             "section": "libs",
             "srcrev": "91fcffa8eca1a9573c8d736a54a028035ed4e06c",
             "summary": "Vulkan ValidationLayers",
-            "updated": "2022-07-26T16:07:14+0000"
+            "updated": "2022-07-31T21:07:03+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/KhronosGroup/Vulkan-Tools",
-            "configopts": "                 -DBUILD_TESTS=OFF                  -DBUILD_CUBE=OFF                  -DPYTHON_EXECUTABLE=/tmp/tmpcp5fr1si/tmp-glibc/hosttools/python3                     -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
+            "configopts": "                 -DBUILD_TESTS=OFF                  -DBUILD_CUBE=OFF                  -DPYTHON_EXECUTABLE=/tmp/tmpwic6jf88/tmp-glibc/hosttools/python3                     -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
             "description": "Assist development by enabling developers to verify their applications correct use of the Vulkan API.",
             "filename": "vulkan-tools_1.2.182.0.bb",
             "filepath": "recipes-graphics/vulkan",
@@ -1431,7 +1431,7 @@
             "section": "libs",
             "srcrev": "9d3305731c3be8de05c9f223a79959d448506a37",
             "summary": "Vulkan Utilities and Tools",
-            "updated": "2022-07-26T16:07:14+0000"
+            "updated": "2022-07-31T21:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1454,7 +1454,7 @@
             "section": "base",
             "srcrev": "d2187278cb6632ce35920575832eb6f6e2b2e46c",
             "summary": "",
-            "updated": "2022-07-26T16:07:14+0000"
+            "updated": "2022-07-31T21:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1477,7 +1477,7 @@
             "section": "graphics",
             "srcrev": "53abc4f660191051fba91ea30de084f412e7c68e",
             "summary": "Vulkan benchmarking suite.",
-            "updated": "2022-07-26T16:07:14+0000"
+            "updated": "2022-07-31T21:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1500,7 +1500,7 @@
             "section": "x11/apps",
             "srcrev": "",
             "summary": "Intel GPU tools",
-            "updated": "2022-07-26T16:07:15+0000"
+            "updated": "2022-07-31T21:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1523,7 +1523,7 @@
             "section": "base",
             "srcrev": "0bb954adfc4740e5df7cd4e511a0f1e87ed309e7",
             "summary": "i.MX GPU SDK Samples",
-            "updated": "2022-07-26T16:07:15+0000"
+            "updated": "2022-07-31T21:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1546,7 +1546,7 @@
             "section": "graphics",
             "srcrev": "",
             "summary": "dEQP OpenGL and OpenGL ES Conformance Tests",
-            "updated": "2022-07-26T16:07:16+0000"
+            "updated": "2022-07-31T21:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1569,7 +1569,7 @@
             "section": "base",
             "srcrev": "fd7359aed6aaba745e31dd0a9fed80578372d554",
             "summary": "Tools for WFA Sigma DUT/CA",
-            "updated": "2022-07-26T16:07:16+0000"
+            "updated": "2022-07-31T21:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1592,7 +1592,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tools for the Linux Standard Wireless Extension Subsystem",
-            "updated": "2022-07-26T16:07:16+0000"
+            "updated": "2022-07-31T21:07:05+0000"
         }
     ],
     "wrtemplates": []

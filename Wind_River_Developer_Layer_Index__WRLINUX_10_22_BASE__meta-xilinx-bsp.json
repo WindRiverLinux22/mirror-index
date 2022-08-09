@@ -438,7 +438,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-07-29T07:07:07+0000",
+            "updated": "2022-08-09T00:08:10+0000",
             "updates_enabled": true
         }
     ],
@@ -451,9 +451,9 @@
             "id": 904853,
             "layer": 436,
             "local_path": "",
-            "updated": "2022-07-08T04:07:40+0000",
+            "updated": "2022-07-31T22:07:00+0000",
             "vcs_last_commit": "2022-07-08T02:07:14+0000",
-            "vcs_last_fetch": "2022-07-08T04:07:40+0000",
+            "vcs_last_fetch": "2022-07-31T22:07:00+0000",
             "vcs_last_rev": "d9d9b4320c9bd8d00a8da1ae03c4e85faf589c13",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
@@ -466,9 +466,9 @@
             "id": 904854,
             "layer": 437,
             "local_path": "",
-            "updated": "2022-04-26T22:04:58+0000",
+            "updated": "2022-07-31T22:07:06+0000",
             "vcs_last_commit": "2022-04-01T19:04:55+0000",
-            "vcs_last_fetch": "2022-04-26T21:04:48+0000",
+            "vcs_last_fetch": "2022-07-31T22:07:06+0000",
             "vcs_last_rev": "9435695f0d1b931e7e2d431fd942d7233af83883",
             "vcs_subdir": "meta-xilinx-bsp",
             "version": null,
@@ -526,192 +526,192 @@
     "machines": [
         {
             "description": "Machine support for ZCU106 Evaluation Board.",
-            "id": 49100,
+            "id": 52770,
             "layerbranch": 904854,
             "name": "zcu106-zynqmp",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "MicroBlaze QEMU machine support ('petalogix-ml605' model)",
-            "id": 49101,
+            "id": 52771,
             "layerbranch": 904854,
             "name": "ml605-qemu-microblazeel",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZCU1285 Evaluation Board.",
-            "id": 49102,
+            "id": 52772,
             "layerbranch": 904854,
             "name": "zcu1285-zynqmp",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZC702 Evaluation Board.",
-            "id": 49103,
+            "id": 52773,
             "layerbranch": 904854,
             "name": "zc702-zynq7",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZedBoard. (http://www.zedboard.org/)",
-            "id": 49104,
+            "id": 52774,
             "layerbranch": 904854,
             "name": "zedboard-zynq7",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "vmk180-versal",
-            "id": 49105,
+            "id": 52775,
             "layerbranch": 904854,
             "name": "vmk180-versal",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for microZed. (http://www.microzed.org/)",
-            "id": 49106,
+            "id": 52776,
             "layerbranch": 904854,
             "name": "microzed-zynq7",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for Ultra96 Evaluation Board.",
-            "id": 49107,
+            "id": 52777,
             "layerbranch": 904854,
             "name": "ultra96-zynqmp",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZCU216 Evaluation Board.",
-            "id": 49108,
+            "id": 52778,
             "layerbranch": 904854,
             "name": "zcu216-zynqmp",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZCU111 Evaluation Board.",
-            "id": 49109,
+            "id": 52779,
             "layerbranch": 904854,
             "name": "zcu111-zynqmp",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "vck-sc-zynqmp",
-            "id": 49110,
+            "id": 52780,
             "layerbranch": 904854,
             "name": "vck-sc-zynqmp",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "v350-versal",
-            "id": 49111,
+            "id": 52781,
             "layerbranch": 904854,
             "name": "v350-versal",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZCU208 Evaluation Board.",
-            "id": 49112,
+            "id": 52782,
             "layerbranch": 904854,
             "name": "zcu208-zynqmp",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZCU104 Evaluation Board.",
-            "id": 49113,
+            "id": 52783,
             "layerbranch": 904854,
             "name": "zcu104-zynqmp",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZC706 Evaluation Board.",
-            "id": 49114,
+            "id": 52784,
             "layerbranch": 904854,
             "name": "zc706-zynq7",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "vck-versal",
-            "id": 49115,
+            "id": 52785,
             "layerbranch": 904854,
             "name": "vck190-versal",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for zybo-linux-bd project.",
-            "id": 49116,
+            "id": 52786,
             "layerbranch": 904854,
             "name": "zybo-linux-bd-zynq7",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZYBO.",
-            "id": 49117,
+            "id": 52787,
             "layerbranch": 904854,
             "name": "zybo-zynq7",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "vck500-versal",
-            "id": 49118,
+            "id": 52788,
             "layerbranch": 904854,
             "name": "vck5000-versal",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZCU1275 Evaluation Board.",
-            "id": 49119,
+            "id": 52789,
             "layerbranch": 904854,
             "name": "zcu1275-zynqmp",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for picoZed. (http://www.picozed.org/)",
-            "id": 49120,
+            "id": 52790,
             "layerbranch": 904854,
             "name": "picozed-zynq7",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "vc-p-a2197-versal",
-            "id": 49121,
+            "id": 52791,
             "layerbranch": 904854,
             "name": "vc-p-a2197-00-versal",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for Xilinx KC705 Embedded Kit.",
-            "id": 49122,
+            "id": 52792,
             "layerbranch": 904854,
             "name": "kc705-microblazeel",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZCU102 Evaluation Board.",
-            "id": 49123,
+            "id": 52793,
             "layerbranch": 904854,
             "name": "zcu102-zynqmp",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Machine support for ZC1254 Evaluation Board.",
-            "id": 49124,
+            "id": 52794,
             "layerbranch": 904854,
             "name": "zc1254-zynqmp",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "MicroBlaze QEMU machine support ('petalogix-s3adsp1800' model)",
-            "id": 49125,
+            "id": 52795,
             "layerbranch": 904854,
             "name": "s3adsp1800-qemu-microblazeeb",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         },
         {
             "description": "Zynq QEMU machine support ('xilinx-zynq-a9' model)",
-            "id": 49126,
+            "id": 52796,
             "layerbranch": 904854,
             "name": "qemu-zynq7",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         }
     ],
     "recipes": [
@@ -736,7 +736,7 @@
             "section": "bsp",
             "srcrev": "",
             "summary": "KC705 Pre-built Bitstream",
-            "updated": "2022-04-26T21:04:48+0000"
+            "updated": "2022-07-31T22:07:06+0000"
         }
     ],
     "wrtemplates": []
