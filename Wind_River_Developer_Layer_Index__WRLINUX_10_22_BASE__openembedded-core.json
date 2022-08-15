@@ -438,7 +438,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-08-09T00:08:10+0000",
+            "updated": "2022-08-15T00:08:10+0000",
             "updates_enabled": true
         }
     ],
@@ -459,10 +459,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-08-02T02:08:58+0000",
-            "vcs_last_commit": "2022-08-02T02:08:56+0000",
-            "vcs_last_fetch": "2022-08-02T02:08:58+0000",
-            "vcs_last_rev": "0433e4cc7d906ed55004f78e9f6e0b9c061f8174",
+            "updated": "2022-08-13T02:08:42+0000",
+            "vcs_last_commit": "2022-08-13T02:08:53+0000",
+            "vcs_last_fetch": "2022-08-13T02:08:42+0000",
+            "vcs_last_rev": "a4f26b10dd441c6ee322867d06447d60e4372be1",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -698,7 +698,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-crosssdk_1.17.10.bb",
+            "filename": "go-crosssdk_1.17.12.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1533140,
@@ -709,11 +709,11 @@
             "pn": "go-crosssdk-x86_64-oesdk-linux",
             "pr": "r0",
             "provides": "go-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-go-crosssdk",
-            "pv": "1.17.10",
+            "pv": "1.17.12",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-07-31T21:07:39+0000"
+            "updated": "2022-08-10T21:08:57+0000"
         },
         {
             "bbclassextend": "",
@@ -721,7 +721,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross-canadian_1.17.10.bb",
+            "filename": "go-cross-canadian_1.17.12.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1533141,
@@ -732,11 +732,11 @@
             "pn": "go-cross-canadian-i686",
             "pr": "r0",
             "provides": "go-cross-canadian-i686 ",
-            "pv": "1.17.10",
+            "pv": "1.17.12",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-07-31T21:07:40+0000"
+            "updated": "2022-08-10T21:08:56+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -744,7 +744,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-runtime_1.17.10.bb",
+            "filename": "go-runtime_1.17.12.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1533142,
@@ -755,11 +755,11 @@
             "pn": "go-runtime",
             "pr": "r0",
             "provides": "go-runtime virtual/i686-oe-linux-go-runtime",
-            "pv": "1.17.10",
+            "pv": "1.17.12",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-07-31T21:07:40+0000"
+            "updated": "2022-08-10T21:08:57+0000"
         },
         {
             "bbclassextend": "",
@@ -767,7 +767,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross_1.17.10.bb",
+            "filename": "go-cross_1.17.12.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1533143,
@@ -778,11 +778,11 @@
             "pn": "go-cross-core2-32",
             "pr": "r0",
             "provides": "go-cross-core2-32 virtual/core2-32-go",
-            "pv": "1.17.10",
+            "pv": "1.17.12",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-07-31T21:07:40+0000"
+            "updated": "2022-08-10T21:08:56+0000"
         },
         {
             "bbclassextend": "",
@@ -790,7 +790,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-native_1.17.10.bb",
+            "filename": "go-native_1.17.12.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1533144,
@@ -801,11 +801,11 @@
             "pn": "go-native",
             "pr": "r0",
             "provides": "go-native ",
-            "pv": "1.17.10",
+            "pv": "1.17.12",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-07-31T21:07:41+0000"
+            "updated": "2022-08-10T21:08:57+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -813,7 +813,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go_1.17.10.bb",
+            "filename": "go_1.17.12.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1533145,
@@ -824,11 +824,11 @@
             "pn": "go",
             "pr": "r0",
             "provides": "go ",
-            "pv": "1.17.10",
+            "pv": "1.17.12",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-07-31T21:07:41+0000"
+            "updated": "2022-08-10T21:08:58+0000"
         },
         {
             "bbclassextend": "",
@@ -836,7 +836,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "go-binary-native_1.17.10.bb",
+            "filename": "go-binary-native_1.17.12.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 1533146,
@@ -847,11 +847,11 @@
             "pn": "go-binary-native",
             "pr": "r0",
             "provides": "go-binary-native go-native",
-            "pv": "1.17.10",
+            "pv": "1.17.12",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler (upstream binary for bootstrap)",
-            "updated": "2022-07-31T21:07:41+0000"
+            "updated": "2022-08-10T21:08:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -989,7 +989,7 @@
             "section": "base",
             "srcrev": "5563bdb608b3413639b69f1c76567cb66ff1a961",
             "summary": "Package maintenance system from Debian",
-            "updated": "2022-07-31T21:07:45+0000"
+            "updated": "2022-08-11T16:08:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1547,7 +1547,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --disable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,aarch64-linux-user,i386-linux-user,mips-linux-user,mipsel-linux-user,mips64-linux-user,mips64el-linux-user,ppc-linux-user,ppc64-linux-user,riscv32-linux-user,riscv64-linux-user,sh4-linux-user,x86_64-linux-user --disable-tools --disable-blobs --disable-guest-agent",
+            "configopts": "     --prefix=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --disable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,aarch64-linux-user,i386-linux-user,mips-linux-user,mipsel-linux-user,mips64-linux-user,mips64el-linux-user,ppc-linux-user,ppc64-linux-user,riscv32-linux-user,riscv64-linux-user,sh4-linux-user,x86_64-linux-user --disable-tools --disable-blobs --disable-guest-agent",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-native_6.2.0.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1564,13 +1564,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2022-07-31T21:07:56+0000"
+            "updated": "2022-08-10T16:08:36+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpii7xlr7x/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --enable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --enable-slirp=internal --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --target-list=arm-softmmu,aarch64-softmmu,i386-softmmu,mips-softmmu,mipsel-softmmu,mips64-softmmu,mips64el-softmmu,ppc-softmmu,ppc64-softmmu,riscv32-softmmu,riscv64-softmmu,sh4-softmmu,x86_64-softmmu",
+            "configopts": "     --prefix=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpo983573n/tmp-glibc/work/x86_64-linux/qemu-system-native/6.2.0-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --enable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --enable-slirp=internal --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --target-list=arm-softmmu,aarch64-softmmu,i386-softmmu,mips-softmmu,mipsel-softmmu,mips64-softmmu,mips64el-softmmu,ppc-softmmu,ppc64-softmmu,riscv32-softmmu,riscv64-softmmu,sh4-softmmu,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-system-native_6.2.0.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1587,13 +1587,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2022-07-31T21:07:56+0000"
+            "updated": "2022-08-10T16:08:37+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0=/usr/src/debug/qemu/6.2.0-r0                      -fdebug-prefix-map=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0=/usr/src/debug/qemu/6.2.0-r0                      -fdebug-prefix-map=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0/recipe-sysroot-native=  '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0=/usr/src/debug/qemu/6.2.0-r0                      -fdebug-prefix-map=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0=/usr/src/debug/qemu/6.2.0-r0                      -fdebug-prefix-map=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0/recipe-sysroot-native= '     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --enable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-pa --disable-rbd --disable-rdma --enable-sdl --enable-seccomp --disable-selinux --enable-slirp=internal --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,arm-softmmu,aarch64-linux-user,aarch64-softmmu,i386-linux-user,i386-softmmu,mips-linux-user,mips-softmmu,mipsel-linux-user,mipsel-softmmu,mips64-linux-user,mips64-softmmu,mips64el-linux-user,mips64el-softmmu,ppc-linux-user,ppc-softmmu,ppc64-linux-user,ppc64-softmmu,riscv32-linux-user,riscv32-softmmu,riscv64-linux-user,riscv64-softmmu,sh4-linux-user,sh4-softmmu,x86_64-linux-user,x86_64-softmmu",
+            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpo983573n/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0=/usr/src/debug/qemu/6.2.0-r0                      -fdebug-prefix-map=/tmp/tmpo983573n/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0=/usr/src/debug/qemu/6.2.0-r0                      -fdebug-prefix-map=/tmp/tmpo983573n/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmpo983573n/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0/recipe-sysroot-native=  '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmpo983573n/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0=/usr/src/debug/qemu/6.2.0-r0                      -fdebug-prefix-map=/tmp/tmpo983573n/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0=/usr/src/debug/qemu/6.2.0-r0                      -fdebug-prefix-map=/tmp/tmpo983573n/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmpo983573n/tmp-glibc/work/core2-32-oe-linux/qemu/6.2.0-r0/recipe-sysroot-native= '     --with-git=/bin/false     --with-git-submodules=ignore     --meson=meson      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-opengl --enable-fdt --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-libpmem --disable-pa --disable-rbd --disable-rdma --enable-sdl --enable-seccomp --disable-selinux --enable-slirp=internal --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,arm-softmmu,aarch64-linux-user,aarch64-softmmu,i386-linux-user,i386-softmmu,mips-linux-user,mips-softmmu,mipsel-linux-user,mipsel-softmmu,mips64-linux-user,mips64-softmmu,mips64el-linux-user,mips64el-softmmu,ppc-linux-user,ppc-softmmu,ppc64-linux-user,ppc64-softmmu,riscv32-linux-user,riscv32-softmmu,riscv64-linux-user,riscv64-softmmu,sh4-linux-user,sh4-softmmu,x86_64-linux-user,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu_6.2.0.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1610,7 +1610,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2022-07-31T21:07:57+0000"
+            "updated": "2022-08-10T16:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4485,7 +4485,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T21:07:51+0000"
+            "updated": "2022-08-11T16:08:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6532,7 +6532,7 @@
             "section": "bootloaders",
             "srcrev": "d637294e264adfeb29f390dfc393106fd4d41b17",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-07-31T21:07:24+0000"
+            "updated": "2022-08-13T02:08:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -15479,7 +15479,7 @@
             "section": "x11/base",
             "srcrev": "",
             "summary": "The X.Org X server",
-            "updated": "2022-07-31T21:07:59+0000"
+            "updated": "2022-08-10T19:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -17831,7 +17831,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/glibc-tests/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
+            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpqhmma4tl/tmp-glibc/work/core2-32-oe-linux/glibc-tests/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc-tests_2.35.bb",
             "filepath": "recipes-core/glibc",
@@ -17848,7 +17848,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "glibc tests to be run with ptest",
-            "updated": "2022-07-31T21:07:37+0000"
+            "updated": "2022-08-09T10:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -17877,7 +17877,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/glibc/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
+            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpqhmma4tl/tmp-glibc/work/core2-32-oe-linux/glibc/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc_2.35.bb",
             "filepath": "recipes-core/glibc",
@@ -17894,13 +17894,13 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2022-07-31T21:07:38+0000"
+            "updated": "2022-08-09T10:08:40+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/glibc-testsuite/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
+            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpqhmma4tl/tmp-glibc/work/core2-32-oe-linux/glibc-testsuite/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc-testsuite_2.35.bb",
             "filepath": "recipes-core/glibc",
@@ -17917,7 +17917,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2022-07-31T21:07:39+0000"
+            "updated": "2022-08-09T10:08:40+0000"
         },
         {
             "bbclassextend": "nativesdk",
