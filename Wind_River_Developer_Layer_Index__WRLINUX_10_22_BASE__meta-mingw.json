@@ -438,7 +438,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2022-08-15T00:08:10+0000",
+            "updated": "2022-08-22T00:08:13+0000",
             "updates_enabled": true
         }
     ],
@@ -451,10 +451,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-08-13T02:08:42+0000",
-            "vcs_last_commit": "2022-08-13T02:08:53+0000",
-            "vcs_last_fetch": "2022-08-13T02:08:42+0000",
-            "vcs_last_rev": "a4f26b10dd441c6ee322867d06447d60e4372be1",
+            "updated": "2022-08-17T23:08:39+0000",
+            "vcs_last_commit": "2022-08-17T22:08:14+0000",
+            "vcs_last_fetch": "2022-08-17T23:08:39+0000",
+            "vcs_last_rev": "c25c93225ec7f6f2f0921a1b09bb49371462bde9",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -466,10 +466,10 @@
             "id": 904838,
             "layer": 50,
             "local_path": "",
-            "updated": "2022-07-31T22:07:49+0000",
-            "vcs_last_commit": "2022-03-27T19:03:26+0000",
-            "vcs_last_fetch": "2022-07-31T22:07:49+0000",
-            "vcs_last_rev": "a63374136013d255e548620e1766fb270f94e53b",
+            "updated": "2022-08-15T19:08:37+0000",
+            "vcs_last_commit": "2022-08-15T19:08:08+0000",
+            "vcs_last_fetch": "2022-08-15T19:08:37+0000",
+            "vcs_last_rev": "3778cdc95ccd859e4a11c3e374c99e055288b207",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -635,7 +635,7 @@
             "id": 1535605,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 904838,
-            "license": "LGPLv2.1",
+            "license": "LGPL-2.1-only",
             "pe": "",
             "pn": "mingw-libgnurx",
             "pr": "r0",
@@ -644,7 +644,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T22:07:48+0000"
+            "updated": "2022-08-15T19:08:37+0000"
         },
         {
             "bbclassextend": "",
