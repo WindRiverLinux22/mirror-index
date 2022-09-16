@@ -430,46 +430,46 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220713",
+            "bitbake_branch": "wr-10.22-20220902",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-08-22T00:08:13+0000",
+            "updated": "2022-09-16T00:09:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220727",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-08-17T23:08:39+0000",
-            "vcs_last_commit": "2022-08-17T22:08:14+0000",
-            "vcs_last_fetch": "2022-08-17T23:08:39+0000",
-            "vcs_last_rev": "c25c93225ec7f6f2f0921a1b09bb49371462bde9",
+            "updated": "2022-09-07T19:09:42+0000",
+            "vcs_last_commit": "2022-09-05T20:09:23+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:42+0000",
+            "vcs_last_rev": "bacb99230f4c4a95f7db0bb0f4e0d05b46b92280",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220622",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "intel",
             "id": 904871,
             "layer": 166,
             "local_path": "",
-            "updated": "2022-08-09T23:08:45+0000",
-            "vcs_last_commit": "2022-08-09T23:08:19+0000",
-            "vcs_last_fetch": "2022-08-09T23:08:45+0000",
-            "vcs_last_rev": "d194a4728f71ff3bf0c305f4bb3b2cb58a1ac8cd",
+            "updated": "2022-09-07T19:09:26+0000",
+            "vcs_last_commit": "2022-09-02T01:09:11+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:26+0000",
+            "vcs_last_rev": "939e0c462d3701eda6b04ca9eb2504cf7962ef97",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 42579
@@ -626,7 +626,7 @@
             "section": "base",
             "srcrev": "0f7e5f41160bb5a48e24f7cec2ced1ef9dd9c5be",
             "summary": "Intel(R) oneVPL runtime for Intel GPU accelerated media processing",
-            "updated": "2022-07-31T22:07:38+0000"
+            "updated": "2022-09-07T19:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -908,9 +908,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                  -DIGC_DIR=/tmp/tmpj233q4uz/tmp-glibc/work/core2-32-oe-linux/intel-compute-runtime/22.22.23355-r0/recipe-sysroot/usr/include/igc                  -DBUILD_TYPE=Release                  -DSKIP_UNIT_TESTS=1                  -DCCACHE_ALLOWED=FALSE                  -DNEO_DISABLE_LD_LLD=ON                  -DNEO_DISABLE_LD_GOLD=ON                     -DBUILD_WITH_L0=OFF                                      -Docloc_cmd_prefix=ocloc                                     ",
+            "configopts": "                  -DIGC_DIR=/tmp/tmpdfa7qvtu/tmp-glibc/work/core2-32-oe-linux/intel-compute-runtime/22.31.23852-r0/recipe-sysroot/usr/include/igc                  -DBUILD_TYPE=Release                  -DSKIP_UNIT_TESTS=1                  -DCCACHE_ALLOWED=FALSE                  -DNEO_DISABLE_LD_LLD=ON                  -DNEO_DISABLE_LD_GOLD=ON                     -DBUILD_WITH_L0=OFF                                      -Docloc_cmd_prefix=ocloc                                     ",
             "description": "The Intel(R) Graphics Compute Runtime for OpenCL(TM) is an open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture.",
-            "filename": "intel-compute-runtime_22.22.23355.bb",
+            "filename": "intel-compute-runtime_22.31.23852.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/compute-runtime",
             "homepage": "",
             "id": 1536716,
@@ -921,11 +921,11 @@
             "pn": "intel-compute-runtime",
             "pr": "r0",
             "provides": "intel-compute-runtime ",
-            "pv": "22.22.23355",
+            "pv": "22.31.23852",
             "section": "base",
-            "srcrev": "8c894fad5eb79231290725d4ed3665d101fd9d9a",
+            "srcrev": "c046824c183da8f365f8f742537b21eb70b5628d",
             "summary": "The Intel(R) Graphics Compute Runtime for OpenCL(TM)",
-            "updated": "2022-07-31T22:07:40+0000"
+            "updated": "2022-09-07T19:09:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1000,9 +1000,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                   -DIGC_OPTION__LLVM_PREFERRED_VERSION=13.0.1                   -DPYTHON_EXECUTABLE=/tmp/tmpj233q4uz/tmp-glibc/hosttools/python3                   -DVC_INTRINSICS_SRC=\"/tmp/tmpj233q4uz/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.11279-r0/git/vc-intrinsics\"                   -DIGC_OPTION__LLVM_MODE=Prebuilds                   -DLLVM_TABLEGEN=/tmp/tmpj233q4uz/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.11279-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DLLVM_LINK_EXE=/tmp/tmpj233q4uz/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.11279-r0/recipe-sysroot-native/usr/bin/llvm-link                     -DIGC_BUILD__VC_ENABLED=ON -DIGC_OPTION__LINK_KHRONOS_SPIRV_TRANSLATOR=ON -DIGC_OPTION__USE_KHRONOS_SPIRV_TRANSLATOR_IN_VC=ON -DIGC_OPTION__SPIRV_TRANSLATOR_MODE=Prebuilds",
+            "configopts": "                   -DIGC_OPTION__LLVM_PREFERRED_VERSION=13.0.1                   -DPYTHON_EXECUTABLE=/tmp/tmpdfa7qvtu/tmp-glibc/hosttools/python3                   -DVC_INTRINSICS_SRC=\"/tmp/tmpdfa7qvtu/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.11702.1-r0/git/vc-intrinsics\"                   -DIGC_OPTION__LLVM_MODE=Prebuilds                   -DLLVM_TABLEGEN=/tmp/tmpdfa7qvtu/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.11702.1-r0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DLLVM_LINK_EXE=/tmp/tmpdfa7qvtu/tmp-glibc/work/core2-32-oe-linux/intel-graphics-compiler/1.0.11702.1-r0/recipe-sysroot-native/usr/bin/llvm-link                     -DIGC_BUILD__VC_ENABLED=ON -DIGC_OPTION__LINK_KHRONOS_SPIRV_TRANSLATOR=ON -DIGC_OPTION__USE_KHRONOS_SPIRV_TRANSLATOR_IN_VC=ON -DIGC_OPTION__SPIRV_TRANSLATOR_MODE=Prebuilds",
             "description": "The Intel(R) Graphics Compiler for OpenCL(TM) is an llvm based compiler for OpenCL(TM) targeting Intel Gen graphics hardware architecture.",
-            "filename": "intel-graphics-compiler_1.0.11279.bb",
+            "filename": "intel-graphics-compiler_1.0.11702.1.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/igc",
             "homepage": "",
             "id": 1536720,
@@ -1013,11 +1013,11 @@
             "pn": "intel-graphics-compiler",
             "pr": "r0",
             "provides": "intel-graphics-compiler ",
-            "pv": "1.0.11279",
+            "pv": "1.0.11702.1",
             "section": "base",
             "srcrev": "",
             "summary": "The Intel(R) Graphics Compiler for OpenCL(TM)",
-            "updated": "2022-07-31T22:07:42+0000"
+            "updated": "2022-09-07T19:09:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1046,9 +1046,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                     -DDNNL_LIBRARY_TYPE=SHARED                    -DDNNL_BUILD_EXAMPLES=ON                    -DDNNL_BUILD_TESTS=ON                    -DDNNL_CPU_RUNTIME=OMP                    -DDNNL_ARCH_OPT_FLAGS=\"\"                    -DCMAKE_SKIP_RPATH=ON                       ",
+            "configopts": "                     -DDNNL_LIBRARY_TYPE=SHARED                    -DDNNL_BUILD_EXAMPLES=ON                    -DDNNL_BUILD_TESTS=ON                    -DDNNL_CPU_RUNTIME=OMP                    -DDNNL_ARCH_OPT_FLAGS=\"\"                    -DCMAKE_SKIP_RPATH=ON                      -DDNNL_GPU_RUNTIME=OCL",
             "description": "This software is a user mode library that acceleratesdeep-learning applications and frameworks on Intel architecture.",
-            "filename": "onednn_2.6.bb",
+            "filename": "onednn_2.6.1.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-core/dnn",
             "homepage": "https://www.oneapi.com",
             "id": 1536722,
@@ -1059,11 +1059,11 @@
             "pn": "onednn",
             "pr": "r0",
             "provides": "onednn ",
-            "pv": "2.6",
+            "pv": "2.6.1",
             "section": "lib",
-            "srcrev": "52b5f107dd9cf10910aaa19cb47f3abf9b349815",
+            "srcrev": "58be3660fb57c4c4a3d306730e849237d1271572",
             "summary": "Deep Neural Network Library",
-            "updated": "2022-07-31T22:07:42+0000"
+            "updated": "2022-09-07T19:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1161,7 +1161,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                    -DENABLE_OPENCV=OFF                   -DOpenCV_DIR=/tmp/tmpj233q4uz/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot/usr/lib/cmake                   -DENABLE_PLUGIN_RPATH=0                   -DENABLE_INTEL_GNA=OFF                   -DPYTHON_EXECUTABLE=/tmp/tmpj233q4uz/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot-native/usr/bin/python3-native/python3                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DTHREADING=TBB -DTBB_DIR=\"/tmp/tmpj233q4uz/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot/usr/lib/cmake/TBB\"                   -DENABLE_SAMPLES=ON                   -DTREAT_WARNING_AS_ERROR=FALSE                   -DENABLE_DATA=FALSE                   -DENABLE_SYSTEM_PUGIXML=TRUE                   -DENABLE_SYSTEM_PROTOBUF=TRUE                   -DProtobuf_LIBRARIES=protobuf                   -DProtobuf_LITE_LIBRARIES=protobuf-lite                   -DProtobuf_INCLUDE_DIR=/tmp/tmpj233q4uz/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot/usr/include                   -DSYSTEM_PROTOC=/tmp/tmpj233q4uz/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot-native/usr/bin/protoc                   -DENABLE_OV_ONNX_FRONTEND=FALSE                   -DUSE_BUILD_TYPE_SUBFOLDER=OFF                      -DENABLE_INTEL_GPU=FALSE  -DENABLE_PYTHON=OFF -DVERBOSE_BUILD=0 -DENABLE_INTEL_MYRIAD=ON -DVPU_FIRMWARE_USB-MA2X8X_FILE=../mvnc/usb-ma2x8x.mvcmd -DVPU_FIRMWARE_PCIE-MA2X8X_FILE=../mvnc/pcie-ma2x8x.mvcmd",
+            "configopts": "                    -DENABLE_OPENCV=OFF                   -DOpenCV_DIR=/tmp/tmpdfa7qvtu/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot/usr/lib/cmake                   -DENABLE_PLUGIN_RPATH=0                   -DENABLE_INTEL_GNA=OFF                   -DPYTHON_EXECUTABLE=/tmp/tmpdfa7qvtu/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot-native/usr/bin/python3-native/python3                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DTHREADING=TBB -DTBB_DIR=\"/tmp/tmpdfa7qvtu/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot/usr/lib/cmake/TBB\"                   -DENABLE_SAMPLES=ON                   -DTREAT_WARNING_AS_ERROR=FALSE                   -DENABLE_DATA=FALSE                   -DENABLE_SYSTEM_PUGIXML=TRUE                   -DENABLE_SYSTEM_PROTOBUF=TRUE                   -DProtobuf_LIBRARIES=protobuf                   -DProtobuf_LITE_LIBRARIES=protobuf-lite                   -DProtobuf_INCLUDE_DIR=/tmp/tmpdfa7qvtu/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot/usr/include                   -DSYSTEM_PROTOC=/tmp/tmpdfa7qvtu/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot-native/usr/bin/protoc                   -DENABLE_OV_ONNX_FRONTEND=FALSE                   -DUSE_BUILD_TYPE_SUBFOLDER=OFF                     -DENABLE_INTEL_GPU=TRUE -DOpenCL_INCLUDE_DIR=/tmp/tmpdfa7qvtu/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot/usr/include -DOpenCL_LIBRARY=/tmp/tmpdfa7qvtu/tmp-glibc/work/core2-32-oe-linux/openvino-inference-engine/2022.1-r0/recipe-sysroot/usr/lib/libOpenCL.so  -DENABLE_PYTHON=OFF -DVERBOSE_BUILD=0 -DENABLE_INTEL_MYRIAD=ON -DVPU_FIRMWARE_USB-MA2X8X_FILE=../mvnc/usb-ma2x8x.mvcmd -DVPU_FIRMWARE_PCIE-MA2X8X_FILE=../mvnc/pcie-ma2x8x.mvcmd",
             "description": "This toolkit allows developers to deploy pre-trained deep learning models through a high-level C++ Inference Engine API integrated with application logic.",
             "filename": "openvino-inference-engine_2022.1.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-support/opencv",
@@ -1178,7 +1178,7 @@
             "section": "base",
             "srcrev": "cdb9bec7210f8c24fde3e416c7ada820faaaa23e",
             "summary": "OpenVINO(TM) Toolkit - Deep Learning Deployment Toolkit",
-            "updated": "2022-07-31T22:07:43+0000"
+            "updated": "2022-09-07T19:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1439,7 +1439,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "This virtual function driver supports kernel versions 2.6.x and newer This driver supports 82599, X540, X550, and X552-based virtual function devices that can only be activated on kernels that support SR-IOV. SR-IOV requires the correct platform and OS support. The guest OS loading this driver must support MSI-X interrupts.",
-            "filename": "ixgbevf_4.14.5.bb",
+            "filename": "ixgbevf_4.15.1.bb",
             "filepath": "recipes-kernel/intel-ethernet",
             "homepage": "https://sourceforge.net/projects/e1000/",
             "id": 1536739,
@@ -1450,11 +1450,11 @@
             "pn": "ixgbevf",
             "pr": "r0",
             "provides": "ixgbevf ",
-            "pv": "4.14.5",
+            "pv": "4.15.1",
             "section": "kernel/network",
             "srcrev": "",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2022-07-31T22:07:46+0000"
+            "updated": "2022-09-07T19:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1462,7 +1462,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The ixgbe driver supports 82598- and 82599-based PCI Express* 10 Gigabit Network Connections.",
-            "filename": "ixgbe_5.14.6.bb",
+            "filename": "ixgbe_5.15.2.bb",
             "filepath": "recipes-kernel/intel-ethernet",
             "homepage": "https://sourceforge.net/projects/e1000/",
             "id": 1536740,
@@ -1473,11 +1473,11 @@
             "pn": "ixgbe",
             "pr": "r0",
             "provides": "ixgbe ",
-            "pv": "5.14.6",
+            "pv": "5.15.2",
             "section": "kernel/network",
             "srcrev": "",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2022-07-31T22:07:46+0000"
+            "updated": "2022-09-07T19:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1496,11 +1496,11 @@
             "pn": "linux-intel",
             "pr": "r0",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "5.15.43+gitX",
+            "pv": "5.15.49+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-07-31T22:07:46+0000"
+            "updated": "2022-09-07T19:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1519,11 +1519,11 @@
             "pn": "linux-intel-rt",
             "pr": "r0",
             "provides": "linux-intel-rt  virtual/kernel",
-            "pv": "5.15.43+gitX",
+            "pv": "5.15.49+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-07-31T22:07:46+0000"
+            "updated": "2022-09-07T19:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1542,11 +1542,11 @@
             "pn": "linux-intel-dev",
             "pr": "r0",
             "provides": "linux-intel-dev  virtual/kernel",
-            "pv": "5.12.0+gitX",
+            "pv": "5.19.0+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-07-31T22:07:46+0000"
+            "updated": "2022-09-07T19:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1569,7 +1569,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-07-31T22:07:46+0000"
+            "updated": "2022-09-07T19:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1592,7 +1592,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-07-31T22:07:47+0000"
+            "updated": "2022-09-07T19:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1853,7 +1853,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The microcode data file contains the latest microcode definitions for all Intel processors. Intel releases microcode updates to correct processor behavior as documented in the respective processor specification updates. While the regular approach to getting this microcode update is via a BIOS upgrade, Intel realizes that this can be an administrative hassle. The Linux operating system and VMware ESX products have a mechanism to update the microcode after booting. For example, this file will be used by the operating system mechanism if the file is placed in the /etc/firmware directory of the Linux system.",
-            "filename": "intel-microcode_20220510.bb",
+            "filename": "intel-microcode_20220809.bb",
             "filepath": "recipes-core/microcode",
             "homepage": "http://www.intel.com/",
             "id": 1536757,
@@ -1864,11 +1864,11 @@
             "pn": "intel-microcode",
             "pr": "r0",
             "provides": "intel-microcode ",
-            "pv": "20220510",
+            "pv": "20220809",
             "section": "base",
-            "srcrev": "925555515555dfcfafd4997f39459967c33dc5d5",
+            "srcrev": "cffdeb848e2302a60b665a78141ee88464e98af4",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2022-08-09T23:08:45+0000"
+            "updated": "2022-09-07T19:09:25+0000"
         },
         {
             "bbclassextend": "",

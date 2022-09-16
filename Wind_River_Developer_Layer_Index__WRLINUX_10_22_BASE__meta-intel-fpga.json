@@ -430,31 +430,31 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220713",
+            "bitbake_branch": "wr-10.22-20220902",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-08-22T00:08:13+0000",
+            "updated": "2022-09-16T00:09:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220727",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "meta-intel-fpga",
             "id": 908617,
             "layer": 380,
             "local_path": "",
-            "updated": "2022-07-31T21:07:20+0000",
-            "vcs_last_commit": "2022-07-26T19:07:01+0000",
-            "vcs_last_fetch": "2022-07-31T21:07:20+0000",
-            "vcs_last_rev": "f54f48737be970da0a2205ae2e18e2d31eebf1ce",
+            "updated": "2022-09-07T19:09:41+0000",
+            "vcs_last_commit": "2022-09-02T01:09:10+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:41+0000",
+            "vcs_last_rev": "bb157efe384a9aee5273cb70b7a2051a0876b90f",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -560,9 +560,9 @@
             "provides": "u-boot-socfpga virtual/bootloader",
             "pv": "v2021.07+gitX",
             "section": "bootloaders",
-            "srcrev": "ee63370553cd01f7237174fe1971991271b7648b",
+            "srcrev": "24e26ba4a0d8fe816e32e760537a3f356823ba7b",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-07-31T21:07:16+0000"
+            "updated": "2022-09-07T19:09:40+0000"
         },
         {
             "bbclassextend": "",
@@ -629,9 +629,9 @@
             "provides": "u-boot-socfpga virtual/bootloader",
             "pv": "v2022.01+gitX",
             "section": "bootloaders",
-            "srcrev": "a25cec4490b1c4d9b9d5c04f088915c9da01cabc",
+            "srcrev": "bd5ba31770d191ba3cd64f3c431e205b1f8d89b3",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-07-31T21:07:18+0000"
+            "updated": "2022-09-07T19:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -652,9 +652,9 @@
             "provides": "u-boot-socfpga virtual/bootloader",
             "pv": "v2021.10+gitX",
             "section": "bootloaders",
-            "srcrev": "1efdc969a15c123d172e703ff51b4ee0d9a205cb",
+            "srcrev": "e7beb4cb47f1f0563b2c63c80ca8a329d9f31226",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-07-31T21:07:18+0000"
+            "updated": "2022-09-07T19:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -836,9 +836,9 @@
             "provides": "linux-socfpga-lts  virtual/kernel",
             "pv": "5.15.30-lts+gitX",
             "section": "kernel",
-            "srcrev": "548455e5d4a8c121115b314cc2cb5ea950d75921",
+            "srcrev": "feb06c9cc3789500c1ce31a3868d093ec5d8af91",
             "summary": "Linux kernel",
-            "updated": "2022-07-31T21:07:19+0000"
+            "updated": "2022-09-07T19:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -882,9 +882,9 @@
             "provides": "linux-socfpga-lts  virtual/kernel",
             "pv": "5.10.100-lts+gitX",
             "section": "kernel",
-            "srcrev": "89affd122a189259bbc51d34d7144108c055fd95",
+            "srcrev": "47109d445dc0f922f6612ed1f5a229ea3f62f97e",
             "summary": "Linux kernel",
-            "updated": "2022-07-31T21:07:20+0000"
+            "updated": "2022-09-07T19:09:41+0000"
         },
         {
             "bbclassextend": "",
@@ -954,6 +954,52 @@
             "srcrev": "85d7cb262602855c4f22ff5e96b14d6147d1ab80",
             "summary": "Linux kernel",
             "updated": "2022-07-31T21:07:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga_5.17.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1622045,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-socfpga",
+            "pr": "r0",
+            "provides": "linux-socfpga  virtual/kernel",
+            "pv": "5.17+gitX",
+            "section": "kernel",
+            "srcrev": "accb8ba6a1f5b0da836ea96dab9a92fb9b84317c",
+            "summary": "Linux kernel",
+            "updated": "2022-09-07T19:09:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga_5.18.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1622046,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-socfpga",
+            "pr": "r0",
+            "provides": "linux-socfpga  virtual/kernel",
+            "pv": "5.18+gitX",
+            "section": "kernel",
+            "srcrev": "71067430fcc18c5cd7c21d3395a5f802d80ced10",
+            "summary": "Linux kernel",
+            "updated": "2022-09-07T19:09:41+0000"
         }
     ],
     "wrtemplates": []

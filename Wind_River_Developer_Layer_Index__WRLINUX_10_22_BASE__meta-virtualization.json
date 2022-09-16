@@ -430,106 +430,106 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220713",
+            "bitbake_branch": "wr-10.22-20220902",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-08-22T00:08:13+0000",
+            "updated": "2022-09-16T00:09:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220727",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-08-17T23:08:39+0000",
-            "vcs_last_commit": "2022-08-17T22:08:14+0000",
-            "vcs_last_fetch": "2022-08-17T23:08:39+0000",
-            "vcs_last_rev": "c25c93225ec7f6f2f0921a1b09bb49371462bde9",
+            "updated": "2022-09-07T19:09:42+0000",
+            "vcs_last_commit": "2022-09-05T20:09:23+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:42+0000",
+            "vcs_last_rev": "bacb99230f4c4a95f7db0bb0f4e0d05b46b92280",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220727",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-08-13T03:08:40+0000",
-            "vcs_last_commit": "2022-08-13T03:08:45+0000",
-            "vcs_last_fetch": "2022-08-13T03:08:40+0000",
-            "vcs_last_rev": "3a847329d5bbb5b95e999138bdc69cdc3c25bb96",
+            "updated": "2022-09-07T19:09:52+0000",
+            "vcs_last_commit": "2022-09-02T01:09:11+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:52+0000",
+            "vcs_last_rev": "40f91843a461b81ebe0e98dcad138045d220a05f",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220727",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "filesystems-layer",
             "id": 904831,
             "layer": 8,
             "local_path": "",
-            "updated": "2022-08-12T02:08:49+0000",
-            "vcs_last_commit": "2022-08-12T02:08:58+0000",
-            "vcs_last_fetch": "2022-08-12T02:08:49+0000",
-            "vcs_last_rev": "b9a3c3501a58223bc634edbb2454be3b219cd7bd",
+            "updated": "2022-09-07T19:09:57+0000",
+            "vcs_last_commit": "2022-09-02T01:09:11+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:57+0000",
+            "vcs_last_rev": "b012c734e490ccb0bfca765bf5242b7455bcf76a",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220727",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2022-07-31T22:07:06+0000",
-            "vcs_last_commit": "2022-06-22T16:06:05+0000",
-            "vcs_last_fetch": "2022-07-31T22:07:06+0000",
-            "vcs_last_rev": "16621ac526d287c3764109b2fbc71d2f5146433e",
+            "updated": "2022-09-07T19:09:08+0000",
+            "vcs_last_commit": "2022-07-26T07:07:35+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:08+0000",
+            "vcs_last_rev": "cb4e7fb4b08b7ebbdc21485e9a21845931132759",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220727",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "networking-layer",
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-07-31T22:07:33+0000",
-            "vcs_last_commit": "2022-07-26T19:07:01+0000",
-            "vcs_last_fetch": "2022-07-31T22:07:33+0000",
-            "vcs_last_rev": "c67b24045ab117825f626a245bb1c7273960b392",
+            "updated": "2022-09-07T19:09:55+0000",
+            "vcs_last_commit": "2022-09-02T01:09:11+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:55+0000",
+            "vcs_last_rev": "bdcf503123d99966e0c230ce48835ec333bc0e18",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220727",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "virtualization-layer",
             "id": 904858,
             "layer": 45,
             "local_path": "",
-            "updated": "2022-08-18T23:08:09+0000",
-            "vcs_last_commit": "2022-08-18T22:08:31+0000",
-            "vcs_last_fetch": "2022-08-18T23:08:09+0000",
-            "vcs_last_rev": "6f5dcb73b886135899d513e667c9c461ae8966ad",
+            "updated": "2022-09-07T19:09:13+0000",
+            "vcs_last_commit": "2022-09-06T19:09:24+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:13+0000",
+            "vcs_last_rev": "2abff4a1c1278ed7391580261a59c0bb4a1868e3",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42579
@@ -839,7 +839,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Container Network Interface - networking for Linux containers",
-            "updated": "2022-07-31T22:07:58+0000"
+            "updated": "2022-09-07T19:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2133,9 +2133,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DWITH_MANPAGE=OFF                  -DWITH_FUSE=OFF                  -DWITH_SPDK=OFF                  -DWITH_LEVELDB=OFF                  -DWITH_LTTNG=OFF                  -DWITH_BABELTRACE=OFF                  -DWITH_TESTS=OFF                  -DWITH_MGR=OFF                  -DWITH_MGR_DASHBOARD_FRONTEND=OFF                  -DWITH_SYSTEM_BOOST=ON                  -DWITH_SYSTEM_ROCKSDB=ON                  -DWITH_RDMA=OFF                  -DWITH_RADOSGW_AMQP_ENDPOINT=OFF                  -DPYTHON_INSTALL_DIR=/usr/lib/python3.10/site-packages -DPYTHON_DESIRED=3                  -DPython3_EXECUTABLE=/tmp/tmpq1lde77z/tmp-glibc/work/core2-32-oe-linux/ceph/15.2.15-r0/recipe-sysroot-native/usr/bin/python3-native/python3                  -DWITH_RADOSGW_KAFKA_ENDPOINT=OFF                  -DWITH_REENTRANT_STRSIGNAL=ON  ",
+            "configopts": "-DWITH_MANPAGE=OFF                  -DWITH_FUSE=OFF                  -DWITH_SPDK=OFF                  -DWITH_LEVELDB=OFF                  -DWITH_LTTNG=OFF                  -DWITH_BABELTRACE=OFF                  -DWITH_TESTS=OFF                  -DWITH_MGR=OFF                  -DWITH_MGR_DASHBOARD_FRONTEND=OFF                  -DWITH_SYSTEM_BOOST=ON                  -DWITH_SYSTEM_ROCKSDB=ON                  -DWITH_RDMA=OFF                  -DWITH_RADOSGW_AMQP_ENDPOINT=OFF                  -DPYTHON_INSTALL_DIR=/usr/lib/python3.10/site-packages -DPYTHON_DESIRED=3                  -DPython3_EXECUTABLE=/tmp/tmpq0fc8k7q/tmp-glibc/work/core2-32-oe-linux/ceph/15.2.17-r0/recipe-sysroot-native/usr/bin/python3-native/python3                  -DWITH_RADOSGW_KAFKA_ENDPOINT=OFF                  -DWITH_REENTRANT_STRSIGNAL=ON  ",
             "description": "",
-            "filename": "ceph_15.2.15.bb",
+            "filename": "ceph_15.2.17.bb",
             "filepath": "recipes-extended/ceph",
             "homepage": "",
             "id": 1536305,
@@ -2146,11 +2146,11 @@
             "pn": "ceph",
             "pr": "r0",
             "provides": "ceph ",
-            "pv": "15.2.15",
+            "pv": "15.2.17",
             "section": "base",
             "srcrev": "",
             "summary": "User space components of the Ceph file system",
-            "updated": "2022-08-15T14:08:45+0000"
+            "updated": "2022-09-07T19:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3277,7 +3277,7 @@
             "section": "base",
             "srcrev": "717edd7b844dcd66468f5d991991d87e9fc14c12",
             "summary": "A daemonless container engine",
-            "updated": "2022-07-31T22:07:28+0000"
+            "updated": "2022-09-07T19:09:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3438,7 +3438,7 @@
             "section": "base",
             "srcrev": "b507e2da6c6a3a328f208fa415a56ad7cd58761b",
             "summary": "runc container cli tools",
-            "updated": "2022-07-31T22:07:35+0000"
+            "updated": "2022-09-07T19:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3668,7 +3668,7 @@
             "section": "base",
             "srcrev": "3e2defd6d37b742adde2aac6cb01f6c3c17da8e2",
             "summary": "Work with remote images registries - retrieving information, images, signing content",
-            "updated": "2022-07-31T22:07:37+0000"
+            "updated": "2022-09-07T19:09:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3733,11 +3733,11 @@
             "pn": "containerd-opencontainers",
             "pr": "r0",
             "provides": "containerd-opencontainers  virtual/containerd",
-            "pv": "v1.6.1+gitX",
+            "pv": "v1.6.6+gitX",
             "section": "base",
-            "srcrev": "d12516713c315ea9e651eb1df89cf32ff7c8137c",
+            "srcrev": "4e92d8e7e439530f5bb17e57a77481e9aa3da851",
             "summary": "containerd is a daemon to control runC",
-            "updated": "2022-07-31T22:07:38+0000"
+            "updated": "2022-09-07T19:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3852,7 +3852,7 @@
             "section": "base",
             "srcrev": "e214d4ebf0a1274b1c63b095fd55ae61c7e92947",
             "summary": "",
-            "updated": "2022-07-31T22:07:40+0000"
+            "updated": "2022-09-07T19:09:13+0000"
         },
         {
             "bbclassextend": "",

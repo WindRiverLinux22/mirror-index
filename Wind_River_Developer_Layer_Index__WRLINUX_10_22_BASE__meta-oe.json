@@ -430,46 +430,46 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220713",
+            "bitbake_branch": "wr-10.22-20220902",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-08-22T00:08:13+0000",
+            "updated": "2022-09-16T00:09:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220727",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-08-17T23:08:39+0000",
-            "vcs_last_commit": "2022-08-17T22:08:14+0000",
-            "vcs_last_fetch": "2022-08-17T23:08:39+0000",
-            "vcs_last_rev": "c25c93225ec7f6f2f0921a1b09bb49371462bde9",
+            "updated": "2022-09-07T19:09:42+0000",
+            "vcs_last_commit": "2022-09-05T20:09:23+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:42+0000",
+            "vcs_last_rev": "bacb99230f4c4a95f7db0bb0f4e0d05b46b92280",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220727",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-08-13T03:08:40+0000",
-            "vcs_last_commit": "2022-08-13T03:08:45+0000",
-            "vcs_last_fetch": "2022-08-13T03:08:40+0000",
-            "vcs_last_rev": "3a847329d5bbb5b95e999138bdc69cdc3c25bb96",
+            "updated": "2022-09-07T19:09:52+0000",
+            "vcs_last_commit": "2022-09-02T01:09:11+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:52+0000",
+            "vcs_last_rev": "40f91843a461b81ebe0e98dcad138045d220a05f",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
@@ -828,7 +828,7 @@
             "section": "base",
             "srcrev": "ba463d3c26c0ece2e797b8d6381b161633b5971a",
             "summary": "x86 (SSE) assembler supporting NASM and GAS-syntaxes",
-            "updated": "2022-07-31T21:07:44+0000"
+            "updated": "2022-09-07T19:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1173,7 +1173,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "UW c-client library for mail protocols",
-            "updated": "2022-07-31T21:07:49+0000"
+            "updated": "2022-09-07T19:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2030,7 +2030,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpl4uva9pa/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpl4uva9pa/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpl4uva9pa/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpl4uva9pa/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmpl4uva9pa/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmpl4uva9pa/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpl4uva9pa/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpl4uva9pa/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
+            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
             "description": "",
             "filename": "php_8.1.8.bb",
             "filepath": "recipes-devtools/php",
@@ -2047,7 +2047,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2022-08-09T01:08:03+0000"
+            "updated": "2022-09-07T19:09:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4324,7 +4324,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Emacs is the extensible, customizable, self-documenting real-time display editor",
-            "updated": "2022-07-31T21:07:33+0000"
+            "updated": "2022-09-07T19:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -4531,7 +4531,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "Monitor for system resources and process activity",
-            "updated": "2022-07-31T21:07:35+0000"
+            "updated": "2022-09-07T19:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -6009,7 +6009,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --disable-perl     --disable-tcl     --disable-gevolution     --disable-schemas-install     --disable-gtkspell     --disable-meanwhile     --disable-nm     --disable-screensaver   --enable-avahi --enable-consoleui --with-ncurses-headers=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/pidgin/2.14.2-r0/recipe-sysroot/usr/include --disable-cyrus-sasl --enable-dbus --disable-farstream --enable-gnutls --with-gnutls-includes=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/pidgin/2.14.2-r0/recipe-sysroot/usr/include --with-gnutls-libs=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/pidgin/2.14.2-r0/recipe-sysroot/usr/lib --disable-gstreamer --enable-gtkui --enable-idn --enable-nss --enable-startup-notification --disable-vv --with-x=yes --x-includes=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/pidgin/2.14.2-r0/recipe-sysroot/usr/include --x-libraries=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/pidgin/2.14.2-r0/recipe-sysroot/usr/lib --enable-nls",
+            "configopts": "     --disable-perl     --disable-tcl     --disable-gevolution     --disable-schemas-install     --disable-gtkspell     --disable-meanwhile     --disable-nm     --disable-screensaver   --enable-avahi --enable-consoleui --with-ncurses-headers=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/pidgin/2.14.2-r0/recipe-sysroot/usr/include --disable-cyrus-sasl --enable-dbus --disable-farstream --enable-gnutls --with-gnutls-includes=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/pidgin/2.14.2-r0/recipe-sysroot/usr/include --with-gnutls-libs=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/pidgin/2.14.2-r0/recipe-sysroot/usr/lib --disable-gstreamer --enable-gtkui --enable-idn --enable-nss --enable-startup-notification --disable-vv --with-x=yes --x-includes=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/pidgin/2.14.2-r0/recipe-sysroot/usr/include --x-libraries=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/pidgin/2.14.2-r0/recipe-sysroot/usr/lib --enable-nls",
             "description": "",
             "filename": "pidgin_2.14.2.bb",
             "filepath": "recipes-support/pidgin",
@@ -6026,7 +6026,7 @@
             "section": "x11/network",
             "srcrev": "",
             "summary": "multi-protocol instant messaging client",
-            "updated": "2022-07-31T21:07:55+0000"
+            "updated": "2022-09-07T19:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -10764,7 +10764,7 @@
             "section": "utils",
             "srcrev": "a181e951376d49a82eef17920c8ebedec80b4823",
             "summary": "A shared storage lock manager",
-            "updated": "2022-07-31T22:07:59+0000"
+            "updated": "2022-09-07T19:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -10862,7 +10862,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-debug                 --enable-ssl                 --enable-pam                 --enable-ipv6                 CFLAGS=\" -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/sblim-sfcb/1.4.9-r0=/usr/src/debug/sblim-sfcb/1.4.9-r0                      -fdebug-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/sblim-sfcb/1.4.9-r0=/usr/src/debug/sblim-sfcb/1.4.9-r0                      -fdebug-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/sblim-sfcb/1.4.9-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/sblim-sfcb/1.4.9-r0/recipe-sysroot-native=  -D_GNU_SOURCE\" ",
+            "configopts": "--enable-debug                 --enable-ssl                 --enable-pam                 --enable-ipv6                 CFLAGS=\" -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/sblim-sfcb/1.4.9-r0=/usr/src/debug/sblim-sfcb/1.4.9-r0                      -fdebug-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/sblim-sfcb/1.4.9-r0=/usr/src/debug/sblim-sfcb/1.4.9-r0                      -fdebug-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/sblim-sfcb/1.4.9-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/sblim-sfcb/1.4.9-r0/recipe-sysroot-native=  -D_GNU_SOURCE\" ",
             "description": "Small Footprint CIM Broker (sfcb) is a CIM server conforming to the CIM Operations over HTTP protocol. It is robust, with low resource consumption and therefore specifically suited for embedded and resource constrained environments. sfcb supports providers written against the Common Manageability Programming Interface (CMPI).",
             "filename": "sblim-sfcb_1.4.9.bb",
             "filepath": "recipes-extended/sblim-sfcb",
@@ -10879,7 +10879,7 @@
             "section": "Applications/System",
             "srcrev": "",
             "summary": "Small Footprint CIM Broker",
-            "updated": "2022-07-31T22:07:02+0000"
+            "updated": "2022-09-07T19:09:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -11761,7 +11761,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Redis is an open source, advanced key-value store.",
-            "filename": "redis_7.0.2.bb",
+            "filename": "redis_7.0.4.bb",
             "filepath": "recipes-extended/redis",
             "homepage": "http://redis.io",
             "id": 1600203,
@@ -11772,11 +11772,11 @@
             "pn": "redis",
             "pr": "r0",
             "provides": "redis ",
-            "pv": "7.0.2",
+            "pv": "7.0.4",
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2022-08-13T03:08:40+0000"
+            "updated": "2022-09-07T19:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -12213,7 +12213,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PolicyKit Authorization Framework",
-            "updated": "2022-07-31T22:07:20+0000"
+            "updated": "2022-09-07T19:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -12313,7 +12313,7 @@
             "bugtracker": "",
             "configopts": " --disable-generate-man-pages ap_cv_atomic_builtins=yes --enable-imfile-tests  --disable-debug --enable-fmhttp --enable-gnutls --enable-imdiag --enable-imfile --disable-imhttp --disable-imjournal --enable-inet --enable-klog --disable-libdbi --enable-libgcrypt --disable-mail --disable-mmjsonparse --disable-mysql --disable-pgsql --enable-regexp --disable-relp --enable-rsyslogd --enable-rsyslogrt --disable-snmp --without-systemdsystemunitdir --disable-testbench --disable-omstdout --enable-uuid --without-valgrind-testbench",
             "description": "Rsyslog is an enhanced syslogd supporting, among others, MySQL, PostgreSQL, failover log destinations, syslog/tcp, fine grain output format control, high precision timestamps, queued operations and the ability to filter on any message part. It is quite compatible to stock sysklogd and can be used as a drop-in replacement. Its advanced features make it suitable for enterprise-class, encryption protected syslog relay chains while at the same time being very easy to setup for the novice user.",
-            "filename": "rsyslog_8.2202.0.bb",
+            "filename": "rsyslog_8.2206.0.bb",
             "filepath": "recipes-extended/rsyslog",
             "homepage": "http://www.rsyslog.com/",
             "id": 1600227,
@@ -12324,11 +12324,11 @@
             "pn": "rsyslog",
             "pr": "r0",
             "provides": "rsyslog ",
-            "pv": "8.2202.0",
+            "pv": "8.2206.0",
             "section": "base",
             "srcrev": "",
             "summary": "Rsyslog is an enhanced multi-threaded syslogd",
-            "updated": "2022-07-31T22:07:21+0000"
+            "updated": "2022-09-07T19:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -12466,7 +12466,7 @@
             "section": "base",
             "srcrev": "c5a30e9267068436a75b5d00fcbf95cb9c1f4dcd",
             "summary": "A library to handle Apple Property List format whereas it's binary or XML",
-            "updated": "2022-07-31T22:07:23+0000"
+            "updated": "2022-09-07T19:09:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -12955,7 +12955,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/postgresql/14.4-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
+            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/postgresql/14.4-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
             "filename": "postgresql_14.4.bb",
             "filepath": "recipes-dbs/postgresql",
@@ -12972,7 +12972,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2022-07-31T22:07:30+0000"
+            "updated": "2022-09-07T19:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -13392,7 +13392,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "PREFIX=/usr                  DESTDIR=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/image                  LIBPATH=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/recipe-sysroot/usr/lib                  LINKFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0=/usr/src/debug/mongodb/4.4.13-r0                      -fdebug-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0=/usr/src/debug/mongodb/4.4.13-r0                      -fdebug-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/recipe-sysroot-native= '                  CXXFLAGS=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0=/usr/src/debug/mongodb/4.4.13-r0                      -fdebug-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0=/usr/src/debug/mongodb/4.4.13-r0                      -fdebug-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/recipe-sysroot-native=  -fvisibility-inlines-hidden'                  TARGET_ARCH=i686                  MONGO_VERSION=4.4.13                  OBJCOPY=i686-oe-linux-objcopy                  --ssl                  --disable-warnings-as-errors                  --use-system-zlib                  --nostrip                  --endian=big                  --wiredtiger='off'                  --separate-debug                  ",
+            "configopts": "PREFIX=/usr                  DESTDIR=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/image                  LIBPATH=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/recipe-sysroot/usr/lib                  LINKFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0=/usr/src/debug/mongodb/4.4.13-r0                      -fdebug-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0=/usr/src/debug/mongodb/4.4.13-r0                      -fdebug-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/recipe-sysroot-native= '                  CXXFLAGS=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0=/usr/src/debug/mongodb/4.4.13-r0                      -fdebug-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0=/usr/src/debug/mongodb/4.4.13-r0                      -fdebug-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.13-r0/recipe-sysroot-native=  -fvisibility-inlines-hidden'                  TARGET_ARCH=i686                  MONGO_VERSION=4.4.13                  OBJCOPY=i686-oe-linux-objcopy                  --ssl                  --disable-warnings-as-errors                  --use-system-zlib                  --nostrip                  --endian=big                  --wiredtiger='off'                  --separate-debug                  ",
             "description": "",
             "filename": "mongodb_git.bb",
             "filepath": "dynamic-layers/meta-python/recipes-dbs/mongodb",
@@ -13409,7 +13409,7 @@
             "section": "base",
             "srcrev": "df25c71b8674a78e17468f48bcda5285decb9246",
             "summary": "mongodb",
-            "updated": "2022-07-31T22:07:36+0000"
+            "updated": "2022-09-07T19:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -14036,7 +14036,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-static --enable-largefile --disable-static-cryptsetup --disable-libargon2  --enable-blkid --enable-cryptsetup --enable-cryptsetup-reencrypt --disable-dev-random --disable-fips --enable-integritysetup --enable-internal-argon2 --disable-internal-sse-argon2 --enable-kernel_crypto --enable-keyring --enable-luks-adjust-xts-keysize --with-default-luks-format=LUKS1 --with-crypto_backend=openssl --disable-passwdqc --disable-pwquality --disable-selinux --enable-udev --enable-veritysetup --enable-nls",
+            "configopts": "--enable-static --enable-largefile --disable-static-cryptsetup --disable-libargon2  --enable-blkid --enable-cryptsetup --enable-cryptsetup-reencrypt --disable-dev-random --disable-fips --enable-integritysetup --enable-internal-argon2 --disable-internal-sse-argon2 --enable-kernel_crypto --enable-keyring --enable-luks-adjust-xts-keysize --with-default-luks-format=LUKS1 --with-crypto_backend=openssl --disable-passwdqc --disable-pwquality --disable-selinux --enable-ssh-token --enable-udev --enable-veritysetup --enable-nls",
             "description": "Cryptsetup is used to conveniently setup dm-crypt managed device-mapper mappings. These include plain dm-crypt volumes and LUKS volumes. The difference is that LUKS uses a metadata header and can hence offer more features than plain dm-crypt. On the other hand, the header is visible and vulnerable to damage.",
             "filename": "cryptsetup_2.4.3.bb",
             "filepath": "recipes-crypto/cryptsetup",
@@ -14053,7 +14053,7 @@
             "section": "console",
             "srcrev": "",
             "summary": "Manage plain dm-crypt and LUKS encrypted volumes",
-            "updated": "2022-07-31T22:07:43+0000"
+            "updated": "2022-09-07T19:09:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14674,7 +14674,7 @@
             "section": "base",
             "srcrev": "fe00207dc10db1d7cc6f2757961c5c6bdfd10973",
             "summary": "Jpeg 2000 implementation",
-            "updated": "2022-07-31T22:07:52+0000"
+            "updated": "2022-09-07T19:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -15962,7 +15962,7 @@
             "section": "base",
             "srcrev": "37ac30ceff6640bbab502388c5e0fa0bff23f505",
             "summary": "",
-            "updated": "2022-07-31T22:07:09+0000"
+            "updated": "2022-09-07T19:09:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -17463,7 +17463,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                --with-expatincludedir=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/graphviz/2.50.0-r0/recipe-sysroot/usr/include                 --with-expatlibdir=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/graphviz/2.50.0-r0/recipe-sysroot/usr/lib                 --without-included-ltdl                 --disable-java                 --disable-tcl                 --disable-r                 --disable-sharp                   --with-librsvg --enable-nls PS2PDF=/bin/echo",
+            "configopts": "                --with-expatincludedir=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/graphviz/2.50.0-r0/recipe-sysroot/usr/include                 --with-expatlibdir=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/graphviz/2.50.0-r0/recipe-sysroot/usr/lib                 --without-included-ltdl                 --disable-java                 --disable-tcl                 --disable-r                 --disable-sharp                   --with-librsvg --enable-nls PS2PDF=/bin/echo",
             "description": "",
             "filename": "graphviz_2.50.0.bb",
             "filepath": "recipes-graphics/graphviz",
@@ -17480,7 +17480,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Graph Visualization Tools",
-            "updated": "2022-07-31T22:07:25+0000"
+            "updated": "2022-09-07T19:09:51+0000"
         },
         {
             "bbclassextend": "",
@@ -17986,7 +17986,7 @@
             "section": "base",
             "srcrev": "0858b450cd88c84a15b99dda9698d44e7f7e8c70",
             "summary": "OpenGL (ES) 2.0 benchmark",
-            "updated": "2022-07-31T22:07:31+0000"
+            "updated": "2022-09-07T19:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -19504,7 +19504,7 @@
             "section": "base",
             "srcrev": "8d605f0649ed1ab6d27a443c7688598ea21fdb75",
             "summary": "Canonical libwebsockets.org websocket library",
-            "updated": "2022-07-31T22:07:50+0000"
+            "updated": "2022-09-07T19:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -19924,7 +19924,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-zlib=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/libtorrent/0.13.8-r0/recipe-sysroot/usr  --enable-instrumentation",
+            "configopts": "--with-zlib=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/libtorrent/0.13.8-r0/recipe-sysroot/usr  --enable-instrumentation",
             "description": "libTorrent is a BitTorrent library written in C++ for *nix, with a focus on high performance and good code.",
             "filename": "libtorrent_git.bb",
             "filepath": "recipes-connectivity/libtorrent",
@@ -19941,7 +19941,7 @@
             "section": "base",
             "srcrev": "756f70010779927dc0691e1e722ed433d5d295e1",
             "summary": "",
-            "updated": "2022-07-31T22:07:55+0000"
+            "updated": "2022-09-07T19:09:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -20586,6 +20586,29 @@
             "srcrev": "",
             "summary": "A serial to network proxy",
             "updated": "2022-07-31T22:07:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Polkit rule to allow non-priviledged users mount/umount block devices via udisks2",
+            "filename": "polkit-group-rule-udisks2.bb",
+            "filepath": "recipes-extended/polkit",
+            "homepage": "",
+            "id": 1622047,
+            "inherits": "features_check useradd useradd_base",
+            "layerbranch": 904830,
+            "license": "MIT",
+            "pe": "",
+            "pn": "polkit-group-rule-udisks2",
+            "pr": "r0",
+            "provides": "polkit-group-rule-udisks2 ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2022-09-07T19:09:52+0000"
         }
     ],
     "wrtemplates": []

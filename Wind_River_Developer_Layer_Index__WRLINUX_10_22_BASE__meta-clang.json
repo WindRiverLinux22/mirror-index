@@ -430,46 +430,46 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220713",
+            "bitbake_branch": "wr-10.22-20220902",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 7,
+            "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-08-22T00:08:13+0000",
+            "updated": "2022-09-16T00:09:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220727",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-08-17T23:08:39+0000",
-            "vcs_last_commit": "2022-08-17T22:08:14+0000",
-            "vcs_last_fetch": "2022-08-17T23:08:39+0000",
-            "vcs_last_rev": "c25c93225ec7f6f2f0921a1b09bb49371462bde9",
+            "updated": "2022-09-07T19:09:42+0000",
+            "vcs_last_commit": "2022-09-05T20:09:23+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:42+0000",
+            "vcs_last_rev": "bacb99230f4c4a95f7db0bb0f4e0d05b46b92280",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220713",
+            "actual_branch": "wr-10.22-20220902",
             "branch": 292,
             "collection": "clang-layer",
             "id": 904849,
             "layer": 353,
             "local_path": "",
-            "updated": "2022-07-31T22:07:18+0000",
-            "vcs_last_commit": "2022-07-12T19:07:31+0000",
-            "vcs_last_fetch": "2022-07-31T22:07:18+0000",
-            "vcs_last_rev": "882601e7589362da5470173c20f33d30959ff12f",
+            "updated": "2022-09-07T19:09:42+0000",
+            "vcs_last_commit": "2022-09-02T01:09:09+0000",
+            "vcs_last_fetch": "2022-09-07T19:09:42+0000",
+            "vcs_last_rev": "b5988148d86b282b69bd4c6b2f71b84d043a8dd9",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -535,7 +535,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "        -DBUILD_SHARED_LIBS=ON         -DLLVM_SPIRV_BUILD_EXTERNAL=YES         -DCMAKE_BUILD_TYPE=Release         -DCMAKE_POSITION_INDEPENDENT_CODE=ON         -DCMAKE_SKIP_RPATH=ON         -DLLVM_EXTERNAL_LIT=lit         -DLLVM_INCLUDE_TESTS=ON         -Wno-dev         -DCCACHE_ALLOWED=FALSE         -DLLVM_EXTERNAL_SPIRV_HEADERS_SOURCE_DIR=/tmp/tmpd6user82/tmp-glibc/work/core2-32-oe-linux/spirv-llvm-translator/14.0.0-r0/git/SPIRV-Headers  ",
+            "configopts": "        -DBUILD_SHARED_LIBS=ON         -DLLVM_SPIRV_BUILD_EXTERNAL=YES         -DCMAKE_BUILD_TYPE=Release         -DCMAKE_POSITION_INDEPENDENT_CODE=ON         -DCMAKE_SKIP_RPATH=ON         -DLLVM_EXTERNAL_LIT=lit         -DLLVM_INCLUDE_TESTS=ON         -Wno-dev         -DCCACHE_ALLOWED=FALSE         -DLLVM_EXTERNAL_SPIRV_HEADERS_SOURCE_DIR=/tmp/tmpxjfz4r9v/tmp-glibc/work/core2-32-oe-linux/spirv-llvm-translator/14.0.0-r0/git/SPIRV-Headers  ",
             "description": "",
             "filename": "spirv-llvm-translator_git.bb",
             "filepath": "recipes-devtools/spirv-llvm-translator",
@@ -552,7 +552,7 @@
             "section": "base",
             "srcrev": "8937ecf4698c9283c92c35b65e5b97e6e0acf869",
             "summary": "",
-            "updated": "2022-07-31T22:07:12+0000"
+            "updated": "2022-09-07T19:09:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -874,7 +874,7 @@
             "section": "base",
             "srcrev": "0a318e53343aa51f811183534916a4be65a1871e",
             "summary": "bpftrace",
-            "updated": "2022-07-31T22:07:17+0000"
+            "updated": "2022-09-07T19:09:41+0000"
         },
         {
             "bbclassextend": "",
