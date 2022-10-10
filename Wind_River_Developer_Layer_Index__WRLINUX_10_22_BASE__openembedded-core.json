@@ -436,9 +436,9 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 8,
+            "sort_priority": 9,
             "update_environment": null,
-            "updated": "2022-09-16T00:09:10+0000",
+            "updated": "2022-10-09T00:10:12+0000",
             "updates_enabled": true
         }
     ],
@@ -459,10 +459,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-09-07T19:09:42+0000",
-            "vcs_last_commit": "2022-09-05T20:09:23+0000",
-            "vcs_last_fetch": "2022-09-07T19:09:42+0000",
-            "vcs_last_rev": "bacb99230f4c4a95f7db0bb0f4e0d05b46b92280",
+            "updated": "2022-09-27T18:09:28+0000",
+            "vcs_last_commit": "2022-09-27T03:09:09+0000",
+            "vcs_last_fetch": "2022-09-27T18:09:28+0000",
+            "vcs_last_rev": "991ccd3ab53d503ee361d72d12a9b963cd39b81f",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -4514,7 +4514,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/gcc-runtime/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit --cache-file=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/gcc-runtime/11.3.0-r0/build/config.cache",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/gcc-runtime/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit --cache-file=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/gcc-runtime/11.3.0-r0/build/config.cache",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-runtime_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4531,13 +4531,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Runtime libraries from GCC",
-            "updated": "2022-09-07T19:09:36+0000"
+            "updated": "2022-09-22T02:09:29+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/libgcc/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/libgcc/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "libgcc_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4554,13 +4554,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-07T19:09:37+0000"
+            "updated": "2022-09-22T02:09:29+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/gcc-sanitizers/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/gcc-sanitizers/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-sanitizers_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4577,13 +4577,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-07T19:09:37+0000"
+            "updated": "2022-09-22T02:09:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=x86_64-oesdk-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbucdafz/tmp-glibc/work/x86_64-linux/gcc-crosssdk-x86_64-oesdk-linux/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=x86_64-oesdk-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/x86_64-linux/gcc-crosssdk-x86_64-oesdk-linux/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-crosssdk_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4600,13 +4600,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-07T19:09:37+0000"
+            "updated": "2022-09-22T02:09:29+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/libgcc-initial/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --disable-shared  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/libgcc-initial/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --disable-shared  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "libgcc-initial_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4623,13 +4623,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-07T19:09:37+0000"
+            "updated": "2022-09-22T02:09:29+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/libgfortran/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/libgfortran/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "libgfortran_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4646,13 +4646,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-07T19:09:37+0000"
+            "updated": "2022-09-22T02:09:30+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-build-sysroot=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/gcc/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/gcc/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4669,13 +4669,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-07T19:09:37+0000"
+            "updated": "2022-09-22T02:09:28+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbucdafz/tmp-glibc/work/x86_64-linux/gcc-cross-i686/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/x86_64-linux/gcc-cross-i686/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-cross_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4692,13 +4692,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-07T19:09:38+0000"
+            "updated": "2022-09-22T02:09:28+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0     --with-build-time-tools=/tmp/tmpzbucdafz/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/11.3.0-r0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpzbucdafz/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0     --with-build-time-tools=/tmp/tmpnggl05fe/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/11.3.0-r0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-cross-canadian_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4715,7 +4715,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i686 target)",
-            "updated": "2022-09-07T19:09:38+0000"
+            "updated": "2022-09-22T02:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -4738,7 +4738,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-07T19:09:38+0000"
+            "updated": "2022-09-22T02:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -10465,7 +10465,7 @@
             "section": "base",
             "srcrev": "381f69828b782afda574f259c1b7549f48f9bb77",
             "summary": "Random number generator daemon",
-            "updated": "2022-07-31T21:07:35+0000"
+            "updated": "2022-09-20T23:09:37+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -19849,7 +19849,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2022-07-31T21:07:02+0000"
+            "updated": "2022-09-20T23:09:37+0000"
         },
         {
             "bbclassextend": "",
