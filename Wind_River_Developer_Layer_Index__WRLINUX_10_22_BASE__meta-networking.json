@@ -426,11 +426,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42592,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42593,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220902",
+            "bitbake_branch": "wr-10.22-20221009",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -438,50 +466,50 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-10T00:10:11+0000",
+            "updated": "2022-10-17T00:10:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-09-27T18:09:28+0000",
-            "vcs_last_commit": "2022-09-27T03:09:09+0000",
-            "vcs_last_fetch": "2022-09-27T18:09:28+0000",
-            "vcs_last_rev": "991ccd3ab53d503ee361d72d12a9b963cd39b81f",
+            "updated": "2022-10-14T00:10:27+0000",
+            "vcs_last_commit": "2022-10-13T23:10:12+0000",
+            "vcs_last_fetch": "2022-10-14T00:10:27+0000",
+            "vcs_last_rev": "b2f4190a5f946a3e2c2cfd46e9c304af93c398fe",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-09-27T02:09:28+0000",
-            "vcs_last_commit": "2022-09-27T00:09:03+0000",
-            "vcs_last_fetch": "2022-09-27T02:09:28+0000",
-            "vcs_last_rev": "5eb5ae12fb52fc53a6807bad12deb78a6332f677",
+            "updated": "2022-10-10T23:10:21+0000",
+            "vcs_last_commit": "2022-10-10T00:10:09+0000",
+            "vcs_last_fetch": "2022-10-10T23:10:21+0000",
+            "vcs_last_rev": "cfbb82bd98c3beea641cde37a6563bc6302d9358",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2022-09-07T19:09:08+0000",
+            "updated": "2022-10-10T23:10:05+0000",
             "vcs_last_commit": "2022-07-26T07:07:35+0000",
             "vcs_last_fetch": "2022-09-07T19:09:08+0000",
             "vcs_last_rev": "cb4e7fb4b08b7ebbdc21485e9a21845931132759",
@@ -490,16 +518,16 @@
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "networking-layer",
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-09-07T19:09:55+0000",
-            "vcs_last_commit": "2022-09-02T01:09:11+0000",
-            "vcs_last_fetch": "2022-09-07T19:09:55+0000",
-            "vcs_last_rev": "bdcf503123d99966e0c230ce48835ec333bc0e18",
+            "updated": "2022-10-14T01:10:31+0000",
+            "vcs_last_commit": "2022-10-14T01:10:35+0000",
+            "vcs_last_fetch": "2022-10-14T01:10:31+0000",
+            "vcs_last_rev": "e63724f4b2383bb9c3eeb753cb8d5586127d19a9",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
@@ -885,7 +913,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-fpm                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmpyjbd5dka/tmp-glibc/work/core2-32-oe-linux/frr/8.2.2-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
+            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-fpm                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmpz1ia3o93/tmp-glibc/work/core2-32-oe-linux/frr/8.2.2-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
             "description": "FRRouting is a free and open source Internet routing protocol suite for Linux and Unix platforms. It implements BGP, OSPF, RIP, IS-IS, PIM, LDP, BFD, Babel, PBR, OpenFabric and VRRP, with alpha support for EIGRP and NHRP.",
             "filename": "frr_8.2.2.bb",
             "filepath": "recipes-protocols/frr",
@@ -902,7 +930,7 @@
             "section": "net",
             "srcrev": "79188bf710e92acf42fb5b9b0a2e9593a5ee9b05",
             "summary": "BGP/OSPF/RIP routing daemon",
-            "updated": "2022-09-07T19:09:54+0000"
+            "updated": "2022-10-14T01:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1874,7 +1902,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--cross-compiler='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot'                 --cross-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0=/usr/src/debug/ntpsec/1.2.1-r0                      -fdebug-prefix-map=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0=/usr/src/debug/ntpsec/1.2.1-r0                      -fdebug-prefix-map=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot-native=  -I/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot/usr/include/python3.10'                 --cross-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0=/usr/src/debug/ntpsec/1.2.1-r0                      -fdebug-prefix-map=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0=/usr/src/debug/ntpsec/1.2.1-r0                      -fdebug-prefix-map=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot-native= '                 --pyshebang=/usr/bin/python3                 --pythondir=/usr/lib/python3.10/site-packages                 --pythonarchdir=/usr/lib/python3.10/site-packages                 --enable-debug                 --enable-debug-gdb                 --enable-early-droproot  --disable-doc --disable-manpage --enable-leap-smear --enable-mssntp --refclock=all --enable-seccomp",
+            "configopts": "--cross-compiler='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse --sysroot=/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot'                 --cross-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0=/usr/src/debug/ntpsec/1.2.1-r0                      -fdebug-prefix-map=/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0=/usr/src/debug/ntpsec/1.2.1-r0                      -fdebug-prefix-map=/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot-native=  -I/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot/usr/include/python3.10 -D_GNU_SOURCE'                 --cross-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fmacro-prefix-map=/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0=/usr/src/debug/ntpsec/1.2.1-r0                      -fdebug-prefix-map=/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0=/usr/src/debug/ntpsec/1.2.1-r0                      -fdebug-prefix-map=/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/ntpsec/1.2.1-r0/recipe-sysroot-native= '                 --pyshebang=/usr/bin/python3                 --pythondir=/usr/lib/python3.10/site-packages                 --pythonarchdir=/usr/lib/python3.10/site-packages                 --enable-debug                 --enable-debug-gdb                 --enable-early-droproot  --disable-doc --disable-manpage --enable-leap-smear --enable-mssntp --refclock=all --enable-seccomp",
             "description": "",
             "filename": "ntpsec_1.2.1.bb",
             "filepath": "recipes-support/ntpsec",
@@ -1891,7 +1919,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The Network Time Protocol suite, refactored",
-            "updated": "2022-07-31T22:07:45+0000"
+            "updated": "2022-10-10T23:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2564,9 +2592,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --disable-rpath                  --disable-rpath-install                  --bundled-libraries=cmocka                  --builtin-libraries=replace                  --with-modulesdir=/usr/lib/ldb/modules                  --with-privatelibdir=/usr/lib/ldb                  --with-libiconv=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/libldb/2.3.3-r0/recipe-sysroot/usr                ",
+            "configopts": " --disable-rpath                  --disable-rpath-install                  --bundled-libraries=cmocka                  --builtin-libraries=replace                  --with-modulesdir=/usr/lib/ldb/modules                  --with-privatelibdir=/usr/lib/ldb                  --with-libiconv=/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/libldb/2.3.4-r0/recipe-sysroot/usr                ",
             "description": "",
-            "filename": "libldb_2.3.3.bb",
+            "filename": "libldb_2.3.4.bb",
             "filepath": "recipes-support/libldb",
             "homepage": "http://ldb.samba.org",
             "id": 1535957,
@@ -2577,11 +2605,11 @@
             "pn": "libldb",
             "pr": "r0",
             "provides": "libldb ",
-            "pv": "2.3.3",
+            "pv": "2.3.4",
             "section": "libs",
             "srcrev": "",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2022-07-31T22:07:53+0000"
+            "updated": "2022-10-10T23:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -3731,7 +3759,7 @@
             "section": "networking",
             "srcrev": "3ba6527130c502144e7388b900138bca6260f4e8",
             "summary": "WireGuard is an extremely simple yet fast and modern VPN",
-            "updated": "2022-07-31T22:07:08+0000"
+            "updated": "2022-10-10T23:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -3739,7 +3767,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "WireGuard is a secure network tunnel, operating at layer 3, implemented as a kernel virtual network interface for Linux, which aims to replace both IPsec for most use cases, as well as popular user space and/or TLS-based solutions like OpenVPN, while being more secure, more performant, and easier to use.",
-            "filename": "wireguard-module_1.0.20210219.bb",
+            "filename": "wireguard-module_1.0.20220627.bb",
             "filepath": "recipes-kernel/wireguard",
             "homepage": "https://www.wireguard.io/",
             "id": 1536008,
@@ -3750,11 +3778,11 @@
             "pn": "wireguard-module",
             "pr": "r0",
             "provides": "wireguard-module ",
-            "pv": "1.0.20210219",
+            "pv": "1.0.20220627",
             "section": "networking",
-            "srcrev": "122f06bfd8fc7b06a0899fa9adc4ce8e06900d98",
+            "srcrev": "18fbcd68a35a892527345dc5679d0b2d860ee004",
             "summary": "WireGuard is an extremely simple yet fast and modern VPN",
-            "updated": "2022-07-31T22:07:09+0000"
+            "updated": "2022-10-10T23:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4565,9 +4593,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-fhs                  --with-piddir=/run                  --with-sockets-dir=/run/samba                  --with-modulesdir=/usr/lib/samba                  --with-lockdir=/var/lib/samba                  --with-cachedir=/var/lib/samba                  --disable-rpath-install                  --with-shared-modules=idmap_ad,idmap_rid,idmap_adex,idmap_hash,idmap_tdb2,pdb_tdbsam,pdb_ldap,pdb_ads,pdb_smbpasswd,pdb_wbc_sam,pdb_samba4,auth_unix,auth_wbc,auth_server,auth_netlogond,auth_script,auth_samba4                  --bundled-libraries=heimdal,cmocka,NONE                  --disable-glusterfs                  --with-cluster-support                  --with-profiling-data                  --with-libiconv=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/samba/4.14.13-r0/recipe-sysroot/usr                  --with-pam --with-pammodulesdir=/lib/security                 ",
+            "configopts": " --enable-fhs                  --with-piddir=/run                  --with-sockets-dir=/run/samba                  --with-modulesdir=/usr/lib/samba                  --with-lockdir=/var/lib/samba                  --with-cachedir=/var/lib/samba                  --disable-rpath-install                  --with-shared-modules=idmap_ad,idmap_rid,idmap_adex,idmap_hash,idmap_tdb2,pdb_tdbsam,pdb_ldap,pdb_ads,pdb_smbpasswd,pdb_wbc_sam,pdb_samba4,auth_unix,auth_wbc,auth_server,auth_netlogond,auth_script,auth_samba4                  --bundled-libraries=heimdal,cmocka,NONE                  --disable-glusterfs                  --with-cluster-support                  --with-profiling-data                  --with-libiconv=/tmp/tmps4nkstho/tmp-glibc/work/core2-32-oe-linux/samba/4.14.14-r0/recipe-sysroot/usr                  --with-pam --with-pammodulesdir=/lib/security                 ",
             "description": "",
-            "filename": "samba_4.14.13.bb",
+            "filename": "samba_4.14.14.bb",
             "filepath": "recipes-connectivity/samba",
             "homepage": "https://www.samba.org/",
             "id": 1536044,
@@ -4578,11 +4606,11 @@
             "pn": "samba",
             "pr": "r0",
             "provides": "samba ",
-            "pv": "4.14.13",
+            "pv": "4.14.14",
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T22:07:21+0000"
+            "updated": "2022-10-10T23:10:38+0000"
         },
         {
             "bbclassextend": "",

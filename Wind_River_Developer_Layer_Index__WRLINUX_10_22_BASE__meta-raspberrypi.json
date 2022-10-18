@@ -426,11 +426,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42592,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42593,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220902",
+            "bitbake_branch": "wr-10.22-20221009",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -438,38 +466,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-10T00:10:11+0000",
+            "updated": "2022-10-17T00:10:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-09-27T18:09:28+0000",
-            "vcs_last_commit": "2022-09-27T03:09:09+0000",
-            "vcs_last_fetch": "2022-09-27T18:09:28+0000",
-            "vcs_last_rev": "991ccd3ab53d503ee361d72d12a9b963cd39b81f",
+            "updated": "2022-10-14T00:10:27+0000",
+            "vcs_last_commit": "2022-10-13T23:10:12+0000",
+            "vcs_last_fetch": "2022-10-14T00:10:27+0000",
+            "vcs_last_rev": "b2f4190a5f946a3e2c2cfd46e9c304af93c398fe",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220426",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "raspberrypi",
             "id": 904851,
             "layer": 381,
             "local_path": "",
-            "updated": "2022-07-31T22:07:32+0000",
-            "vcs_last_commit": "2022-04-25T20:04:49+0000",
-            "vcs_last_fetch": "2022-07-31T22:07:32+0000",
-            "vcs_last_rev": "55c5b183b01ea7da6d52607fce414ca3b5f87f58",
+            "updated": "2022-10-10T23:10:45+0000",
+            "vcs_last_commit": "2022-10-08T18:10:03+0000",
+            "vcs_last_fetch": "2022-10-10T23:10:45+0000",
+            "vcs_last_rev": "8258096a464ddf2c37219a7e0d809ca7f7d452a9",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -863,11 +891,11 @@
             "pn": "rpi-bootfiles",
             "pr": "r3",
             "provides": "rpi-bootfiles ",
-            "pv": "20220331",
+            "pv": "20220830",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T22:07:27+0000"
+            "updated": "2022-10-10T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -890,7 +918,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "cmdline.txt file used to boot the kernel on a Raspberry Pi device",
-            "updated": "2022-07-31T22:07:28+0000"
+            "updated": "2022-10-10T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -978,11 +1006,11 @@
             "pn": "picamera-libs",
             "pr": "r0",
             "provides": "picamera-libs ",
-            "pv": "20220331",
+            "pv": "20220830",
             "section": "base",
             "srcrev": "",
             "summary": "Raspberrypi firmware libraries which are required by picamera library",
-            "updated": "2022-07-31T22:07:28+0000"
+            "updated": "2022-10-10T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1346,11 +1374,11 @@
             "pn": "vc-graphics-hardfp",
             "pr": "r1.0",
             "provides": "vc-graphics-hardfp virtual/libgles2 virtual/egl",
-            "pv": "20220331",
+            "pv": "20220830",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T22:07:31+0000"
+            "updated": "2022-10-10T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1369,11 +1397,11 @@
             "pn": "vc-graphics",
             "pr": "r1.0",
             "provides": "vc-graphics virtual/libgles2 virtual/egl",
-            "pv": "20220331",
+            "pv": "20220830",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T22:07:31+0000"
+            "updated": "2022-10-10T23:10:45+0000"
         },
         {
             "bbclassextend": "",

@@ -426,11 +426,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42592,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42593,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220902",
+            "bitbake_branch": "wr-10.22-20221009",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -438,7 +466,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-10T00:10:11+0000",
+            "updated": "2022-10-17T00:10:10+0000",
             "updates_enabled": true
         }
     ],
@@ -453,16 +481,16 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-09-27T18:09:28+0000",
-            "vcs_last_commit": "2022-09-27T03:09:09+0000",
-            "vcs_last_fetch": "2022-09-27T18:09:28+0000",
-            "vcs_last_rev": "991ccd3ab53d503ee361d72d12a9b963cd39b81f",
+            "updated": "2022-10-14T00:10:27+0000",
+            "vcs_last_commit": "2022-10-13T23:10:12+0000",
+            "vcs_last_fetch": "2022-10-14T00:10:27+0000",
+            "vcs_last_rev": "b2f4190a5f946a3e2c2cfd46e9c304af93c398fe",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -713,7 +741,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-09-07T19:09:02+0000"
+            "updated": "2022-10-10T23:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -736,7 +764,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-09-07T19:09:02+0000"
+            "updated": "2022-10-10T23:10:05+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -759,7 +787,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-09-07T19:09:02+0000"
+            "updated": "2022-10-10T23:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -782,7 +810,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-09-07T19:09:02+0000"
+            "updated": "2022-10-10T23:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -805,7 +833,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-09-07T19:09:02+0000"
+            "updated": "2022-10-10T23:10:53+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -828,7 +856,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2022-09-07T19:09:03+0000"
+            "updated": "2022-10-10T23:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1478,7 +1506,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --disable-versioned-paths     --disable-rpath     --disable-dtrace     --enable-shared     --enable-load-relative     --with-pkg-config=pkg-config     --with-static-linked-ext    --with-capstone=no  --with-gmp=no --enable-ipv6 --disable-install-rdoc  --with-valgrind=no",
+            "configopts": "    --disable-versioned-paths     --disable-rpath     --disable-dtrace     --enable-shared     --enable-load-relative     --with-pkg-config=pkg-config     --with-static-linked-ext    --with-gmp=no --enable-ipv6 --disable-install-rdoc  --with-valgrind=no",
             "description": "Ruby is an interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in Perl). It is simple, straight-forward, and extensible. ",
             "filename": "ruby_3.1.2.bb",
             "filepath": "recipes-devtools/ruby",
@@ -1495,7 +1523,7 @@
             "section": "devel/ruby",
             "srcrev": "",
             "summary": "An interpreter of object-oriented scripting language",
-            "updated": "2022-07-31T21:07:54+0000"
+            "updated": "2022-10-10T23:10:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3887,7 +3915,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Pure python rfc3986 validator",
-            "updated": "2022-07-31T21:07:39+0000"
+            "updated": "2022-10-10T23:10:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4514,7 +4542,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/gcc-runtime/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit --cache-file=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/gcc-runtime/11.3.0-r0/build/config.cache",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/gcc-runtime/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit --cache-file=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/gcc-runtime/11.3.0-r0/build/config.cache",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-runtime_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4531,13 +4559,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Runtime libraries from GCC",
-            "updated": "2022-09-22T02:09:29+0000"
+            "updated": "2022-10-10T23:10:09+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/libgcc/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/libgcc/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "libgcc_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4554,13 +4582,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-22T02:09:29+0000"
+            "updated": "2022-10-10T23:10:09+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/gcc-sanitizers/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/gcc-sanitizers/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-sanitizers_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4577,13 +4605,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-22T02:09:29+0000"
+            "updated": "2022-10-10T23:10:09+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=x86_64-oesdk-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/x86_64-linux/gcc-crosssdk-x86_64-oesdk-linux/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=x86_64-oesdk-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpatgj1f2u/tmp-glibc/work/x86_64-linux/gcc-crosssdk-x86_64-oesdk-linux/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-crosssdk_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4600,13 +4628,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-22T02:09:29+0000"
+            "updated": "2022-10-10T23:10:09+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/libgcc-initial/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --disable-shared  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/libgcc-initial/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --disable-shared  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "libgcc-initial_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4623,13 +4651,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-22T02:09:29+0000"
+            "updated": "2022-10-10T23:10:09+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/libgfortran/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/libgfortran/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "libgfortran_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4646,13 +4674,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-22T02:09:30+0000"
+            "updated": "2022-10-10T23:10:09+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/core2-32-oe-linux/gcc/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-build-sysroot=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/gcc/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection   --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4669,13 +4697,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-22T02:09:28+0000"
+            "updated": "2022-10-10T23:10:10+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/x86_64-linux/gcc-cross-i686/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpatgj1f2u/tmp-glibc/work/x86_64-linux/gcc-cross-i686/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-cross_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4692,13 +4720,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2022-09-22T02:09:28+0000"
+            "updated": "2022-10-10T23:10:10+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0     --with-build-time-tools=/tmp/tmpnggl05fe/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/11.3.0-r0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpnggl05fe/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0     --with-build-time-tools=/tmp/tmpatgj1f2u/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/11.3.0-r0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpatgj1f2u/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-i686/11.3.0-r0/recipe-sysroot                 \t--enable-standard-branch-protection  --with-plugin-ld=ld --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-cross-canadian_11.3.bb",
             "filepath": "recipes-devtools/gcc",
@@ -4715,7 +4743,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i686 target)",
-            "updated": "2022-09-22T02:09:28+0000"
+            "updated": "2022-10-10T23:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4830,7 +4858,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "A GNU tool that produce shell scripts to automatically configure software",
-            "updated": "2022-07-31T21:07:56+0000"
+            "updated": "2022-10-10T23:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -5160,7 +5188,7 @@
             "bugtracker": "",
             "configopts": "  --disable-valadoc ",
             "description": "Vala is a C#-like language dedicated to ease GObject programming. Vala compiles to plain C and has no runtime environment nor penalities whatsoever.",
-            "filename": "vala_0.56.2.bb",
+            "filename": "vala_0.56.3.bb",
             "filepath": "recipes-devtools/vala",
             "homepage": "http://vala-project.org",
             "id": 1533334,
@@ -5171,11 +5199,11 @@
             "pn": "vala",
             "pr": "r0",
             "provides": "vala ",
-            "pv": "0.56.2",
+            "pv": "0.56.3",
             "section": "devel",
             "srcrev": "",
             "summary": "C#-like programming language for easing GObject programming",
-            "updated": "2022-09-07T19:09:42+0000"
+            "updated": "2022-10-10T23:10:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -5612,7 +5640,7 @@
             "section": "devel",
             "srcrev": "5c0b4ee406035917d0e50aa138194fab57ae6bf8",
             "summary": "GNU binary utilities",
-            "updated": "2022-09-07T19:09:39+0000"
+            "updated": "2022-10-10T23:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5635,13 +5663,13 @@
             "section": "devel",
             "srcrev": "5c0b4ee406035917d0e50aa138194fab57ae6bf8",
             "summary": "GNU binary utilities (cross-canadian for i686 target)",
-            "updated": "2022-09-07T19:09:39+0000"
+            "updated": "2022-10-10T23:10:11+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://sourceware.org/bugzilla/",
-            "configopts": "--program-prefix=x86_64-oesdk-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                                   --enable-targets=x86_64-pe,x86_64-pep                   --with-sysroot=/tmp/tmpzbucdafz/tmp-glibc/work/x86_64-linux/binutils-crosssdk-x86_64-oesdk-linux/2.38-r0/recipe-sysroot                 --disable-install-libbfd                 --enable-poison-system-directories                 --with-lib-path==/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/lib:=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib                   --disable-nls",
+            "configopts": "--program-prefix=x86_64-oesdk-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                                   --enable-targets=x86_64-pe,x86_64-pep                   --with-sysroot=/tmp/tmpatgj1f2u/tmp-glibc/work/x86_64-linux/binutils-crosssdk-x86_64-oesdk-linux/2.38-r0/recipe-sysroot                 --disable-install-libbfd                 --enable-poison-system-directories                 --with-lib-path==/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/lib:=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib                   --disable-nls",
             "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
             "filename": "binutils-crosssdk_2.38.bb",
             "filepath": "recipes-devtools/binutils",
@@ -5658,7 +5686,7 @@
             "section": "devel",
             "srcrev": "5c0b4ee406035917d0e50aa138194fab57ae6bf8",
             "summary": "GNU binary utilities",
-            "updated": "2022-09-07T19:09:39+0000"
+            "updated": "2022-10-10T23:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5681,13 +5709,13 @@
             "section": "devel",
             "srcrev": "5c0b4ee406035917d0e50aa138194fab57ae6bf8",
             "summary": "GNU binary utilities",
-            "updated": "2022-09-07T19:09:39+0000"
+            "updated": "2022-10-10T23:10:11+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://sourceware.org/bugzilla/",
-            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                   --with-sysroot=/tmp/tmpzbucdafz/tmp-glibc/work/x86_64-linux/binutils-cross-i686/2.38-r0/recipe-sysroot                 --disable-install-libbfd                 --enable-poison-system-directories                 --with-lib-path==/lib:=/usr/lib                   --disable-nls",
+            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                   --with-sysroot=/tmp/tmpatgj1f2u/tmp-glibc/work/x86_64-linux/binutils-cross-i686/2.38-r0/recipe-sysroot                 --disable-install-libbfd                 --enable-poison-system-directories                 --with-lib-path==/lib:=/usr/lib                   --disable-nls",
             "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
             "filename": "binutils-cross_2.38.bb",
             "filepath": "recipes-devtools/binutils",
@@ -5704,7 +5732,7 @@
             "section": "devel",
             "srcrev": "5c0b4ee406035917d0e50aa138194fab57ae6bf8",
             "summary": "GNU binary utilities",
-            "updated": "2022-09-07T19:09:39+0000"
+            "updated": "2022-10-10T23:10:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -6254,9 +6282,9 @@
             "provides": "pseudo  virtual/fakeroot",
             "pv": "1.9.0+gitX",
             "section": "base",
-            "srcrev": "2b4b88eb513335b0ece55fe51854693d9b20de35",
+            "srcrev": "c9670c27ff67ab899007ce749254b16091577e55",
             "summary": "Pseudo gives fake root capabilities to a normal user",
-            "updated": "2022-07-31T21:07:20+0000"
+            "updated": "2022-10-10T23:10:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6532,7 +6560,7 @@
             "section": "bootloaders",
             "srcrev": "d637294e264adfeb29f390dfc393106fd4d41b17",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-09-07T19:09:09+0000"
+            "updated": "2022-10-10T23:10:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -7621,7 +7649,7 @@
             "bugtracker": "",
             "configopts": "  --enable-arm-neon=off",
             "description": "An open source project to develop and maintain the reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. ",
-            "filename": "libpng_1.6.37.bb",
+            "filename": "libpng_1.6.38.bb",
             "filepath": "recipes-multimedia/libpng",
             "homepage": "http://www.libpng.org/",
             "id": 1533441,
@@ -7632,11 +7660,11 @@
             "pn": "libpng",
             "pr": "r0",
             "provides": "libpng ",
-            "pv": "1.6.37",
+            "pv": "1.6.38",
             "section": "libs",
             "srcrev": "",
             "summary": "PNG image format decoding library",
-            "updated": "2022-07-31T21:07:40+0000"
+            "updated": "2022-10-10T23:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -7734,7 +7762,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://gitlab.gnome.org/GNOME/gcr/issues",
-            "configopts": "-Dintrospection=true -Dgtk_doc=false  --cross-file /tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/gcr/3.40.0-r0/meson-gcr.cross  -Dgtk=true",
+            "configopts": "-Dintrospection=true -Dgtk_doc=false  --cross-file /tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/gcr/3.40.0-r0/meson-gcr.cross  -Dgtk=true",
             "description": "GCR is a library for displaying certificates, and crypto UI, accessing key stores. It also provides the viewer for crypto files on the GNOME desktop.",
             "filename": "gcr_3.40.0.bb",
             "filepath": "recipes-gnome/gcr",
@@ -7751,7 +7779,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A library for bits of crypto UI and parsing etc",
-            "updated": "2022-09-07T19:09:24+0000"
+            "updated": "2022-10-10T23:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -8288,7 +8316,7 @@
             "bugtracker": "https://github.com/WebPlatformForEmbedded/libwpe/issues",
             "configopts": " ",
             "description": "",
-            "filename": "libwpe_1.12.2.bb",
+            "filename": "libwpe_1.12.3.bb",
             "filepath": "recipes-sato/webkit",
             "homepage": "https://github.com/WebPlatformForEmbedded/libwpe",
             "id": 1533470,
@@ -8299,11 +8327,11 @@
             "pn": "libwpe",
             "pr": "r0",
             "provides": "libwpe ",
-            "pv": "1.12.2",
+            "pv": "1.12.3",
             "section": "base",
             "srcrev": "",
             "summary": "General-purpose library specifically developed for the WPE-flavored port of WebKit.",
-            "updated": "2022-09-07T19:09:21+0000"
+            "updated": "2022-10-10T23:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -8441,7 +8469,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:26+0000"
+            "updated": "2022-10-10T23:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -8464,7 +8492,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:27+0000"
+            "updated": "2022-10-10T23:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -8487,7 +8515,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:27+0000"
+            "updated": "2022-10-10T23:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -8679,7 +8707,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Package provides semi-portable access to hardware-provided atomic memory update operations on a number of architectures.",
-            "filename": "libatomic-ops_7.6.12.bb",
+            "filename": "libatomic-ops_7.6.14.bb",
             "filepath": "recipes-support/libatomic-ops",
             "homepage": "https://github.com/ivmai/libatomic_ops/",
             "id": 1533487,
@@ -8690,11 +8718,11 @@
             "pn": "libatomic-ops",
             "pr": "r0",
             "provides": "libatomic-ops  libatomics-ops",
-            "pv": "7.6.12",
+            "pv": "7.6.14",
             "section": "optional",
             "srcrev": "",
             "summary": "A library for atomic integer operations",
-            "updated": "2022-07-31T21:07:55+0000"
+            "updated": "2022-10-10T23:10:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8976,7 +9004,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --disable-rpath    --disable-pinentry-gtk2 --with-libcap --enable-ncurses  --with-ncurses-include-dir=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/pinentry/1.2.0-r0/recipe-sysroot/usr/include  --disable-pinentry-qt  --disable-libsecret",
+            "configopts": "     --disable-rpath    --disable-pinentry-gtk2 --with-libcap --enable-ncurses  --with-ncurses-include-dir=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/pinentry/1.2.0-r0/recipe-sysroot/usr/include  --disable-pinentry-qt  --disable-libsecret",
             "description": "\tPinentry is a collection of simple PIN or passphrase entry dialogs which \tutilize the Assuan protocol as described by the aegypten project; see \thttp://www.gnupg.org/aegypten/ for details.",
             "filename": "pinentry_1.2.0.bb",
             "filepath": "recipes-support/pinentry",
@@ -8993,7 +9021,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Collection of simple PIN or passphrase entry dialogs",
-            "updated": "2022-07-31T21:07:02+0000"
+            "updated": "2022-10-10T23:10:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9223,7 +9251,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Embeddable SQL database engine",
-            "updated": "2022-07-31T21:07:06+0000"
+            "updated": "2022-10-10T23:10:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9265,11 +9293,11 @@
             "pn": "vim-tiny",
             "pr": "r0",
             "provides": "vim-tiny ",
-            "pv": "9.0.0242",
+            "pv": "9.0.0541",
             "section": "console/utils",
-            "srcrev": "171c683237149262665135c7d5841a89bb156f53",
+            "srcrev": "ee7c8d999beb847457f768757b1bdcd76391c1f4",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2022-09-07T19:09:27+0000"
+            "updated": "2022-10-10T23:10:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9288,11 +9316,11 @@
             "pn": "vim",
             "pr": "r0",
             "provides": "vim xxd",
-            "pv": "9.0.0242",
+            "pv": "9.0.0541",
             "section": "console/utils",
-            "srcrev": "171c683237149262665135c7d5841a89bb156f53",
+            "srcrev": "ee7c8d999beb847457f768757b1bdcd76391c1f4",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2022-09-07T19:09:28+0000"
+            "updated": "2022-10-10T23:10:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9321,7 +9349,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://github.com/curl/curl/issues",
-            "configopts": "     --disable-libcurl-option     --disable-ntlm-wb     --enable-crypto-auth     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt     --without-libpsl     --enable-debug     --enable-optimize     --disable-curldebug        --disable-ares --without-brotli --disable-manual --disable-dict --without-gnutls --disable-gopher --disable-imap --enable-ipv6 --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --without-nghttp2 --without-nss --with-openssl --disable-pop3 --enable-proxy --with-random=/dev/urandom --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --with-zlib=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/curl/7.82.0-r0/recipe-sysroot/usr/lib/../ --without-zstd",
+            "configopts": "     --disable-libcurl-option     --disable-ntlm-wb     --enable-crypto-auth     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt     --without-libpsl     --enable-debug     --enable-optimize     --disable-curldebug        --disable-ares --without-brotli --disable-manual --disable-dict --without-gnutls --disable-gopher --disable-imap --enable-ipv6 --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --without-nghttp2 --without-nss --with-openssl --disable-pop3 --enable-proxy --with-random=/dev/urandom --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --with-zlib=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/curl/7.82.0-r0/recipe-sysroot/usr/lib/../ --without-zstd",
             "description": "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
             "filename": "curl_7.82.0.bb",
             "filepath": "recipes-support/curl",
@@ -9338,7 +9366,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2022-07-31T21:07:09+0000"
+            "updated": "2022-10-10T23:10:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9944,7 +9972,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "LZ4 is a very fast lossless compression algorithm, providing compression speed at 400 MB/s per core, scalable with multi-cores CPU. It also features an extremely fast decoder, with speed in multiple GB/s per core, typically reaching RAM speed limits on multi-core systems.",
-            "filename": "lz4_1.9.3.bb",
+            "filename": "lz4_1.9.4.bb",
             "filepath": "recipes-support/lz4",
             "homepage": "https://github.com/lz4/lz4",
             "id": 1533542,
@@ -9955,11 +9983,11 @@
             "pn": "lz4",
             "pr": "r0",
             "provides": "lz4 ",
-            "pv": "1.9.3",
+            "pv": "1.9.4",
             "section": "base",
-            "srcrev": "d44371841a2f1728a3f36839fd4b7e872d0927d3",
+            "srcrev": "5ff839680134437dbf4678f3d0c7b371d84f4964",
             "summary": "Extremely Fast Compression algorithm",
-            "updated": "2022-07-31T21:07:23+0000"
+            "updated": "2022-10-10T23:10:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10404,7 +10432,7 @@
             "bugtracker": "",
             "configopts": "-Ddocs=false ",
             "description": "A highly portable C library that encodes and decodes DER/BER data following an ASN.1 schema. ",
-            "filename": "libtasn1_4.18.0.bb",
+            "filename": "libtasn1_4.19.0.bb",
             "filepath": "recipes-support/gnutls",
             "homepage": "http://www.gnu.org/software/libtasn1/",
             "id": 1533562,
@@ -10415,11 +10443,11 @@
             "pn": "libtasn1",
             "pr": "r0",
             "provides": "libtasn1 ",
-            "pv": "4.18.0",
+            "pv": "4.19.0",
             "section": "base",
             "srcrev": "",
             "summary": "Library for ASN.1 and DER manipulation",
-            "updated": "2022-07-31T21:07:34+0000"
+            "updated": "2022-10-10T23:10:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10632,7 +10660,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  --enable-ipv6 --disable-timed-tests",
+            "configopts": "  --enable-ipv6 --disable-timed-tests ac_cv_strerror_r_rc_int=no",
             "description": "Create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations.",
             "filename": "apr_1.7.0.bb",
             "filepath": "recipes-support/apr",
@@ -10649,7 +10677,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Apache Portable Runtime (APR) library",
-            "updated": "2022-07-31T21:07:40+0000"
+            "updated": "2022-10-10T23:10:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10726,7 +10754,7 @@
             "bugtracker": "http://lttng.org/project/issues",
             "configopts": " ",
             "description": "A userspace RCU (read-copy-update) library. This data synchronization library provides read-side access which scales linearly with the number of cores. ",
-            "filename": "liburcu_0.13.1.bb",
+            "filename": "liburcu_0.13.2.bb",
             "filepath": "recipes-support/liburcu",
             "homepage": "http://lttng.org/urcu",
             "id": 1533576,
@@ -10737,11 +10765,11 @@
             "pn": "liburcu",
             "pr": "r0",
             "provides": "liburcu ",
-            "pv": "0.13.1",
+            "pv": "0.13.2",
             "section": "base",
             "srcrev": "",
             "summary": "Userspace RCU (read-copy-update) library",
-            "updated": "2022-07-31T21:07:41+0000"
+            "updated": "2022-10-10T23:10:59+0000"
         },
         {
             "bbclassextend": "",
@@ -10879,7 +10907,7 @@
             "section": "base",
             "srcrev": "6a4af7786630ce48747d9687e2f18f45ea6684c4",
             "summary": "Socket-based service activation daemon",
-            "updated": "2022-07-31T21:07:43+0000"
+            "updated": "2022-10-10T23:10:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11063,7 +11091,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Software watchdog",
-            "updated": "2022-07-31T21:07:47+0000"
+            "updated": "2022-10-10T23:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -11086,7 +11114,7 @@
             "section": "console/utils",
             "srcrev": "b0561ad8d9ee9fe1244b5385e941eb65a21e91a1",
             "summary": "Linux Test Project",
-            "updated": "2022-07-31T21:07:47+0000"
+            "updated": "2022-10-10T23:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -11301,7 +11329,7 @@
             "bugtracker": "http://redmine.lighttpd.net/projects/lighttpd/issues",
             "configopts": "  -Dwith_xattr=true -Dwith_bzip=false -Dwith_krb5=false -Dwith_ldap=false -Dwith_libev=false -Dwith_lua=false -Dwith_mysql=false -Dwith_openssl=true -Dwith_pcre=true -Dwith_webdav_locks=false -Dwith_webdav_props=false -Dwith_zlib=true -Dwith_zstd=false",
             "description": "Lightweight high-performance web server is designed and optimized for high performance environments. With a small memory footprint compared to other web-servers, effective management of the cpu-load, and advanced feature set (FastCGI, SCGI, Auth, Output-Compression, URL-Rewriting and many more)",
-            "filename": "lighttpd_1.4.64.bb",
+            "filename": "lighttpd_1.4.66.bb",
             "filepath": "recipes-extended/lighttpd",
             "homepage": "http://www.lighttpd.net/",
             "id": 1533601,
@@ -11312,11 +11340,11 @@
             "pn": "lighttpd",
             "pr": "r0",
             "provides": "lighttpd ",
-            "pv": "1.4.64",
+            "pv": "1.4.66",
             "section": "net",
             "srcrev": "",
             "summary": "Lightweight high-performance web server",
-            "updated": "2022-07-31T21:07:50+0000"
+            "updated": "2022-10-10T23:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -11749,11 +11777,11 @@
             "pn": "tzcode-native",
             "pr": "r0",
             "provides": "tzcode-native ",
-            "pv": "2022b",
+            "pv": "2022c",
             "section": "base",
             "srcrev": "",
             "summary": "tzcode, timezone zoneinfo utils -- zic, zdump, tzselect",
-            "updated": "2022-09-07T19:09:30+0000"
+            "updated": "2022-10-10T23:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -11772,11 +11800,11 @@
             "pn": "tzdata",
             "pr": "r0",
             "provides": "tzdata ",
-            "pv": "2022b",
+            "pv": "2022c",
             "section": "base",
             "srcrev": "",
             "summary": "Timezone data",
-            "updated": "2022-09-07T19:09:30+0000"
+            "updated": "2022-10-10T23:10:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12006,7 +12034,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:30+0000"
+            "updated": "2022-10-10T23:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -12029,7 +12057,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:30+0000"
+            "updated": "2022-10-10T23:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -12052,7 +12080,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2022-09-07T19:09:30+0000"
+            "updated": "2022-10-10T23:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -12075,7 +12103,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:31+0000"
+            "updated": "2022-10-10T23:10:05+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -12742,7 +12770,7 @@
             "section": "base/utils",
             "srcrev": "",
             "summary": "Tools to change and administer password and group data",
-            "updated": "2022-07-31T21:07:16+0000"
+            "updated": "2022-10-10T23:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -12865,7 +12893,7 @@
             "bugtracker": "",
             "configopts": "--without-python --libdir=/lib  --enable-nls",
             "description": "Password strength checker library",
-            "filename": "cracklib_2.9.7.bb",
+            "filename": "cracklib_2.9.8.bb",
             "filepath": "recipes-extended/cracklib",
             "homepage": "https://github.com/cracklib/cracklib",
             "id": 1533669,
@@ -12876,11 +12904,11 @@
             "pn": "cracklib",
             "pr": "r0",
             "provides": "cracklib ",
-            "pv": "2.9.7",
+            "pv": "2.9.8",
             "section": "base",
-            "srcrev": "f83934cf3cced0c9600c7d81332f4169f122a2cf",
+            "srcrev": "d9e8f9f47718539aeba80f90f4e072549926dc9c",
             "summary": "Password strength checker library",
-            "updated": "2022-09-07T19:09:15+0000"
+            "updated": "2022-10-10T23:10:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13225,7 +13253,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Sanitized set of kernel headers for the C library's use",
-            "updated": "2022-07-31T21:07:25+0000"
+            "updated": "2022-10-10T23:10:56+0000"
         },
         {
             "bbclassextend": "native",
@@ -13294,7 +13322,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2022-09-07T19:09:20+0000"
+            "updated": "2022-10-10T23:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -13432,7 +13460,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2022-09-07T19:09:20+0000"
+            "updated": "2022-10-10T23:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -13524,7 +13552,7 @@
             "section": "devel",
             "srcrev": "fbba0d790598b76ae39d1c1944ea0c0d04ecb5ee",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2022-09-07T19:09:20+0000"
+            "updated": "2022-10-10T23:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -13566,11 +13594,11 @@
             "pn": "linux-yocto-tiny",
             "pr": "r0",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "5.15.59+gitX",
+            "pv": "5.15.68+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-09-07T19:09:19+0000"
+            "updated": "2022-10-10T23:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -13612,11 +13640,11 @@
             "pn": "linux-yocto-rt",
             "pr": "r0",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "5.15.59+gitX",
+            "pv": "5.15.68+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-09-07T19:09:19+0000"
+            "updated": "2022-10-10T23:10:57+0000"
         },
         {
             "bbclassextend": "devupstream:target",
@@ -13635,11 +13663,11 @@
             "pn": "linux-yocto",
             "pr": "r0",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "5.15.59+gitX",
+            "pv": "5.15.68+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-09-07T19:09:19+0000"
+            "updated": "2022-10-10T23:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -13662,7 +13690,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-09-07T19:09:32+0000"
+            "updated": "2022-10-10T23:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -13739,7 +13767,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Linux firmware is a package distributed alongside the Linux kernel that contains firmware binary blobs necessary for partial or full functionality of certain hardware devices.",
-            "filename": "linux-firmware_20220708.bb",
+            "filename": "linux-firmware_20220913.bb",
             "filepath": "recipes-kernel/linux-firmware",
             "homepage": "https://www.kernel.org/",
             "id": 1533710,
@@ -13750,11 +13778,11 @@
             "pn": "linux-firmware",
             "pr": "r0",
             "provides": "linux-firmware ",
-            "pv": "20220708",
+            "pv": "20220913",
             "section": "kernel",
             "srcrev": "",
             "summary": "Firmware files for use with Linux kernel",
-            "updated": "2022-09-07T19:09:19+0000"
+            "updated": "2022-10-10T23:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -13844,9 +13872,9 @@
             "provides": "kern-tools-native ",
             "pv": "0.3+gitX",
             "section": "base",
-            "srcrev": "90598a5fae1172e3f7782a1b02f7b7518efd32c8",
+            "srcrev": "ba600ef61a85966596126a6e8d936971905e8749",
             "summary": "Tools for managing Yocto Project style branched kernels",
-            "updated": "2022-07-31T21:07:36+0000"
+            "updated": "2022-10-10T23:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -13869,7 +13897,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2022-09-07T19:09:32+0000"
+            "updated": "2022-10-10T23:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -13892,7 +13920,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2022-09-07T19:09:33+0000"
+            "updated": "2022-10-10T23:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -15249,7 +15277,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2022-09-07T19:09:35+0000"
+            "updated": "2022-10-10T23:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -15272,7 +15300,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2022-09-07T19:09:35+0000"
+            "updated": "2022-10-10T23:10:08+0000"
         },
         {
             "bbclassextend": "",
@@ -15295,7 +15323,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2022-09-07T19:09:36+0000"
+            "updated": "2022-10-10T23:10:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -15548,7 +15576,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "The Cairo 2D vector graphics library",
-            "updated": "2022-07-31T21:07:01+0000"
+            "updated": "2022-10-10T23:10:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -17739,7 +17767,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-glibc=/tmp/tmpzbucdafz/tmp-glibc/work/x86_64-linux/cross-localedef-native/2.35-r0/git ",
+            "configopts": "--with-glibc=/tmp/tmpatgj1f2u/tmp-glibc/work/x86_64-linux/cross-localedef-native/2.35-r0/git ",
             "description": "",
             "filename": "cross-localedef-native_2.35.bb",
             "filepath": "recipes-core/glibc",
@@ -17756,13 +17784,13 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Cross locale generation tool for glibc",
-            "updated": "2022-09-07T19:09:39+0000"
+            "updated": "2022-10-10T23:10:12+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/glibc-tests/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
+            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/glibc-tests/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc-tests_2.35.bb",
             "filepath": "recipes-core/glibc",
@@ -17779,7 +17807,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "glibc tests to be run with ptest",
-            "updated": "2022-09-07T19:09:39+0000"
+            "updated": "2022-10-10T23:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -17808,7 +17836,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/glibc/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
+            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/glibc/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc_2.35.bb",
             "filepath": "recipes-core/glibc",
@@ -17825,13 +17853,13 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2022-09-07T19:09:11+0000"
+            "updated": "2022-10-10T23:10:12+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/glibc-testsuite/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
+            "configopts": "--enable-kernel=3.2.0                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/glibc-testsuite/2.35-r0/recipe-sysroot/usr/include                 --without-selinux                 --enable-tunables                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                                                      --enable-memory-tagging --enable-nscd --enable-cet",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc-testsuite_2.35.bb",
             "filepath": "recipes-core/glibc",
@@ -17848,7 +17876,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2022-09-07T19:09:40+0000"
+            "updated": "2022-10-10T23:10:12+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -17894,7 +17922,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A general-purpose utility library",
-            "updated": "2022-07-31T21:07:41+0000"
+            "updated": "2022-10-14T00:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -17986,7 +18014,7 @@
             "section": "base/shell",
             "srcrev": "4a31fa2fb040005b73253da75cf84949b8485175",
             "summary": "A System and service manager",
-            "updated": "2022-09-07T19:09:13+0000"
+            "updated": "2022-10-10T23:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -18107,7 +18135,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "http://bugzilla.gnome.org/buglist.cgi?product=libxml2",
-            "configopts": "--without-debug --without-legacy --with-catalog --without-docbook --with-c14n --without-lzma --with-fexceptions  --enable-ipv6 --with-python=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/libxml2/2.9.14-r0/recipe-sysroot-native/usr/bin/python3-native/python3",
+            "configopts": "--without-debug --without-legacy --with-catalog --without-docbook --with-c14n --without-lzma --with-fexceptions  --enable-ipv6 --with-python=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/libxml2/2.9.14-r0/recipe-sysroot-native/usr/bin/python3-native/python3",
             "description": "The XML Parser Library allows for manipulation of XML files.  Libxml2 exports Push and Pull type parser interfaces for both XML and HTML.  It can do DTD validation at parse time, on a parsed document instance or with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and Xinclude implementations.  It also has a SAX like interface, which is designed to be compatible with Expat.",
             "filename": "libxml2_2.9.14.bb",
             "filepath": "recipes-core/libxml",
@@ -18124,7 +18152,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2022-09-07T19:09:12+0000"
+            "updated": "2022-10-10T23:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -18515,7 +18543,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Updates the NVD CVE database",
-            "updated": "2022-07-31T21:07:48+0000"
+            "updated": "2022-10-10T23:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -19274,7 +19302,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2022-09-07T19:09:41+0000"
+            "updated": "2022-10-10T23:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -19297,7 +19325,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:42+0000"
+            "updated": "2022-10-10T23:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -19320,7 +19348,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:23+0000"
+            "updated": "2022-10-10T23:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -19343,7 +19371,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2022-09-07T19:09:23+0000"
+            "updated": "2022-10-10T23:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -19366,7 +19394,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2022-09-07T19:09:23+0000"
+            "updated": "2022-10-10T23:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -19389,7 +19417,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2022-09-07T19:09:23+0000"
+            "updated": "2022-10-10T23:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -19412,7 +19440,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2022-09-07T19:09:23+0000"
+            "updated": "2022-10-10T23:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -19435,7 +19463,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2022-09-07T19:09:24+0000"
+            "updated": "2022-10-10T23:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -19456,9 +19484,9 @@
             "provides": "build-appliance-image ",
             "pv": "15.0.0",
             "section": "base",
-            "srcrev": "60171200800c62820c9275b50c703e53ed6e7b28",
+            "srcrev": "d64bef1c7d713b92a51228e5ade945835e5a94a4",
             "summary": "An image containing the build system itself",
-            "updated": "2022-09-07T19:09:12+0000"
+            "updated": "2022-10-10T23:10:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -19627,7 +19655,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
-            "filename": "expat_2.4.7.bb",
+            "filename": "expat_2.4.9.bb",
             "filepath": "recipes-core/expat",
             "homepage": "https://github.com/libexpat/libexpat",
             "id": 1533966,
@@ -19638,11 +19666,11 @@
             "pn": "expat",
             "pr": "r0",
             "provides": "expat ",
-            "pv": "2.4.7",
+            "pv": "2.4.9",
             "section": "libs",
             "srcrev": "",
             "summary": "A stream-oriented XML parser library",
-            "updated": "2022-07-31T21:07:58+0000"
+            "updated": "2022-10-10T23:10:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -19671,7 +19699,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-libuuid --enable-libblkid         --enable-fsck --enable-kill --enable-last --enable-mesg     --enable-mount --enable-partx --enable-raw --enable-rfkill     --enable-unshare --enable-write         --disable-bfs --disable-login     --disable-makeinstall-chown --disable-minix --disable-newgrp     --disable-use-tty-group --disable-vipw --disable-raw         --without-udev         usrsbin_execdir='/usr/sbin'     --libdir='/lib'   --disable-chfn-chsh --without-cryptsetup --disable-su --disable-runuser --without-python --disable-pylibmount --without-readline  --without-systemd --without-systemdsystemunitdir --enable-nls --enable-setpriv --disable-hwclock-gplv3",
+            "configopts": "    --enable-libuuid --enable-libblkid         --enable-fsck --enable-kill --enable-last --enable-mesg     --enable-mount --enable-partx --enable-rfkill     --enable-unshare --enable-write         --disable-bfs --disable-login     --disable-makeinstall-chown --disable-minix --disable-newgrp     --disable-use-tty-group --disable-vipw --disable-raw         --without-udev         usrsbin_execdir='/usr/sbin'     --libdir='/lib'   --disable-chfn-chsh --without-cryptsetup --disable-su --disable-runuser --without-python --disable-pylibmount --without-readline  --without-systemd --without-systemdsystemunitdir --enable-nls --enable-setpriv --disable-hwclock-gplv3",
             "description": "Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.",
             "filename": "util-linux_2.37.4.bb",
             "filepath": "recipes-core/util-linux",
@@ -19688,7 +19716,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A suite of basic system administration utilities",
-            "updated": "2022-07-31T21:07:00+0000"
+            "updated": "2022-10-10T23:10:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -19872,7 +19900,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:26+0000"
+            "updated": "2022-10-10T23:10:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -20338,9 +20366,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --disable-devpoll --disable-auto-validation --enable-epoll                  --with-gssapi=no --with-lmdb=no --with-zlib                  --sysconfdir=/etc/bind                  --with-openssl=/tmp/tmpzbucdafz/tmp-glibc/work/core2-32-oe-linux/bind/9.18.4-r0/recipe-sysroot/usr                  --disable-doh --without-libxml2 --with-readline=readline",
+            "configopts": " --disable-devpoll --disable-auto-validation --enable-epoll                  --with-gssapi=no --with-lmdb=no --with-zlib                  --sysconfdir=/etc/bind                  --with-openssl=/tmp/tmpfn3jnmqs/tmp-glibc/work/core2-32-oe-linux/bind/9.18.7-r0/recipe-sysroot/usr                  --disable-doh --without-libxml2 --with-readline=readline",
             "description": "BIND 9 provides a full-featured Domain Name Server system",
-            "filename": "bind_9.18.4.bb",
+            "filename": "bind_9.18.7.bb",
             "filepath": "recipes-connectivity/bind",
             "homepage": "https://www.isc.org/bind/",
             "id": 1533997,
@@ -20351,11 +20379,11 @@
             "pn": "bind",
             "pr": "r0",
             "provides": "bind ",
-            "pv": "9.18.4",
+            "pv": "9.18.7",
             "section": "console/network",
             "srcrev": "",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2022-09-07T19:09:10+0000"
+            "updated": "2022-10-13T00:10:36+0000"
         },
         {
             "bbclassextend": "",
@@ -20545,7 +20573,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-ncurses-include-dir=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/inetutils/2.2-r0/recipe-sysroot/usr/include         inetutils_cv_path_login=/bin/login         --with-libreadline-prefix=/tmp/tmpii7xlr7x/tmp-glibc/work/core2-32-oe-linux/inetutils/2.2-r0/recipe-sysroot/usr/lib         --enable-rpath=no   --enable-ftp --enable-ipv6 --without-pam --enable-ping6 --enable-uucpd --enable-nls --disable-rsh --disable-rshd --disable-rcp         --disable-rlogin --disable-rlogind --disable-rexec --disable-rexecd",
+            "configopts": "--with-ncurses-include-dir=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/inetutils/2.2-r0/recipe-sysroot/usr/include         inetutils_cv_path_login=/bin/login         --with-libreadline-prefix=/tmp/tmpatgj1f2u/tmp-glibc/work/core2-32-oe-linux/inetutils/2.2-r0/recipe-sysroot/usr/lib         --enable-rpath=no   --enable-ftp --enable-ipv6 --without-pam --enable-ping6 --enable-uucpd --enable-nls --disable-rsh --disable-rshd --disable-rcp         --disable-rlogin --disable-rlogind --disable-rexec --disable-rexecd",
             "description": "The GNU inetutils are a collection of common networking utilities and servers including ftp, ftpd, rcp, rexec, rlogin, rlogind, rsh, rshd, syslog, syslogd, talk, talkd, telnet, telnetd, tftp, tftpd, and uucpd.",
             "filename": "inetutils_2.2.bb",
             "filepath": "recipes-connectivity/inetutils",
@@ -20562,7 +20590,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T21:07:14+0000"
+            "updated": "2022-10-10T23:10:51+0000"
         },
         {
             "bbclassextend": "native",

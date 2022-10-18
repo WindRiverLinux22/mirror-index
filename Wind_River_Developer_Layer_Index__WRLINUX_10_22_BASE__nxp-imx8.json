@@ -426,11 +426,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42592,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42593,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220902",
+            "bitbake_branch": "wr-10.22-20221009",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -438,23 +466,23 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-10T00:10:11+0000",
+            "updated": "2022-10-17T00:10:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-09-27T18:09:28+0000",
-            "vcs_last_commit": "2022-09-27T03:09:09+0000",
-            "vcs_last_fetch": "2022-09-27T18:09:28+0000",
-            "vcs_last_rev": "991ccd3ab53d503ee361d72d12a9b963cd39b81f",
+            "updated": "2022-10-14T00:10:27+0000",
+            "vcs_last_commit": "2022-10-13T23:10:12+0000",
+            "vcs_last_fetch": "2022-10-14T00:10:27+0000",
+            "vcs_last_rev": "b2f4190a5f946a3e2c2cfd46e9c304af93c398fe",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -466,10 +494,10 @@
             "id": 904876,
             "layer": 49,
             "local_path": "",
-            "updated": "2022-10-09T00:10:54+0000",
-            "vcs_last_commit": "2022-10-09T00:10:23+0000",
-            "vcs_last_fetch": "2022-10-09T00:10:54+0000",
-            "vcs_last_rev": "f9d95da8c7ccb214296e4d7ca332dbd9c3b22b90",
+            "updated": "2022-10-14T02:10:38+0000",
+            "vcs_last_commit": "2022-10-14T00:10:09+0000",
+            "vcs_last_fetch": "2022-10-14T02:10:38+0000",
+            "vcs_last_rev": "cd1e9ec240f473158406a41de27d49a9357c5b8b",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42580
@@ -490,31 +518,31 @@
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "freescale-layer",
             "id": 907928,
             "layer": 231,
             "local_path": "",
-            "updated": "2022-09-29T21:09:51+0000",
-            "vcs_last_commit": "2022-09-29T21:09:59+0000",
-            "vcs_last_fetch": "2022-09-29T21:09:51+0000",
-            "vcs_last_rev": "3c8ae9abfff9e88b09fe54f2e3ee1e157a4c6b42",
+            "updated": "2022-10-12T23:10:28+0000",
+            "vcs_last_commit": "2022-10-12T23:10:45+0000",
+            "vcs_last_fetch": "2022-10-12T23:10:28+0000",
+            "vcs_last_rev": "9add2984423f3553e6b681953857f98266bd86f2",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220525",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "freescale-distro",
             "id": 908029,
             "layer": 470,
             "local_path": "",
-            "updated": "2022-07-31T21:07:48+0000",
-            "vcs_last_commit": "2022-05-24T19:05:06+0000",
-            "vcs_last_fetch": "2022-07-31T21:07:48+0000",
-            "vcs_last_rev": "fdb315876672c80c46435e1e64dafcf6af073d97",
+            "updated": "2022-10-10T23:10:42+0000",
+            "vcs_last_commit": "2022-10-08T18:10:48+0000",
+            "vcs_last_fetch": "2022-10-10T23:10:42+0000",
+            "vcs_last_rev": "fbaf599fdc262aa68357aac7507b72f6f9279538",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -526,10 +554,10 @@
             "id": 908030,
             "layer": 469,
             "local_path": "",
-            "updated": "2022-09-07T19:09:55+0000",
-            "vcs_last_commit": "2022-09-06T06:09:29+0000",
-            "vcs_last_fetch": "2022-09-07T19:09:55+0000",
-            "vcs_last_rev": "e55052658dbf1574a64e3e1e76bae3251ebfdcbb",
+            "updated": "2022-10-16T23:10:28+0000",
+            "vcs_last_commit": "2022-10-16T22:10:03+0000",
+            "vcs_last_fetch": "2022-10-16T23:10:28+0000",
+            "vcs_last_rev": "54048f9f95addab62d79b4e07247cef4509796fe",
             "vcs_subdir": "meta-bsp",
             "version": null,
             "yp_compatible_version": 42579

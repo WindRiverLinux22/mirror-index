@@ -426,11 +426,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42592,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42593,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220902",
+            "bitbake_branch": "wr-10.22-20221009",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -438,38 +466,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-10T00:10:11+0000",
+            "updated": "2022-10-17T00:10:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-09-27T18:09:28+0000",
-            "vcs_last_commit": "2022-09-27T03:09:09+0000",
-            "vcs_last_fetch": "2022-09-27T18:09:28+0000",
-            "vcs_last_rev": "991ccd3ab53d503ee361d72d12a9b963cd39b81f",
+            "updated": "2022-10-14T00:10:27+0000",
+            "vcs_last_commit": "2022-10-13T23:10:12+0000",
+            "vcs_last_fetch": "2022-10-14T00:10:27+0000",
+            "vcs_last_rev": "b2f4190a5f946a3e2c2cfd46e9c304af93c398fe",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-09-27T02:09:28+0000",
-            "vcs_last_commit": "2022-09-27T00:09:03+0000",
-            "vcs_last_fetch": "2022-09-27T02:09:28+0000",
-            "vcs_last_rev": "5eb5ae12fb52fc53a6807bad12deb78a6332f677",
+            "updated": "2022-10-10T23:10:21+0000",
+            "vcs_last_commit": "2022-10-10T00:10:09+0000",
+            "vcs_last_fetch": "2022-10-10T23:10:21+0000",
+            "vcs_last_rev": "cfbb82bd98c3beea641cde37a6563bc6302d9358",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
@@ -2030,9 +2058,9 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmp_llt0hqw/tmp-glibc/work/core2-32-oe-linux/php/8.1.8-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
+            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
             "description": "",
-            "filename": "php_8.1.8.bb",
+            "filename": "php_8.1.9.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 1599780,
@@ -2043,11 +2071,11 @@
             "pn": "php",
             "pr": "r0",
             "provides": "php ",
-            "pv": "8.1.8",
+            "pv": "8.1.9",
             "section": "console/network",
             "srcrev": "",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2022-09-07T19:09:49+0000"
+            "updated": "2022-10-10T23:10:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4945,7 +4973,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "An open source remote desktop protocol(rdp) server.",
-            "updated": "2022-07-31T21:07:41+0000"
+            "updated": "2022-10-10T23:10:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -6423,7 +6451,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  --disable-rpath                   --with-jpeg=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/gd/2.3.3-r0/recipe-sysroot/usr/lib/..                   --with-freetype=yes                   --without-fontconfig                   --without-webp                   --without-xpm                   --without-x                   --enable-nls",
+            "configopts": "  --disable-rpath                   --with-jpeg=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/gd/2.3.3-r0/recipe-sysroot/usr/lib/..                   --with-freetype=yes                   --without-fontconfig                   --without-webp                   --without-xpm                   --without-x                   --enable-nls",
             "description": "The gd graphics library allows your code to quickly draw images complete with lines, arcs, text, multiple colors, cut and paste from other images, and flood fills, and to write out the result as a PNG or JPEG file. This is particularly useful in Web applications, where PNG and JPEG are two of the formats accepted for inline images by most browsers. Note that gd is not a paint program.",
             "filename": "gd_2.3.3.bb",
             "filepath": "recipes-support/gd",
@@ -6440,7 +6468,7 @@
             "section": "libs",
             "srcrev": "b5319a41286107b53daa0e08e402aa1819764bdc",
             "summary": "gd is a library used to create PNG, JPEG, or WBMP images",
-            "updated": "2022-07-31T22:07:01+0000"
+            "updated": "2022-10-10T23:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -12811,7 +12839,7 @@
             "section": "base",
             "srcrev": "8ad7be2510414b9506ec9f9e24f24d04d9b04a1a",
             "summary": "Lightning Memory-Mapped Database (LMDB)",
-            "updated": "2022-07-31T22:07:27+0000"
+            "updated": "2022-10-10T23:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -13072,7 +13100,7 @@
             "bugtracker": "",
             "configopts": " --with-libwrap         --enable-gssapi-krb5=no         --with-libcap-ng=yes         --with-python3=yes         --libdir=/lib         --sbindir=/sbin         --without-python         --without-golang         --disable-zos-remote         --with-arm=yes         --with-aarch64=yes          ",
             "description": "The audit package contains the user space utilities for storing and searching the audit records generated by the audit subsystem in the Linux kernel.",
-            "filename": "audit_3.0.7.bb",
+            "filename": "audit_3.0.8.bb",
             "filepath": "recipes-security/audit",
             "homepage": "http://people.redhat.com/sgrubb/audit/",
             "id": 1600260,
@@ -13083,11 +13111,11 @@
             "pn": "audit",
             "pr": "r0",
             "provides": "audit ",
-            "pv": "3.0.7",
+            "pv": "3.0.8",
             "section": "base",
-            "srcrev": "f60b2d8f55c74be798a7f5bcbd6c587987f2578a",
+            "srcrev": "54a62e78792fe583267cf80da717ee480b8f42bc",
             "summary": "User space tools for kernel auditing",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2022-10-10T23:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -18469,7 +18497,7 @@
             "section": "lib",
             "srcrev": "f9add9245b97c7bda6e28cceb0ee37fb7e254fd8",
             "summary": "Safe C Library",
-            "updated": "2022-07-31T22:07:37+0000"
+            "updated": "2022-10-10T23:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -20609,6 +20637,29 @@
             "srcrev": "",
             "summary": "",
             "updated": "2022-09-07T19:09:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OE helper for manipulating npm cache",
+            "filename": "nodejs-oe-cache-native_16.14.bb",
+            "filepath": "recipes-devtools/nodejs",
+            "homepage": "",
+            "id": 1638171,
+            "inherits": "native nopackages relocatable",
+            "layerbranch": 904830,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "nodejs-oe-cache-native",
+            "pr": "r0",
+            "provides": "nodejs-oe-cache-native ",
+            "pv": "16.14",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2022-10-10T23:10:20+0000"
         }
     ],
     "wrtemplates": []

@@ -426,11 +426,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42592,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42593,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220902",
+            "bitbake_branch": "wr-10.22-20221009",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -438,38 +466,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-10T00:10:11+0000",
+            "updated": "2022-10-17T00:10:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-09-27T18:09:28+0000",
-            "vcs_last_commit": "2022-09-27T03:09:09+0000",
-            "vcs_last_fetch": "2022-09-27T18:09:28+0000",
-            "vcs_last_rev": "991ccd3ab53d503ee361d72d12a9b963cd39b81f",
+            "updated": "2022-10-14T00:10:27+0000",
+            "vcs_last_commit": "2022-10-13T23:10:12+0000",
+            "vcs_last_fetch": "2022-10-14T00:10:27+0000",
+            "vcs_last_rev": "b2f4190a5f946a3e2c2cfd46e9c304af93c398fe",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "meta-arm",
             "id": 908026,
             "layer": 474,
             "local_path": "",
-            "updated": "2022-09-07T19:09:47+0000",
-            "vcs_last_commit": "2022-09-02T01:09:11+0000",
-            "vcs_last_fetch": "2022-09-07T19:09:47+0000",
-            "vcs_last_rev": "e19ca2e8e5e81534875f8cf28fc977ef6d90a1e4",
+            "updated": "2022-10-11T03:10:47+0000",
+            "vcs_last_commit": "2022-10-11T03:10:40+0000",
+            "vcs_last_fetch": "2022-10-11T03:10:47+0000",
+            "vcs_last_rev": "81896767afab42480376dff35801df825ee2ca0a",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 42579
@@ -757,7 +785,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "fvp-base-r-aem_11.18.16.bb",
+            "filename": "fvp-base-r-aem_11.19.14.bb",
             "filepath": "recipes-devtools/fvp",
             "homepage": "https://developer.arm.com/tools-and-software/simulation-models/fixed-virtual-platforms/arm-ecosystem-models",
             "id": 1559035,
@@ -768,11 +796,11 @@
             "pn": "fvp-base-r-aem",
             "pr": "r0",
             "provides": "fvp-base-r-aem ",
-            "pv": "11.18.16",
+            "pv": "11.19.14",
             "section": "base",
             "srcrev": "",
             "summary": "Arm Fixed Virtual Platform - Armv8-R Base Architecture Envelope Model FVP",
-            "updated": "2022-07-31T22:07:15+0000"
+            "updated": "2022-10-10T23:10:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -818,7 +846,7 @@
             "section": "base",
             "srcrev": "dac554d62d514b202174506995afc0e109ef3fea",
             "summary": "OpenCSD - An open source CoreSight(tm) Trace Decode library",
-            "updated": "2022-07-31T22:07:16+0000"
+            "updated": "2022-10-11T03:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -893,7 +921,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM=  -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DMBEDCRYPTO_PATH=/tmp/tmp3lzh76ec/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../mbedtls -DTFM_TEST_REPO_PATH=/tmp/tmp3lzh76ec/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../tf-m-tests -DMCUBOOT_PATH=/tmp/tmp3lzh76ec/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../mcuboot",
+            "configopts": " -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM=  -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DMBEDCRYPTO_PATH=/tmp/tmpzgwluckv/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../mbedtls -DTFM_TEST_REPO_PATH=/tmp/tmpzgwluckv/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../tf-m-tests -DMCUBOOT_PATH=/tmp/tmpzgwluckv/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../mcuboot",
             "description": "Trusted Firmware-M",
             "filename": "trusted-firmware-m_1.5.0.bb",
             "filepath": "recipes-bsp/trusted-firmware-m",
@@ -910,7 +938,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Firmware for Cortex-M",
-            "updated": "2022-07-31T22:07:16+0000"
+            "updated": "2022-10-10T23:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1299,9 +1327,9 @@
             "provides": "ffa-debugfs-mod ",
             "pv": "2.1.0",
             "section": "base",
-            "srcrev": "77967912d033144aff2695cecbd52d3be450deaa",
+            "srcrev": "45eb7c1484ae9bea2bbd0583b86beb55b627073b",
             "summary": "FF-A Debugfs Linux kernel module",
-            "updated": "2022-07-31T22:07:19+0000"
+            "updated": "2022-10-10T23:10:03+0000"
         },
         {
             "bbclassextend": "",

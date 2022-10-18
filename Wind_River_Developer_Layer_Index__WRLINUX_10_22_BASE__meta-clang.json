@@ -426,11 +426,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42592,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42593,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220902",
+            "bitbake_branch": "wr-10.22-20221009",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -438,38 +466,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-10T00:10:11+0000",
+            "updated": "2022-10-17T00:10:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-09-27T18:09:28+0000",
-            "vcs_last_commit": "2022-09-27T03:09:09+0000",
-            "vcs_last_fetch": "2022-09-27T18:09:28+0000",
-            "vcs_last_rev": "991ccd3ab53d503ee361d72d12a9b963cd39b81f",
+            "updated": "2022-10-14T00:10:27+0000",
+            "vcs_last_commit": "2022-10-13T23:10:12+0000",
+            "vcs_last_fetch": "2022-10-14T00:10:27+0000",
+            "vcs_last_rev": "b2f4190a5f946a3e2c2cfd46e9c304af93c398fe",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "clang-layer",
             "id": 904849,
             "layer": 353,
             "local_path": "",
-            "updated": "2022-09-07T19:09:42+0000",
-            "vcs_last_commit": "2022-09-02T01:09:09+0000",
-            "vcs_last_fetch": "2022-09-07T19:09:42+0000",
-            "vcs_last_rev": "b5988148d86b282b69bd4c6b2f71b84d043a8dd9",
+            "updated": "2022-10-10T23:10:40+0000",
+            "vcs_last_commit": "2022-10-08T18:10:03+0000",
+            "vcs_last_fetch": "2022-10-10T23:10:40+0000",
+            "vcs_last_rev": "b658ea2a88d28e3bbcae50cb09a19ffa58f982b4",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -834,7 +862,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DENABLE_LLVM_SHARED=ON     -DENABLE_CLANG_JIT=ON     -DLLVM_PACKAGE_VERSION=13.0.1     -DPYTHON_CMD=/tmp/tmpd6user82/tmp-glibc/work/core2-32-oe-linux/bcc/0.24.0+gitX-r0/recipe-sysroot-native/usr/bin/python3-native/python3     -DPYTHON_FLAGS=--install-lib=/usr/lib/python3.10/site-packages   -DENABLE_EXAMPLES=ON -DENABLE_MAN=OFF",
+            "configopts": "     -DCMAKE_USE_LIBBPF_PACKAGE=ON     -DENABLE_LLVM_SHARED=ON     -DENABLE_CLANG_JIT=ON     -DLLVM_PACKAGE_VERSION=13.0.1     -DPYTHON_CMD=/tmp/tmpcj8p9wo9/tmp-glibc/work/core2-32-oe-linux/bcc/0.24.0+gitX-r0/recipe-sysroot-native/usr/bin/python3-native/python3     -DPYTHON_FLAGS=--install-lib=/usr/lib/python3.10/site-packages   -DENABLE_EXAMPLES=ON -DENABLE_MAN=OFF",
             "description": "",
             "filename": "bcc_0.24.0.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/bcc",
@@ -851,19 +879,19 @@
             "section": "base",
             "srcrev": "8f40d6f57a8d94e7aee74ce358572d34d31b4ed4",
             "summary": "BPF Compiler Collection (BCC)",
-            "updated": "2022-07-31T22:07:17+0000"
+            "updated": "2022-10-10T23:10:40+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_ENABLE_EXPORTS=1     -DCMAKE_BUILD_TYPE=Release     -DLLVM_REQUESTED_VERSION=13     -DBUILD_TESTING=OFF     -DENABLE_MAN=OFF  ",
+            "configopts": "     -DCMAKE_ENABLE_EXPORTS=1     -DCMAKE_BUILD_TYPE=Release     -DLLVM_REQUESTED_VERSION=13     -DENABLE_MAN=OFF  -DBUILD_TESTING=OFF ",
             "description": "",
             "filename": "bpftrace_0.14.1.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/bpftrace",
             "homepage": "https://github.com/iovisor/bpftrace",
             "id": 1535706,
-            "inherits": "cmake",
+            "inherits": "cmake ptest",
             "layerbranch": 904849,
             "license": "Apache-2.0",
             "pe": "",
@@ -874,7 +902,7 @@
             "section": "base",
             "srcrev": "0a318e53343aa51f811183534916a4be65a1871e",
             "summary": "bpftrace",
-            "updated": "2022-09-07T19:09:41+0000"
+            "updated": "2022-10-10T23:10:40+0000"
         },
         {
             "bbclassextend": "",

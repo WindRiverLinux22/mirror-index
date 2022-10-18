@@ -426,11 +426,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42592,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42593,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220902",
+            "bitbake_branch": "wr-10.22-20221009",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -438,53 +466,53 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-10T00:10:11+0000",
+            "updated": "2022-10-17T00:10:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-09-27T18:09:28+0000",
-            "vcs_last_commit": "2022-09-27T03:09:09+0000",
-            "vcs_last_fetch": "2022-09-27T18:09:28+0000",
-            "vcs_last_rev": "991ccd3ab53d503ee361d72d12a9b963cd39b81f",
+            "updated": "2022-10-14T00:10:27+0000",
+            "vcs_last_commit": "2022-10-13T23:10:12+0000",
+            "vcs_last_fetch": "2022-10-14T00:10:27+0000",
+            "vcs_last_rev": "b2f4190a5f946a3e2c2cfd46e9c304af93c398fe",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-09-27T02:09:28+0000",
-            "vcs_last_commit": "2022-09-27T00:09:03+0000",
-            "vcs_last_fetch": "2022-09-27T02:09:28+0000",
-            "vcs_last_rev": "5eb5ae12fb52fc53a6807bad12deb78a6332f677",
+            "updated": "2022-10-10T23:10:21+0000",
+            "vcs_last_commit": "2022-10-10T00:10:09+0000",
+            "vcs_last_fetch": "2022-10-10T23:10:21+0000",
+            "vcs_last_rev": "cfbb82bd98c3beea641cde37a6563bc6302d9358",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "perl-layer",
             "id": 904834,
             "layer": 13,
             "local_path": "",
-            "updated": "2022-09-07T19:09:23+0000",
-            "vcs_last_commit": "2022-05-03T06:05:08+0000",
-            "vcs_last_fetch": "2022-07-31T22:07:39+0000",
-            "vcs_last_rev": "cac98ae0ab6454dd0b68d03b5202eca31d352f44",
+            "updated": "2022-10-10T23:10:46+0000",
+            "vcs_last_commit": "2022-09-04T04:09:16+0000",
+            "vcs_last_fetch": "2022-10-10T23:10:46+0000",
+            "vcs_last_rev": "caa117e5ccd68ca5b472e0ffb0aac6a359d4c06a",
             "vcs_subdir": "meta-perl",
             "version": "1",
             "yp_compatible_version": 42579
@@ -692,7 +720,7 @@
             "id": 1535409,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 904834,
-            "license": "Artistic-1.0|GPL-1.0-or-later",
+            "license": "Artistic-1.0 | GPL-1.0-or-later",
             "pe": "",
             "pn": "libio-socket-ssl-perl",
             "pr": "r0",
@@ -701,7 +729,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Perl library for transparent SSL",
-            "updated": "2022-07-31T22:07:16+0000"
+            "updated": "2022-10-10T23:10:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -761,7 +789,7 @@
             "id": 1535412,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 904834,
-            "license": "Artistic-1.0|GPL-1.0-or-later",
+            "license": "Artistic-1.0 | GPL-1.0-or-later",
             "pe": "",
             "pn": "libipc-signal-perl",
             "pr": "r0",
@@ -770,7 +798,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "IPC::Signal - Utility functions dealing with signals",
-            "updated": "2022-07-31T22:07:17+0000"
+            "updated": "2022-10-10T23:10:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -830,7 +858,7 @@
             "id": 1535415,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 904834,
-            "license": "Artistic-1.0|GPL-1.0-or-later",
+            "license": "Artistic-1.0 | GPL-1.0-or-later",
             "pe": "",
             "pn": "libauthen-sasl-perl",
             "pr": "r0",
@@ -839,7 +867,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "SASL Authentication framework for Perl",
-            "updated": "2022-07-31T22:07:17+0000"
+            "updated": "2022-10-10T23:10:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -1083,7 +1111,7 @@
             "id": 1535426,
             "inherits": "cpan cpan-base perl-version perlnative ptest ptest-perl",
             "layerbranch": 904834,
-            "license": "Artistic-1.0|GPL-1.0-or-later",
+            "license": "Artistic-1.0 | GPL-1.0-or-later",
             "pe": "",
             "pn": "libxml-libxml-perl",
             "pr": "r0",
@@ -1092,7 +1120,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Perl interface to the libxml2 library",
-            "updated": "2022-07-31T22:07:21+0000"
+            "updated": "2022-10-10T23:10:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -1290,7 +1318,7 @@
             "id": 1535435,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 904834,
-            "license": "Artistic-1.0|GPL-1.0-or-later",
+            "license": "Artistic-1.0 | GPL-1.0-or-later",
             "pe": "",
             "pn": "libdigest-hmac-perl",
             "pr": "r0",
@@ -1299,7 +1327,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Keyed-Hashing for Message Authentication",
-            "updated": "2022-07-31T22:07:24+0000"
+            "updated": "2022-10-10T23:10:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -1313,7 +1341,7 @@
             "id": 1535436,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 904834,
-            "license": "Artistic-1.0|GPL-1.0-or-later",
+            "license": "Artistic-1.0 | GPL-1.0-or-later",
             "pe": "",
             "pn": "libdigest-sha1-perl",
             "pr": "r0",
@@ -1322,7 +1350,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Perl interface to the SHA-1 algorithm ",
-            "updated": "2022-07-31T22:07:24+0000"
+            "updated": "2022-10-10T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1382,7 +1410,7 @@
             "id": 1535439,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 904834,
-            "license": "Artistic-1.0|GPL-1.0-or-later",
+            "license": "Artistic-1.0 | GPL-1.0-or-later",
             "pe": "",
             "pn": "libproc-waitstat-perl",
             "pr": "r0",
@@ -1391,7 +1419,7 @@
             "section": "libraries",
             "srcrev": "",
             "summary": "Interpret and act on wait() status values",
-            "updated": "2022-07-31T22:07:25+0000"
+            "updated": "2022-10-10T23:10:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -1474,7 +1502,7 @@
             "id": 1535443,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 904834,
-            "license": "Artistic-1.0|GPL-1.0-or-later",
+            "license": "Artistic-1.0 | GPL-1.0-or-later",
             "pe": "",
             "pn": "libmime-types-perl",
             "pr": "r0",
@@ -1483,7 +1511,7 @@
             "section": "libraries",
             "srcrev": "",
             "summary": "MIME::Types - Definition of MIME types",
-            "updated": "2022-07-31T22:07:26+0000"
+            "updated": "2022-10-10T23:10:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1819,7 +1847,7 @@
             "id": 1535458,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 904834,
-            "license": "Artistic-1.0|GPL-1.0-or-later",
+            "license": "Artistic-1.0 | GPL-1.0-or-later",
             "pe": "",
             "pn": "libnet-telnet-perl",
             "pr": "r0",
@@ -1828,7 +1856,7 @@
             "section": "Development/Libraries",
             "srcrev": "",
             "summary": "Net-Telnet Perl module",
-            "updated": "2022-07-31T22:07:31+0000"
+            "updated": "2022-10-10T23:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1865,7 +1893,7 @@
             "id": 1535460,
             "inherits": "cpan cpan-base perl-version perlnative ptest ptest-perl",
             "layerbranch": 904834,
-            "license": "Artistic-1.0|GPL-1.0-or-later",
+            "license": "Artistic-1.0 | GPL-1.0-or-later",
             "pe": "",
             "pn": "libnet-ldap-perl",
             "pr": "r0",
@@ -1874,7 +1902,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "LDAP Perl module",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2022-10-10T23:10:46+0000"
         },
         {
             "bbclassextend": "",

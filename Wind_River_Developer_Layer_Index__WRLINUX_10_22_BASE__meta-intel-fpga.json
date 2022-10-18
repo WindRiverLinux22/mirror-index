@@ -426,11 +426,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42592,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42593,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20220902",
+            "bitbake_branch": "wr-10.22-20221009",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -438,23 +466,23 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-10T00:10:11+0000",
+            "updated": "2022-10-17T00:10:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20220902",
+            "actual_branch": "wr-10.22-20221009",
             "branch": 292,
             "collection": "meta-intel-fpga",
             "id": 908617,
             "layer": 380,
             "local_path": "",
-            "updated": "2022-09-07T19:09:41+0000",
-            "vcs_last_commit": "2022-09-02T01:09:10+0000",
-            "vcs_last_fetch": "2022-09-07T19:09:41+0000",
-            "vcs_last_rev": "bb157efe384a9aee5273cb70b7a2051a0876b90f",
+            "updated": "2022-10-10T23:10:28+0000",
+            "vcs_last_commit": "2022-10-08T18:10:03+0000",
+            "vcs_last_fetch": "2022-10-10T23:10:28+0000",
+            "vcs_last_rev": "a43f3bd78cf301a9b6d3f2d69f8e53054f588e05",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -495,28 +523,28 @@
             "id": 52631,
             "layerbranch": 908617,
             "name": "stratix10",
-            "updated": "2022-07-31T21:07:20+0000"
+            "updated": "2022-10-10T23:10:26+0000"
         },
         {
             "description": " N5X eASIC devices",
             "id": 52632,
             "layerbranch": 908617,
             "name": "n5x",
-            "updated": "2022-07-31T21:07:20+0000"
+            "updated": "2022-10-10T23:10:26+0000"
         },
         {
             "description": " Agilex SoCFPGA",
             "id": 52633,
             "layerbranch": 908617,
             "name": "agilex",
-            "updated": "2022-07-31T21:07:20+0000"
+            "updated": "2022-10-10T23:10:26+0000"
         },
         {
             "description": " Arria 10 SoCFPGA",
             "id": 52634,
             "layerbranch": 908617,
             "name": "arria10",
-            "updated": "2022-07-31T21:07:20+0000"
+            "updated": "2022-10-10T23:10:26+0000"
         },
         {
             "description": " nios2 machines",
@@ -530,14 +558,14 @@
             "id": 52636,
             "layerbranch": 908617,
             "name": "cyclone5",
-            "updated": "2022-07-31T21:07:20+0000"
+            "updated": "2022-10-10T23:10:26+0000"
         },
         {
             "description": " Arria V SoC\"",
             "id": 52637,
             "layerbranch": 908617,
             "name": "arria5",
-            "updated": "2022-07-31T21:07:20+0000"
+            "updated": "2022-10-10T23:10:26+0000"
         }
     ],
     "recipes": [
@@ -562,7 +590,7 @@
             "section": "bootloaders",
             "srcrev": "24e26ba4a0d8fe816e32e760537a3f356823ba7b",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-09-07T19:09:40+0000"
+            "updated": "2022-10-10T23:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -585,7 +613,7 @@
             "section": "bootloaders",
             "srcrev": "bdc9a4409de9cef4408eebd81196fd63887ac78f",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-07-31T21:07:17+0000"
+            "updated": "2022-10-10T23:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -608,7 +636,7 @@
             "section": "bootloaders",
             "srcrev": "c11f4e161a2d86a3657fbbc21f87bc4afb815eb9",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-07-31T21:07:17+0000"
+            "updated": "2022-10-10T23:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -631,7 +659,7 @@
             "section": "bootloaders",
             "srcrev": "bd5ba31770d191ba3cd64f3c431e205b1f8d89b3",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-09-07T19:09:41+0000"
+            "updated": "2022-10-10T23:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -654,7 +682,7 @@
             "section": "bootloaders",
             "srcrev": "e7beb4cb47f1f0563b2c63c80ca8a329d9f31226",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-09-07T19:09:41+0000"
+            "updated": "2022-10-10T23:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -834,11 +862,11 @@
             "pn": "linux-socfpga-lts",
             "pr": "r0",
             "provides": "linux-socfpga-lts  virtual/kernel",
-            "pv": "5.15.30-lts+gitX",
+            "pv": "5.15.50-lts+gitX",
             "section": "kernel",
-            "srcrev": "feb06c9cc3789500c1ce31a3868d093ec5d8af91",
+            "srcrev": "6a618e10aee577d82a9afe568efca740739727b6",
             "summary": "Linux kernel",
-            "updated": "2022-09-07T19:09:41+0000"
+            "updated": "2022-10-10T23:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1000,6 +1028,52 @@
             "srcrev": "71067430fcc18c5cd7c21d3395a5f802d80ced10",
             "summary": "Linux kernel",
             "updated": "2022-09-07T19:09:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ARM Trusted Firmware",
+            "filename": "arm-trusted-firmware_v2.7.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 1638169,
+            "inherits": "deploy",
+            "layerbranch": 908617,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "arm-trusted-firmware",
+            "pr": "r0",
+            "provides": "arm-trusted-firmware arm-trusted-firmware",
+            "pv": "v2.7",
+            "section": "base",
+            "srcrev": "aca81d775c16058aa42a8f87b4163b3e149286f5",
+            "summary": "",
+            "updated": "2022-10-10T23:10:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "u-boot-socfpga_v2022.04.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 1638170,
+            "inherits": "cml1 deploy kernel-arch python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 908617,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-socfpga",
+            "pr": "r0",
+            "provides": "u-boot-socfpga virtual/bootloader",
+            "pv": "v2022.04+gitX",
+            "section": "bootloaders",
+            "srcrev": "fcf317324c5a9118a0d6d261f5a657a78ec31fa0",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2022-10-10T23:10:28+0000"
         }
     ],
     "wrtemplates": []
