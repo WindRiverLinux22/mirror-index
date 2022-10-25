@@ -466,7 +466,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-17T00:10:10+0000",
+            "updated": "2022-10-24T00:10:10+0000",
             "updates_enabled": true
         }
     ],
@@ -479,10 +479,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-10-14T00:10:27+0000",
-            "vcs_last_commit": "2022-10-13T23:10:12+0000",
-            "vcs_last_fetch": "2022-10-14T00:10:27+0000",
-            "vcs_last_rev": "b2f4190a5f946a3e2c2cfd46e9c304af93c398fe",
+            "updated": "2022-10-20T00:10:28+0000",
+            "vcs_last_commit": "2022-10-20T00:10:22+0000",
+            "vcs_last_fetch": "2022-10-20T00:10:28+0000",
+            "vcs_last_rev": "ca3f91bece584258c97dfbb29333cec7687b43e1",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -494,10 +494,10 @@
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-10-10T23:10:21+0000",
-            "vcs_last_commit": "2022-10-10T00:10:09+0000",
-            "vcs_last_fetch": "2022-10-10T23:10:21+0000",
-            "vcs_last_rev": "cfbb82bd98c3beea641cde37a6563bc6302d9358",
+            "updated": "2022-10-24T14:10:29+0000",
+            "vcs_last_commit": "2022-10-24T14:10:33+0000",
+            "vcs_last_fetch": "2022-10-24T14:10:29+0000",
+            "vcs_last_rev": "70c9e7dcbec751d4a1328ba9cbf8cb214848f55e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
@@ -524,10 +524,10 @@
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-10-14T01:10:31+0000",
-            "vcs_last_commit": "2022-10-14T01:10:35+0000",
-            "vcs_last_fetch": "2022-10-14T01:10:31+0000",
-            "vcs_last_rev": "e63724f4b2383bb9c3eeb753cb8d5586127d19a9",
+            "updated": "2022-10-19T01:10:41+0000",
+            "vcs_last_commit": "2022-10-19T01:10:57+0000",
+            "vcs_last_fetch": "2022-10-19T01:10:41+0000",
+            "vcs_last_rev": "de12f3b3d6716460ad30c0d77e1d49eaa47cd9a2",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
@@ -913,7 +913,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-fpm                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmpz1ia3o93/tmp-glibc/work/core2-32-oe-linux/frr/8.2.2-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
+            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-fpm                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmpgv9crufn/tmp-glibc/work/core2-32-oe-linux/frr/8.2.2-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
             "description": "FRRouting is a free and open source Internet routing protocol suite for Linux and Unix platforms. It implements BGP, OSPF, RIP, IS-IS, PIM, LDP, BFD, Babel, PBR, OpenFabric and VRRP, with alpha support for EIGRP and NHRP.",
             "filename": "frr_8.2.2.bb",
             "filepath": "recipes-protocols/frr",
@@ -930,7 +930,7 @@
             "section": "net",
             "srcrev": "79188bf710e92acf42fb5b9b0a2e9593a5ee9b05",
             "summary": "BGP/OSPF/RIP routing daemon",
-            "updated": "2022-10-14T01:10:31+0000"
+            "updated": "2022-10-19T01:10:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1505,7 +1505,7 @@
             "section": "vmware-tools",
             "srcrev": "87abba1ce2356fc860eb9d0777d8e9de47427358",
             "summary": "Tools to enhance VMWare guest integration and performance",
-            "updated": "2022-07-31T22:07:39+0000"
+            "updated": "2022-10-19T01:10:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1971,9 +1971,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-libpcap=/tmp/tmp8hph98m5/tmp-glibc/work/core2-32-oe-linux/tcpreplay/4.4.1-r0/recipe-sysroot/usr ",
+            "configopts": " --with-libpcap=/tmp/tmpgv9crufn/tmp-glibc/work/core2-32-oe-linux/tcpreplay/4.4.2-r0/recipe-sysroot/usr ",
             "description": "",
-            "filename": "tcpreplay_4.4.1.bb",
+            "filename": "tcpreplay_4.4.2.bb",
             "filepath": "recipes-support/tcpreplay",
             "homepage": "https://tcpreplay.appneta.com/",
             "id": 1535930,
@@ -1984,11 +1984,11 @@
             "pn": "tcpreplay",
             "pr": "r0",
             "provides": "tcpreplay ",
-            "pv": "4.4.1",
+            "pv": "4.4.2",
             "section": "net",
             "srcrev": "",
             "summary": "Use previously captured traffic to test network devices",
-            "updated": "2022-07-31T22:07:46+0000"
+            "updated": "2022-10-19T01:10:41+0000"
         },
         {
             "bbclassextend": "",

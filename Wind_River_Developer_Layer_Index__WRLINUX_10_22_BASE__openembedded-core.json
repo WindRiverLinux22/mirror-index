@@ -466,7 +466,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-17T00:10:10+0000",
+            "updated": "2022-10-24T00:10:10+0000",
             "updates_enabled": true
         }
     ],
@@ -487,10 +487,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-10-14T00:10:27+0000",
-            "vcs_last_commit": "2022-10-13T23:10:12+0000",
-            "vcs_last_fetch": "2022-10-14T00:10:27+0000",
-            "vcs_last_rev": "b2f4190a5f946a3e2c2cfd46e9c304af93c398fe",
+            "updated": "2022-10-20T00:10:28+0000",
+            "vcs_last_commit": "2022-10-20T00:10:22+0000",
+            "vcs_last_fetch": "2022-10-20T00:10:28+0000",
+            "vcs_last_rev": "ca3f91bece584258c97dfbb29333cec7687b43e1",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -12425,7 +12425,7 @@
             "section": "base",
             "srcrev": "f59bcb2fe1e25042e77d5e4942f72bfa026fa305",
             "summary": "System load testing utility",
-            "updated": "2022-07-31T21:07:09+0000"
+            "updated": "2022-10-20T00:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -13460,7 +13460,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2022-10-10T23:10:57+0000"
+            "updated": "2022-10-20T00:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -13483,7 +13483,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Linux Trace Toolkit Control",
-            "updated": "2022-07-31T21:07:29+0000"
+            "updated": "2022-10-20T00:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -13506,7 +13506,7 @@
             "section": "base",
             "srcrev": "054a54ae10b01a271afc4f19496c041b10fb414c",
             "summary": "Babeltrace - Trace Format Babel Tower",
-            "updated": "2022-07-31T21:07:29+0000"
+            "updated": "2022-10-18T03:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -13552,7 +13552,7 @@
             "section": "devel",
             "srcrev": "fbba0d790598b76ae39d1c1944ea0c0d04ecb5ee",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2022-10-10T23:10:07+0000"
+            "updated": "2022-10-20T00:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -13575,7 +13575,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux Trace Toolkit Userspace Tracer 2.x",
-            "updated": "2022-07-31T21:07:30+0000"
+            "updated": "2022-10-20T00:10:27+0000"
         },
         {
             "bbclassextend": "",
