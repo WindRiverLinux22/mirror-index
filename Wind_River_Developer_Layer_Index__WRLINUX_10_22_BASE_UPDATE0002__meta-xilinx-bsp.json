@@ -1,0 +1,771 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_22_BASE_UPDATE0002",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 13938,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42584,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42592,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42593,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0 4.1"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_22_BASE_UPDATE0002",
+            "comparison": false,
+            "hidden": false,
+            "id": 312,
+            "name": "WRLINUX_10_22_BASE_UPDATE0002",
+            "short_description": "WRLinux 10_22 Base Update 0002",
+            "sort_priority": 9,
+            "update_environment": null,
+            "updated": "2022-11-02T00:11:10+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 312,
+            "collection": "xilinx",
+            "id": 919487,
+            "layer": 436,
+            "local_path": "",
+            "updated": "2022-09-15T13:09:06+0000",
+            "vcs_last_commit": "2022-07-08T02:07:14+0000",
+            "vcs_last_fetch": "2022-09-15T13:09:06+0000",
+            "vcs_last_rev": "d9d9b4320c9bd8d00a8da1ae03c4e85faf589c13",
+            "vcs_subdir": "meta-xilinx-core",
+            "version": null,
+            "yp_compatible_version": 42579
+        },
+        {
+            "actual_branch": "",
+            "branch": 312,
+            "collection": "xilinx-bsp",
+            "id": 919488,
+            "layer": 437,
+            "local_path": "",
+            "updated": "2022-09-15T13:09:11+0000",
+            "vcs_last_commit": "2022-04-01T19:04:55+0000",
+            "vcs_last_fetch": "2022-09-15T13:09:11+0000",
+            "vcs_last_rev": "9435695f0d1b931e7e2d431fd942d7233af83883",
+            "vcs_subdir": "meta-xilinx-bsp",
+            "version": null,
+            "yp_compatible_version": 42579
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 436,
+            "id": 101900,
+            "layerbranch": 919488,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "xilinx",
+            "comparison": false,
+            "description": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "id": 436,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-core",
+            "status": "P",
+            "summary": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "updated": "2022-03-03T00:03:48+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-bsp",
+            "comparison": false,
+            "description": "Meta xilnx BSPs.",
+            "id": 437,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-bsp",
+            "status": "P",
+            "summary": "meta-xilinx-bsp",
+            "updated": "2022-03-04T01:03:21+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": "Machine support for ZCU106 Evaluation Board.",
+            "id": 55293,
+            "layerbranch": 919488,
+            "name": "zcu106-zynqmp",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "MicroBlaze QEMU machine support ('petalogix-ml605' model)",
+            "id": 55294,
+            "layerbranch": 919488,
+            "name": "ml605-qemu-microblazeel",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZCU1285 Evaluation Board.",
+            "id": 55295,
+            "layerbranch": 919488,
+            "name": "zcu1285-zynqmp",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZC702 Evaluation Board.",
+            "id": 55296,
+            "layerbranch": 919488,
+            "name": "zc702-zynq7",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZedBoard. (http://www.zedboard.org/)",
+            "id": 55297,
+            "layerbranch": 919488,
+            "name": "zedboard-zynq7",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "vmk180-versal",
+            "id": 55298,
+            "layerbranch": 919488,
+            "name": "vmk180-versal",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for microZed. (http://www.microzed.org/)",
+            "id": 55299,
+            "layerbranch": 919488,
+            "name": "microzed-zynq7",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for Ultra96 Evaluation Board.",
+            "id": 55300,
+            "layerbranch": 919488,
+            "name": "ultra96-zynqmp",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZCU216 Evaluation Board.",
+            "id": 55301,
+            "layerbranch": 919488,
+            "name": "zcu216-zynqmp",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZCU111 Evaluation Board.",
+            "id": 55302,
+            "layerbranch": 919488,
+            "name": "zcu111-zynqmp",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "vck-sc-zynqmp",
+            "id": 55303,
+            "layerbranch": 919488,
+            "name": "vck-sc-zynqmp",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "v350-versal",
+            "id": 55304,
+            "layerbranch": 919488,
+            "name": "v350-versal",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZCU208 Evaluation Board.",
+            "id": 55305,
+            "layerbranch": 919488,
+            "name": "zcu208-zynqmp",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZCU104 Evaluation Board.",
+            "id": 55306,
+            "layerbranch": 919488,
+            "name": "zcu104-zynqmp",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZC706 Evaluation Board.",
+            "id": 55307,
+            "layerbranch": 919488,
+            "name": "zc706-zynq7",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "vck-versal",
+            "id": 55308,
+            "layerbranch": 919488,
+            "name": "vck190-versal",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for zybo-linux-bd project.",
+            "id": 55309,
+            "layerbranch": 919488,
+            "name": "zybo-linux-bd-zynq7",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZYBO.",
+            "id": 55310,
+            "layerbranch": 919488,
+            "name": "zybo-zynq7",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "vck500-versal",
+            "id": 55311,
+            "layerbranch": 919488,
+            "name": "vck5000-versal",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZCU1275 Evaluation Board.",
+            "id": 55312,
+            "layerbranch": 919488,
+            "name": "zcu1275-zynqmp",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for picoZed. (http://www.picozed.org/)",
+            "id": 55313,
+            "layerbranch": 919488,
+            "name": "picozed-zynq7",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "vc-p-a2197-versal",
+            "id": 55314,
+            "layerbranch": 919488,
+            "name": "vc-p-a2197-00-versal",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for Xilinx KC705 Embedded Kit.",
+            "id": 55315,
+            "layerbranch": 919488,
+            "name": "kc705-microblazeel",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZCU102 Evaluation Board.",
+            "id": 55316,
+            "layerbranch": 919488,
+            "name": "zcu102-zynqmp",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Machine support for ZC1254 Evaluation Board.",
+            "id": 55317,
+            "layerbranch": 919488,
+            "name": "zc1254-zynqmp",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "MicroBlaze QEMU machine support ('petalogix-s3adsp1800' model)",
+            "id": 55318,
+            "layerbranch": 919488,
+            "name": "s3adsp1800-qemu-microblazeeb",
+            "updated": "2022-09-15T13:09:10+0000"
+        },
+        {
+            "description": "Zynq QEMU machine support ('xilinx-zynq-a9' model)",
+            "id": 55319,
+            "layerbranch": 919488,
+            "name": "qemu-zynq7",
+            "updated": "2022-09-15T13:09:10+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "A Pre-built bitstream for the KC705, which is capable of booting a Linux system.",
+            "filename": "kc705-bitstream_2021.2.bb",
+            "filepath": "reference-design",
+            "homepage": "http://www.xilinx.com",
+            "id": 1625116,
+            "inherits": "deploy xilinx-fetch-restricted",
+            "layerbranch": 919488,
+            "license": "Proprietary",
+            "pe": "",
+            "pn": "kc705-bitstream",
+            "pr": "r0",
+            "provides": "kc705-bitstream virtual/bitstream",
+            "pv": "2021.2",
+            "section": "bsp",
+            "srcrev": "",
+            "summary": "KC705 Pre-built Bitstream",
+            "updated": "2022-09-15T13:09:11+0000"
+        }
+    ],
+    "wrtemplates": []
+}
