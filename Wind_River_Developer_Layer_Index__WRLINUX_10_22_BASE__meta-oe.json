@@ -466,7 +466,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2022-10-24T00:10:10+0000",
+            "updated": "2022-11-01T00:11:08+0000",
             "updates_enabled": true
         }
     ],
@@ -479,10 +479,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-10-20T00:10:28+0000",
-            "vcs_last_commit": "2022-10-20T00:10:22+0000",
-            "vcs_last_fetch": "2022-10-20T00:10:28+0000",
-            "vcs_last_rev": "ca3f91bece584258c97dfbb29333cec7687b43e1",
+            "updated": "2022-11-01T13:11:26+0000",
+            "vcs_last_commit": "2022-11-01T13:11:35+0000",
+            "vcs_last_fetch": "2022-11-01T13:11:26+0000",
+            "vcs_last_rev": "fbd5716eb3a8ed25e827e192734b723fd4b861e3",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -494,10 +494,10 @@
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-10-24T14:10:29+0000",
-            "vcs_last_commit": "2022-10-24T14:10:33+0000",
-            "vcs_last_fetch": "2022-10-24T14:10:29+0000",
-            "vcs_last_rev": "70c9e7dcbec751d4a1328ba9cbf8cb214848f55e",
+            "updated": "2022-10-25T02:10:47+0000",
+            "vcs_last_commit": "2022-10-25T02:10:07+0000",
+            "vcs_last_fetch": "2022-10-25T02:10:47+0000",
+            "vcs_last_rev": "b86d67d56946a58764b216aa0602a34260ef9354",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
@@ -11804,7 +11804,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2022-09-07T19:09:50+0000"
+            "updated": "2022-10-25T02:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -12914,13 +12914,13 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpszlyscod/tmp-glibc/work/core2-32-oe-linux/mariadb/10.7.4-r0/qemuwrapper -DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DCMAKE_AR:FILEPATH=i686-oe-linux-gcc-ar    -DWITH_SSL='system' -DWITHOUT_AUTH_PAM=TRUE -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
+            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DSTACK_DIRECTION=1                  -DCMAKE_AR:FILEPATH=i686-oe-linux-gcc-ar    -DWITH_SSL='system' -DWITHOUT_AUTH_PAM=TRUE -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
             "description": "",
             "filename": "mariadb_10.7.4.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 1600252,
-            "inherits": "binconfig cmake gettext multilib_script qemu systemd update-alternatives update-rc.d useradd useradd_base",
+            "inherits": "binconfig cmake gettext multilib_script systemd update-alternatives update-rc.d useradd useradd_base",
             "layerbranch": 904830,
             "license": "GPL-2.0-only",
             "pe": "",
@@ -12931,7 +12931,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2022-07-31T22:07:28+0000"
+            "updated": "2022-10-25T02:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -12960,7 +12960,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpszlyscod/tmp-glibc/work/x86_64-linux/mariadb-native/10.7.4-r0/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpszlyscod/tmp-glibc/work/x86_64-linux/mariadb-native/10.7.4-r0/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DCMAKE_AR:FILEPATH=ar    -DWITH_SSL='bundled' -DWITHOUT_AUTH_PAM=TRUE -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
+            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpeau1n5zx/tmp-glibc/work/x86_64-linux/mariadb-native/10.7.4-r0/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpeau1n5zx/tmp-glibc/work/x86_64-linux/mariadb-native/10.7.4-r0/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DSTACK_DIRECTION=1                  -DCMAKE_AR:FILEPATH=ar    -DWITH_SSL='bundled' -DWITHOUT_AUTH_PAM=TRUE -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
             "description": "",
             "filename": "mariadb-native_10.7.4.bb",
             "filepath": "recipes-dbs/mysql",
@@ -12977,15 +12977,15 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2022-07-31T22:07:30+0000"
+            "updated": "2022-10-25T02:10:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmpqnwzqcf6/tmp-glibc/work/core2-32-oe-linux/postgresql/14.4-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
+            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmpeau1n5zx/tmp-glibc/work/core2-32-oe-linux/postgresql/14.5-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_14.4.bb",
+            "filename": "postgresql_14.5.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 1600255,
@@ -12996,11 +12996,11 @@
             "pn": "postgresql",
             "pr": "r0",
             "provides": "postgresql ",
-            "pv": "14.4",
+            "pv": "14.5",
             "section": "base",
             "srcrev": "",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2022-09-20T23:09:43+0000"
+            "updated": "2022-10-25T02:10:47+0000"
         },
         {
             "bbclassextend": "",
