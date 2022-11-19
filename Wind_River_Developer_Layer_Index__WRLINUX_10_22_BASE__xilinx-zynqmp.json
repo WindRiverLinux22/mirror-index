@@ -454,35 +454,49 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.2 3.3 3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42595,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221009",
+            "bitbake_branch": "wr-10.22-20221107",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 8,
+            "sort_priority": 9,
             "update_environment": null,
-            "updated": "2022-11-02T00:11:09+0000",
+            "updated": "2022-11-18T23:11:17+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221009",
+            "actual_branch": "wr-10.22-20221107",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-11-01T13:11:26+0000",
-            "vcs_last_commit": "2022-11-01T13:11:35+0000",
-            "vcs_last_fetch": "2022-11-01T13:11:26+0000",
-            "vcs_last_rev": "fbd5716eb3a8ed25e827e192734b723fd4b861e3",
+            "updated": "2022-11-14T10:11:42+0000",
+            "vcs_last_commit": "2022-11-14T09:11:37+0000",
+            "vcs_last_fetch": "2022-11-14T10:11:42+0000",
+            "vcs_last_rev": "d91045a0d7e7c0b4de0f5a0d1f27a885df3db98d",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -509,10 +523,10 @@
             "id": 904876,
             "layer": 49,
             "local_path": "",
-            "updated": "2022-11-02T00:11:36+0000",
-            "vcs_last_commit": "2022-11-02T00:11:33+0000",
-            "vcs_last_fetch": "2022-11-02T00:11:36+0000",
-            "vcs_last_rev": "7222a473be564bb11cf0d498cc2ee821b31164a2",
+            "updated": "2022-11-18T00:11:41+0000",
+            "vcs_last_commit": "2022-11-17T23:11:31+0000",
+            "vcs_last_fetch": "2022-11-18T00:11:41+0000",
+            "vcs_last_rev": "e315218f604a9ebb461c3b417476251f65f4edca",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42580
@@ -539,10 +553,10 @@
             "id": 904891,
             "layer": 83,
             "local_path": "",
-            "updated": "2022-10-24T01:10:20+0000",
-            "vcs_last_commit": "2022-08-03T19:08:55+0000",
-            "vcs_last_fetch": "2022-08-03T19:08:52+0000",
-            "vcs_last_rev": "a2480d10d29457fb654b2b9e3aed14d4e8cf34ab",
+            "updated": "2022-11-08T16:11:03+0000",
+            "vcs_last_commit": "2022-11-04T23:11:25+0000",
+            "vcs_last_fetch": "2022-11-08T16:11:03+0000",
+            "vcs_last_rev": "1b9a130f44f2ec522a3562b1c314658f07467f4a",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42580

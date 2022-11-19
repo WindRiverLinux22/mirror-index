@@ -454,19 +454,33 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.2 3.3 3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42595,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221009",
+            "bitbake_branch": "wr-10.22-20221107",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 8,
+            "sort_priority": 9,
             "update_environment": null,
-            "updated": "2022-11-02T00:11:09+0000",
+            "updated": "2022-11-18T23:11:17+0000",
             "updates_enabled": true
         }
     ],
@@ -523,16 +537,16 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221009",
+            "actual_branch": "wr-10.22-20221107",
             "branch": 292,
             "collection": "freescale-distro",
             "id": 908029,
             "layer": 470,
             "local_path": "",
-            "updated": "2022-10-10T23:10:42+0000",
-            "vcs_last_commit": "2022-10-08T18:10:48+0000",
-            "vcs_last_fetch": "2022-10-10T23:10:42+0000",
-            "vcs_last_rev": "fbaf599fdc262aa68357aac7507b72f6f9279538",
+            "updated": "2022-11-13T19:11:19+0000",
+            "vcs_last_commit": "2022-11-07T00:11:15+0000",
+            "vcs_last_fetch": "2022-11-13T19:11:19+0000",
+            "vcs_last_rev": "a035f1cb3a64d71c07d7836f5b3289e8255669e1",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -1074,7 +1088,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Set of sample applications for i.MX GPU",
-            "filename": "imx-gpu-sdk_5.7.1.bb",
+            "filename": "imx-gpu-sdk_6.0.2.bb",
             "filepath": "recipes-graphics/imx-gpu-sdk",
             "homepage": "",
             "id": 1559214,
@@ -1085,11 +1099,11 @@
             "pn": "imx-gpu-sdk",
             "pr": "r0",
             "provides": "imx-gpu-sdk ",
-            "pv": "5.7.1",
+            "pv": "6.0.2",
             "section": "base",
-            "srcrev": "7ea472feb6dffc96104ca3e2eab637af62095a3b",
+            "srcrev": "2c77d1ed4e9ae477b32ebb22c5dfb8e5cb530a8e",
             "summary": "i.MX GPU SDK Samples",
-            "updated": "2022-07-31T21:07:47+0000"
+            "updated": "2022-11-13T19:11:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",

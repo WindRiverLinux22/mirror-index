@@ -454,50 +454,64 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.2 3.3 3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42595,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221009",
+            "bitbake_branch": "wr-10.22-20221107",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 8,
+            "sort_priority": 9,
             "update_environment": null,
-            "updated": "2022-11-02T00:11:09+0000",
+            "updated": "2022-11-18T23:11:17+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221009",
+            "actual_branch": "wr-10.22-20221107",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-11-01T13:11:26+0000",
-            "vcs_last_commit": "2022-11-01T13:11:35+0000",
-            "vcs_last_fetch": "2022-11-01T13:11:26+0000",
-            "vcs_last_rev": "fbd5716eb3a8ed25e827e192734b723fd4b861e3",
+            "updated": "2022-11-14T10:11:42+0000",
+            "vcs_last_commit": "2022-11-14T09:11:37+0000",
+            "vcs_last_fetch": "2022-11-14T10:11:42+0000",
+            "vcs_last_rev": "d91045a0d7e7c0b4de0f5a0d1f27a885df3db98d",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20221009",
+            "actual_branch": "wr-10.22-20221107",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-10-25T02:10:47+0000",
-            "vcs_last_commit": "2022-10-25T02:10:07+0000",
-            "vcs_last_fetch": "2022-10-25T02:10:47+0000",
-            "vcs_last_rev": "b86d67d56946a58764b216aa0602a34260ef9354",
+            "updated": "2022-11-13T19:11:03+0000",
+            "vcs_last_commit": "2022-11-07T00:11:02+0000",
+            "vcs_last_fetch": "2022-11-13T19:11:03+0000",
+            "vcs_last_rev": "bae149766f0689634266a53fc34a2040c9436af1",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
@@ -2058,9 +2072,9 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpihcdze94/tmp-glibc/work/core2-32-oe-linux/php/8.1.9-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
+            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpso54_e_3/tmp-glibc/work/core2-32-oe-linux/php/8.1.10-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpso54_e_3/tmp-glibc/work/core2-32-oe-linux/php/8.1.10-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpso54_e_3/tmp-glibc/work/core2-32-oe-linux/php/8.1.10-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpso54_e_3/tmp-glibc/work/core2-32-oe-linux/php/8.1.10-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmpso54_e_3/tmp-glibc/work/core2-32-oe-linux/php/8.1.10-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmpso54_e_3/tmp-glibc/work/core2-32-oe-linux/php/8.1.10-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpso54_e_3/tmp-glibc/work/core2-32-oe-linux/php/8.1.10-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpso54_e_3/tmp-glibc/work/core2-32-oe-linux/php/8.1.10-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
             "description": "",
-            "filename": "php_8.1.9.bb",
+            "filename": "php_8.1.10.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 1599780,
@@ -2071,11 +2085,11 @@
             "pn": "php",
             "pr": "r0",
             "provides": "php ",
-            "pv": "8.1.9",
+            "pv": "8.1.10",
             "section": "console/network",
             "srcrev": "",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2022-10-10T23:10:20+0000"
+            "updated": "2022-11-13T19:11:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10470,7 +10484,7 @@
             "section": "base",
             "srcrev": "29d82c80bcc62be2878a9ac080de7eb286c4beb9",
             "summary": "USB CEC Adaptor communication Library",
-            "updated": "2022-07-31T22:07:56+0000"
+            "updated": "2022-11-13T19:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -12839,7 +12853,7 @@
             "section": "base",
             "srcrev": "8ad7be2510414b9506ec9f9e24f24d04d9b04a1a",
             "summary": "Lightning Memory-Mapped Database (LMDB)",
-            "updated": "2022-10-10T23:10:20+0000"
+            "updated": "2022-11-13T19:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -15162,7 +15176,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Simple DirectMedia Layer",
-            "updated": "2022-07-31T22:07:57+0000"
+            "updated": "2022-11-13T19:11:03+0000"
         },
         {
             "bbclassextend": "",

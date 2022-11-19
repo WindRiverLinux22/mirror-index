@@ -454,50 +454,64 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.2 3.3 3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42595,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221009",
+            "bitbake_branch": "wr-10.22-20221107",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 8,
+            "sort_priority": 9,
             "update_environment": null,
-            "updated": "2022-11-02T00:11:09+0000",
+            "updated": "2022-11-18T23:11:17+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221009",
+            "actual_branch": "wr-10.22-20221107",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-11-01T13:11:26+0000",
-            "vcs_last_commit": "2022-11-01T13:11:35+0000",
-            "vcs_last_fetch": "2022-11-01T13:11:26+0000",
-            "vcs_last_rev": "fbd5716eb3a8ed25e827e192734b723fd4b861e3",
+            "updated": "2022-11-14T10:11:42+0000",
+            "vcs_last_commit": "2022-11-14T09:11:37+0000",
+            "vcs_last_fetch": "2022-11-14T10:11:42+0000",
+            "vcs_last_rev": "d91045a0d7e7c0b4de0f5a0d1f27a885df3db98d",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20221009",
+            "actual_branch": "wr-10.22-20221107",
             "branch": 292,
             "collection": "freescale-layer",
             "id": 907928,
             "layer": 231,
             "local_path": "",
-            "updated": "2022-10-23T22:10:28+0000",
-            "vcs_last_commit": "2022-10-23T22:10:17+0000",
-            "vcs_last_fetch": "2022-10-23T22:10:28+0000",
-            "vcs_last_rev": "759959582b386c4f46e121a3e0637fbdf2a026a5",
+            "updated": "2022-11-13T19:11:55+0000",
+            "vcs_last_commit": "2022-11-13T19:11:49+0000",
+            "vcs_last_fetch": "2022-11-13T19:11:55+0000",
+            "vcs_last_rev": "212b7c9bcb81b3951ca909533ed688037d261830",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -1176,11 +1190,11 @@
             "pn": "uuu",
             "pr": "r0",
             "provides": "uuu ",
-            "pv": "1.4.165",
+            "pv": "1.4.243",
             "section": "base",
-            "srcrev": "e10b0260076e0119c259f7f44447904f14109ba2",
+            "srcrev": "ed48c514ee4c1ea4562c875877b180a87474f895",
             "summary": "Universal Update Utility",
-            "updated": "2022-07-31T22:07:17+0000"
+            "updated": "2022-11-13T19:11:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1226,13 +1240,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:34+0000"
+            "updated": "2022-11-13T19:11:52+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmpec5f4c5_/tmp-glibc/work/core2-32-oe-linux/isp-imx/4.2.2.18.0-r0/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DAPPMODE=V4L2     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSERVER_LESS=1     -DSUBDEV_V4L2=1     -DENABLE_IRQ=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -Wno-dev  ",
+            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmp7hl1hxk3/tmp-glibc/work/core2-32-oe-linux/isp-imx/4.2.2.18.0-r0/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DAPPMODE=V4L2     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSERVER_LESS=1     -DSUBDEV_V4L2=1     -DENABLE_IRQ=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -Wno-dev  ",
             "description": "i.MX Verisilicon Software ISP",
             "filename": "isp-imx_4.2.2.18.0.bb",
             "filepath": "recipes-bsp/isp-imx",
@@ -1249,7 +1263,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:34+0000"
+            "updated": "2022-11-13T19:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1318,7 +1332,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale i.MX firmware for 8 family",
-            "updated": "2022-09-07T19:09:31+0000"
+            "updated": "2022-11-13T19:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1341,7 +1355,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale i.MX firmware for 8M and 8M Mini family",
-            "updated": "2022-09-07T19:09:31+0000"
+            "updated": "2022-11-13T19:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1364,7 +1378,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale i.MX firmware",
-            "updated": "2022-09-07T19:09:31+0000"
+            "updated": "2022-11-13T19:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1433,7 +1447,7 @@
             "section": "BSP",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:34+0000"
+            "updated": "2022-11-13T19:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1525,7 +1539,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:34+0000"
+            "updated": "2022-11-13T19:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1569,9 +1583,9 @@
             "provides": "u-boot-imx-mfgtool u-boot-mfgtool",
             "pv": "2022.04",
             "section": "base",
-            "srcrev": "1c881f4da83cc05bee50f352fa183263d7e2622b",
+            "srcrev": "16e8414193985cf7a171f7b79e12ff30700157ba",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-09-07T19:09:32+0000"
+            "updated": "2022-11-13T19:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1615,9 +1629,9 @@
             "provides": "u-boot-imx virtual/bootloader u-boot",
             "pv": "2022.04",
             "section": "base",
-            "srcrev": "1c881f4da83cc05bee50f352fa183263d7e2622b",
+            "srcrev": "16e8414193985cf7a171f7b79e12ff30700157ba",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-09-07T19:09:33+0000"
+            "updated": "2022-11-13T19:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1778,7 +1792,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:34+0000"
+            "updated": "2022-11-13T19:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1801,7 +1815,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:23+0000"
+            "updated": "2022-11-13T19:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1847,7 +1861,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "DP firmware",
-            "updated": "2022-09-07T19:09:36+0000"
+            "updated": "2022-11-13T19:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2008,7 +2022,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NXP i.MX SECO firmware",
-            "updated": "2022-09-07T19:09:34+0000"
+            "updated": "2022-11-13T19:11:54+0000"
         },
         {
             "bbclassextend": "native",
@@ -2192,7 +2206,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:25+0000"
+            "updated": "2022-11-13T19:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2399,7 +2413,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:25+0000"
+            "updated": "2022-11-13T19:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2422,7 +2436,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:25+0000"
+            "updated": "2022-11-13T19:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2445,7 +2459,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:25+0000"
+            "updated": "2022-11-13T19:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2514,7 +2528,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:25+0000"
+            "updated": "2022-11-13T19:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2583,7 +2597,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:25+0000"
+            "updated": "2022-11-13T19:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3258,7 +3272,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "optee-client_3.15.0.imx.bb",
+            "filename": "optee-client_3.17.0.imx.bb",
             "filepath": "recipes-security/optee-imx",
             "homepage": "http://www.optee.org/",
             "id": 1558305,
@@ -3269,11 +3283,11 @@
             "pn": "optee-client",
             "pr": "r0",
             "provides": "optee-client ",
-            "pv": "3.15.0.imx",
+            "pv": "3.17.0.imx",
             "section": "base",
             "srcrev": "182874320395787a389e5b0f7df02b32f3c0a1b0",
             "summary": "OPTEE Client libs",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2022-11-13T19:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -3281,7 +3295,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "OPTEE OS",
-            "filename": "optee-os_3.15.0.imx.bb",
+            "filename": "optee-os_3.17.0.imx.bb",
             "filepath": "recipes-security/optee-imx",
             "homepage": "http://www.optee.org/",
             "id": 1558306,
@@ -3292,11 +3306,11 @@
             "pn": "optee-os",
             "pr": "r0",
             "provides": "optee-os ",
-            "pv": "3.15.0.imx",
+            "pv": "3.17.0.imx",
             "section": "base",
-            "srcrev": "807629a0889ad5e888f1fd187932ab7f701ddf8c",
+            "srcrev": "984996422c25c99ebfc5194c1bb393028605bb0c",
             "summary": "OPTEE OS",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2022-11-13T19:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3304,7 +3318,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "optee-test_3.15.0.imx.bb",
+            "filename": "optee-test_3.17.0.imx.bb",
             "filepath": "recipes-security/optee-imx",
             "homepage": "http://www.optee.org/",
             "id": 1558307,
@@ -3315,11 +3329,11 @@
             "pn": "optee-test",
             "pr": "r0",
             "provides": "optee-test ",
-            "pv": "3.15.0.imx",
+            "pv": "3.17.0.imx",
             "section": "base",
-            "srcrev": "e9d8bf6ee121d6686e6e409c727caee76496bb86",
+            "srcrev": "e064126a9769f168d1d0e178b74955e6648683b4",
             "summary": "OPTEE test",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2022-11-13T19:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3754,9 +3768,9 @@
             "provides": "linux-imx-headers ",
             "pv": "5.15",
             "section": "base",
-            "srcrev": "fa6c3168595c02bd9d5366fcc28c9e7304947a3d",
+            "srcrev": "36363d8623ba60858e2632b7d2b70dae932c9a8b",
             "summary": "Installs i.MX-specific kernel headers",
-            "updated": "2022-09-07T19:09:35+0000"
+            "updated": "2022-11-13T19:11:50+0000"
         },
         {
             "bbclassextend": "",
@@ -3779,7 +3793,7 @@
             "section": "base",
             "srcrev": "1d6b3055ae6a2ab50a911a6482dbd750c09cd3e0",
             "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2022-09-07T19:09:35+0000"
+            "updated": "2022-11-13T19:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3802,7 +3816,7 @@
             "section": "base",
             "srcrev": "1d6b3055ae6a2ab50a911a6482dbd750c09cd3e0",
             "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2022-09-07T19:09:35+0000"
+            "updated": "2022-11-13T19:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3821,11 +3835,11 @@
             "pn": "linux-imx",
             "pr": "r0",
             "provides": "linux-imx  virtual/kernel",
-            "pv": "5.15.32+gitX",
+            "pv": "5.15.52+gitX",
             "section": "base",
-            "srcrev": "fa6c3168595c02bd9d5366fcc28c9e7304947a3d",
+            "srcrev": "36363d8623ba60858e2632b7d2b70dae932c9a8b",
             "summary": "Linux Kernel provided and supported by NXP",
-            "updated": "2022-09-07T19:09:35+0000"
+            "updated": "2022-11-13T19:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3848,7 +3862,7 @@
             "section": "base",
             "srcrev": "d14543c880490dfa74c3e2e684634f8f9ed41cec",
             "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2022-09-07T19:09:35+0000"
+            "updated": "2022-11-13T19:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -3867,11 +3881,11 @@
             "pn": "linux-imx-mfgtool",
             "pr": "r0",
             "provides": "linux-imx-mfgtool linux-mfgtool",
-            "pv": "5.15.32+gitX",
+            "pv": "5.15.52+gitX",
             "section": "base",
-            "srcrev": "fa6c3168595c02bd9d5366fcc28c9e7304947a3d",
+            "srcrev": "36363d8623ba60858e2632b7d2b70dae932c9a8b",
             "summary": "Linux Kernel provided and supported by NXP",
-            "updated": "2022-09-07T19:09:35+0000"
+            "updated": "2022-11-13T19:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -3917,7 +3931,7 @@
             "section": "base",
             "srcrev": "d14543c880490dfa74c3e2e684634f8f9ed41cec",
             "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2022-09-07T19:09:36+0000"
+            "updated": "2022-11-13T19:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -3959,11 +3973,11 @@
             "pn": "linux-fslc-imx",
             "pr": "r0",
             "provides": "linux-fslc-imx  virtual/kernel",
-            "pv": "5.15.67+gitX",
+            "pv": "5.15.60+gitX",
             "section": "base",
-            "srcrev": "845d53f13aac7d712b931a21df53bc8ccb22b31b",
+            "srcrev": "e1b43282a845dfb78e115a8e2dc4144ce0d335b5",
             "summary": "Linux Kernel provided by NXP and supported by Community",
-            "updated": "2022-10-10T23:10:24+0000"
+            "updated": "2022-11-13T19:11:50+0000"
         },
         {
             "bbclassextend": "",
@@ -4170,7 +4184,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:23+0000"
+            "updated": "2022-11-13T19:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -4193,7 +4207,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-09-07T19:09:35+0000"
+            "updated": "2022-11-13T19:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -4216,7 +4230,7 @@
             "section": "base",
             "srcrev": "c8c6e3106b03441db1037afa995f95fcb2f9f17d",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2022-10-10T23:10:24+0000"
+            "updated": "2022-11-13T19:11:50+0000"
         },
         {
             "bbclassextend": "",
@@ -4262,7 +4276,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-23T22:10:28+0000"
+            "updated": "2022-11-13T19:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -4285,7 +4299,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-23T22:10:28+0000"
+            "updated": "2022-11-13T19:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -4332,6 +4346,75 @@
             "srcrev": "",
             "summary": "",
             "updated": "2022-07-31T22:07:39+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/KhronosGroup/Vulkan-Headers",
+            "configopts": " ",
+            "description": "Vulkan is a 3D graphics and compute API providing cross-platform access to modern GPUs with low overhead and targeting realtime graphics applications such as games and interactive media. This package contains the development headers for packages wanting to make use of Vulkan.",
+            "filename": "vulkan-headers_1.2.182.0.bb",
+            "filepath": "recipes-downgrade/vulkan",
+            "homepage": "https://www.khronos.org/vulkan/",
+            "id": 1653638,
+            "inherits": "cmake",
+            "layerbranch": 907928,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "vulkan-headers",
+            "pr": "r0",
+            "provides": "vulkan-headers ",
+            "pv": "1.2.182.0",
+            "section": "libs",
+            "srcrev": "37164a5726f7e6113810f9557903a117498421cf",
+            "summary": "Vulkan Header files and API registry",
+            "updated": "2022-11-13T19:11:55+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/KhronosGroup/Vulkan-Loader",
+            "configopts": "                 -DBUILD_TESTS=OFF                  -DPYTHON_EXECUTABLE=/tmp/tmp7hl1hxk3/tmp-glibc/hosttools/python3                  -DASSEMBLER_WORKS=FALSE                  -DVulkanHeaders_INCLUDE_DIR=/tmp/tmp7hl1hxk3/tmp-glibc/work/core2-32-oe-linux/vulkan-loader/1.2.182.0-r0/recipe-sysroot/usr/include                  -DVulkanRegistry_DIR=/tmp/tmp7hl1hxk3/tmp-glibc/work/core2-32-oe-linux/vulkan-loader/1.2.182.0-r0/recipe-sysroot//usr/share                     -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
+            "description": "Vulkan is a new generation graphics and compute API that provides efficient access to modern GPUs. These packages provide only the common vendor-agnostic library loader, headers and the vulkaninfo utility.",
+            "filename": "vulkan-loader_1.2.182.0.bb",
+            "filepath": "recipes-downgrade/vulkan",
+            "homepage": "https://www.khronos.org/vulkan/",
+            "id": 1653639,
+            "inherits": "cmake features_check pkgconfig",
+            "layerbranch": 907928,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "vulkan-loader",
+            "pr": "r0",
+            "provides": "vulkan-loader ",
+            "pv": "1.2.182.0",
+            "section": "libs",
+            "srcrev": "1896143df69d439b0933c1bb485f5a4587bdf2dc",
+            "summary": "3D graphics and compute API common loader",
+            "updated": "2022-11-13T19:11:55+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/KhronosGroup/Vulkan-Tools",
+            "configopts": "                 -DBUILD_TESTS=OFF                  -DBUILD_CUBE=OFF                  -DPYTHON_EXECUTABLE=/tmp/tmp7hl1hxk3/tmp-glibc/hosttools/python3                     -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
+            "description": "Assist development by enabling developers to verify their applications correct use of the Vulkan API.",
+            "filename": "vulkan-tools_1.2.182.0.bb",
+            "filepath": "recipes-downgrade/vulkan",
+            "homepage": "https://www.khronos.org/vulkan/",
+            "id": 1653640,
+            "inherits": "cmake features_check",
+            "layerbranch": 907928,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "vulkan-tools",
+            "pr": "r0",
+            "provides": "vulkan-tools ",
+            "pv": "1.2.182.0",
+            "section": "libs",
+            "srcrev": "9d3305731c3be8de05c9f223a79959d448506a37",
+            "summary": "Vulkan Utilities and Tools",
+            "updated": "2022-11-13T19:11:55+0000"
         }
     ],
     "wrtemplates": []

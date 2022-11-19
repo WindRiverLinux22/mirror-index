@@ -454,47 +454,61 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.2 3.3 3.4 4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42595,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221009",
+            "bitbake_branch": "wr-10.22-20221107",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 8,
+            "sort_priority": 9,
             "update_environment": null,
-            "updated": "2022-11-02T00:11:09+0000",
+            "updated": "2022-11-18T23:11:17+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221009",
+            "actual_branch": "wr-10.22-20221107",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-11-01T13:11:26+0000",
-            "vcs_last_commit": "2022-11-01T13:11:35+0000",
-            "vcs_last_fetch": "2022-11-01T13:11:26+0000",
-            "vcs_last_rev": "fbd5716eb3a8ed25e827e192734b723fd4b861e3",
+            "updated": "2022-11-14T10:11:42+0000",
+            "vcs_last_commit": "2022-11-14T09:11:37+0000",
+            "vcs_last_fetch": "2022-11-14T10:11:42+0000",
+            "vcs_last_rev": "d91045a0d7e7c0b4de0f5a0d1f27a885df3db98d",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20221009",
+            "actual_branch": "wr-10.22-20221107",
             "branch": 292,
             "collection": "filesystems-layer",
             "id": 904831,
             "layer": 8,
             "local_path": "",
-            "updated": "2022-10-10T23:10:26+0000",
+            "updated": "2022-11-13T19:11:43+0000",
             "vcs_last_commit": "2022-08-16T11:08:31+0000",
             "vcs_last_fetch": "2022-10-10T23:10:26+0000",
             "vcs_last_rev": "acdf9bafb0c7f19b58bf6627b02e59e67f80764a",
@@ -503,16 +517,16 @@
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20221009",
+            "actual_branch": "wr-10.22-20221107",
             "branch": 292,
             "collection": "networking-layer",
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-10-19T01:10:41+0000",
-            "vcs_last_commit": "2022-10-19T01:10:57+0000",
-            "vcs_last_fetch": "2022-10-19T01:10:41+0000",
-            "vcs_last_rev": "de12f3b3d6716460ad30c0d77e1d49eaa47cd9a2",
+            "updated": "2022-11-13T19:11:21+0000",
+            "vcs_last_commit": "2022-11-07T00:11:02+0000",
+            "vcs_last_fetch": "2022-11-13T19:11:21+0000",
+            "vcs_last_rev": "618dfc8f259b6d816611c0308bbad20f54776c6d",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
