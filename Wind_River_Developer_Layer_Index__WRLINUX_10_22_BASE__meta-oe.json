@@ -472,46 +472,46 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221107",
+            "bitbake_branch": "wr-10.22-20221222",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 9,
+            "sort_priority": 10,
             "update_environment": null,
-            "updated": "2022-12-18T23:12:10+0000",
+            "updated": "2022-12-28T23:12:13+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221107",
+            "actual_branch": "wr-10.22-20221222",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-12-06T00:12:07+0000",
-            "vcs_last_commit": "2022-12-06T00:12:38+0000",
-            "vcs_last_fetch": "2022-12-06T00:12:07+0000",
-            "vcs_last_rev": "830dd9578dd2981d34aef55319daeca2d081b8e1",
+            "updated": "2022-12-22T23:12:52+0000",
+            "vcs_last_commit": "2022-12-21T23:12:05+0000",
+            "vcs_last_fetch": "2022-12-22T23:12:52+0000",
+            "vcs_last_rev": "0ad3249fb24a590c057a2a52b312eacb11e45c0f",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20221107",
+            "actual_branch": "wr-10.22-20221222",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-12-06T17:12:55+0000",
-            "vcs_last_commit": "2022-12-06T16:12:56+0000",
-            "vcs_last_fetch": "2022-12-06T17:12:55+0000",
-            "vcs_last_rev": "8b2fd54629dbc93f2c0609e1987ab5a40cac1b78",
+            "updated": "2022-12-22T23:12:01+0000",
+            "vcs_last_commit": "2022-12-21T19:12:30+0000",
+            "vcs_last_fetch": "2022-12-22T23:12:01+0000",
+            "vcs_last_rev": "3af81c92fad9ea763a9b78e51cc809a4b221d367",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
@@ -1108,7 +1108,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_16.14.2.bb",
+            "filename": "nodejs_16.18.1.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 1599738,
@@ -1119,11 +1119,11 @@
             "pn": "nodejs",
             "pr": "r0",
             "provides": "nodejs ",
-            "pv": "16.14.2",
+            "pv": "16.18.1",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T21:07:47+0000"
+            "updated": "2022-12-22T23:12:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2465,7 +2465,7 @@
             "bugtracker": "",
             "configopts": " --with-protoc=echo ",
             "description": "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format. Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats.",
-            "filename": "protobuf_3.19.4.bb",
+            "filename": "protobuf_3.19.6.bb",
             "filepath": "recipes-devtools/protobuf",
             "homepage": "https://github.com/google/protobuf",
             "id": 1599797,
@@ -2476,11 +2476,11 @@
             "pn": "protobuf",
             "pr": "r0",
             "provides": "protobuf ",
-            "pv": "3.19.4",
+            "pv": "3.19.6",
             "section": "console/tools",
-            "srcrev": "22d0e265de7d2b3d2e9a00d071313502e7d4cccf",
+            "srcrev": "c9297981b7c35ad9c2bf258e7c8d786a04d13378",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2022-07-31T21:07:07+0000"
+            "updated": "2022-12-22T23:12:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5907,7 +5907,7 @@
             "section": "base",
             "srcrev": "34a3244b46aa70a31f871a7ca8ffa8d3a7b950d2",
             "summary": "versatile resource statics tool",
-            "updated": "2022-07-31T21:07:53+0000"
+            "updated": "2022-12-22T23:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -7362,7 +7362,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DSPDLOG_INSTALL=on -DSPDLOG_BUILD_SHARED=on -DSPDLOG_BUILD_EXAMPLES=off -DSPDLOG_BUILD_TESTS=off -DSPDLOG_BUILD_BENCH=off -DSPDLOG_FMT_EXTERNAL=on ",
+            "configopts": " -DSPDLOG_INSTALL=on -DSPDLOG_BUILD_SHARED=on -DSPDLOG_BUILD_EXAMPLE=off -DSPDLOG_BUILD_TESTS=off -DSPDLOG_BUILD_BENCH=off -DSPDLOG_FMT_EXTERNAL=on ",
             "description": "Very fast, header only, C++ logging library.",
             "filename": "spdlog_1.9.2.bb",
             "filepath": "recipes-support/spdlog",
@@ -7379,7 +7379,7 @@
             "section": "base",
             "srcrev": "eb3220622e73a4889eee355ffa37972b3cac3df5",
             "summary": "",
-            "updated": "2022-07-31T22:07:14+0000"
+            "updated": "2022-12-22T23:12:01+0000"
         },
         {
             "bbclassextend": "",
@@ -7448,7 +7448,7 @@
             "section": "base",
             "srcrev": "166dbbeb3b0ab7e733b278e8f42a84f6882b8a25",
             "summary": "",
-            "updated": "2022-07-31T22:07:15+0000"
+            "updated": "2022-12-22T23:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -11801,7 +11801,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " ",
+            "configopts": "  USE_SYSTEMD=no",
             "description": "Redis is an open source, advanced key-value store.",
             "filename": "redis_7.0.4.bb",
             "filepath": "recipes-extended/redis",
@@ -11818,7 +11818,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2022-10-25T02:10:47+0000"
+            "updated": "2022-12-22T23:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -13727,7 +13727,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Kernel selftest for Linux",
-            "updated": "2022-07-31T22:07:39+0000"
+            "updated": "2022-12-22T23:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -15337,7 +15337,7 @@
             "section": "x11/utils",
             "srcrev": "540bfc3278e396321124d4b18a798ac2bc18b6ca",
             "summary": "",
-            "updated": "2022-07-31T22:07:59+0000"
+            "updated": "2022-12-22T23:12:00+0000"
         },
         {
             "bbclassextend": "",
@@ -18647,9 +18647,9 @@
             "provides": "pim435 ",
             "pv": "git",
             "section": "base",
-            "srcrev": "ee07a83de4d0ecdf4b5de20a7e374d36a9a6f5d5",
+            "srcrev": "445ed623ec8d3ecbb1d566900b4ef3fb3031d689",
             "summary": "A userspace driver application for PIM435 written in C",
-            "updated": "2022-07-31T22:07:39+0000"
+            "updated": "2022-12-22T23:12:59+0000"
         },
         {
             "bbclassextend": "",
@@ -20658,7 +20658,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "OE helper for manipulating npm cache",
-            "filename": "nodejs-oe-cache-native_16.14.bb",
+            "filename": "nodejs-oe-cache-native_16.18.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "",
             "id": 1638171,
@@ -20669,11 +20669,11 @@
             "pn": "nodejs-oe-cache-native",
             "pr": "r0",
             "provides": "nodejs-oe-cache-native ",
-            "pv": "16.14",
+            "pv": "16.18",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:20+0000"
+            "updated": "2022-12-22T23:12:58+0000"
         }
     ],
     "wrtemplates": []

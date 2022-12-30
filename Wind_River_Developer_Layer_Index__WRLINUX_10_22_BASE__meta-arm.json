@@ -472,46 +472,46 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221107",
+            "bitbake_branch": "wr-10.22-20221222",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 9,
+            "sort_priority": 10,
             "update_environment": null,
-            "updated": "2022-12-18T23:12:10+0000",
+            "updated": "2022-12-28T23:12:13+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221107",
+            "actual_branch": "wr-10.22-20221222",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-12-06T00:12:07+0000",
-            "vcs_last_commit": "2022-12-06T00:12:38+0000",
-            "vcs_last_fetch": "2022-12-06T00:12:07+0000",
-            "vcs_last_rev": "830dd9578dd2981d34aef55319daeca2d081b8e1",
+            "updated": "2022-12-22T23:12:52+0000",
+            "vcs_last_commit": "2022-12-21T23:12:05+0000",
+            "vcs_last_fetch": "2022-12-22T23:12:52+0000",
+            "vcs_last_rev": "0ad3249fb24a590c057a2a52b312eacb11e45c0f",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20221107",
+            "actual_branch": "wr-10.22-20221222",
             "branch": 292,
             "collection": "meta-arm",
             "id": 908026,
             "layer": 474,
             "local_path": "",
-            "updated": "2022-11-13T19:11:28+0000",
-            "vcs_last_commit": "2022-11-07T00:11:17+0000",
-            "vcs_last_fetch": "2022-11-13T19:11:28+0000",
-            "vcs_last_rev": "e2cc62ee21b4f2b7fe4209f6ca6e0dafa7c5a2bf",
+            "updated": "2022-12-22T23:12:04+0000",
+            "vcs_last_commit": "2022-12-21T19:12:28+0000",
+            "vcs_last_fetch": "2022-12-22T23:12:04+0000",
+            "vcs_last_rev": "51fbec9d94502d16dd9c705f2a093c66221e57a5",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 42579
@@ -935,7 +935,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM=  -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DMBEDCRYPTO_PATH=/tmp/tmpzgwluckv/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../mbedtls -DTFM_TEST_REPO_PATH=/tmp/tmpzgwluckv/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../tf-m-tests -DMCUBOOT_PATH=/tmp/tmpzgwluckv/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../mcuboot",
+            "configopts": " -DTFM_TOOLCHAIN_FILE=/tmp/tmpl76uiqyq/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/toolchain_GNUARM.cmake -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM=  -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DMBEDCRYPTO_PATH=/tmp/tmpl76uiqyq/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../mbedtls -DTFM_TEST_REPO_PATH=/tmp/tmpl76uiqyq/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../tf-m-tests -DMCUBOOT_PATH=/tmp/tmpl76uiqyq/tmp-glibc/work/qemux86-oe-linux/trusted-firmware-m/1.5.0-r0/git/tfm/../mcuboot",
             "description": "Trusted Firmware-M",
             "filename": "trusted-firmware-m_1.5.0.bb",
             "filepath": "recipes-bsp/trusted-firmware-m",
@@ -952,7 +952,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Firmware for Cortex-M",
-            "updated": "2022-10-10T23:10:03+0000"
+            "updated": "2022-12-22T23:12:04+0000"
         },
         {
             "bbclassextend": "",

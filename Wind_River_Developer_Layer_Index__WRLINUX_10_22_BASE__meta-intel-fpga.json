@@ -472,31 +472,31 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221107",
+            "bitbake_branch": "wr-10.22-20221222",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 9,
+            "sort_priority": 10,
             "update_environment": null,
-            "updated": "2022-12-18T23:12:10+0000",
+            "updated": "2022-12-28T23:12:13+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221009",
+            "actual_branch": "wr-10.22-20221222",
             "branch": 292,
             "collection": "meta-intel-fpga",
             "id": 908617,
             "layer": 380,
             "local_path": "",
-            "updated": "2022-10-10T23:10:28+0000",
-            "vcs_last_commit": "2022-10-08T18:10:03+0000",
-            "vcs_last_fetch": "2022-10-10T23:10:28+0000",
-            "vcs_last_rev": "a43f3bd78cf301a9b6d3f2d69f8e53054f588e05",
+            "updated": "2022-12-22T23:12:51+0000",
+            "vcs_last_commit": "2022-12-21T19:12:57+0000",
+            "vcs_last_fetch": "2022-12-22T23:12:51+0000",
+            "vcs_last_rev": "d8f1768ea1e19cb67f41403912d22bb3b3da99c7",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
@@ -878,9 +878,9 @@
             "provides": "linux-socfpga-lts  virtual/kernel",
             "pv": "5.15.50-lts+gitX",
             "section": "kernel",
-            "srcrev": "6a618e10aee577d82a9afe568efca740739727b6",
+            "srcrev": "de45b8accd27747b1f4db4cc5e2522ee338e3eee",
             "summary": "Linux kernel",
-            "updated": "2022-10-10T23:10:26+0000"
+            "updated": "2022-12-22T23:12:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1062,9 +1062,9 @@
             "provides": "arm-trusted-firmware arm-trusted-firmware",
             "pv": "v2.7",
             "section": "base",
-            "srcrev": "aca81d775c16058aa42a8f87b4163b3e149286f5",
+            "srcrev": "7a4779938b57ed1eef2ee561af9fb027567c35c9",
             "summary": "",
-            "updated": "2022-10-10T23:10:28+0000"
+            "updated": "2022-12-22T23:12:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1085,9 +1085,9 @@
             "provides": "u-boot-socfpga virtual/bootloader",
             "pv": "v2022.04+gitX",
             "section": "bootloaders",
-            "srcrev": "fcf317324c5a9118a0d6d261f5a657a78ec31fa0",
+            "srcrev": "fda0d9176f375b7f9fa64fea4d9f4e6fe0b5d158",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-10-10T23:10:28+0000"
+            "updated": "2022-12-22T23:12:50+0000"
         }
     ],
     "wrtemplates": []

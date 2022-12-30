@@ -472,15 +472,15 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221107",
+            "bitbake_branch": "wr-10.22-20221222",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 9,
+            "sort_priority": 10,
             "update_environment": null,
-            "updated": "2022-12-18T23:12:10+0000",
+            "updated": "2022-12-28T23:12:13+0000",
             "updates_enabled": true
         }
     ],
@@ -493,10 +493,10 @@
             "id": 908030,
             "layer": 469,
             "local_path": "",
-            "updated": "2022-10-16T23:10:28+0000",
-            "vcs_last_commit": "2022-10-16T22:10:03+0000",
-            "vcs_last_fetch": "2022-10-16T23:10:28+0000",
-            "vcs_last_rev": "54048f9f95addab62d79b4e07247cef4509796fe",
+            "updated": "2022-12-26T00:12:32+0000",
+            "vcs_last_commit": "2022-12-25T21:12:13+0000",
+            "vcs_last_fetch": "2022-12-26T00:12:32+0000",
+            "vcs_last_rev": "b9ea32226ad70903daa40d01c70488ac18a2b009",
             "vcs_subdir": "meta-bsp",
             "version": null,
             "yp_compatible_version": 42579
@@ -1926,7 +1926,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T15:07:00+0000"
+            "updated": "2022-12-26T00:12:32+0000"
         },
         {
             "bbclassextend": "",
