@@ -401,13 +401,6 @@
         },
         {
             "description": "",
-            "id": 42584,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 4.1 wrl"
-        },
-        {
-            "description": "",
             "id": 42585,
             "image_url": "",
             "link_url": "",
@@ -464,10 +457,38 @@
         },
         {
             "description": "",
-            "id": 42595,
+            "id": 42596,
             "image_url": "",
             "link_url": "",
-            "name": "3.1 4.0 4.1"
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42600,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0 4.1 4"
         }
     ],
     "branches": [
@@ -478,9 +499,9 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 10,
+            "sort_priority": 11,
             "update_environment": null,
-            "updated": "2023-01-09T23:01:11+0000",
+            "updated": "2023-01-19T23:01:14+0000",
             "updates_enabled": true
         }
     ],
@@ -493,10 +514,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-01-08T21:01:46+0000",
-            "vcs_last_commit": "2023-01-08T06:01:53+0000",
-            "vcs_last_fetch": "2023-01-08T21:01:46+0000",
-            "vcs_last_rev": "79bcdec19f9d762744dbbfc991f9c650d3ce1329",
+            "updated": "2023-01-18T23:01:45+0000",
+            "vcs_last_commit": "2023-01-18T23:01:15+0000",
+            "vcs_last_fetch": "2023-01-18T23:01:45+0000",
+            "vcs_last_rev": "092be5176bdff5c92f92d72493b18ae58ce6c6ed",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -508,10 +529,10 @@
             "id": 904876,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-01-09T20:01:41+0000",
-            "vcs_last_commit": "2023-01-09T20:01:46+0000",
-            "vcs_last_fetch": "2023-01-09T20:01:41+0000",
-            "vcs_last_rev": "f602f1e476fb9a5839e35098201ababa8deb6619",
+            "updated": "2023-01-19T20:01:58+0000",
+            "vcs_last_commit": "2023-01-19T18:01:52+0000",
+            "vcs_last_fetch": "2023-01-19T20:01:58+0000",
+            "vcs_last_rev": "5b8933a5a3b496563ef0c08004cc365c56e3c037",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42580
@@ -553,10 +574,10 @@
             "id": 908030,
             "layer": 469,
             "local_path": "",
-            "updated": "2022-12-26T00:12:32+0000",
-            "vcs_last_commit": "2022-12-25T21:12:13+0000",
-            "vcs_last_fetch": "2022-12-26T00:12:32+0000",
-            "vcs_last_rev": "b9ea32226ad70903daa40d01c70488ac18a2b009",
+            "updated": "2023-01-19T00:01:55+0000",
+            "vcs_last_commit": "2023-01-18T22:01:24+0000",
+            "vcs_last_fetch": "2023-01-19T00:01:55+0000",
+            "vcs_last_rev": "0ef0b46889986bffeb39c56908d2a99d49004838",
             "vcs_subdir": "meta-bsp",
             "version": null,
             "yp_compatible_version": 42579
@@ -568,10 +589,10 @@
             "id": 908031,
             "layer": 471,
             "local_path": "",
-            "updated": "2022-09-21T23:09:26+0000",
-            "vcs_last_commit": "2022-09-21T20:09:37+0000",
-            "vcs_last_fetch": "2022-09-21T23:09:26+0000",
-            "vcs_last_rev": "6833068ecb9899555c173676e7f7040f90968813",
+            "updated": "2023-01-19T16:01:42+0000",
+            "vcs_last_commit": "2023-01-19T16:01:06+0000",
+            "vcs_last_fetch": "2023-01-19T16:01:42+0000",
+            "vcs_last_rev": "4f81bab77ee7b1801079a2077671403acf59a4c3",
             "vcs_subdir": "meta-sdk",
             "version": null,
             "yp_compatible_version": 42579
