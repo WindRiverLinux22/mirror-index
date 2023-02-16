@@ -485,54 +485,54 @@
         },
         {
             "description": "",
-            "id": 42600,
+            "id": 44173,
             "image_url": "",
             "link_url": "",
-            "name": "3.1 3.2 3.3 3.4 4.0 4.1 4"
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221222",
+            "bitbake_branch": "wr-10.22-20230207",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 11,
+            "sort_priority": 12,
             "update_environment": null,
-            "updated": "2023-01-30T23:01:16+0000",
+            "updated": "2023-02-15T23:02:15+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Xilinx Standalone Distro",
-            "id": 11345,
+            "id": 12037,
             "layerbranch": 904889,
             "name": "xilinx-standalone-nolto",
-            "updated": "2022-09-16T08:09:14+0000"
+            "updated": "2023-02-16T02:02:14+0000"
         },
         {
             "description": "Xilinx Standalone Distro (lto)",
-            "id": 11346,
+            "id": 12038,
             "layerbranch": 904889,
             "name": "xilinx-standalone",
-            "updated": "2022-09-16T08:09:14+0000"
+            "updated": "2023-02-16T02:02:14+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221222",
+            "actual_branch": "wr-10.22-20230207",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-01-31T00:01:51+0000",
-            "vcs_last_commit": "2023-01-31T00:01:52+0000",
-            "vcs_last_fetch": "2023-01-31T00:01:51+0000",
-            "vcs_last_rev": "e865b8603a0cf37582d241a02ed6324c0eb319e7",
+            "updated": "2023-02-15T19:02:43+0000",
+            "vcs_last_commit": "2023-02-14T23:02:39+0000",
+            "vcs_last_fetch": "2023-02-15T19:02:43+0000",
+            "vcs_last_rev": "4ec6355d3b32a1e2dc6afc9dd4d828499188ef74",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -559,9 +559,9 @@
             "id": 904889,
             "layer": 435,
             "local_path": "",
-            "updated": "2022-09-16T08:09:16+0000",
+            "updated": "2023-02-16T02:02:14+0000",
             "vcs_last_commit": "2022-08-09T00:08:43+0000",
-            "vcs_last_fetch": "2022-09-16T08:09:16+0000",
+            "vcs_last_fetch": "2023-02-16T02:02:14+0000",
             "vcs_last_rev": "3ccefea523a1ea9d91684f410563de14b185a734",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
@@ -644,31 +644,31 @@
     "machines": [
         {
             "description": "",
-            "id": 55615,
+            "id": 61634,
             "layerbranch": 904889,
             "name": "microblaze-tc",
-            "updated": "2022-09-16T08:09:14+0000"
+            "updated": "2023-02-16T02:02:14+0000"
         },
         {
             "description": "",
-            "id": 55616,
+            "id": 61635,
             "layerbranch": 904889,
             "name": "aarch32-tc",
-            "updated": "2022-09-16T08:09:14+0000"
+            "updated": "2023-02-16T02:02:14+0000"
         },
         {
             "description": "",
-            "id": 55617,
+            "id": 61636,
             "layerbranch": 904889,
             "name": "arm-rm-tc",
-            "updated": "2022-09-16T08:09:14+0000"
+            "updated": "2023-02-16T02:02:14+0000"
         },
         {
             "description": "",
-            "id": 55618,
+            "id": 61637,
             "layerbranch": 904889,
             "name": "aarch64-tc",
-            "updated": "2022-09-16T08:09:14+0000"
+            "updated": "2023-02-16T02:02:14+0000"
         }
     ],
     "recipes": [
@@ -693,7 +693,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2022-09-16T08:09:14+0000"
+            "updated": "2023-02-16T02:02:12+0000"
         },
         {
             "bbclassextend": "",
@@ -716,7 +716,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2022-09-16T08:09:14+0000"
+            "updated": "2023-02-16T02:02:12+0000"
         },
         {
             "bbclassextend": "",
@@ -739,7 +739,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2022-09-16T08:09:15+0000"
+            "updated": "2023-02-16T02:02:13+0000"
         },
         {
             "bbclassextend": "",
@@ -762,7 +762,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "PSM firmware for versal devices",
-            "updated": "2022-09-16T08:09:15+0000"
+            "updated": "2023-02-16T02:02:13+0000"
         },
         {
             "bbclassextend": "",
@@ -785,7 +785,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2022-09-16T08:09:15+0000"
+            "updated": "2023-02-16T02:02:13+0000"
         },
         {
             "bbclassextend": "",
@@ -808,7 +808,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "PSM firmware for versal devices",
-            "updated": "2022-09-16T08:09:15+0000"
+            "updated": "2023-02-16T02:02:13+0000"
         },
         {
             "bbclassextend": "",
@@ -831,7 +831,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2022-09-16T08:09:15+0000"
+            "updated": "2023-02-16T02:02:13+0000"
         },
         {
             "bbclassextend": "",
@@ -854,7 +854,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2022-09-16T08:09:15+0000"
+            "updated": "2023-02-16T02:02:13+0000"
         },
         {
             "bbclassextend": "",
@@ -877,7 +877,7 @@
             "section": "base",
             "srcrev": "338150ab3628a1ea6b06e964b16e712b131882dd",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2022-09-16T08:09:15+0000"
+            "updated": "2023-02-16T02:02:13+0000"
         },
         {
             "bbclassextend": "",
@@ -900,7 +900,7 @@
             "section": "base",
             "srcrev": "338150ab3628a1ea6b06e964b16e712b131882dd",
             "summary": "",
-            "updated": "2022-09-16T08:09:15+0000"
+            "updated": "2023-02-16T02:02:13+0000"
         },
         {
             "bbclassextend": "",
@@ -916,14 +916,14 @@
             "layerbranch": 904889,
             "license": "MIT",
             "pe": "",
-            "pn": "gnu-toolchain-canadian-i686-xilinx-linux",
+            "pn": "gnu-toolchain-canadian-i686-oe-linux",
             "pr": "r0",
-            "provides": "gnu-toolchain-canadian-i686-xilinx-linux ",
+            "provides": "gnu-toolchain-canadian-i686-oe-linux ",
             "pv": "1.0",
             "section": "base",
             "srcrev": "",
             "summary": "Links to the various GNU toolchains for use with the Xilinx multilib toolchain",
-            "updated": "2022-09-16T08:09:16+0000"
+            "updated": "2023-02-16T02:02:14+0000"
         },
         {
             "bbclassextend": "",
@@ -946,7 +946,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Target packages for the standalone SDK",
-            "updated": "2022-09-16T08:09:16+0000"
+            "updated": "2023-02-16T02:02:14+0000"
         }
     ],
     "wrtemplates": []

@@ -485,23 +485,23 @@
         },
         {
             "description": "",
-            "id": 42600,
+            "id": 44173,
             "image_url": "",
             "link_url": "",
-            "name": "3.1 3.2 3.3 3.4 4.0 4.1 4"
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221222",
+            "bitbake_branch": "wr-10.22-20230207",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 11,
+            "sort_priority": 12,
             "update_environment": null,
-            "updated": "2023-01-30T23:01:16+0000",
+            "updated": "2023-02-15T23:02:15+0000",
             "updates_enabled": true
         }
     ],
@@ -525,7 +525,7 @@
             "id": 10906,
             "layerbranch": 904840,
             "name": "poky",
-            "updated": "2022-12-22T23:12:24+0000"
+            "updated": "2023-02-09T18:02:25+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
@@ -537,31 +537,31 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221222",
+            "actual_branch": "wr-10.22-20230207",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-01-31T00:01:51+0000",
-            "vcs_last_commit": "2023-01-31T00:01:52+0000",
-            "vcs_last_fetch": "2023-01-31T00:01:51+0000",
-            "vcs_last_rev": "e865b8603a0cf37582d241a02ed6324c0eb319e7",
+            "updated": "2023-02-15T19:02:43+0000",
+            "vcs_last_commit": "2023-02-14T23:02:39+0000",
+            "vcs_last_fetch": "2023-02-15T19:02:43+0000",
+            "vcs_last_rev": "4ec6355d3b32a1e2dc6afc9dd4d828499188ef74",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20221222",
+            "actual_branch": "wr-10.22-20230207",
             "branch": 292,
             "collection": "yocto",
             "id": 904840,
             "layer": 59,
             "local_path": "",
-            "updated": "2022-12-22T23:12:24+0000",
-            "vcs_last_commit": "2022-12-21T19:12:37+0000",
-            "vcs_last_fetch": "2022-12-22T23:12:24+0000",
-            "vcs_last_rev": "bac2870230a88f5fb66e4b5e2cba342f9c62919d",
+            "updated": "2023-02-09T18:02:25+0000",
+            "vcs_last_commit": "2023-02-06T19:02:30+0000",
+            "vcs_last_fetch": "2023-02-09T18:02:25+0000",
+            "vcs_last_rev": "728c34dc9df59102178403031c7ea9fa700fb686",
             "vcs_subdir": "meta-poky",
             "version": "3",
             "yp_compatible_version": 42580

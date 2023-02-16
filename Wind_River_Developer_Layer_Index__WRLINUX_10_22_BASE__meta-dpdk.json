@@ -485,54 +485,54 @@
         },
         {
             "description": "",
-            "id": 42600,
+            "id": 44173,
             "image_url": "",
             "link_url": "",
-            "name": "3.1 3.2 3.3 3.4 4.0 4.1 4"
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221222",
+            "bitbake_branch": "wr-10.22-20230207",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 11,
+            "sort_priority": 12,
             "update_environment": null,
-            "updated": "2023-01-30T23:01:16+0000",
+            "updated": "2023-02-15T23:02:15+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221222",
+            "actual_branch": "wr-10.22-20230207",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-01-31T00:01:51+0000",
-            "vcs_last_commit": "2023-01-31T00:01:52+0000",
-            "vcs_last_fetch": "2023-01-31T00:01:51+0000",
-            "vcs_last_rev": "e865b8603a0cf37582d241a02ed6324c0eb319e7",
+            "updated": "2023-02-15T19:02:43+0000",
+            "vcs_last_commit": "2023-02-14T23:02:39+0000",
+            "vcs_last_fetch": "2023-02-15T19:02:43+0000",
+            "vcs_last_rev": "4ec6355d3b32a1e2dc6afc9dd4d828499188ef74",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20221107",
+            "actual_branch": "wr-10.22-20230207",
             "branch": 292,
             "collection": "dpdk",
             "id": 904845,
             "layer": 192,
             "local_path": "",
-            "updated": "2022-11-13T19:11:42+0000",
-            "vcs_last_commit": "2022-11-07T00:11:03+0000",
-            "vcs_last_fetch": "2022-11-13T19:11:42+0000",
-            "vcs_last_rev": "34015edc7c8b7d6a321804bdf7a71cfff206ae2d",
+            "updated": "2023-02-09T18:02:31+0000",
+            "vcs_last_commit": "2023-02-06T19:02:34+0000",
+            "vcs_last_fetch": "2023-02-09T18:02:31+0000",
+            "vcs_last_rev": "c6b79c9baf1f9856bd22143d93446bc5b3b2ef0e",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42583
@@ -638,7 +638,7 @@
             "section": "base",
             "srcrev": "7bcd45ce824d0ea2a9f30d16855613a93521851b",
             "summary": "",
-            "updated": "2022-11-13T19:11:42+0000"
+            "updated": "2023-02-09T18:02:31+0000"
         },
         {
             "bbclassextend": "",
@@ -708,6 +708,29 @@
             "srcrev": "73655c6414914c99a33010e9e7bdae9cafd24404",
             "summary": "",
             "updated": "2022-10-10T23:10:16+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "xdp-tools_1.2.8.bb",
+            "filepath": "dynamic-layers/clang-layer/recipes-support/xdp-tools",
+            "homepage": "https://github.com/xdp-project/xdp-tools",
+            "id": 1716419,
+            "inherits": "pkgconfig",
+            "layerbranch": 904845,
+            "license": "GPL-2.0-or-later & LGPL-2.1-or-later & BSD-2-Clause",
+            "pe": "",
+            "pn": "xdp-tools",
+            "pr": "r0",
+            "provides": "xdp-tools ",
+            "pv": "1.2.8",
+            "section": "base",
+            "srcrev": "d4ff1f9bcf8b03556b625ab6e16958598482e861",
+            "summary": "Utilities and example programs for use with XDP",
+            "updated": "2023-02-09T18:02:31+0000"
         }
     ],
     "wrtemplates": []

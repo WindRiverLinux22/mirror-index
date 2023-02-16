@@ -485,114 +485,114 @@
         },
         {
             "description": "",
-            "id": 42600,
+            "id": 44173,
             "image_url": "",
             "link_url": "",
-            "name": "3.1 3.2 3.3 3.4 4.0 4.1 4"
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20221222",
+            "bitbake_branch": "wr-10.22-20230207",
             "comparison": false,
             "hidden": false,
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 11,
+            "sort_priority": 12,
             "update_environment": null,
-            "updated": "2023-01-30T23:01:16+0000",
+            "updated": "2023-02-15T23:02:15+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20221222",
+            "actual_branch": "wr-10.22-20230207",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-01-31T00:01:51+0000",
-            "vcs_last_commit": "2023-01-31T00:01:52+0000",
-            "vcs_last_fetch": "2023-01-31T00:01:51+0000",
-            "vcs_last_rev": "e865b8603a0cf37582d241a02ed6324c0eb319e7",
+            "updated": "2023-02-15T19:02:43+0000",
+            "vcs_last_commit": "2023-02-14T23:02:39+0000",
+            "vcs_last_fetch": "2023-02-15T19:02:43+0000",
+            "vcs_last_rev": "4ec6355d3b32a1e2dc6afc9dd4d828499188ef74",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20221222",
+            "actual_branch": "wr-10.22-20230207",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-01-28T23:01:19+0000",
-            "vcs_last_commit": "2023-01-28T23:01:59+0000",
-            "vcs_last_fetch": "2023-01-28T23:01:19+0000",
-            "vcs_last_rev": "ec17964029257f7c9946ba126aeb04b261ba29f1",
+            "updated": "2023-02-09T18:02:58+0000",
+            "vcs_last_commit": "2023-02-07T22:02:21+0000",
+            "vcs_last_fetch": "2023-02-09T18:02:58+0000",
+            "vcs_last_rev": "47dd572eb331e520813e2f0fa2104cdd5273d63e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20221222",
+            "actual_branch": "wr-10.22-20230207",
             "branch": 292,
             "collection": "filesystems-layer",
             "id": 904831,
             "layer": 8,
             "local_path": "",
-            "updated": "2023-01-09T01:01:52+0000",
-            "vcs_last_commit": "2023-01-09T01:01:13+0000",
-            "vcs_last_fetch": "2023-01-09T01:01:52+0000",
-            "vcs_last_rev": "1fcbcf976a7afdd6b9ad83aeeb24c1dcf39601e1",
+            "updated": "2023-02-09T18:02:04+0000",
+            "vcs_last_commit": "2023-02-06T19:02:05+0000",
+            "vcs_last_fetch": "2023-02-09T18:02:04+0000",
+            "vcs_last_rev": "590b0119005f0a8c44c12c2e0d039288928fc963",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20221222",
+            "actual_branch": "wr-10.22-20230207",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2023-01-16T20:01:08+0000",
-            "vcs_last_commit": "2023-01-16T20:01:52+0000",
-            "vcs_last_fetch": "2023-01-16T20:01:08+0000",
-            "vcs_last_rev": "1e02de8b655682998dc4c58a5ea8c522917558e8",
+            "updated": "2023-02-09T18:02:15+0000",
+            "vcs_last_commit": "2023-02-06T19:02:05+0000",
+            "vcs_last_fetch": "2023-02-09T18:02:15+0000",
+            "vcs_last_rev": "375837028f8be1fc68613fdcc54cf6a13a90054d",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20221222",
+            "actual_branch": "wr-10.22-20230207",
             "branch": 292,
             "collection": "networking-layer",
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-01-28T23:01:28+0000",
-            "vcs_last_commit": "2023-01-28T23:01:59+0000",
-            "vcs_last_fetch": "2023-01-28T23:01:28+0000",
-            "vcs_last_rev": "5804eac187582cbc855c22875ed04497f4e2241b",
+            "updated": "2023-02-09T18:02:06+0000",
+            "vcs_last_commit": "2023-02-09T18:02:40+0000",
+            "vcs_last_fetch": "2023-02-09T18:02:06+0000",
+            "vcs_last_rev": "2928128d260179fbbfd432a65a8489cf1138581d",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20221222",
+            "actual_branch": "wr-10.22-20230207",
             "branch": 292,
             "collection": "virtualization-layer",
             "id": 904858,
             "layer": 45,
             "local_path": "",
-            "updated": "2023-01-17T19:01:07+0000",
-            "vcs_last_commit": "2023-01-17T19:01:51+0000",
-            "vcs_last_fetch": "2023-01-17T19:01:07+0000",
-            "vcs_last_rev": "c76804cf5f5951c326b11f71a1ba362a5b3ac481",
+            "updated": "2023-02-14T18:02:02+0000",
+            "vcs_last_commit": "2023-02-14T01:02:05+0000",
+            "vcs_last_fetch": "2023-02-14T18:02:02+0000",
+            "vcs_last_rev": "45982f8dab42271c8f2904776f209f5726460c93",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42579
@@ -3110,7 +3110,7 @@
             "section": "console/utils",
             "srcrev": "5ba5725cb4a210c25707beeca64fde5f561d1c71",
             "summary": "",
-            "updated": "2022-11-13T19:11:05+0000"
+            "updated": "2023-02-09T18:02:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3175,11 +3175,11 @@
             "pn": "docker-moby",
             "pr": "r0",
             "provides": "docker-moby  virtual/docker",
-            "pv": "20.10.12+git906f57ff5b7100013dfef066ea8fe367706468df",
+            "pv": "20.10.21+git3056208812eb5e792fa99736c9167d1e10f4ab49",
             "section": "base",
             "srcrev": "",
             "summary": "Linux container runtime",
-            "updated": "2022-11-13T19:11:06+0000"
+            "updated": "2023-02-09T18:02:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3221,11 +3221,11 @@
             "pn": "docker-ce",
             "pr": "r0",
             "provides": "docker-ce  virtual/docker",
-            "pv": "20.10.12-ce+git906f57ff5b7100013dfef066ea8fe367706468df",
+            "pv": "20.10.21-ce+git3056208812eb5e792fa99736c9167d1e10f4ab49",
             "section": "base",
             "srcrev": "",
             "summary": "Linux container runtime",
-            "updated": "2022-11-13T19:11:07+0000"
+            "updated": "2023-02-09T18:02:23+0000"
         },
         {
             "bbclassextend": "",
@@ -3497,11 +3497,11 @@
             "pn": "runc-opencontainers",
             "pr": "r0",
             "provides": "runc-opencontainers  virtual/runc",
-            "pv": "1.1.2+gitX",
+            "pv": "1.1.4+gitX",
             "section": "base",
-            "srcrev": "b507e2da6c6a3a328f208fa415a56ad7cd58761b",
+            "srcrev": "974efd2dfca0abec041a3708a2b66bfac6bd2484",
             "summary": "runc container cli tools",
-            "updated": "2022-11-13T19:11:15+0000"
+            "updated": "2023-02-09T18:02:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3520,11 +3520,11 @@
             "pn": "runc-docker",
             "pr": "r0",
             "provides": "runc-docker  virtual/runc",
-            "pv": "1.1.2+gitX",
+            "pv": "1.1.4+gitX",
             "section": "base",
             "srcrev": "",
             "summary": "runc container cli tools",
-            "updated": "2022-11-13T19:11:16+0000"
+            "updated": "2023-02-09T18:02:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3796,11 +3796,11 @@
             "pn": "containerd-opencontainers",
             "pr": "r0",
             "provides": "containerd-opencontainers  virtual/containerd",
-            "pv": "v1.6.6+gitX",
+            "pv": "v1.6.12+gitX",
             "section": "base",
-            "srcrev": "4e92d8e7e439530f5bb17e57a77481e9aa3da851",
+            "srcrev": "ccfc27e30d9f599efe6a7471ea1932dedf2beec8",
             "summary": "containerd is a daemon to control runC",
-            "updated": "2022-11-13T19:11:20+0000"
+            "updated": "2023-02-14T18:02:02+0000"
         },
         {
             "bbclassextend": "",
