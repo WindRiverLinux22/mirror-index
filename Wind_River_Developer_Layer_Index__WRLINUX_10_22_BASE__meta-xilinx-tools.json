@@ -149,13 +149,6 @@
         },
         {
             "description": "",
-            "id": 13938,
-            "image_url": "",
-            "link_url": "",
-            "name": "dunfell wrl zeus"
-        },
-        {
-            "description": "",
             "id": 15718,
             "image_url": "",
             "link_url": "",
@@ -485,9 +478,9 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 12,
+            "sort_priority": 13,
             "update_environment": null,
-            "updated": "2023-02-23T23:02:15+0000",
+            "updated": "2023-03-09T23:03:14+0000",
             "updates_enabled": true
         }
     ],
@@ -530,9 +523,9 @@
             "id": 904889,
             "layer": 435,
             "local_path": "",
-            "updated": "2023-02-16T02:02:14+0000",
+            "updated": "2023-03-10T06:03:24+0000",
             "vcs_last_commit": "2022-08-09T00:08:43+0000",
-            "vcs_last_fetch": "2023-02-16T02:02:14+0000",
+            "vcs_last_fetch": "2023-03-10T06:03:24+0000",
             "vcs_last_rev": "3ccefea523a1ea9d91684f410563de14b185a734",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,

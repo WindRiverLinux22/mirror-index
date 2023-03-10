@@ -149,13 +149,6 @@
         },
         {
             "description": "",
-            "id": 13938,
-            "image_url": "",
-            "link_url": "",
-            "name": "dunfell wrl zeus"
-        },
-        {
-            "description": "",
             "id": 15718,
             "image_url": "",
             "link_url": "",
@@ -485,9 +478,9 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 12,
+            "sort_priority": 13,
             "update_environment": null,
-            "updated": "2023-02-23T23:02:15+0000",
+            "updated": "2023-03-09T23:03:14+0000",
             "updates_enabled": true
         }
     ],
@@ -515,10 +508,10 @@
             "id": 904876,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-02-21T08:02:51+0000",
-            "vcs_last_commit": "2023-02-21T08:02:23+0000",
-            "vcs_last_fetch": "2023-02-21T08:02:51+0000",
-            "vcs_last_rev": "33ede91ea0fd092085f0c693e03a32ed43bf95f7",
+            "updated": "2023-03-09T21:03:49+0000",
+            "vcs_last_commit": "2023-03-09T20:03:35+0000",
+            "vcs_last_fetch": "2023-03-09T21:03:49+0000",
+            "vcs_last_rev": "93fe8235c84003274322597c7f4228bc76357e91",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42580
@@ -530,10 +523,10 @@
             "id": 904882,
             "layer": 439,
             "local_path": "",
-            "updated": "2023-02-21T22:02:08+0000",
-            "vcs_last_commit": "2023-02-21T22:02:54+0000",
-            "vcs_last_fetch": "2023-02-21T22:02:08+0000",
-            "vcs_last_rev": "181a3f2046e24a6471df00c91300b66cf8d50895",
+            "updated": "2023-03-02T19:03:55+0000",
+            "vcs_last_commit": "2023-03-02T19:03:14+0000",
+            "vcs_last_fetch": "2023-03-02T19:03:55+0000",
+            "vcs_last_rev": "732debf222023529e8b6fbe929eb5758c0e5b660",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42580
@@ -545,10 +538,10 @@
             "id": 904883,
             "layer": 441,
             "local_path": "",
-            "updated": "2023-02-15T21:02:10+0000",
-            "vcs_last_commit": "2023-02-15T21:02:04+0000",
-            "vcs_last_fetch": "2023-02-15T21:02:10+0000",
-            "vcs_last_rev": "9d9ea19a06eea1bd3797a960204d23691727ae52",
+            "updated": "2023-03-10T05:03:03+0000",
+            "vcs_last_commit": "2023-03-09T21:03:46+0000",
+            "vcs_last_fetch": "2023-03-10T05:03:03+0000",
+            "vcs_last_rev": "c748772c7bdbea2c5f0f23168e0a00e28a2e147f",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42580
@@ -654,42 +647,135 @@
     ],
     "machines": [
         {
-            "description": " Aptiv CVC board",
-            "id": 52849,
-            "layerbranch": 904883,
-            "name": "aptiv_cvc_sousa",
-            "updated": "2023-02-09T05:02:05+0000"
-        },
-        {
             "description": " Aptiv CVC-FL board",
-            "id": 60595,
+            "id": 62877,
             "layerbranch": 904883,
             "name": "aptiv-cvc-fl",
-            "updated": "2023-02-09T05:02:05+0000"
+            "updated": "2023-03-10T05:03:02+0000"
+        },
+        {
+            "description": " Aptiv CVC board",
+            "id": 62878,
+            "layerbranch": 904883,
+            "name": "aptiv_cvc_sousa",
+            "updated": "2023-03-10T05:03:02+0000"
         }
     ],
-    "recipes": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "HSE firmware",
+            "filename": "hse.bb",
+            "filepath": "recipes-bsp/hse",
+            "homepage": "",
+            "id": 1749358,
+            "inherits": "deploy",
+            "layerbranch": 904883,
+            "license": "CLOSED",
+            "pe": "",
+            "pn": "hse",
+            "pr": "r0",
+            "provides": "hse ",
+            "pv": "220413",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-03-10T05:03:02+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "M7 firmware image",
+            "filename": "m7-autosar.bb",
+            "filepath": "recipes-bsp/m7-autosar",
+            "homepage": "",
+            "id": 1749359,
+            "inherits": "deploy",
+            "layerbranch": 904883,
+            "license": "CLOSED",
+            "pe": "",
+            "pn": "m7-autosar",
+            "pr": "r0",
+            "provides": "m7-autosar  virtual/autosarclassic",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-03-10T05:03:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "IVT",
+            "filename": "ivt.bb",
+            "filepath": "recipes-bsp/ivt",
+            "homepage": "",
+            "id": 1749360,
+            "inherits": "deploy",
+            "layerbranch": 904883,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "ivt",
+            "pr": "r0",
+            "provides": "ivt ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-03-10T05:03:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "DCD",
+            "filename": "dcd.bb",
+            "filepath": "recipes-bsp/dcd",
+            "homepage": "",
+            "id": 1749361,
+            "inherits": "deploy",
+            "layerbranch": 904883,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "dcd",
+            "pr": "r0",
+            "provides": "dcd ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-03-10T05:03:03+0000"
+        }
+    ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 91531,
+            "id": 101038,
             "layerbranch": 904883,
-            "name": "default",
-            "updated": "2023-02-09T05:02:05+0000"
+            "name": "feature/aptiv-autosar-secboot",
+            "updated": "2023-03-10T05:03:02+0000"
         },
         {
             "description": "",
-            "id": 95802,
+            "id": 101039,
             "layerbranch": 904883,
             "name": "feature/disable_flexcan3",
-            "updated": "2022-11-09T19:11:54+0000"
+            "updated": "2023-03-10T05:03:02+0000"
         },
         {
             "description": "",
-            "id": 95803,
+            "id": 101040,
             "layerbranch": 904883,
-            "name": "feature/skip_mmc_init",
-            "updated": "2022-11-09T19:11:54+0000"
+            "name": "default",
+            "updated": "2023-03-10T05:03:02+0000"
         }
     ]
 }

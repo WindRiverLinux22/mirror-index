@@ -149,13 +149,6 @@
         },
         {
             "description": "",
-            "id": 13938,
-            "image_url": "",
-            "link_url": "",
-            "name": "dunfell wrl zeus"
-        },
-        {
-            "description": "",
             "id": 15718,
             "image_url": "",
             "link_url": "",
@@ -485,9 +478,9 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 12,
+            "sort_priority": 13,
             "update_environment": null,
-            "updated": "2023-02-23T23:02:15+0000",
+            "updated": "2023-03-09T23:03:14+0000",
             "updates_enabled": true
         }
     ],
@@ -515,10 +508,10 @@
             "id": 904876,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-02-21T08:02:51+0000",
-            "vcs_last_commit": "2023-02-21T08:02:23+0000",
-            "vcs_last_fetch": "2023-02-21T08:02:51+0000",
-            "vcs_last_rev": "33ede91ea0fd092085f0c693e03a32ed43bf95f7",
+            "updated": "2023-03-09T21:03:49+0000",
+            "vcs_last_commit": "2023-03-09T20:03:35+0000",
+            "vcs_last_fetch": "2023-03-09T21:03:49+0000",
+            "vcs_last_rev": "93fe8235c84003274322597c7f4228bc76357e91",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42580
@@ -530,10 +523,10 @@
             "id": 907928,
             "layer": 231,
             "local_path": "",
-            "updated": "2023-02-16T06:02:15+0000",
-            "vcs_last_commit": "2023-02-16T05:02:49+0000",
-            "vcs_last_fetch": "2023-02-16T06:02:15+0000",
-            "vcs_last_rev": "4c2a1dbaafb69526721a3a0564f167e4a2252b91",
+            "updated": "2023-02-28T18:02:31+0000",
+            "vcs_last_commit": "2023-02-28T18:02:56+0000",
+            "vcs_last_fetch": "2023-02-28T18:02:31+0000",
+            "vcs_last_rev": "3d58cd2115bb1e3cce21569585507ffb8e1bd8d6",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42579
