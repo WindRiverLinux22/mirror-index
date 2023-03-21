@@ -472,7 +472,7 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20230207",
+            "bitbake_branch": "wr-10.22-20230306",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -480,38 +480,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 13,
             "update_environment": null,
-            "updated": "2023-03-09T23:03:14+0000",
+            "updated": "2023-03-21T00:03:18+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230207",
+            "actual_branch": "wr-10.22-20230306",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-02-23T20:02:40+0000",
-            "vcs_last_commit": "2023-02-23T20:02:18+0000",
-            "vcs_last_fetch": "2023-02-23T20:02:40+0000",
-            "vcs_last_rev": "bed348c6578b8aee6d22ef0a0fffe36932c17c40",
+            "updated": "2023-03-21T02:03:53+0000",
+            "vcs_last_commit": "2023-03-21T01:03:55+0000",
+            "vcs_last_fetch": "2023-03-21T02:03:53+0000",
+            "vcs_last_rev": "75f734e20d2ea912c1b435f573c45ee7dfe66c7d",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20230207",
+            "actual_branch": "wr-10.22-20230306",
             "branch": 292,
             "collection": "dpdk",
             "id": 904845,
             "layer": 192,
             "local_path": "",
-            "updated": "2023-02-09T18:02:31+0000",
-            "vcs_last_commit": "2023-02-06T19:02:34+0000",
-            "vcs_last_fetch": "2023-02-09T18:02:31+0000",
-            "vcs_last_rev": "c6b79c9baf1f9856bd22143d93446bc5b3b2ef0e",
+            "updated": "2023-03-14T02:03:48+0000",
+            "vcs_last_commit": "2023-03-06T01:03:47+0000",
+            "vcs_last_fetch": "2023-03-14T02:03:48+0000",
+            "vcs_last_rev": "789125512de8d7bd0f0765649ae520450bd83afb",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42583
@@ -709,7 +709,7 @@
             "section": "base",
             "srcrev": "d4ff1f9bcf8b03556b625ab6e16958598482e861",
             "summary": "Utilities and example programs for use with XDP",
-            "updated": "2023-02-09T18:02:31+0000"
+            "updated": "2023-03-14T02:03:48+0000"
         }
     ],
     "wrtemplates": []
