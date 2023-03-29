@@ -480,7 +480,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 13,
             "update_environment": null,
-            "updated": "2023-03-21T00:03:18+0000",
+            "updated": "2023-03-28T00:03:14+0000",
             "updates_enabled": true
         }
     ],
@@ -493,10 +493,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-03-21T02:03:53+0000",
-            "vcs_last_commit": "2023-03-21T01:03:55+0000",
-            "vcs_last_fetch": "2023-03-21T02:03:53+0000",
-            "vcs_last_rev": "75f734e20d2ea912c1b435f573c45ee7dfe66c7d",
+            "updated": "2023-03-28T00:03:38+0000",
+            "vcs_last_commit": "2023-03-28T00:03:42+0000",
+            "vcs_last_fetch": "2023-03-28T00:03:38+0000",
+            "vcs_last_rev": "60283ca5629770ac8d91b2b663ff8572aae6e359",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -538,10 +538,10 @@
             "id": 904848,
             "layer": 349,
             "local_path": "",
-            "updated": "2023-03-20T18:03:48+0000",
-            "vcs_last_commit": "2023-03-20T18:03:55+0000",
-            "vcs_last_fetch": "2023-03-20T18:03:48+0000",
-            "vcs_last_rev": "7901359f0a5bc462b66e18afc378f8b1181a4309",
+            "updated": "2023-03-26T23:03:59+0000",
+            "vcs_last_commit": "2023-03-26T23:03:11+0000",
+            "vcs_last_fetch": "2023-03-26T23:03:59+0000",
+            "vcs_last_rev": "99530f3fb69cbb1d7d7c36b5365d2cc7861c5492",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42579
@@ -659,7 +659,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "A suite of web applications for inspecting and understanding your TensorFlow runs and graphs.",
-            "filename": "tensorboard_2.11.0.bb",
+            "filename": "tensorboard_2.12.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1535676,
@@ -670,11 +670,11 @@
             "pn": "tensorboard",
             "pr": "r0",
             "provides": "tensorboard ",
-            "pv": "2.11.0",
+            "pv": "2.12.0",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-02-08T23:02:14+0000"
+            "updated": "2023-03-26T23:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -682,7 +682,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "TensorFlow C/C++ Libraries",
-            "filename": "tensorflow-native_2.11.0.bb",
+            "filename": "tensorflow-native_2.12.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1535677,
@@ -693,11 +693,11 @@
             "pn": "tensorflow-native",
             "pr": "r0",
             "provides": "tensorflow-native ",
-            "pv": "2.11.0",
+            "pv": "2.12.0",
             "section": "base",
-            "srcrev": "d5b57ca93e506df258271ea00fc29cf98383a374",
+            "srcrev": "0db597d0d758aba578783b5bf46c889700a45085",
             "summary": "",
-            "updated": "2023-03-08T00:03:16+0000"
+            "updated": "2023-03-26T23:03:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -705,7 +705,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "A high-level TensorFlow API that greatly simplifies machine learning programming.",
-            "filename": "tensorflow-estimator_2.11.bb",
+            "filename": "tensorflow-estimator_2.12.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1535678,
@@ -716,11 +716,11 @@
             "pn": "tensorflow-estimator",
             "pr": "r0",
             "provides": "tensorflow-estimator ",
-            "pv": "2.11",
+            "pv": "2.12.0",
             "section": "base",
-            "srcrev": "c7e88f0b110aa1b352e2af3e8876e797a94c27a3",
+            "srcrev": "1bcfb76591c4ae8f520e4ec0178582de3f250f67",
             "summary": "",
-            "updated": "2023-02-08T23:02:15+0000"
+            "updated": "2023-03-26T23:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -728,7 +728,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "TensorFlow C/C++ Libraries",
-            "filename": "tensorflow_2.11.0.bb",
+            "filename": "tensorflow_2.12.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1535679,
@@ -739,11 +739,11 @@
             "pn": "tensorflow",
             "pr": "r0",
             "provides": "tensorflow ",
-            "pv": "2.11.0",
+            "pv": "2.12.0",
             "section": "base",
-            "srcrev": "d5b57ca93e506df258271ea00fc29cf98383a374",
+            "srcrev": "0db597d0d758aba578783b5bf46c889700a45085",
             "summary": "",
-            "updated": "2023-03-20T18:03:48+0000"
+            "updated": "2023-03-26T23:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -751,7 +751,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "TensorFlow C/C++ Libraries",
-            "filename": "tensorflow-lite_2.11.0.bb",
+            "filename": "tensorflow-lite_2.12.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1535680,
@@ -762,11 +762,11 @@
             "pn": "tensorflow-lite",
             "pr": "r0",
             "provides": "tensorflow-lite ",
-            "pv": "2.11.0",
+            "pv": "2.12.0",
             "section": "base",
-            "srcrev": "d5b57ca93e506df258271ea00fc29cf98383a374",
+            "srcrev": "0db597d0d758aba578783b5bf46c889700a45085",
             "summary": "",
-            "updated": "2023-03-08T00:03:16+0000"
+            "updated": "2023-03-26T23:03:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -774,7 +774,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "TensorFlow Keras is an implementation of the Keras API that uses TensorFlow as a backend.",
-            "filename": "keras_2.11.0.bb",
+            "filename": "keras_2.12.0.bb",
             "filepath": "recipes-framework/tensorflow",
             "homepage": "",
             "id": 1535681,
@@ -785,11 +785,11 @@
             "pn": "keras",
             "pr": "r0",
             "provides": "keras ",
-            "pv": "2.11.0",
+            "pv": "2.12.0",
             "section": "base",
-            "srcrev": "e6784e4302c7b8cd116b74a784f4b78d60e83c26",
+            "srcrev": "f9336cc5114b4a9429a242deb264b707379646b7",
             "summary": "",
-            "updated": "2023-02-08T23:02:14+0000"
+            "updated": "2023-03-26T23:03:58+0000"
         },
         {
             "bbclassextend": "native",
@@ -950,7 +950,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:34+0000"
+            "updated": "2023-03-21T22:03:44+0000"
         },
         {
             "bbclassextend": "",
