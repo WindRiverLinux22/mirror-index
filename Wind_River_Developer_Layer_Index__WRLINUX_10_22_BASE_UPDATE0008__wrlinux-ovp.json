@@ -1,0 +1,1254 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_22_BASE_UPDATE0008",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42590,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1"
+        },
+        {
+            "description": "",
+            "id": 42591,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_22_BASE_UPDATE0008",
+            "comparison": false,
+            "hidden": false,
+            "id": 340,
+            "name": "WRLINUX_10_22_BASE_UPDATE0008",
+            "short_description": "WRLinux 10_22 Base Update 0008",
+            "sort_priority": 15,
+            "update_environment": null,
+            "updated": "2023-04-18T00:04:15+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [
+        {
+            "description": "Wind River Linux OVP Base",
+            "id": 12321,
+            "layerbranch": 940090,
+            "name": "wrlinux-ovp",
+            "updated": "2023-04-14T03:04:58+0000"
+        }
+    ],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 340,
+            "collection": "core",
+            "id": 940020,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2023-04-18T07:04:55+0000",
+            "vcs_last_commit": "2023-04-17T12:04:55+0000",
+            "vcs_last_fetch": "2023-04-18T07:04:55+0000",
+            "vcs_last_rev": "8e53fe00abfbb24dedb34b1e6f8d02488e7a05e1",
+            "vcs_subdir": "meta",
+            "version": "14",
+            "yp_compatible_version": 42580
+        },
+        {
+            "actual_branch": "",
+            "branch": 340,
+            "collection": "realtime",
+            "id": 940029,
+            "layer": 48,
+            "local_path": "",
+            "updated": "2023-04-14T02:04:39+0000",
+            "vcs_last_commit": "2022-11-27T22:11:32+0000",
+            "vcs_last_fetch": "2023-04-14T02:04:39+0000",
+            "vcs_last_rev": "51faa1155b58367233678ff6d513814d8bb5eeb7",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 42582
+        },
+        {
+            "actual_branch": "",
+            "branch": 340,
+            "collection": "wr-template",
+            "id": 940031,
+            "layer": 55,
+            "local_path": "",
+            "updated": "2023-04-14T02:04:49+0000",
+            "vcs_last_commit": "2022-03-01T18:03:03+0000",
+            "vcs_last_fetch": "2023-04-14T02:04:49+0000",
+            "vcs_last_rev": "7f50701e6e4415916ebb2ba34e469c692dafd1e1",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 42580
+        },
+        {
+            "actual_branch": "",
+            "branch": 340,
+            "collection": "dpdk",
+            "id": 940037,
+            "layer": 192,
+            "local_path": "",
+            "updated": "2023-04-14T02:04:29+0000",
+            "vcs_last_commit": "2023-03-06T01:03:47+0000",
+            "vcs_last_fetch": "2023-04-14T02:04:29+0000",
+            "vcs_last_rev": "789125512de8d7bd0f0765649ae520450bd83afb",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 42583
+        },
+        {
+            "actual_branch": "",
+            "branch": 340,
+            "collection": "virtualization-layer",
+            "id": 940051,
+            "layer": 45,
+            "local_path": "",
+            "updated": "2023-04-14T02:04:58+0000",
+            "vcs_last_commit": "2023-04-03T20:04:56+0000",
+            "vcs_last_fetch": "2023-04-14T02:04:58+0000",
+            "vcs_last_rev": "9dc5b5c29140c1dcb3d7cde3c3b35a313b38490c",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 42579
+        },
+        {
+            "actual_branch": "",
+            "branch": 340,
+            "collection": "cloud-services-layer",
+            "id": 940054,
+            "layer": 141,
+            "local_path": "",
+            "updated": "2023-04-14T02:04:24+0000",
+            "vcs_last_commit": "2022-12-21T19:12:46+0000",
+            "vcs_last_fetch": "2023-04-14T02:04:24+0000",
+            "vcs_last_rev": "f261d22b6ca627d512bedde8241cb3a34556512c",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 42579
+        },
+        {
+            "actual_branch": "",
+            "branch": 340,
+            "collection": "wrlinux",
+            "id": 940063,
+            "layer": 49,
+            "local_path": "",
+            "updated": "2023-04-18T07:04:57+0000",
+            "vcs_last_commit": "2023-04-17T09:04:24+0000",
+            "vcs_last_fetch": "2023-04-18T07:04:57+0000",
+            "vcs_last_rev": "f3cc7c0f53a9f2075059be74a61de264e752afe2",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 42580
+        },
+        {
+            "actual_branch": "",
+            "branch": 340,
+            "collection": "wrlinux-distro",
+            "id": 940089,
+            "layer": 164,
+            "local_path": "",
+            "updated": "2023-04-14T03:04:46+0000",
+            "vcs_last_commit": "2023-04-02T19:04:10+0000",
+            "vcs_last_fetch": "2023-04-14T03:04:46+0000",
+            "vcs_last_rev": "65324275c071a97dc4caa92ec0d8992d535805d4",
+            "vcs_subdir": "wrlinux-distro",
+            "version": "1",
+            "yp_compatible_version": 42580
+        },
+        {
+            "actual_branch": "",
+            "branch": 340,
+            "collection": "wrlinux-ovp",
+            "id": 940090,
+            "layer": 170,
+            "local_path": "",
+            "updated": "2023-04-14T03:04:58+0000",
+            "vcs_last_commit": "2023-03-07T21:03:19+0000",
+            "vcs_last_fetch": "2023-04-14T03:04:58+0000",
+            "vcs_last_rev": "f229dcb62891cc85979cbb1c4dbae3ec792c2390",
+            "vcs_subdir": "wrlinux-ovp",
+            "version": "1",
+            "yp_compatible_version": 42580
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 141,
+            "id": 110497,
+            "layerbranch": 940090,
+            "required": true
+        },
+        {
+            "dependency": 1,
+            "id": 110498,
+            "layerbranch": 940090,
+            "required": true
+        },
+        {
+            "dependency": 192,
+            "id": 110499,
+            "layerbranch": 940090,
+            "required": true
+        },
+        {
+            "dependency": 48,
+            "id": 110500,
+            "layerbranch": 940090,
+            "required": true
+        },
+        {
+            "dependency": 45,
+            "id": 110501,
+            "layerbranch": 940090,
+            "required": true
+        },
+        {
+            "dependency": 55,
+            "id": 110502,
+            "layerbranch": 940090,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 110503,
+            "layerbranch": 940090,
+            "required": true
+        },
+        {
+            "dependency": 164,
+            "id": 110504,
+            "layerbranch": 940090,
+            "required": true
+        },
+        {
+            "dependency": 171,
+            "id": 110505,
+            "layerbranch": 940090,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "virtualization-layer",
+            "comparison": false,
+            "description": "This layer provides lxc package build for Wind River Linux.  It\r\nis required by most other layers that Wind River provides.",
+            "id": 45,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-virtualization",
+            "status": "P",
+            "summary": "Virtualization related components",
+            "updated": "2018-05-30T22:05:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-virtualization",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "realtime",
+            "comparison": false,
+            "description": "This layer is intended to be a central point for realtime related kernel and\r\nsystem development. It also contains utilities, and configuration useful for\r\ntuning a realtime system. It should be useful directly on top of oe-core.  It\r\nshould be primarily useful to the following groups:",
+            "id": 48,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-realtime",
+            "status": "P",
+            "summary": "Realtime related kernel components",
+            "updated": "2018-05-30T22:05:35+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-realtime",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wrlinux",
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wr-template",
+            "comparison": false,
+            "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
+            "id": 55,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "wr-template",
+            "status": "P",
+            "summary": "Wind River Template Support",
+            "updated": "2018-05-30T22:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-template",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "cloud-services-layer",
+            "comparison": false,
+            "description": "meta cloud services",
+            "id": 141,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-cloud-services",
+            "status": "P",
+            "summary": "meta cloud services",
+            "updated": "2018-05-30T22:05:35+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wrlinux-distro",
+            "comparison": false,
+            "description": "The base distribution settings for wrlinux and related DISTRO items.",
+            "id": 164,
+            "index_preference": 0,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux-distro",
+            "status": "P",
+            "summary": "Wind River Linux base distribution layer",
+            "updated": "2018-05-30T22:05:34+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wrlinux-ovp",
+            "comparison": false,
+            "description": "This layer is derived from the Wind River Linux Open Virtualization Profile and contains the images and recipes required to build images related to virtual machines and containers.",
+            "id": 170,
+            "index_preference": 0,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux-ovp",
+            "status": "P",
+            "summary": "Open Virtualization Platform",
+            "updated": "2018-05-30T22:05:37+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "dpdk",
+            "comparison": false,
+            "description": "DPDK is a set of libraries and drivers for fast packet processing.",
+            "id": 192,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-dpdk",
+            "status": "P",
+            "summary": "dpdk layer",
+            "updated": "2018-05-30T22:05:19+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-dpdk",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Virtual/monitoring for zabbix packages",
+            "filename": "packagegroup-zabbix-monitoring.bb",
+            "filepath": "recipes-extended/packagegroup",
+            "homepage": "",
+            "id": 1753501,
+            "inherits": "allarch packagegroup",
+            "layerbranch": 940090,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "packagegroup-zabbix-monitoring",
+            "pr": "r0",
+            "provides": "packagegroup-zabbix-monitoring virtual/monitoring",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Empty virtual/monitoring provider",
+            "filename": "packagegroup-empty-monitoring.bb",
+            "filepath": "recipes-extended/packagegroup",
+            "homepage": "",
+            "id": 1753502,
+            "inherits": "allarch packagegroup",
+            "layerbranch": 940090,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "packagegroup-empty-monitoring",
+            "pr": "r0",
+            "provides": "packagegroup-empty-monitoring virtual/monitoring",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OVP Default Monitoring System",
+            "filename": "packagegroup-ovp-default-monitoring.bb",
+            "filepath": "recipes-extended/packagegroup",
+            "homepage": "",
+            "id": 1753503,
+            "inherits": "",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-ovp-default-monitoring",
+            "pr": "r0",
+            "provides": "packagegroup-ovp-default-monitoring ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Virtual/monitoring for nagios packages",
+            "filename": "packagegroup-nagios-monitoring.bb",
+            "filepath": "recipes-extended/packagegroup",
+            "homepage": "",
+            "id": 1753504,
+            "inherits": "allarch packagegroup",
+            "layerbranch": 940090,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "packagegroup-nagios-monitoring",
+            "pr": "r0",
+            "provides": "packagegroup-nagios-monitoring virtual/monitoring",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Packagegroup defining packages needed for lxc",
+            "filename": "packagegroup-containers.bb",
+            "filepath": "recipes-containers/packagegroups",
+            "homepage": "",
+            "id": 1753505,
+            "inherits": "packagegroup",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-containers",
+            "pr": "r0",
+            "provides": "packagegroup-containers ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "docker packagegroup",
+            "filename": "packagegroup-ovp-docker.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1753506,
+            "inherits": "packagegroup",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-ovp-docker",
+            "pr": "r0",
+            "provides": "packagegroup-ovp-docker ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Debugging packages for VM's.",
+            "filename": "packagegroup-ovp-debug.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1753507,
+            "inherits": "packagegroup",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-ovp-debug",
+            "pr": "r0",
+            "provides": "packagegroup-ovp-debug ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Trace tools packagegroup extending glibc_std.",
+            "filename": "packagegroup-ovp-trace-tools.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1753508,
+            "inherits": "",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-ovp-trace-tools",
+            "pr": "r0",
+            "provides": "packagegroup-ovp-trace-tools ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Packagegroup for VM",
+            "filename": "packagegroup-ovp-vm.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1753509,
+            "inherits": "packagegroup",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-ovp-vm",
+            "pr": "r0",
+            "provides": "packagegroup-ovp-vm ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Packagegroup for glusterfs components",
+            "filename": "packagegroup-glusterfs.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1753510,
+            "inherits": "",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-glusterfs",
+            "pr": "r0",
+            "provides": "packagegroup-glusterfs ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "criu packagegroup",
+            "filename": "packagegroup-ovp-criu.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1753511,
+            "inherits": "packagegroup",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-ovp-criu",
+            "pr": "r0",
+            "provides": "packagegroup-ovp-criu ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OVP LTTng Toolchain",
+            "filename": "packagegroup-ovp-lttng-toolchain.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1753512,
+            "inherits": "packagegroup",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-ovp-lttng-toolchain",
+            "pr": "r0",
+            "provides": "packagegroup-ovp-lttng-toolchain ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "An image suitable for a minimal KVM guest or host.",
+            "filename": "wrlinux-image-ovp-guest.bb",
+            "filepath": "recipes-base/images",
+            "homepage": "",
+            "id": 1753513,
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wrlinux-image-ovp-guest",
+            "pr": "r0",
+            "provides": "wrlinux-image-ovp-guest ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "An image suitable for a minimal KVM guest or host.",
+            "filename": "wrlinux-image-ovp-kvm-minimal.bb",
+            "filepath": "recipes-base/images",
+            "homepage": "",
+            "id": 1753514,
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wrlinux-image-ovp-kvm-minimal",
+            "pr": "r0",
+            "provides": "wrlinux-image-ovp-kvm-minimal ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "An image suitable for a minimal KVM guest or host.",
+            "filename": "wrlinux-image-ovp-kvm.bb",
+            "filepath": "recipes-base/images",
+            "homepage": "",
+            "id": 1753515,
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
+            "layerbranch": 940090,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wrlinux-image-ovp-kvm",
+            "pr": "r0",
+            "provides": "wrlinux-image-ovp-kvm ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-14T03:04:58+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "Tune kernel options for reducing lantency for real-time kernel of host system",
+            "id": 102176,
+            "layerbranch": 940090,
+            "name": "feature/rt-latency-host",
+            "updated": "2023-04-14T03:04:58+0000"
+        },
+        {
+            "description": "Enable guest image for wrlinux-ovp distribution.",
+            "id": 102177,
+            "layerbranch": 940090,
+            "name": "feature/kernel-ovp-guest",
+            "updated": "2023-04-14T03:04:58+0000"
+        },
+        {
+            "description": "Tune kernel options for reducing lantency for real-time kernel of guest system",
+            "id": 102178,
+            "layerbranch": 940090,
+            "name": "feature/rt-latency-guest",
+            "updated": "2023-04-14T03:04:58+0000"
+        },
+        {
+            "description": "Tune kernel options for real-time kernel for host system",
+            "id": 102179,
+            "layerbranch": 940090,
+            "name": "feature/host-rt-tune",
+            "updated": "2023-04-14T03:04:58+0000"
+        },
+        {
+            "description": "Tune kernel options for real-time kernel for guest system",
+            "id": 102180,
+            "layerbranch": 940090,
+            "name": "feature/guest-rt-tune",
+            "updated": "2023-04-14T03:04:58+0000"
+        },
+        {
+            "description": "Add notice for building host or guest systems for distro wrlinux-ovp",
+            "id": 102181,
+            "layerbranch": 940090,
+            "name": "default",
+            "updated": "2023-04-14T03:04:58+0000"
+        }
+    ]
+}
