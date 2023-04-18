@@ -480,7 +480,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 14,
             "update_environment": null,
-            "updated": "2023-04-11T00:04:18+0000",
+            "updated": "2023-04-18T00:04:14+0000",
             "updates_enabled": true
         }
     ],
@@ -493,9 +493,9 @@
             "id": 904790,
             "layer": 58,
             "local_path": "",
-            "updated": "2023-03-14T02:03:30+0000",
+            "updated": "2023-04-14T01:04:32+0000",
             "vcs_last_commit": "2023-03-06T01:03:47+0000",
-            "vcs_last_fetch": "2023-03-14T02:03:30+0000",
+            "vcs_last_fetch": "2023-04-14T01:04:32+0000",
             "vcs_last_rev": "b21a0b219f65d78ee991105d780109cf2ce58a69",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "4",
@@ -527,31 +527,31 @@
     "machines": [
         {
             "description": " a generic edgerouter",
-            "id": 52626,
+            "id": 63461,
             "layerbranch": 904790,
             "name": "edgerouter",
-            "updated": "2022-07-31T21:07:49+0000"
+            "updated": "2023-04-14T01:04:32+0000"
         },
         {
             "description": " generic x86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 52627,
+            "id": 63462,
             "layerbranch": 904790,
             "name": "genericx86",
-            "updated": "2022-07-31T21:07:49+0000"
+            "updated": "2023-04-14T01:04:32+0000"
         },
         {
             "description": "Reference machine configuration for http://beagleboard.org/bone and http://beagleboard.org/black boards",
-            "id": 52628,
+            "id": 63463,
             "layerbranch": 904790,
             "name": "beaglebone-yocto",
-            "updated": "2022-07-31T21:07:49+0000"
+            "updated": "2023-04-14T01:04:32+0000"
         },
         {
             "description": " generic x86_64 (64-bit) PCs and servers. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 52629,
+            "id": 63464,
             "layerbranch": 904790,
             "name": "genericx86-64",
-            "updated": "2022-07-31T21:07:49+0000"
+            "updated": "2023-04-14T01:04:32+0000"
         }
     ],
     "recipes": [
@@ -576,7 +576,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2022-07-31T21:07:49+0000"
+            "updated": "2023-04-14T01:04:32+0000"
         }
     ],
     "wrtemplates": []

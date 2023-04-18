@@ -480,7 +480,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 14,
             "update_environment": null,
-            "updated": "2023-04-11T00:04:18+0000",
+            "updated": "2023-04-18T00:04:14+0000",
             "updates_enabled": true
         }
     ],
@@ -493,10 +493,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-04-06T12:04:17+0000",
-            "vcs_last_commit": "2023-04-06T02:04:05+0000",
-            "vcs_last_fetch": "2023-04-06T12:04:17+0000",
-            "vcs_last_rev": "b59bae34c410a2af413c6ec177e2a15914583826",
+            "updated": "2023-04-17T13:04:29+0000",
+            "vcs_last_commit": "2023-04-17T12:04:55+0000",
+            "vcs_last_fetch": "2023-04-17T13:04:29+0000",
+            "vcs_last_rev": "8e53fe00abfbb24dedb34b1e6f8d02488e7a05e1",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -508,9 +508,9 @@
             "id": 904851,
             "layer": 381,
             "local_path": "",
-            "updated": "2022-10-10T23:10:45+0000",
+            "updated": "2023-04-14T01:04:46+0000",
             "vcs_last_commit": "2022-10-08T18:10:03+0000",
-            "vcs_last_fetch": "2022-10-10T23:10:45+0000",
+            "vcs_last_fetch": "2023-04-14T01:04:46+0000",
             "vcs_last_rev": "8258096a464ddf2c37219a7e0d809ca7f7d452a9",
             "vcs_subdir": "",
             "version": null,
@@ -574,87 +574,87 @@
     "machines": [
         {
             "description": " RaspberryPi Zero board (https://www.raspberrypi.org/blog/raspberry-pi-zero)",
-            "id": 52754,
+            "id": 63544,
             "layerbranch": 904851,
             "name": "raspberrypi0",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "description": " RaspberryPi 4 in 64 bits mode",
-            "id": 52755,
+            "id": 63545,
             "layerbranch": 904851,
             "name": "raspberrypi4-64",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "description": " RaspberryPi http://www.raspberrypi.org/ Board",
-            "id": 52756,
+            "id": 63546,
             "layerbranch": 904851,
             "name": "raspberrypi",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "description": " RaspberryPi 2",
-            "id": 52757,
+            "id": 63547,
             "layerbranch": 904851,
             "name": "raspberrypi2",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "description": " RaspberryPi 4 in 32 bit mode",
-            "id": 52758,
+            "id": 63548,
             "layerbranch": 904851,
             "name": "raspberrypi4",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "description": " RaspberryPi 3 in 64 bits mode",
-            "id": 52759,
+            "id": 63549,
             "layerbranch": 904851,
             "name": "raspberrypi3-64",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "description": " RaspberryPi Compute Module 3 (CM3)",
-            "id": 52760,
+            "id": 63550,
             "layerbranch": 904851,
             "name": "raspberrypi-cm3",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "description": " RaspberryPi0 2 Wifi in 64 bits mode",
-            "id": 52761,
+            "id": 63551,
             "layerbranch": 904851,
             "name": "raspberrypi0-2w-64",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "description": " RaspberryPi Zero  WiFi board (https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/)",
-            "id": 52762,
+            "id": 63552,
             "layerbranch": 904851,
             "name": "raspberrypi0-wifi",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "description": " RaspberryPi 3 in 32 bits mode",
-            "id": 52763,
+            "id": 63553,
             "layerbranch": 904851,
             "name": "raspberrypi3",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "description": " RaspberryPi Compute Module (CM1)",
-            "id": 52764,
+            "id": 63554,
             "layerbranch": 904851,
             "name": "raspberrypi-cm",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "description": " RaspberryPi0 2 Wifi in 32 bits mode",
-            "id": 52765,
+            "id": 63555,
             "layerbranch": 904851,
             "name": "raspberrypi0-2w",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         }
     ],
     "recipes": [
@@ -679,7 +679,7 @@
             "section": "devel/libs",
             "srcrev": "22b44e4765b4b78dc5b22394fff484e353d5914d",
             "summary": "",
-            "updated": "2022-07-31T22:07:25+0000"
+            "updated": "2023-04-14T01:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -702,7 +702,7 @@
             "section": "devel/python",
             "srcrev": "be1942a69b2592ddacd9dc833d2668a19aafd8d2",
             "summary": "",
-            "updated": "2022-07-31T22:07:26+0000"
+            "updated": "2023-04-14T01:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -725,7 +725,7 @@
             "section": "base",
             "srcrev": "383b615ce9ff5bbefdf77652799f380016fda353",
             "summary": "Pure python (i.e. no native extensions) access to Linux IO    including I2C and SPI. Drop in replacement for smbus and spidev modules.",
-            "updated": "2022-07-31T22:07:26+0000"
+            "updated": "2023-04-14T01:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -748,7 +748,7 @@
             "section": "base",
             "srcrev": "7af3af87037cf1e6697471a3a83c56a0f852b959",
             "summary": "Platform detection for use by libraries like Adafruit-Blinka.",
-            "updated": "2022-07-31T22:07:26+0000"
+            "updated": "2023-04-14T01:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -771,7 +771,7 @@
             "section": "base",
             "srcrev": "49ab415d6b601c99979262f9e91c21dcb3a927a7",
             "summary": "CircuitPython data descriptor classes to represent hardware registers on I2C and SPI devices.",
-            "updated": "2022-07-31T22:07:27+0000"
+            "updated": "2023-04-14T01:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -794,7 +794,7 @@
             "section": "devel/python",
             "srcrev": "b949681af69b45f0f7f4bb53b6770037b5b02178",
             "summary": "",
-            "updated": "2022-07-31T22:07:27+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -817,7 +817,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T22:07:27+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -840,7 +840,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T22:07:27+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -863,7 +863,7 @@
             "section": "devel/libs",
             "srcrev": "fbba9a7dcef0f352a11f8a2a5f6cbc15b62c0829",
             "summary": "",
-            "updated": "2022-07-31T22:07:27+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -886,7 +886,7 @@
             "section": "base",
             "srcrev": "648ffc470824c43eb0d16c485f4c24816b32cd6f",
             "summary": "",
-            "updated": "2022-07-31T22:07:27+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -909,7 +909,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:45+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -932,7 +932,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "cmdline.txt file used to boot the kernel on a Raspberry Pi device",
-            "updated": "2022-10-10T23:10:44+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -955,7 +955,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GPIO shutdown bindings for SysV init",
-            "updated": "2022-07-31T22:07:28+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -978,7 +978,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-boot boot scripts for Raspberry Pi",
-            "updated": "2022-07-31T22:07:28+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1001,7 +1001,7 @@
             "section": "base",
             "srcrev": "13474ee775d0c5ec8a7da4fb0a9fa84187abfc87",
             "summary": "",
-            "updated": "2022-07-31T22:07:28+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1024,7 +1024,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Raspberrypi firmware libraries which are required by picamera library",
-            "updated": "2022-10-10T23:10:45+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1047,7 +1047,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "A commandline OMX player for the Raspberry Pi",
-            "updated": "2022-07-31T22:07:28+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1070,7 +1070,7 @@
             "section": "base",
             "srcrev": "7e4f1d379d698c44501fb84b886fadf3fc164b70",
             "summary": "Python interface to the Raspberry Pi camera module",
-            "updated": "2022-07-31T22:07:28+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1093,7 +1093,7 @@
             "section": "base",
             "srcrev": "2251bfc0501d0acfb96c0a43f4f2b4c6a10ca14e",
             "summary": "CircuitPython helper library provides higher level objects to control motors and servos.",
-            "updated": "2022-07-31T22:07:29+0000"
+            "updated": "2023-04-14T01:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1116,7 +1116,7 @@
             "section": "base",
             "srcrev": "2780c4102f4c23fbab252aa1198b61ba7e2d1b2c",
             "summary": "CircuitPython driver for motor, stepper, and servo based on PCA9685.",
-            "updated": "2022-07-31T22:07:29+0000"
+            "updated": "2023-04-14T01:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1139,7 +1139,7 @@
             "section": "base",
             "srcrev": "dc688f354fe779c9267c208b99f310af87e79272",
             "summary": "CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.",
-            "updated": "2022-07-31T22:07:29+0000"
+            "updated": "2023-04-14T01:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1162,7 +1162,7 @@
             "section": "base",
             "srcrev": "1bfe8005293205e2f7b2cc498ab5a946f1133b40",
             "summary": "CircuitPython bus device classes to manage bus sharing.",
-            "updated": "2022-07-31T22:07:29+0000"
+            "updated": "2023-04-14T01:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1185,7 +1185,7 @@
             "section": "base",
             "srcrev": "8c1462b4129b21f6db156d1517abb017bb74b982",
             "summary": "CircuitPython helper library for DC & Stepper Motor FeatherWing, Shield, and Pi Hat kits.",
-            "updated": "2022-07-31T22:07:30+0000"
+            "updated": "2023-04-14T01:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1208,7 +1208,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python module to control the Raspberry Pi Sense HAT used in the Astro Pi mission",
-            "updated": "2022-07-31T22:07:30+0000"
+            "updated": "2023-04-14T01:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1231,7 +1231,7 @@
             "section": "kernel",
             "srcrev": "99d5c588e95ec9c9b86d7e88d3cf85b4f729d2bc",
             "summary": "Linux kernel firmware files from Raspbian distribution",
-            "updated": "2022-07-31T22:07:30+0000"
+            "updated": "2023-04-14T01:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1254,7 +1254,7 @@
             "section": "kernel",
             "srcrev": "e7fd166981ab4bb9a36c2d1500205a078a35714d",
             "summary": "Linux kernel Bluetooth firmware files from Raspbian distribution",
-            "updated": "2022-07-31T22:07:30+0000"
+            "updated": "2023-04-14T01:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1277,7 +1277,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-07-31T22:07:31+0000"
+            "updated": "2023-04-14T01:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1300,7 +1300,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-07-31T22:07:31+0000"
+            "updated": "2023-04-14T01:04:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1323,7 +1323,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2022-07-31T22:07:31+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1346,7 +1346,7 @@
             "section": "graphics",
             "srcrev": "e2ee6faa0d01a5ece06bcc74a47f37d7e6837310",
             "summary": "Some examples using the DispmanX API on the Raspberry Pi",
-            "updated": "2022-07-31T22:07:31+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1369,7 +1369,7 @@
             "section": "base",
             "srcrev": "c4fd1b8986c6d6d4ae5cd51e65a8bbeb495dfa4e",
             "summary": "",
-            "updated": "2022-07-31T22:07:31+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1392,7 +1392,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:44+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1415,7 +1415,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:45+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1438,7 +1438,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1461,7 +1461,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1484,7 +1484,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1507,7 +1507,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1530,7 +1530,7 @@
             "section": "kernel",
             "srcrev": "fd4775bf90e037551532fc214a958074830bb80d",
             "summary": "Script to properly configure BT-HCI on Raspberry Pi",
-            "updated": "2022-07-31T22:07:32+0000"
+            "updated": "2023-04-14T01:04:46+0000"
         }
     ],
     "wrtemplates": []

@@ -480,24 +480,24 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 14,
             "update_environment": null,
-            "updated": "2023-04-11T00:04:18+0000",
+            "updated": "2023-04-18T00:04:14+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "OpenEmbedded",
-            "id": 11379,
+            "id": 12259,
             "layerbranch": 904881,
             "name": "lat",
-            "updated": "2022-11-22T19:11:40+0000"
+            "updated": "2023-04-14T01:04:38+0000"
         },
         {
             "description": "OpenEmbedded",
-            "id": 11380,
+            "id": 12260,
             "layerbranch": 904881,
             "name": "ostree",
-            "updated": "2022-10-10T23:10:58+0000"
+            "updated": "2023-04-14T01:04:38+0000"
         }
     ],
     "layerBranches": [
@@ -508,10 +508,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-04-06T12:04:17+0000",
-            "vcs_last_commit": "2023-04-06T02:04:05+0000",
-            "vcs_last_fetch": "2023-04-06T12:04:17+0000",
-            "vcs_last_rev": "b59bae34c410a2af413c6ec177e2a15914583826",
+            "updated": "2023-04-17T13:04:29+0000",
+            "vcs_last_commit": "2023-04-17T12:04:55+0000",
+            "vcs_last_fetch": "2023-04-17T13:04:29+0000",
+            "vcs_last_rev": "8e53fe00abfbb24dedb34b1e6f8d02488e7a05e1",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -523,10 +523,10 @@
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-04-07T01:04:37+0000",
-            "vcs_last_commit": "2023-04-07T01:04:09+0000",
-            "vcs_last_fetch": "2023-04-07T01:04:37+0000",
-            "vcs_last_rev": "cc01fb970145aa4d3d00d334999f71fd58cf64ee",
+            "updated": "2023-04-17T23:04:29+0000",
+            "vcs_last_commit": "2023-04-17T22:04:07+0000",
+            "vcs_last_fetch": "2023-04-17T23:04:29+0000",
+            "vcs_last_rev": "5388d338bc731d90d134aa527a5aa00c9c53e54e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
@@ -538,9 +538,9 @@
             "id": 904831,
             "layer": 8,
             "local_path": "",
-            "updated": "2023-04-02T19:04:53+0000",
+            "updated": "2023-04-14T01:04:28+0000",
             "vcs_last_commit": "2023-03-29T23:03:17+0000",
-            "vcs_last_fetch": "2023-04-02T19:04:53+0000",
+            "vcs_last_fetch": "2023-04-14T01:04:28+0000",
             "vcs_last_rev": "af7edda78b62a9f1693121c1370ca694f0e72c37",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
@@ -553,9 +553,9 @@
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2023-04-02T19:04:08+0000",
+            "updated": "2023-04-14T01:04:03+0000",
             "vcs_last_commit": "2023-03-29T23:03:17+0000",
-            "vcs_last_fetch": "2023-04-02T19:04:08+0000",
+            "vcs_last_fetch": "2023-04-14T01:04:03+0000",
             "vcs_last_rev": "8cbc0abbffdae9b186f01a6cad24103d5cba9aaa",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -568,9 +568,9 @@
             "id": 904835,
             "layer": 16,
             "local_path": "",
-            "updated": "2023-04-02T19:04:18+0000",
+            "updated": "2023-04-14T01:04:41+0000",
             "vcs_last_commit": "2023-03-29T23:03:17+0000",
-            "vcs_last_fetch": "2023-04-02T19:04:18+0000",
+            "vcs_last_fetch": "2023-04-14T01:04:41+0000",
             "vcs_last_rev": "1618d0001469c5ed3ee6a972adc01bb73ea5892c",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
@@ -583,10 +583,10 @@
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-04-02T19:04:12+0000",
-            "vcs_last_commit": "2023-04-02T19:04:09+0000",
-            "vcs_last_fetch": "2023-04-02T19:04:12+0000",
-            "vcs_last_rev": "1ae20db1121605cd35c8e352b3d0c33026c6afa5",
+            "updated": "2023-04-14T03:04:43+0000",
+            "vcs_last_commit": "2023-04-14T01:04:24+0000",
+            "vcs_last_fetch": "2023-04-14T03:04:43+0000",
+            "vcs_last_rev": "8b34380ac709eda8ca8d650298bf6ff025855f73",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
@@ -598,9 +598,9 @@
             "id": 904856,
             "layer": 15,
             "local_path": "",
-            "updated": "2023-04-02T19:04:22+0000",
+            "updated": "2023-04-14T01:04:28+0000",
             "vcs_last_commit": "2023-03-29T23:03:17+0000",
-            "vcs_last_fetch": "2023-04-02T19:04:22+0000",
+            "vcs_last_fetch": "2023-04-14T01:04:28+0000",
             "vcs_last_rev": "bf6022c2edc6ad1a165a4dc77111f6a793b2b10f",
             "vcs_subdir": "meta-gnome",
             "version": "1",
@@ -613,9 +613,9 @@
             "id": 904858,
             "layer": 45,
             "local_path": "",
-            "updated": "2023-04-03T22:04:12+0000",
+            "updated": "2023-04-14T01:04:20+0000",
             "vcs_last_commit": "2023-04-03T20:04:56+0000",
-            "vcs_last_fetch": "2023-04-03T22:04:12+0000",
+            "vcs_last_fetch": "2023-04-14T01:04:20+0000",
             "vcs_last_rev": "9dc5b5c29140c1dcb3d7cde3c3b35a313b38490c",
             "vcs_subdir": "",
             "version": "1",
@@ -628,9 +628,9 @@
             "id": 904875,
             "layer": 5,
             "local_path": "",
-            "updated": "2023-04-02T19:04:07+0000",
+            "updated": "2023-04-14T01:04:26+0000",
             "vcs_last_commit": "2022-12-26T11:12:03+0000",
-            "vcs_last_fetch": "2023-02-09T18:02:49+0000",
+            "vcs_last_fetch": "2023-04-14T01:04:26+0000",
             "vcs_last_rev": "85681047a4fcc663568ef1043ccfdc35849b7a42",
             "vcs_subdir": "meta-xfce",
             "version": "1",
@@ -643,13 +643,13 @@
             "id": 904881,
             "layer": 421,
             "local_path": "",
-            "updated": "2023-04-02T23:04:25+0000",
-            "vcs_last_commit": "2023-04-02T22:04:09+0000",
-            "vcs_last_fetch": "2023-04-02T23:04:25+0000",
-            "vcs_last_rev": "7d6ea6ffbd064f25f56dde0db51874d5afca1dd8",
+            "updated": "2023-04-18T01:04:35+0000",
+            "vcs_last_commit": "2023-04-18T01:04:07+0000",
+            "vcs_last_fetch": "2023-04-18T01:04:35+0000",
+            "vcs_last_rev": "627c44286d192039398bc3d03f57ab138186d817",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 42579
+            "yp_compatible_version": 42580
         }
     ],
     "layerDependencies": [
@@ -929,7 +929,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-Boot boot.scr SD boot environment generation for ARM targets",
-            "updated": "2023-04-02T23:04:25+0000"
+            "updated": "2023-04-14T01:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -952,7 +952,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic init for initramfs to mount ostree and pivot root",
-            "updated": "2022-11-21T00:11:13+0000"
+            "updated": "2023-04-14T01:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -975,7 +975,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Service funtion to multiplex one or more serial ports and tty console devices",
-            "updated": "2022-10-10T23:10:56+0000"
+            "updated": "2023-04-14T01:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -998,7 +998,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Wind River Linux Assembly Tool appsdk",
-            "updated": "2022-12-26T18:12:04+0000"
+            "updated": "2023-04-14T01:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1021,7 +1021,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Wind River Linux Assembly Tool appsdk",
-            "updated": "2022-12-26T18:12:04+0000"
+            "updated": "2023-04-14T01:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1044,7 +1044,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OSTree Network/Disk Image deployment tool",
-            "updated": "2022-10-10T23:10:56+0000"
+            "updated": "2023-04-14T01:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1067,7 +1067,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OSTree Network/Disk Image deployment tool",
-            "updated": "2022-10-10T23:10:57+0000"
+            "updated": "2023-04-14T01:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1090,7 +1090,7 @@
             "section": "base",
             "srcrev": "5890b72bd68673738b38e67019dadcbcaf643ed8",
             "summary": "Provide wic tool",
-            "updated": "2022-10-10T23:10:57+0000"
+            "updated": "2023-04-14T01:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1113,7 +1113,7 @@
             "section": "base",
             "srcrev": "5890b72bd68673738b38e67019dadcbcaf643ed8",
             "summary": "Provide wic tool",
-            "updated": "2022-10-10T23:10:57+0000"
+            "updated": "2023-04-14T01:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1136,7 +1136,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "ostree upgrade config manager",
-            "updated": "2022-10-10T23:10:57+0000"
+            "updated": "2023-04-14T01:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1159,7 +1159,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Load and Run container images into Docker",
-            "updated": "2022-11-09T17:11:09+0000"
+            "updated": "2023-04-14T01:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1182,7 +1182,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-10-10T23:10:57+0000"
+            "updated": "2023-04-14T01:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1205,7 +1205,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Full image create script",
-            "updated": "2023-03-22T02:03:48+0000"
+            "updated": "2023-04-14T01:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1228,7 +1228,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Full image create script",
-            "updated": "2023-03-22T02:03:48+0000"
+            "updated": "2023-04-14T01:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1251,16 +1251,39 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-02-05T23:02:31+0000"
+            "updated": "2023-04-14T01:04:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Provides image to generate AppSDK for Wind River Linux Assembly Tool.",
+            "filename": "container-base_1.0.bb",
+            "filepath": "recipes-support/image",
+            "homepage": "",
+            "id": 1757780,
+            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 904881,
+            "license": "MIT",
+            "pe": "",
+            "pn": "container-base",
+            "pr": "r0",
+            "provides": "container-base ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2023-04-18T01:04:35+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 95119,
+            "id": 101745,
             "layerbranch": 904881,
             "name": "feature/ostree",
-            "updated": "2023-03-29T16:03:11+0000"
+            "updated": "2023-04-14T01:04:38+0000"
         }
     ]
 }

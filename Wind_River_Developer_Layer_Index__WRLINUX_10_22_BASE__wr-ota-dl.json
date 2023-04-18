@@ -480,7 +480,7 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 14,
             "update_environment": null,
-            "updated": "2023-04-11T00:04:18+0000",
+            "updated": "2023-04-18T00:04:14+0000",
             "updates_enabled": true
         }
     ],
@@ -493,9 +493,9 @@
             "id": 911969,
             "layer": 480,
             "local_path": "",
-            "updated": "2022-07-31T21:07:30+0000",
+            "updated": "2023-04-14T01:04:16+0000",
             "vcs_last_commit": "2022-06-26T22:06:57+0000",
-            "vcs_last_fetch": "2022-07-31T21:07:30+0000",
+            "vcs_last_fetch": "2023-04-14T01:04:16+0000",
             "vcs_last_rev": "cd05f38880bfdb3ee12d2e19d0470b84d0d22c9e",
             "vcs_subdir": "",
             "version": "1",
