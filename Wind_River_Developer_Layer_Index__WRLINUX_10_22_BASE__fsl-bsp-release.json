@@ -468,6 +468,13 @@
             "image_url": "",
             "link_url": "",
             "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
         }
     ],
     "branches": [
@@ -478,9 +485,9 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 14,
+            "sort_priority": 19,
             "update_environment": null,
-            "updated": "2023-04-18T00:04:14+0000",
+            "updated": "2023-05-04T00:05:20+0000",
             "updates_enabled": true
         }
     ],
@@ -493,10 +500,10 @@
             "id": 908030,
             "layer": 469,
             "local_path": "",
-            "updated": "2023-04-14T01:04:16+0000",
-            "vcs_last_commit": "2023-04-04T01:04:39+0000",
-            "vcs_last_fetch": "2023-04-14T01:04:16+0000",
-            "vcs_last_rev": "2c1db46aa55a193ea15f3054d0849d629bd9692c",
+            "updated": "2023-05-04T03:05:43+0000",
+            "vcs_last_commit": "2023-05-04T00:05:07+0000",
+            "vcs_last_fetch": "2023-05-04T03:05:43+0000",
+            "vcs_last_rev": "13b12a367a96ff2362644a1ee80c6fe24c877c9e",
             "vcs_subdir": "meta-bsp",
             "version": null,
             "yp_compatible_version": 42579
@@ -1036,7 +1043,7 @@
             "section": "base",
             "srcrev": "ae70b83c606f5ac912af28343296d1da4a5ba3ea",
             "summary": "",
-            "updated": "2023-04-14T01:04:13+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "native",
@@ -1404,7 +1411,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T15:07:58+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1427,7 +1434,7 @@
             "section": "BSP",
             "srcrev": "c6a19b1a351308cc73443283f6aa56b2eff791b8",
             "summary": "",
-            "updated": "2023-04-14T01:04:13+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1588,7 +1595,7 @@
             "section": "base",
             "srcrev": "ca9340c3be9fc391f72bd92fa2d14188ec8d7b3d",
             "summary": "",
-            "updated": "2023-04-14T01:04:13+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1611,7 +1618,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T15:07:59+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1634,7 +1641,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T15:07:59+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1657,7 +1664,7 @@
             "section": "multimedia",
             "srcrev": "4c58a36cfd4b2b16d8978b9592145fb46bb58732",
             "summary": "",
-            "updated": "2023-04-14T01:04:14+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1680,7 +1687,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T15:07:59+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1703,7 +1710,7 @@
             "section": "multimedia",
             "srcrev": "7afc123bc6974d68795f97466eb83ec7a093fb9b",
             "summary": "GStreamer 1.0 multimedia framework",
-            "updated": "2023-04-14T01:04:14+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1726,7 +1733,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T15:07:00+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1910,7 +1917,7 @@
             "section": "base",
             "srcrev": "f64efd5bb21512ff2d2a48b47e8f5f003e3f0a1a",
             "summary": "Test program for v2x adaptation layer v2xhsm",
-            "updated": "2023-04-14T01:04:14+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2025,7 +2032,7 @@
             "section": "base",
             "srcrev": "84b55c650eef3ce6f7c016c7025c6732908fa30d",
             "summary": "Adaptation layer between v2xCryptoLibrary SE API and HSM API",
-            "updated": "2023-04-14T01:04:14+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2117,7 +2124,7 @@
             "section": "base",
             "srcrev": "435b69832c14159b7e7c2aded7dae670dff6bff9",
             "summary": "NXP i.MX CRYPTO AF_ALG",
-            "updated": "2023-04-14T01:04:15+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2140,7 +2147,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NXP i.MX Security Middleware Library",
-            "updated": "2023-04-14T01:04:15+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2163,7 +2170,7 @@
             "section": "base",
             "srcrev": "81dc06cdb9c4d0d4ba10459d85af9a8603774948",
             "summary": "NXP i.MX CAAM Keyctl",
-            "updated": "2023-04-14T01:04:15+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2186,7 +2193,7 @@
             "section": "base",
             "srcrev": "551415470092d6af1d7e11e7a78591f5800333f9",
             "summary": "",
-            "updated": "2023-04-14T01:04:15+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2209,7 +2216,7 @@
             "section": "base",
             "srcrev": "545fd17e9f396c78c692e8abf06e36c5df0f5c69",
             "summary": "Kernel loadable module for Vivante GPU",
-            "updated": "2023-04-14T01:04:15+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2255,7 +2262,7 @@
             "section": "base",
             "srcrev": "fa6c3168595c02bd9d5366fcc28c9e7304947a3d",
             "summary": "Installs i.MX-specific kernel headers",
-            "updated": "2023-04-14T01:04:15+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2278,7 +2285,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T15:07:02+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2439,7 +2446,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T15:07:03+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2465,27 +2472,27 @@
             "updated": "2022-07-26T15:07:03+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "",
-            "description": "",
+            "configopts": "  -Damdgpu=true -Dcairo-tests=false -Detnaviv=true -Dexynos=false -Dfreedreno=true -Dfreedreno-kgsl=false -Dinstall-test-programs=true -Dintel=true -Dlibkms=true -Dman-pages=false -Dnouveau=true -Domap=true -Dradeon=true -Dtegra=false -Dudev=false -Dvalgrind=false -Dvc4=true -Dvivante=false -Dvmwgfx=true",
+            "description": "The runtime library for accessing the kernel DRM services.  DRM stands for \\\"Direct Rendering Manager\\\", which is the kernel portion of the \\\"Direct Rendering Infrastructure\\\" (DRI).  DRI is required for many hardware accelerated OpenGL drivers.",
             "filename": "libdrm_2.4.109.imx.bb",
             "filepath": "recipes-graphics/drm",
-            "homepage": "",
+            "homepage": "http://dri.freedesktop.org",
             "id": 1599618,
-            "inherits": "",
+            "inherits": "manpages meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
             "layerbranch": 908030,
-            "license": "",
+            "license": "MIT",
             "pe": "",
             "pn": "libdrm",
-            "pr": "",
-            "provides": "",
-            "pv": "",
-            "section": "",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2022-07-26T15:07:03+0000"
+            "pr": "r0",
+            "provides": "libdrm drm",
+            "pv": "2.4.109.imx",
+            "section": "x11/base",
+            "srcrev": "93c9a82bdf31ea055d45cb54ce57cd42e22c90ae",
+            "summary": "Userspace interface to the kernel DRM services",
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2577,7 +2584,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T15:07:03+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2600,7 +2607,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-07-26T15:07:03+0000"
+            "updated": "2023-05-04T03:05:43+0000"
         },
         {
             "bbclassextend": "",
