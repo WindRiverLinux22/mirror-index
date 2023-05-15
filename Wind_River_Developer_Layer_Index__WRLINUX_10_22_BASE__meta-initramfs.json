@@ -415,20 +415,6 @@
         },
         {
             "description": "",
-            "id": 42590,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1"
-        },
-        {
-            "description": "",
-            "id": 42591,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1 wrl"
-        },
-        {
-            "description": "",
             "id": 42594,
             "image_url": "",
             "link_url": "",
@@ -475,11 +461,18 @@
             "image_url": "",
             "link_url": "",
             "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20230330",
+            "bitbake_branch": "wr-10.22-20230424",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -487,38 +480,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 19,
             "update_environment": null,
-            "updated": "2023-05-04T00:05:20+0000",
+            "updated": "2023-05-15T00:05:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230330",
+            "actual_branch": "wr-10.22-20230424",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-04-27T20:04:28+0000",
-            "vcs_last_commit": "2023-04-27T20:04:25+0000",
-            "vcs_last_fetch": "2023-04-27T20:04:28+0000",
-            "vcs_last_rev": "66fdccf92005ac639214271fad9758f4c6a8c83a",
+            "updated": "2023-05-14T20:05:44+0000",
+            "vcs_last_commit": "2023-05-11T23:05:41+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:44+0000",
+            "vcs_last_rev": "8e1ed9b93bd7dffdfba63a465c8b82de6d4de4c9",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20230330",
+            "actual_branch": "wr-10.22-20230424",
             "branch": 292,
             "collection": "meta-initramfs",
             "id": 904829,
             "layer": 4,
             "local_path": "",
-            "updated": "2023-04-14T03:04:37+0000",
-            "vcs_last_commit": "2023-04-14T01:04:24+0000",
-            "vcs_last_fetch": "2023-04-14T03:04:37+0000",
-            "vcs_last_rev": "1e2253f1c6f289b5054296c1168cac51f1855c83",
+            "updated": "2023-05-14T20:05:56+0000",
+            "vcs_last_commit": "2023-04-28T00:04:30+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:56+0000",
+            "vcs_last_rev": "ca5c2f81a581908cd9ea4f3263d5abfd2561889e",
             "vcs_subdir": "meta-initramfs",
             "version": null,
             "yp_compatible_version": 42579
@@ -595,7 +588,7 @@
             "section": "base",
             "srcrev": "79c5cfa02c567efdc5bb18cdd584789e2e35aa23",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2023-04-14T01:04:45+0000"
+            "updated": "2023-05-14T20:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -618,7 +611,7 @@
             "section": "base",
             "srcrev": "a1d2ae93408c3408e672d7eba4550fdf27fb0201",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2023-04-14T03:04:37+0000"
+            "updated": "2023-05-14T20:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -641,7 +634,7 @@
             "section": "base",
             "srcrev": "631d5f72a223288aa1f48bb8e8d0313e75947400",
             "summary": "Initramfs generator using udev",
-            "updated": "2023-04-14T01:04:45+0000"
+            "updated": "2023-05-14T20:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -664,7 +657,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "klibc utils for initramfs statically compiled",
-            "updated": "2023-04-14T01:04:45+0000"
+            "updated": "2023-05-14T20:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -687,7 +680,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "klibc, a small C library for use with initramfs",
-            "updated": "2023-04-14T01:04:45+0000"
+            "updated": "2023-05-14T20:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -710,7 +703,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "klibc utils for initramfs",
-            "updated": "2023-04-14T01:04:45+0000"
+            "updated": "2023-05-14T20:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -733,7 +726,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "The klcc crosscompiler for klibc",
-            "updated": "2023-04-14T01:04:46+0000"
+            "updated": "2023-05-14T20:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -756,7 +749,7 @@
             "section": "base",
             "srcrev": "64f61a9dc71b158c7084006cbce4ea23886f0b47",
             "summary": "UBI utils statically compiled against klibc",
-            "updated": "2023-04-14T01:04:46+0000"
+            "updated": "2023-05-14T20:05:53+0000"
         },
         {
             "bbclassextend": "klibc",
@@ -779,7 +772,7 @@
             "section": "base",
             "srcrev": "5a5e04be206140059f42ac786d424da1afaa04b6",
             "summary": "kexecboot linux-as-bootloader",
-            "updated": "2023-04-14T01:04:46+0000"
+            "updated": "2023-05-14T20:05:54+0000"
         },
         {
             "bbclassextend": "",
@@ -802,7 +795,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Configuration files for kexecboot",
-            "updated": "2023-04-14T01:04:46+0000"
+            "updated": "2023-05-14T20:05:54+0000"
         },
         {
             "bbclassextend": "",
@@ -825,7 +818,7 @@
             "section": "kernel/userland",
             "srcrev": "5750980cdbbc33ef75bfba6660295b932376ce15",
             "summary": "Kexec tools, statically compiled against klibc",
-            "updated": "2023-04-14T01:04:46+0000"
+            "updated": "2023-05-14T20:05:54+0000"
         },
         {
             "bbclassextend": "",
@@ -848,7 +841,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Extremely basic live image init script",
-            "updated": "2023-04-14T01:04:46+0000"
+            "updated": "2023-05-14T20:05:54+0000"
         },
         {
             "bbclassextend": "",
@@ -871,7 +864,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-initramfs packagegroups",
-            "updated": "2023-04-14T01:04:46+0000"
+            "updated": "2023-05-14T20:05:55+0000"
         },
         {
             "bbclassextend": "",
@@ -894,7 +887,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs image for kexecboot kernel (klibc-static binaries)",
-            "updated": "2023-04-14T01:04:47+0000"
+            "updated": "2023-05-14T20:05:55+0000"
         },
         {
             "bbclassextend": "",
@@ -917,7 +910,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-14T01:04:47+0000"
+            "updated": "2023-05-14T20:05:56+0000"
         },
         {
             "bbclassextend": "",
@@ -940,7 +933,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "meta-initramfs build test image",
-            "updated": "2023-04-14T01:04:47+0000"
+            "updated": "2023-05-14T20:05:56+0000"
         },
         {
             "bbclassextend": "",
@@ -963,7 +956,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs image for kexecboot kernel",
-            "updated": "2023-04-14T01:04:47+0000"
+            "updated": "2023-05-14T20:05:56+0000"
         }
     ],
     "wrtemplates": []

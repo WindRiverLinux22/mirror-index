@@ -415,20 +415,6 @@
         },
         {
             "description": "",
-            "id": 42590,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1"
-        },
-        {
-            "description": "",
-            "id": 42591,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1 wrl"
-        },
-        {
-            "description": "",
             "id": 42594,
             "image_url": "",
             "link_url": "",
@@ -475,11 +461,18 @@
             "image_url": "",
             "link_url": "",
             "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20230330",
+            "bitbake_branch": "wr-10.22-20230424",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -487,53 +480,53 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 19,
             "update_environment": null,
-            "updated": "2023-05-04T00:05:20+0000",
+            "updated": "2023-05-15T00:05:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230330",
+            "actual_branch": "wr-10.22-20230424",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-04-27T20:04:28+0000",
-            "vcs_last_commit": "2023-04-27T20:04:25+0000",
-            "vcs_last_fetch": "2023-04-27T20:04:28+0000",
-            "vcs_last_rev": "66fdccf92005ac639214271fad9758f4c6a8c83a",
+            "updated": "2023-05-14T20:05:44+0000",
+            "vcs_last_commit": "2023-05-11T23:05:41+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:44+0000",
+            "vcs_last_rev": "8e1ed9b93bd7dffdfba63a465c8b82de6d4de4c9",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20230330",
+            "actual_branch": "wr-10.22-20230424",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-04-17T23:04:29+0000",
-            "vcs_last_commit": "2023-04-17T22:04:07+0000",
-            "vcs_last_fetch": "2023-04-17T23:04:29+0000",
-            "vcs_last_rev": "5388d338bc731d90d134aa527a5aa00c9c53e54e",
+            "updated": "2023-05-14T20:05:23+0000",
+            "vcs_last_commit": "2023-04-28T00:04:30+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:23+0000",
+            "vcs_last_rev": "9da894fe1c587506ffea9206877ac87289154296",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20230330",
+            "actual_branch": "wr-10.22-20230424",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2023-04-14T01:04:03+0000",
-            "vcs_last_commit": "2023-03-29T23:03:17+0000",
-            "vcs_last_fetch": "2023-04-14T01:04:03+0000",
-            "vcs_last_rev": "8cbc0abbffdae9b186f01a6cad24103d5cba9aaa",
+            "updated": "2023-05-14T20:05:23+0000",
+            "vcs_last_commit": "2023-04-23T23:04:16+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:23+0000",
+            "vcs_last_rev": "f2faaa425350a97c4a744e93d4b8fa304c5bda32",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42579
@@ -545,9 +538,9 @@
             "id": 904847,
             "layer": 304,
             "local_path": "",
-            "updated": "2023-04-14T01:04:21+0000",
+            "updated": "2023-05-14T20:05:02+0000",
             "vcs_last_commit": "2023-03-06T17:03:13+0000",
-            "vcs_last_fetch": "2023-04-14T01:04:21+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:02+0000",
             "vcs_last_rev": "457aba0e44c31921940ba3badef1166b33085907",
             "vcs_subdir": "meta-security-compliance",
             "version": null,
@@ -681,7 +674,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Lynis is a free and open source security and auditing tool.",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:00+0000"
         },
         {
             "bbclassextend": "",
@@ -704,7 +697,7 @@
             "section": "base",
             "srcrev": "f25b16afb6ac761fea13132ff406fba4cdfd2b76",
             "summary": "",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:00+0000"
         },
         {
             "bbclassextend": "",
@@ -727,7 +720,7 @@
             "section": "base",
             "srcrev": "5fdfdcb2e95afbd86ace555beca5d20cbf1043ed",
             "summary": "",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:00+0000"
         },
         {
             "bbclassextend": "",
@@ -750,7 +743,7 @@
             "section": "base",
             "srcrev": "8cb2d0f351faff5440742258782281164953b0a6",
             "summary": "",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:00+0000"
         },
         {
             "bbclassextend": "",
@@ -773,7 +766,7 @@
             "section": "base",
             "srcrev": "7147871d7f37d408c0dd7720ef0fd3ec1b54ad98",
             "summary": "",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -796,7 +789,7 @@
             "section": "base",
             "srcrev": "a85943eee400fdbe59234d1c4a02d8cf710c4625",
             "summary": "",
-            "updated": "2023-04-14T01:04:21+0000"
+            "updated": "2023-05-14T20:05:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -819,7 +812,7 @@
             "section": "base",
             "srcrev": "0cb55c55af6be9934d6fd0caf4563b206f289732",
             "summary": "",
-            "updated": "2023-04-14T01:04:21+0000"
+            "updated": "2023-05-14T20:05:01+0000"
         },
         {
             "bbclassextend": "",
@@ -842,7 +835,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Operating release identification",
-            "updated": "2023-04-14T01:04:21+0000"
+            "updated": "2023-05-14T20:05:02+0000"
         }
     ],
     "wrtemplates": []

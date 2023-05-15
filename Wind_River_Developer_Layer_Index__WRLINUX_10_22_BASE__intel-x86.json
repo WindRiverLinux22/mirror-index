@@ -415,20 +415,6 @@
         },
         {
             "description": "",
-            "id": 42590,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1"
-        },
-        {
-            "description": "",
-            "id": 42591,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1 wrl"
-        },
-        {
-            "description": "",
             "id": 42594,
             "image_url": "",
             "link_url": "",
@@ -475,11 +461,18 @@
             "image_url": "",
             "link_url": "",
             "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20230330",
+            "bitbake_branch": "wr-10.22-20230424",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -487,23 +480,23 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 19,
             "update_environment": null,
-            "updated": "2023-05-04T00:05:20+0000",
+            "updated": "2023-05-15T00:05:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230330",
+            "actual_branch": "wr-10.22-20230424",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-04-27T20:04:28+0000",
-            "vcs_last_commit": "2023-04-27T20:04:25+0000",
-            "vcs_last_fetch": "2023-04-27T20:04:28+0000",
-            "vcs_last_rev": "66fdccf92005ac639214271fad9758f4c6a8c83a",
+            "updated": "2023-05-14T20:05:44+0000",
+            "vcs_last_commit": "2023-05-11T23:05:41+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:44+0000",
+            "vcs_last_rev": "8e1ed9b93bd7dffdfba63a465c8b82de6d4de4c9",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -515,25 +508,25 @@
             "id": 904846,
             "layer": 193,
             "local_path": "",
-            "updated": "2023-04-14T01:04:54+0000",
+            "updated": "2023-05-14T20:05:19+0000",
             "vcs_last_commit": "2022-03-27T19:03:34+0000",
-            "vcs_last_fetch": "2023-04-14T01:04:54+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:19+0000",
             "vcs_last_rev": "4b4d6ad5d0bada60d5098079681a4c4e30916ac8",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20230330",
+            "actual_branch": "wr-10.22-20230424",
             "branch": 292,
             "collection": "intel",
             "id": 904871,
             "layer": 166,
             "local_path": "",
-            "updated": "2023-04-14T01:04:05+0000",
-            "vcs_last_commit": "2023-03-29T23:03:59+0000",
-            "vcs_last_fetch": "2023-04-14T01:04:05+0000",
-            "vcs_last_rev": "9ec2a092fb986976ab3d276ddfae7d00a4f95127",
+            "updated": "2023-05-14T20:05:04+0000",
+            "vcs_last_commit": "2023-04-23T23:04:46+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:04+0000",
+            "vcs_last_rev": "e89362bbab497c9aa6c3a7e8b78ba222a53a3272",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 42579
@@ -545,10 +538,10 @@
             "id": 904876,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-05-03T22:05:41+0000",
-            "vcs_last_commit": "2023-05-03T20:05:20+0000",
-            "vcs_last_fetch": "2023-05-03T22:05:41+0000",
-            "vcs_last_rev": "c1268b30b53ab770670787ed3660fa5afdb722d0",
+            "updated": "2023-05-14T22:05:50+0000",
+            "vcs_last_commit": "2023-05-14T22:05:47+0000",
+            "vcs_last_fetch": "2023-05-14T22:05:50+0000",
+            "vcs_last_rev": "544113d90a83f21b86de58808f49cbaaff5d8a38",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42580
@@ -560,9 +553,9 @@
             "id": 904884,
             "layer": 32,
             "local_path": "",
-            "updated": "2023-04-14T01:04:20+0000",
+            "updated": "2023-05-14T20:05:10+0000",
             "vcs_last_commit": "2023-03-29T16:03:39+0000",
-            "vcs_last_fetch": "2023-04-14T01:04:20+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:10+0000",
             "vcs_last_rev": "2ab29921dd9dbebf854bffc16626c4418f570b38",
             "vcs_subdir": "",
             "version": "1",
@@ -701,10 +694,10 @@
     "machines": [
         {
             "description": " Intel X86 (64bit) PCs and servers",
-            "id": 63709,
+            "id": 67807,
             "layerbranch": 904884,
             "name": "intel-x86-64",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:10+0000"
         }
     ],
     "recipes": [
@@ -729,7 +722,7 @@
             "section": "base",
             "srcrev": "07cda47e386f7bece859323f55b5a6a0df51c63b",
             "summary": "",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -752,65 +745,65 @@
             "section": "base",
             "srcrev": "",
             "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:10+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Install \"require\" features together such as: edac/kdump/intel-qat/intel-sst ... to rootfs or image.",
-            "id": 101757,
+            "id": 104807,
             "layerbranch": 904884,
             "name": "feature/intel-x86-dev",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:10+0000"
         },
         {
             "description": "Install intel-speed-select to rootfs",
-            "id": 101758,
+            "id": 104808,
             "layerbranch": 904884,
             "name": "feature/intel-sst",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:10+0000"
         },
         {
             "description": "Add QAT drivers to the image",
-            "id": 101759,
+            "id": 104809,
             "layerbranch": 904884,
             "name": "feature/intel-qat",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:10+0000"
         },
         {
             "description": "Add sgx drivers to the image",
-            "id": 101760,
+            "id": 104810,
             "layerbranch": 904884,
             "name": "feature/intel-sgx",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:10+0000"
         },
         {
             "description": "Add TSN support to the image",
-            "id": 101761,
+            "id": 104811,
             "layerbranch": 904884,
             "name": "feature/intel-tsn",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:10+0000"
         },
         {
             "description": "Install ndctl pmdk to rootfs, add pmem support to the image",
-            "id": 101762,
+            "id": 104812,
             "layerbranch": 904884,
             "name": "feature/intel-persistent-memory",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:10+0000"
         },
         {
             "description": "Add Intel TCC to the image",
-            "id": 101763,
+            "id": 104813,
             "layerbranch": 904884,
             "name": "feature/intel-tcc",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:10+0000"
         },
         {
             "description": "",
-            "id": 101764,
+            "id": 104814,
             "layerbranch": 904884,
             "name": "default",
-            "updated": "2023-04-14T01:04:20+0000"
+            "updated": "2023-05-14T20:05:10+0000"
         }
     ]
 }

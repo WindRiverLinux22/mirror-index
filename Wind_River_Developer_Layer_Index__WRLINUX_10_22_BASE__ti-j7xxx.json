@@ -415,20 +415,6 @@
         },
         {
             "description": "",
-            "id": 42590,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1"
-        },
-        {
-            "description": "",
-            "id": 42591,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.1 wrl"
-        },
-        {
-            "description": "",
             "id": 42594,
             "image_url": "",
             "link_url": "",
@@ -475,11 +461,18 @@
             "image_url": "",
             "link_url": "",
             "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20230330",
+            "bitbake_branch": "wr-10.22-20230424",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -487,23 +480,23 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 19,
             "update_environment": null,
-            "updated": "2023-05-04T00:05:20+0000",
+            "updated": "2023-05-15T00:05:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230330",
+            "actual_branch": "wr-10.22-20230424",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-04-27T20:04:28+0000",
-            "vcs_last_commit": "2023-04-27T20:04:25+0000",
-            "vcs_last_fetch": "2023-04-27T20:04:28+0000",
-            "vcs_last_rev": "66fdccf92005ac639214271fad9758f4c6a8c83a",
+            "updated": "2023-05-14T20:05:44+0000",
+            "vcs_last_commit": "2023-05-11T23:05:41+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:44+0000",
+            "vcs_last_rev": "8e1ed9b93bd7dffdfba63a465c8b82de6d4de4c9",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -515,25 +508,25 @@
             "id": 904876,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-05-03T22:05:41+0000",
-            "vcs_last_commit": "2023-05-03T20:05:20+0000",
-            "vcs_last_fetch": "2023-05-03T22:05:41+0000",
-            "vcs_last_rev": "c1268b30b53ab770670787ed3660fa5afdb722d0",
+            "updated": "2023-05-14T22:05:50+0000",
+            "vcs_last_commit": "2023-05-14T22:05:47+0000",
+            "vcs_last_fetch": "2023-05-14T22:05:50+0000",
+            "vcs_last_rev": "544113d90a83f21b86de58808f49cbaaff5d8a38",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20230306",
+            "actual_branch": "wr-10.22-20230424",
             "branch": 292,
             "collection": "meta-ti-bsp",
             "id": 908027,
             "layer": 473,
             "local_path": "",
-            "updated": "2023-04-14T01:04:04+0000",
-            "vcs_last_commit": "2023-03-06T01:03:46+0000",
-            "vcs_last_fetch": "2023-04-14T01:04:04+0000",
-            "vcs_last_rev": "6f215976e71f49ce0f0fc19e7a498f20abc1d8dd",
+            "updated": "2023-05-14T20:05:40+0000",
+            "vcs_last_commit": "2023-04-23T23:04:16+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:40+0000",
+            "vcs_last_rev": "777a103f40974fe45c2688cca826db6d0bf03b8e",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 42585
@@ -545,9 +538,9 @@
             "id": 936805,
             "layer": 486,
             "local_path": "",
-            "updated": "2023-04-20T12:04:57+0000",
+            "updated": "2023-05-14T20:05:00+0000",
             "vcs_last_commit": "2023-04-20T12:04:46+0000",
-            "vcs_last_fetch": "2023-04-20T12:04:57+0000",
+            "vcs_last_fetch": "2023-05-14T20:05:00+0000",
             "vcs_last_rev": "712c67ef323f53eebbef9a2816f10281ed349cb4",
             "vcs_subdir": "",
             "version": "1",
@@ -661,10 +654,10 @@
     "machines": [
         {
             "description": " TI J784S4 SoC",
-            "id": 63708,
+            "id": 67806,
             "layerbranch": 936805,
             "name": "ti-j78xx",
-            "updated": "2023-04-14T01:04:13+0000"
+            "updated": "2023-05-14T20:05:00+0000"
         }
     ],
     "recipes": [
@@ -689,7 +682,7 @@
             "section": "base",
             "srcrev": "e52592c843ad16be31db411b85c4059d82c4a6b9",
             "summary": "",
-            "updated": "2023-04-14T01:04:12+0000"
+            "updated": "2023-05-14T20:05:59+0000"
         },
         {
             "bbclassextend": "",
@@ -712,7 +705,7 @@
             "section": "base",
             "srcrev": "e34284a7e07763769f671a74b4fec718174ad862",
             "summary": "DevIL cross platform image utility library",
-            "updated": "2023-04-14T01:04:12+0000"
+            "updated": "2023-05-14T20:05:59+0000"
         },
         {
             "bbclassextend": "",
@@ -735,7 +728,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-04-14T01:04:12+0000"
+            "updated": "2023-05-14T20:05:59+0000"
         },
         {
             "bbclassextend": "",
@@ -758,7 +751,7 @@
             "section": "base",
             "srcrev": "c901804e8221d477983a6f7224a9cdc6e832f050",
             "summary": "",
-            "updated": "2023-04-14T01:04:12+0000"
+            "updated": "2023-05-14T20:05:00+0000"
         },
         {
             "bbclassextend": "",
@@ -781,16 +774,16 @@
             "section": "base",
             "srcrev": "5977e82b96028f783d39c7219f016c1faf8dc5f5",
             "summary": "",
-            "updated": "2023-04-14T01:04:13+0000"
+            "updated": "2023-05-14T20:05:00+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 101756,
+            "id": 104806,
             "layerbranch": 936805,
             "name": "default",
-            "updated": "2023-04-20T12:04:57+0000"
+            "updated": "2023-05-14T20:05:00+0000"
         }
     ]
 }
