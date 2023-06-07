@@ -478,9 +478,9 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 19,
+            "sort_priority": 20,
             "update_environment": null,
-            "updated": "2023-05-24T00:05:31+0000",
+            "updated": "2023-06-07T00:06:20+0000",
             "updates_enabled": true
         }
     ],
@@ -504,7 +504,7 @@
             "id": 12689,
             "layerbranch": 904840,
             "name": "poky",
-            "updated": "2023-05-14T20:05:15+0000"
+            "updated": "2023-05-28T22:05:24+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
@@ -516,31 +516,31 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230424",
+            "actual_branch": "wr-10.22-20230524",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-05-17T01:05:48+0000",
-            "vcs_last_commit": "2023-05-17T01:05:30+0000",
-            "vcs_last_fetch": "2023-05-17T01:05:48+0000",
-            "vcs_last_rev": "4f2e15c7b6ce363bb2c79efa983cd4a58d4b6d2e",
+            "updated": "2023-06-07T00:06:44+0000",
+            "vcs_last_commit": "2023-06-07T00:06:40+0000",
+            "vcs_last_fetch": "2023-06-07T00:06:44+0000",
+            "vcs_last_rev": "e8026ef33709ff7fc8168442135c2cc037b0b65e",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20230424",
+            "actual_branch": "wr-10.22-20230524",
             "branch": 292,
             "collection": "yocto",
             "id": 904840,
             "layer": 59,
             "local_path": "",
-            "updated": "2023-05-14T20:05:15+0000",
-            "vcs_last_commit": "2023-04-23T23:04:17+0000",
-            "vcs_last_fetch": "2023-05-14T20:05:15+0000",
-            "vcs_last_rev": "ecaeac5c60c7eb35504c547b495fe20c437f52e2",
+            "updated": "2023-05-28T22:05:24+0000",
+            "vcs_last_commit": "2023-05-24T02:05:42+0000",
+            "vcs_last_fetch": "2023-05-28T22:05:24+0000",
+            "vcs_last_rev": "0758c29b30fd7d22b995469d52c4bc6b73528cec",
             "vcs_subdir": "meta-poky",
             "version": "3",
             "yp_compatible_version": 42580

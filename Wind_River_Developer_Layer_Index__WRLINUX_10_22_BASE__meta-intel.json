@@ -478,40 +478,40 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 19,
+            "sort_priority": 20,
             "update_environment": null,
-            "updated": "2023-05-24T00:05:31+0000",
+            "updated": "2023-06-07T00:06:20+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230424",
+            "actual_branch": "wr-10.22-20230524",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-05-17T01:05:48+0000",
-            "vcs_last_commit": "2023-05-17T01:05:30+0000",
-            "vcs_last_fetch": "2023-05-17T01:05:48+0000",
-            "vcs_last_rev": "4f2e15c7b6ce363bb2c79efa983cd4a58d4b6d2e",
+            "updated": "2023-06-07T00:06:44+0000",
+            "vcs_last_commit": "2023-06-07T00:06:40+0000",
+            "vcs_last_fetch": "2023-06-07T00:06:44+0000",
+            "vcs_last_rev": "e8026ef33709ff7fc8168442135c2cc037b0b65e",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20230424",
+            "actual_branch": "wr-10.22-20230524",
             "branch": 292,
             "collection": "intel",
             "id": 904871,
             "layer": 166,
             "local_path": "",
-            "updated": "2023-05-14T20:05:04+0000",
-            "vcs_last_commit": "2023-04-23T23:04:46+0000",
-            "vcs_last_fetch": "2023-05-14T20:05:04+0000",
-            "vcs_last_rev": "e89362bbab497c9aa6c3a7e8b78ba222a53a3272",
+            "updated": "2023-05-28T22:05:32+0000",
+            "vcs_last_commit": "2023-05-24T02:05:18+0000",
+            "vcs_last_fetch": "2023-05-28T22:05:32+0000",
+            "vcs_last_rev": "fa6f8951f794584371930fe86eb318ea456ea314",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 42579
@@ -691,7 +691,7 @@
             "section": "base",
             "srcrev": "efc259f8b7ee5c334bca1a904a503186038bbbdd",
             "summary": "oneAPI Video Processing Library",
-            "updated": "2023-05-14T20:05:51+0000"
+            "updated": "2023-05-28T22:05:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1065,7 +1065,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                    -DISPC_INCLUDE_TESTS=OFF                    -DISPC_INCLUDE_EXAMPLES=OFF                    -DISPC_NO_DUMPS=ON                    -DARM_ENABLED=OFF                    -DISPC_CROSS=ON                    -DISPC_ANDROID_TARGET=OFF                    -DISPC_FREEBSD_TARGET=OFF                    -DISPC_WINDOWS_TARGET=OFF                    -DISPC_IOS_TARGET=OFF                    -DISPC_PS4_TARGET=OFF                    -DSYSROOT_DIR=/tmp/tmptgt6xwxb/tmp-glibc/work/core2-32-oe-linux/ispc/1.17.0-r0/recipe-sysroot-native                     ",
+            "configopts": "                    -DISPC_INCLUDE_TESTS=OFF                    -DISPC_INCLUDE_EXAMPLES=OFF                    -DISPC_NO_DUMPS=ON                    -DARM_ENABLED=OFF                    -DISPC_CROSS=ON                    -DISPC_ANDROID_TARGET=OFF                    -DISPC_FREEBSD_TARGET=OFF                    -DISPC_WINDOWS_TARGET=OFF                    -DISPC_IOS_TARGET=OFF                    -DISPC_PS4_TARGET=OFF                    -DSYSROOT_DIR=/tmp/tmpnd39rip5/tmp-glibc/sysroots                   -DCLANG_EXECUTABLE=/tmp/tmpnd39rip5/tmp-glibc/work/core2-32-oe-linux/ispc/1.17.0-r0/recipe-sysroot-native/usr/bin/clang                   -DCLANGPP_EXECUTABLE=/tmp/tmpnd39rip5/tmp-glibc/work/core2-32-oe-linux/ispc/1.17.0-r0/recipe-sysroot-native/usr/bin/clang++                   -DLLVM_DIS_EXECUTABLE=/tmp/tmpnd39rip5/tmp-glibc/work/core2-32-oe-linux/ispc/1.17.0-r0/recipe-sysroot-native/usr/bin/llvm-dis                   -DLLVM_AS_EXECUTABLE=/tmp/tmpnd39rip5/tmp-glibc/work/core2-32-oe-linux/ispc/1.17.0-r0/recipe-sysroot-native/usr/bin/llvm-as                    ",
             "description": "ispc is a compiler for a variant of the C programming language, with extensions for single program, multiple data programming.",
             "filename": "ispc_1.17.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-core/ispc",
@@ -1082,7 +1082,7 @@
             "section": "base",
             "srcrev": "7ad8429369a4d5ced6b524fdfffe623939d8fe9a",
             "summary": "Intel(R) Implicit SPMD Program Compiler",
-            "updated": "2023-05-14T20:05:56+0000"
+            "updated": "2023-05-28T22:05:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1249,7 +1249,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                    -DISPC_EXECUTABLE=/tmp/tmptgt6xwxb/tmp-glibc/work/core2-32-oe-linux/openvkl/1.2.0-r0/recipe-sysroot-native/usr/bin/ispc                     ",
+            "configopts": "                    -DISPC_EXECUTABLE=/tmp/tmpnd39rip5/tmp-glibc/work/core2-32-oe-linux/openvkl/1.2.0-r0/recipe-sysroot-native/usr/bin/ispc                     ",
             "description": "Intel(R) Open Volume Kernel Library (Intel(R) Open VKL) is a collection of high-performance volume computation kernels. The target users of Open VKL are graphics application engineers who want to improve the performance of their volume rendering applications by leveraging Open VKL\u2019s performance-optimized kernels, which include volume traversal and sampling functionality for a variety of volumetric data formats. The kernels are optimized for the latest Intel(R) processors with support for SSE, AVX, AVX2, and AVX-512 instructions.",
             "filename": "openvkl_1.2.0.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-oneapi/openvkl",
@@ -1266,7 +1266,7 @@
             "section": "base",
             "srcrev": "5da393e9edc8becebbf41c9bb6cb9b87aa0b1e93",
             "summary": "Intel(R) Open Volume Kernel Library",
-            "updated": "2023-05-14T20:05:57+0000"
+            "updated": "2023-05-28T22:05:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1297,7 +1297,7 @@
             "bugtracker": "",
             "configopts": "                    -DEMBREE_ISPC_SUPPORT=OFF                    -DEMBREE_IGNORE_CMAKE_CXX_FLAGS=OFF                    -DEMBREE_MAX_ISA=DEFAULT                    -DEMBREE_TUTORIALS=OFF                    -DEMBREE_ISPC_SUPPORT=ON                     ",
             "description": "A collection of high-performance ray tracing kernels intended to graphics application engineers that want to improve the performance of their application.",
-            "filename": "embree_3.13.3.bb",
+            "filename": "embree_3.13.5.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-oneapi/embree",
             "homepage": "https://github.com/embree/embree",
             "id": 1536731,
@@ -1308,11 +1308,11 @@
             "pn": "embree",
             "pr": "r0",
             "provides": "embree ",
-            "pv": "3.13.3",
+            "pv": "3.13.5",
             "section": "base",
-            "srcrev": "0835461a5dd1659696524303dc9cb2f2300ae156",
+            "srcrev": "698442324ccddd11725fb8875275dc1384f7fb40",
             "summary": "Collection of high-performance ray tracing kernels",
-            "updated": "2023-05-14T20:05:57+0000"
+            "updated": "2023-05-28T22:05:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1895,7 +1895,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The microcode data file contains the latest microcode definitions for all Intel processors. Intel releases microcode updates to correct processor behavior as documented in the respective processor specification updates. While the regular approach to getting this microcode update is via a BIOS upgrade, Intel realizes that this can be an administrative hassle. The Linux operating system and VMware ESX products have a mechanism to update the microcode after booting. For example, this file will be used by the operating system mechanism if the file is placed in the /etc/firmware directory of the Linux system.",
-            "filename": "intel-microcode_20230214.bb",
+            "filename": "intel-microcode_20230512.bb",
             "filepath": "recipes-core/microcode",
             "homepage": "http://www.intel.com/",
             "id": 1536757,
@@ -1906,11 +1906,11 @@
             "pn": "intel-microcode",
             "pr": "r0",
             "provides": "intel-microcode ",
-            "pv": "20230214",
+            "pv": "20230512",
             "section": "base",
-            "srcrev": "2be47edc99eeeb5b6d76bf9450b74747cdaf3263",
+            "srcrev": "752cd0a7f09244f9336b7bb6d570e780e502c290",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2023-05-14T20:05:03+0000"
+            "updated": "2023-05-28T22:05:32+0000"
         },
         {
             "bbclassextend": "",

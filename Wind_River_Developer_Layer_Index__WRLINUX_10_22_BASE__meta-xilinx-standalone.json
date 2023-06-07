@@ -478,40 +478,40 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 19,
+            "sort_priority": 20,
             "update_environment": null,
-            "updated": "2023-05-24T00:05:31+0000",
+            "updated": "2023-06-07T00:06:20+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Xilinx Standalone Distro",
-            "id": 12693,
+            "id": 12889,
             "layerbranch": 904889,
             "name": "xilinx-standalone-nolto",
-            "updated": "2023-05-14T20:05:25+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "description": "Xilinx Standalone Distro (lto)",
-            "id": 12694,
+            "id": 12890,
             "layerbranch": 904889,
             "name": "xilinx-standalone",
-            "updated": "2023-05-14T20:05:25+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230424",
+            "actual_branch": "wr-10.22-20230524",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-05-17T01:05:48+0000",
-            "vcs_last_commit": "2023-05-17T01:05:30+0000",
-            "vcs_last_fetch": "2023-05-17T01:05:48+0000",
-            "vcs_last_rev": "4f2e15c7b6ce363bb2c79efa983cd4a58d4b6d2e",
+            "updated": "2023-06-07T00:06:44+0000",
+            "vcs_last_commit": "2023-06-07T00:06:40+0000",
+            "vcs_last_fetch": "2023-06-07T00:06:44+0000",
+            "vcs_last_rev": "e8026ef33709ff7fc8168442135c2cc037b0b65e",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -538,9 +538,9 @@
             "id": 904889,
             "layer": 435,
             "local_path": "",
-            "updated": "2023-05-14T20:05:25+0000",
+            "updated": "2023-06-07T07:06:28+0000",
             "vcs_last_commit": "2022-08-09T00:08:43+0000",
-            "vcs_last_fetch": "2023-05-14T20:05:25+0000",
+            "vcs_last_fetch": "2023-06-07T07:06:28+0000",
             "vcs_last_rev": "3ccefea523a1ea9d91684f410563de14b185a734",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
@@ -623,31 +623,31 @@
     "machines": [
         {
             "description": "",
-            "id": 67726,
+            "id": 69895,
             "layerbranch": 904889,
             "name": "microblaze-tc",
-            "updated": "2023-05-14T20:05:25+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "description": "",
-            "id": 67727,
+            "id": 69896,
             "layerbranch": 904889,
             "name": "aarch32-tc",
-            "updated": "2023-05-14T20:05:25+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "description": "",
-            "id": 67728,
+            "id": 69897,
             "layerbranch": 904889,
             "name": "arm-rm-tc",
-            "updated": "2023-05-14T20:05:25+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "description": "",
-            "id": 67729,
+            "id": 69898,
             "layerbranch": 904889,
             "name": "aarch64-tc",
-            "updated": "2023-05-14T20:05:25+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         }
     ],
     "recipes": [
@@ -660,7 +660,7 @@
             "filename": "plm-firmware_2021.2.bb",
             "filepath": "recipes-bsp/embeddedsw",
             "homepage": "",
-            "id": 1749366,
+            "id": 1817592,
             "inherits": "deploy image-artifact-names xlnx-embeddedsw",
             "layerbranch": 904889,
             "license": "MIT",
@@ -672,7 +672,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2023-05-14T20:05:24+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -683,7 +683,7 @@
             "filename": "fsbl-firmware_git.bb",
             "filepath": "recipes-bsp/embeddedsw",
             "homepage": "",
-            "id": 1749367,
+            "id": 1817593,
             "inherits": "deploy image-artifact-names xlnx-embeddedsw",
             "layerbranch": 904889,
             "license": "MIT",
@@ -695,7 +695,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2023-05-14T20:05:24+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -706,7 +706,7 @@
             "filename": "fsbl-firmware_2021.2.bb",
             "filepath": "recipes-bsp/embeddedsw",
             "homepage": "",
-            "id": 1749368,
+            "id": 1817594,
             "inherits": "deploy image-artifact-names xlnx-embeddedsw",
             "layerbranch": 904889,
             "license": "MIT",
@@ -718,7 +718,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2023-05-14T20:05:24+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -729,7 +729,7 @@
             "filename": "psm-firmware_git.bb",
             "filepath": "recipes-bsp/embeddedsw",
             "homepage": "",
-            "id": 1749369,
+            "id": 1817595,
             "inherits": "deploy image-artifact-names xlnx-embeddedsw",
             "layerbranch": 904889,
             "license": "MIT",
@@ -741,7 +741,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "PSM firmware for versal devices",
-            "updated": "2023-05-14T20:05:24+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -752,7 +752,7 @@
             "filename": "plm-firmware_git.bb",
             "filepath": "recipes-bsp/embeddedsw",
             "homepage": "",
-            "id": 1749370,
+            "id": 1817596,
             "inherits": "deploy image-artifact-names xlnx-embeddedsw",
             "layerbranch": 904889,
             "license": "MIT",
@@ -764,7 +764,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2023-05-14T20:05:24+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -775,7 +775,7 @@
             "filename": "psm-firmware_2021.2.bb",
             "filepath": "recipes-bsp/embeddedsw",
             "homepage": "",
-            "id": 1749371,
+            "id": 1817597,
             "inherits": "deploy image-artifact-names xlnx-embeddedsw",
             "layerbranch": 904889,
             "license": "MIT",
@@ -787,7 +787,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "PSM firmware for versal devices",
-            "updated": "2023-05-14T20:05:24+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -798,7 +798,7 @@
             "filename": "pmu-firmware_2021.2.bb",
             "filepath": "recipes-bsp/embeddedsw",
             "homepage": "",
-            "id": 1749372,
+            "id": 1817598,
             "inherits": "deploy image-artifact-names xlnx-embeddedsw",
             "layerbranch": 904889,
             "license": "MIT",
@@ -810,7 +810,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2023-05-14T20:05:24+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -821,7 +821,7 @@
             "filename": "pmu-firmware_git.bb",
             "filepath": "recipes-bsp/embeddedsw",
             "homepage": "",
-            "id": 1749373,
+            "id": 1817599,
             "inherits": "deploy image-artifact-names xlnx-embeddedsw",
             "layerbranch": 904889,
             "license": "MIT",
@@ -833,7 +833,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2023-05-14T20:05:24+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -844,7 +844,7 @@
             "filename": "plm-firmware_2020.1.bb",
             "filepath": "recipes-bsp/embeddedsw",
             "homepage": "",
-            "id": 1749374,
+            "id": 1817600,
             "inherits": "deploy image-artifact-names xlnx-embeddedsw",
             "layerbranch": 904889,
             "license": "MIT",
@@ -856,7 +856,7 @@
             "section": "base",
             "srcrev": "338150ab3628a1ea6b06e964b16e712b131882dd",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2023-05-14T20:05:24+0000"
+            "updated": "2023-06-07T07:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -867,7 +867,7 @@
             "filename": "pmu-firmware_2020.1.bb",
             "filepath": "recipes-bsp/embeddedsw",
             "homepage": "",
-            "id": 1749375,
+            "id": 1817601,
             "inherits": "deploy image-artifact-names xlnx-embeddedsw",
             "layerbranch": 904889,
             "license": "MIT",
@@ -879,7 +879,7 @@
             "section": "base",
             "srcrev": "338150ab3628a1ea6b06e964b16e712b131882dd",
             "summary": "",
-            "updated": "2023-05-14T20:05:25+0000"
+            "updated": "2023-06-07T07:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -890,19 +890,19 @@
             "filename": "gnu-toolchain-canadian.bb",
             "filepath": "recipes-core/meta",
             "homepage": "",
-            "id": 1749376,
+            "id": 1817602,
             "inherits": "cross-canadian",
             "layerbranch": 904889,
             "license": "MIT",
             "pe": "",
-            "pn": "gnu-toolchain-canadian-i686-oe-linux",
+            "pn": "gnu-toolchain-canadian-i686-xilinx-linux",
             "pr": "r0",
-            "provides": "gnu-toolchain-canadian-i686-oe-linux ",
+            "provides": "gnu-toolchain-canadian-i686-xilinx-linux ",
             "pv": "1.0",
             "section": "base",
             "srcrev": "",
             "summary": "Links to the various GNU toolchains for use with the Xilinx multilib toolchain",
-            "updated": "2023-05-14T20:05:25+0000"
+            "updated": "2023-06-07T07:06:28+0000"
         },
         {
             "bbclassextend": "",
@@ -913,7 +913,7 @@
             "filename": "packagegroup-newlib-standalone-sdk-target.bb",
             "filepath": "recipes-core/packagegroups",
             "homepage": "",
-            "id": 1749377,
+            "id": 1817603,
             "inherits": "packagegroup",
             "layerbranch": 904889,
             "license": "",
@@ -925,7 +925,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Target packages for the standalone SDK",
-            "updated": "2023-05-14T20:05:25+0000"
+            "updated": "2023-06-07T07:06:28+0000"
         }
     ],
     "wrtemplates": []

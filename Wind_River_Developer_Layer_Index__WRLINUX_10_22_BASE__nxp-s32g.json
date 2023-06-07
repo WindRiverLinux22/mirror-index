@@ -478,25 +478,25 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 19,
+            "sort_priority": 20,
             "update_environment": null,
-            "updated": "2023-05-24T00:05:31+0000",
+            "updated": "2023-06-07T00:06:20+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230424",
+            "actual_branch": "wr-10.22-20230524",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-05-17T01:05:48+0000",
-            "vcs_last_commit": "2023-05-17T01:05:30+0000",
-            "vcs_last_fetch": "2023-05-17T01:05:48+0000",
-            "vcs_last_rev": "4f2e15c7b6ce363bb2c79efa983cd4a58d4b6d2e",
+            "updated": "2023-06-07T00:06:44+0000",
+            "vcs_last_commit": "2023-06-07T00:06:40+0000",
+            "vcs_last_fetch": "2023-06-07T00:06:44+0000",
+            "vcs_last_rev": "e8026ef33709ff7fc8168442135c2cc037b0b65e",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -508,10 +508,10 @@
             "id": 904876,
             "layer": 49,
             "local_path": "",
-            "updated": "2023-05-24T18:05:59+0000",
-            "vcs_last_commit": "2023-05-24T18:05:27+0000",
-            "vcs_last_fetch": "2023-05-24T18:05:59+0000",
-            "vcs_last_rev": "74535fe088f48811f645da9b5401379864deb350",
+            "updated": "2023-06-07T00:06:13+0000",
+            "vcs_last_commit": "2023-06-06T22:06:53+0000",
+            "vcs_last_fetch": "2023-06-07T00:06:13+0000",
+            "vcs_last_rev": "87b98c0817a0294bd89792148907d859876828a8",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42580
@@ -523,10 +523,10 @@
             "id": 904882,
             "layer": 439,
             "local_path": "",
-            "updated": "2023-05-22T23:05:39+0000",
-            "vcs_last_commit": "2023-05-22T23:05:29+0000",
-            "vcs_last_fetch": "2023-05-22T23:05:39+0000",
-            "vcs_last_rev": "3ada66420c03a97390b78ea7dd9bb66cc8bdfd0e",
+            "updated": "2023-06-05T01:06:36+0000",
+            "vcs_last_commit": "2023-06-05T01:06:00+0000",
+            "vcs_last_fetch": "2023-06-05T01:06:36+0000",
+            "vcs_last_rev": "d794252bac39195ebca0c8eedb47cad71575b9d2",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42580
@@ -642,7 +642,7 @@
             "section": "base",
             "srcrev": "f04e9e5a6c8ea3bf5962b5665b393fb89ebc31b8",
             "summary": "",
-            "updated": "2023-05-22T23:05:39+0000"
+            "updated": "2023-06-05T01:06:35+0000"
         },
         {
             "bbclassextend": "native",
@@ -780,7 +780,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-14T20:05:22+0000"
+            "updated": "2023-06-05T01:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -803,7 +803,7 @@
             "section": "base",
             "srcrev": "48cff2400c268c61ecd60749c4a95ef6aa9b077f",
             "summary": "Support for Inter-Process(or) Communication over Shared Memory (ipc-shm)",
-            "updated": "2023-05-14T20:05:22+0000"
+            "updated": "2023-06-05T01:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -849,7 +849,7 @@
             "section": "base",
             "srcrev": "9b1c721d40763b92e9010fc9567635f130ee5bc9",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2023-05-16T05:05:36+0000"
+            "updated": "2023-05-30T00:05:39+0000"
         },
         {
             "bbclassextend": "",
@@ -895,7 +895,7 @@
             "section": "base",
             "srcrev": "9b1c721d40763b92e9010fc9567635f130ee5bc9",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2023-05-16T05:05:36+0000"
+            "updated": "2023-05-30T00:05:39+0000"
         },
         {
             "bbclassextend": "",
@@ -918,7 +918,7 @@
             "section": "base",
             "srcrev": "9b1c721d40763b92e9010fc9567635f130ee5bc9",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2023-05-16T05:05:36+0000"
+            "updated": "2023-05-30T00:05:39+0000"
         }
     ],
     "wrtemplates": [
