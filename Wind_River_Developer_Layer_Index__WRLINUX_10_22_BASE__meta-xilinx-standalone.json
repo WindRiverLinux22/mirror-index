@@ -480,24 +480,24 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 20,
             "update_environment": null,
-            "updated": "2023-06-07T00:06:20+0000",
+            "updated": "2023-06-14T00:06:22+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Xilinx Standalone Distro",
-            "id": 12889,
+            "id": 12915,
             "layerbranch": 904889,
             "name": "xilinx-standalone-nolto",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:55+0000"
         },
         {
             "description": "Xilinx Standalone Distro (lto)",
-            "id": 12890,
+            "id": 12916,
             "layerbranch": 904889,
             "name": "xilinx-standalone",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:55+0000"
         }
     ],
     "layerBranches": [
@@ -538,9 +538,9 @@
             "id": 904889,
             "layer": 435,
             "local_path": "",
-            "updated": "2023-06-07T07:06:28+0000",
+            "updated": "2023-06-08T07:06:55+0000",
             "vcs_last_commit": "2022-08-09T00:08:43+0000",
-            "vcs_last_fetch": "2023-06-07T07:06:28+0000",
+            "vcs_last_fetch": "2023-06-08T07:06:55+0000",
             "vcs_last_rev": "3ccefea523a1ea9d91684f410563de14b185a734",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
@@ -623,31 +623,31 @@
     "machines": [
         {
             "description": "",
-            "id": 69895,
+            "id": 70539,
             "layerbranch": 904889,
             "name": "microblaze-tc",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:55+0000"
         },
         {
             "description": "",
-            "id": 69896,
+            "id": 70540,
             "layerbranch": 904889,
             "name": "aarch32-tc",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:55+0000"
         },
         {
             "description": "",
-            "id": 69897,
+            "id": 70541,
             "layerbranch": 904889,
             "name": "arm-rm-tc",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:55+0000"
         },
         {
             "description": "",
-            "id": 69898,
+            "id": 70542,
             "layerbranch": 904889,
             "name": "aarch64-tc",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:55+0000"
         }
     ],
     "recipes": [
@@ -672,7 +672,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -695,7 +695,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -718,7 +718,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -741,7 +741,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "PSM firmware for versal devices",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -764,7 +764,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -787,7 +787,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "PSM firmware for versal devices",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -810,7 +810,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -833,7 +833,7 @@
             "section": "base",
             "srcrev": "49c6694fc3cab6b87dd564da58a83bb8656a7c03",
             "summary": "",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -856,7 +856,7 @@
             "section": "base",
             "srcrev": "338150ab3628a1ea6b06e964b16e712b131882dd",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2023-06-07T07:06:27+0000"
+            "updated": "2023-06-08T07:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -879,7 +879,7 @@
             "section": "base",
             "srcrev": "338150ab3628a1ea6b06e964b16e712b131882dd",
             "summary": "",
-            "updated": "2023-06-07T07:06:28+0000"
+            "updated": "2023-06-08T07:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -895,14 +895,14 @@
             "layerbranch": 904889,
             "license": "MIT",
             "pe": "",
-            "pn": "gnu-toolchain-canadian-i686-xilinx-linux",
+            "pn": "gnu-toolchain-canadian-i686-oe-linux",
             "pr": "r0",
-            "provides": "gnu-toolchain-canadian-i686-xilinx-linux ",
+            "provides": "gnu-toolchain-canadian-i686-oe-linux ",
             "pv": "1.0",
             "section": "base",
             "srcrev": "",
             "summary": "Links to the various GNU toolchains for use with the Xilinx multilib toolchain",
-            "updated": "2023-06-07T07:06:28+0000"
+            "updated": "2023-06-08T07:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -925,7 +925,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Target packages for the standalone SDK",
-            "updated": "2023-06-07T07:06:28+0000"
+            "updated": "2023-06-08T07:06:55+0000"
         }
     ],
     "wrtemplates": []
