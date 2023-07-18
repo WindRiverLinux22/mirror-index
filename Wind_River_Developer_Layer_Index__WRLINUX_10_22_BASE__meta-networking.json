@@ -468,11 +468,18 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20230424",
+            "bitbake_branch": "wr-10.22-20230711",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -480,68 +487,68 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 20,
             "update_environment": null,
-            "updated": "2023-06-21T00:06:21+0000",
+            "updated": "2023-07-18T00:07:24+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230524",
+            "actual_branch": "wr-10.22-20230711",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-19T02:06:29+0000",
-            "vcs_last_commit": "2023-06-19T01:06:43+0000",
-            "vcs_last_fetch": "2023-06-19T02:06:29+0000",
-            "vcs_last_rev": "d4ae53f1c227476eff6be12a712189635f016bd1",
+            "updated": "2023-07-17T02:07:30+0000",
+            "vcs_last_commit": "2023-07-17T01:07:03+0000",
+            "vcs_last_fetch": "2023-07-17T02:07:30+0000",
+            "vcs_last_rev": "8249dbe09d4be51a2a5c69858e30993344a0d63d",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20230524",
+            "actual_branch": "wr-10.22-20230711",
             "branch": 292,
             "collection": "openembedded-layer",
             "id": 904830,
             "layer": 7,
             "local_path": "",
-            "updated": "2023-06-19T01:06:29+0000",
-            "vcs_last_commit": "2023-06-19T00:06:26+0000",
-            "vcs_last_fetch": "2023-06-19T01:06:29+0000",
-            "vcs_last_rev": "a2627137db2eff5086ed543529032f33702799da",
+            "updated": "2023-07-16T22:07:46+0000",
+            "vcs_last_commit": "2023-07-13T18:07:02+0000",
+            "vcs_last_fetch": "2023-07-16T22:07:46+0000",
+            "vcs_last_rev": "e89a9164fd45606e594e27a2b8d1e21a1735f49c",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20230524",
+            "actual_branch": "wr-10.22-20230711",
             "branch": 292,
             "collection": "meta-python",
             "id": 904833,
             "layer": 12,
             "local_path": "",
-            "updated": "2023-06-11T17:06:29+0000",
-            "vcs_last_commit": "2023-06-11T17:06:21+0000",
-            "vcs_last_fetch": "2023-06-11T17:06:29+0000",
-            "vcs_last_rev": "c641dbc120a02190efa85c258ae357b534e02e42",
+            "updated": "2023-07-16T22:07:03+0000",
+            "vcs_last_commit": "2023-07-11T02:07:57+0000",
+            "vcs_last_fetch": "2023-07-16T22:07:03+0000",
+            "vcs_last_rev": "9b2c3f50c8c2a5f149a0393f2c42c0b2a7eded2d",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42579
         },
         {
-            "actual_branch": "wr-10.22-20230524",
+            "actual_branch": "wr-10.22-20230711",
             "branch": 292,
             "collection": "networking-layer",
             "id": 904855,
             "layer": 11,
             "local_path": "",
-            "updated": "2023-05-31T00:05:52+0000",
-            "vcs_last_commit": "2023-05-31T00:05:24+0000",
-            "vcs_last_fetch": "2023-05-31T00:05:52+0000",
-            "vcs_last_rev": "097c1a0f229d78893dd8fdfe683f8438446ee3fa",
+            "updated": "2023-07-16T22:07:58+0000",
+            "vcs_last_commit": "2023-07-13T18:07:09+0000",
+            "vcs_last_fetch": "2023-07-16T22:07:58+0000",
+            "vcs_last_rev": "3c88c1c1032f6651c90fb8d3721d55135bdfc51b",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42579
@@ -927,7 +934,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-fpm                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmpw4jm_wpb/tmp-glibc/work/core2-32-oe-linux/frr/8.2.2-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
+            "configopts": "--sbindir=/usr/lib/frr                              --sysconfdir=/etc/frr                              --localstatedir=/var/run/frr                              --enable-vtysh                              --enable-fpm                              --enable-multipath=64                              --enable-user=frr                              --enable-group=frr                              --enable-vty-group=frrvty                              --enable-configfile-mask=0640                              --enable-logfile-mask=0640                              --disable-doc                              --with-clippy=/tmp/tmpc7yrd74n/tmp-glibc/work/core2-32-oe-linux/frr/8.2.2-r0/recipe-sysroot-native/usr/lib/clippy                               --disable-capabilities --disable-cumulus --disable-datacenter --disable-grpc --disable-ospfapi --disable-ospfclient --without-libpam --disable-protobuf --disable-snmp --disable-zeromq",
             "description": "FRRouting is a free and open source Internet routing protocol suite for Linux and Unix platforms. It implements BGP, OSPF, RIP, IS-IS, PIM, LDP, BFD, Babel, PBR, OpenFabric and VRRP, with alpha support for EIGRP and NHRP.",
             "filename": "frr_8.2.2.bb",
             "filepath": "recipes-protocols/frr",
@@ -944,7 +951,7 @@
             "section": "net",
             "srcrev": "79188bf710e92acf42fb5b9b0a2e9593a5ee9b05",
             "summary": "BGP/OSPF/RIP routing daemon",
-            "updated": "2023-05-14T20:05:47+0000"
+            "updated": "2023-07-16T22:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1887,7 +1894,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-14T20:05:59+0000"
+            "updated": "2023-07-16T22:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1985,9 +1992,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-libpcap=/tmp/tmpw4jm_wpb/tmp-glibc/work/core2-32-oe-linux/tcpreplay/4.4.2-r0/recipe-sysroot/usr ",
+            "configopts": " --with-libpcap=/tmp/tmpc7yrd74n/tmp-glibc/work/core2-32-oe-linux/tcpreplay/4.4.4-r0/recipe-sysroot/usr ",
             "description": "",
-            "filename": "tcpreplay_4.4.2.bb",
+            "filename": "tcpreplay_4.4.4.bb",
             "filepath": "recipes-support/tcpreplay",
             "homepage": "https://tcpreplay.appneta.com/",
             "id": 1535930,
@@ -1998,11 +2005,11 @@
             "pn": "tcpreplay",
             "pr": "r0",
             "provides": "tcpreplay ",
-            "pv": "4.4.2",
+            "pv": "4.4.4",
             "section": "net",
             "srcrev": "",
             "summary": "Use previously captured traffic to test network devices",
-            "updated": "2023-05-14T20:05:00+0000"
+            "updated": "2023-07-16T22:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2836,7 +2843,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-net-snmp-config=no                  --without-ntpsnmpd                  ac_cv_header_readline_history_h=no                  --with-yielding_select=yes                  --with-locfile=redhat                  --without-rpath                    --enable-linuxcaps --enable-debugging --enable-ipv6 ac_cv_header_dns_sd_h=no --with-openssl-libdir=/tmp/tmpw4jm_wpb/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/lib                           --with-openssl-incdir=/tmp/tmpw4jm_wpb/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/include                           --with-crypto --without-lineeditlibs --enable-all-clocks",
+            "configopts": " --with-net-snmp-config=no                  --without-ntpsnmpd                  ac_cv_header_readline_history_h=no                  --with-yielding_select=yes                  --with-locfile=redhat                  --without-rpath                    --enable-linuxcaps --enable-debugging --enable-ipv6 ac_cv_header_dns_sd_h=no --with-openssl-libdir=/tmp/tmpc7yrd74n/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/lib                           --with-openssl-incdir=/tmp/tmpc7yrd74n/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/include                           --with-crypto --without-lineeditlibs --enable-all-clocks",
             "description": "The Network Time Protocol (NTP) is used to synchronize the time of a computer client or server to another server or reference time source, such as a radio or satellite receiver or modem.",
             "filename": "ntp_4.2.8p15.bb",
             "filepath": "recipes-support/ntp",
@@ -2853,7 +2860,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Network Time Protocol daemon and utilities",
-            "updated": "2023-05-14T20:05:10+0000"
+            "updated": "2023-07-16T22:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -4607,7 +4614,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-fhs                  --with-piddir=/run                  --with-sockets-dir=/run/samba                  --with-modulesdir=/usr/lib/samba                  --with-lockdir=/var/lib/samba                  --with-cachedir=/var/lib/samba                  --disable-rpath-install                  --with-shared-modules=idmap_ad,idmap_rid,idmap_adex,idmap_hash,idmap_tdb2,pdb_tdbsam,pdb_ldap,pdb_ads,pdb_smbpasswd,pdb_wbc_sam,pdb_samba4,auth_unix,auth_wbc,auth_server,auth_netlogond,auth_script,auth_samba4                  --bundled-libraries=heimdal,cmocka,NONE                  --disable-glusterfs                  --with-cluster-support                  --with-profiling-data                  --with-libiconv=/tmp/tmpw4jm_wpb/tmp-glibc/work/core2-32-oe-linux/samba/4.14.14-r0/recipe-sysroot/usr                  --with-pam --with-pammodulesdir=/lib/security                 ",
+            "configopts": " --enable-fhs                  --with-piddir=/run                  --with-sockets-dir=/run/samba                  --with-modulesdir=/usr/lib/samba                  --with-lockdir=/var/lib/samba                  --with-cachedir=/var/lib/samba                  --disable-rpath-install                  --with-shared-modules=idmap_ad,idmap_rid,idmap_adex,idmap_hash,idmap_tdb2,pdb_tdbsam,pdb_ldap,pdb_ads,pdb_smbpasswd,pdb_wbc_sam,pdb_samba4,auth_unix,auth_wbc,auth_server,auth_netlogond,auth_script,auth_samba4                  --bundled-libraries=heimdal,cmocka,NONE                  --disable-glusterfs                  --with-cluster-support                  --with-profiling-data                  --with-libiconv=/tmp/tmpc7yrd74n/tmp-glibc/work/core2-32-oe-linux/samba/4.14.14-r0/recipe-sysroot/usr                  --with-pam --with-pammodulesdir=/lib/security                 ",
             "description": "",
             "filename": "samba_4.14.14.bb",
             "filepath": "recipes-connectivity/samba",
@@ -4624,7 +4631,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2023-05-14T20:05:35+0000"
+            "updated": "2023-07-16T22:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -5476,6 +5483,29 @@
             "srcrev": "",
             "summary": "Tool for getting the date/time from a remote machine.",
             "updated": "2023-05-14T20:05:47+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "-DLIB_INSTALL_DIR:STRING=/usr/lib  -DENABLE_PROGRAMS=ON -DUSE_SHARED_MBEDTLS_LIBRARY=ON -DENABLE_TESTING=OFF -DMBEDTLS_FATAL_WARNINGS=OFF",
+            "description": "mbedtls is a lean open source crypto library          for providing SSL and TLS support in your programs. It offers        an intuitive API and documented header files, so you can actually    understand what the code does. It features:                                                                                                - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4,     Camellia and XTEA                                                  - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5             - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG    - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman,    ECDSA and ECDH                                                     - SSL v3 and TLS 1.0, 1.1 and 1.2                                    - Abstraction layers for ciphers, hashes, public key operations,       platform abstraction and threading                                ",
+            "filename": "mbedtls_3.4.0.bb",
+            "filepath": "recipes-connectivity/mbedtls",
+            "homepage": "https://tls.mbed.org/",
+            "id": 1829533,
+            "inherits": "cmake ptest update-alternatives",
+            "layerbranch": 904855,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "mbedtls",
+            "pr": "r0",
+            "provides": "mbedtls  polarssl",
+            "pv": "3.4.0",
+            "section": "libs",
+            "srcrev": "1873d3bfc2da771672bd8e7e8f41f57e0af77f33",
+            "summary": "Lightweight crypto and SSL/TLS library",
+            "updated": "2023-07-16T22:07:58+0000"
         }
     ],
     "wrtemplates": []

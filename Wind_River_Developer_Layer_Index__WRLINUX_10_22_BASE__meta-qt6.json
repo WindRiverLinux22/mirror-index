@@ -468,11 +468,18 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20230424",
+            "bitbake_branch": "wr-10.22-20230711",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -480,23 +487,23 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 20,
             "update_environment": null,
-            "updated": "2023-06-21T00:06:21+0000",
+            "updated": "2023-07-18T00:07:24+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230524",
+            "actual_branch": "wr-10.22-20230711",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-19T02:06:29+0000",
-            "vcs_last_commit": "2023-06-19T01:06:43+0000",
-            "vcs_last_fetch": "2023-06-19T02:06:29+0000",
-            "vcs_last_rev": "d4ae53f1c227476eff6be12a712189635f016bd1",
+            "updated": "2023-07-17T02:07:30+0000",
+            "vcs_last_commit": "2023-07-17T01:07:03+0000",
+            "vcs_last_fetch": "2023-07-17T02:07:30+0000",
+            "vcs_last_rev": "8249dbe09d4be51a2a5c69858e30993344a0d63d",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -508,10 +515,10 @@
             "id": 947008,
             "layer": 482,
             "local_path": "",
-            "updated": "2023-05-21T22:05:20+0000",
-            "vcs_last_commit": "2023-05-21T20:05:50+0000",
-            "vcs_last_fetch": "2023-05-21T22:05:20+0000",
-            "vcs_last_rev": "16cfb20b3bca0a2c09abd37f3a0c6dc0cf5c6f10",
+            "updated": "2023-06-29T17:06:35+0000",
+            "vcs_last_commit": "2023-06-29T17:06:52+0000",
+            "vcs_last_fetch": "2023-06-29T17:06:35+0000",
+            "vcs_last_rev": "b02ed3407b5f7cea6f789aa73383f82361f26a5b",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42598
@@ -853,13 +860,13 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DQT_CMAKE_DEBUG_EXTEND_TARGET=ON     -DQT_BUILD_INTERNALS_NO_FORCE_SET_INSTALL_PREFIX=ON     -DCMAKE_MESSAGE_LOG_LEVEL=STATUS      -DINSTALL_ARCHDATADIR:PATH=lib     -DINSTALL_BINDIR:PATH=bin     -DINSTALL_DATADIR:PATH=share     -DINSTALL_DESCRIPTIONSDIR:PATH=share/modules     -DINSTALL_DOCDIR:PATH=share/doc     -DINSTALL_EXAMPLESDIR:PATH=share/examples     -DINSTALL_INCLUDEDIR:PATH=include     -DINSTALL_LIBDIR:PATH=lib     -DINSTALL_LIBEXECDIR:PATH=libexec     -DINSTALL_PLUGINSDIR:PATH=lib/plugins     -DINSTALL_QMLDIR:PATH=lib/qml     -DINSTALL_SYSCONFDIR:PATH=../etc/xdg     -DINSTALL_TESTSDIR:PATH=tests     -DINSTALL_TRANSLATIONSDIR:PATH=share/translations     -DINSTALL_MKSPECSDIR:PATH=lib/mkspecs   -DQT_BUILD_EXAMPLES=OFF -DQT_BUILD_TESTS=OFF    -DQT_HOST_PATH:PATH=/tmp/tmp6fya264e/tmp-glibc/work/core2-32-oe-linux/qtdatavis3d/6.5.1-r0/recipe-sysroot-native/usr/     -DQT_FORCE_BUILD_TOOLS=OFF     -D__harfbuzz_broken_config_file=TRUE ",
+            "configopts": "     -DQT_CMAKE_DEBUG_EXTEND_TARGET=ON     -DQT_BUILD_INTERNALS_NO_FORCE_SET_INSTALL_PREFIX=ON     -DCMAKE_MESSAGE_LOG_LEVEL=STATUS      -DINSTALL_ARCHDATADIR:PATH=lib     -DINSTALL_BINDIR:PATH=bin     -DINSTALL_DATADIR:PATH=share     -DINSTALL_DESCRIPTIONSDIR:PATH=share/modules     -DINSTALL_DOCDIR:PATH=share/doc     -DINSTALL_EXAMPLESDIR:PATH=share/examples     -DINSTALL_INCLUDEDIR:PATH=include     -DINSTALL_LIBDIR:PATH=lib     -DINSTALL_LIBEXECDIR:PATH=libexec     -DINSTALL_PLUGINSDIR:PATH=lib/plugins     -DINSTALL_QMLDIR:PATH=lib/qml     -DINSTALL_SYSCONFDIR:PATH=../etc/xdg     -DINSTALL_TESTSDIR:PATH=tests     -DINSTALL_TRANSLATIONSDIR:PATH=share/translations     -DINSTALL_MKSPECSDIR:PATH=lib/mkspecs   -DQT_BUILD_EXAMPLES=OFF -DQT_BUILD_TESTS=OFF    -DQT_HOST_PATH:PATH=/tmp/tmpxlpv3zut/tmp-glibc/work/core2-32-oe-linux/qtdatavis3d/6.5.1-r0/recipe-sysroot-native/usr/     -DQT_FORCE_BUILD_TOOLS=OFF     -D__harfbuzz_broken_config_file=TRUE ",
             "description": "",
             "filename": "qtdatavis3d_git.bb",
             "filepath": "recipes-qt/qt6",
             "homepage": "",
             "id": 1800162,
-            "inherits": "cmake perlnative pkgconfig ptest python3-dir python3native qt6-cmake qt6-paths srcrev-update",
+            "inherits": "cmake features_check perlnative pkgconfig ptest python3-dir python3native qt6-cmake qt6-paths srcrev-update",
             "layerbranch": 947008,
             "license": "The-Qt-Company-Commercial | (GPL-3.0-only & Qt-GPL-exception-1.0) & GFDL-1.3-no-invariants-only",
             "pe": "",
@@ -870,7 +877,7 @@
             "section": "base",
             "srcrev": "46c0f385a3c3255257440c095e0f02970b6a27a1",
             "summary": "",
-            "updated": "2023-05-16T22:05:06+0000"
+            "updated": "2023-06-29T17:06:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",

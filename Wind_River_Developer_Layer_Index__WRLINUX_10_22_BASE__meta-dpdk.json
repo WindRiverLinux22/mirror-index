@@ -468,11 +468,18 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.22-20230424",
+            "bitbake_branch": "wr-10.22-20230711",
             "comparison": false,
             "hidden": false,
             "id": 292,
@@ -480,38 +487,38 @@
             "short_description": "Wind River Linux 10_22 Baseline",
             "sort_priority": 20,
             "update_environment": null,
-            "updated": "2023-06-21T00:06:21+0000",
+            "updated": "2023-07-18T00:07:24+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.22-20230524",
+            "actual_branch": "wr-10.22-20230711",
             "branch": 292,
             "collection": "core",
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-06-19T02:06:29+0000",
-            "vcs_last_commit": "2023-06-19T01:06:43+0000",
-            "vcs_last_fetch": "2023-06-19T02:06:29+0000",
-            "vcs_last_rev": "d4ae53f1c227476eff6be12a712189635f016bd1",
+            "updated": "2023-07-17T02:07:30+0000",
+            "vcs_last_commit": "2023-07-17T01:07:03+0000",
+            "vcs_last_fetch": "2023-07-17T02:07:30+0000",
+            "vcs_last_rev": "8249dbe09d4be51a2a5c69858e30993344a0d63d",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
         },
         {
-            "actual_branch": "wr-10.22-20230306",
+            "actual_branch": "wr-10.22-20230711",
             "branch": 292,
             "collection": "dpdk",
             "id": 904845,
             "layer": 192,
             "local_path": "",
-            "updated": "2023-05-14T20:05:12+0000",
-            "vcs_last_commit": "2023-03-06T01:03:47+0000",
-            "vcs_last_fetch": "2023-05-14T20:05:12+0000",
-            "vcs_last_rev": "789125512de8d7bd0f0765649ae520450bd83afb",
+            "updated": "2023-07-16T22:07:18+0000",
+            "vcs_last_commit": "2023-07-11T02:07:17+0000",
+            "vcs_last_fetch": "2023-07-16T22:07:18+0000",
+            "vcs_last_rev": "0e758153a28e451e2df6f207e09ccbee7d26f09e",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42583
@@ -579,7 +586,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk-module_21.11.2.bb",
+            "filename": "dpdk-module_21.11.4.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
             "id": 1535660,
@@ -590,11 +597,11 @@
             "pn": "dpdk-module",
             "pr": "r0",
             "provides": "dpdk-module ",
-            "pv": "21.11.2",
+            "pv": "21.11.4",
             "section": "base",
-            "srcrev": "7bcd45ce824d0ea2a9f30d16855613a93521851b",
+            "srcrev": "e185150c2ada84e637d14274ec456a3a4965487e",
             "summary": "",
-            "updated": "2023-05-14T20:05:11+0000"
+            "updated": "2023-07-16T22:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -602,7 +609,7 @@
             "bugtracker": "",
             "configopts": " -Denable_kmods=false                 -Dexamples=all  ",
             "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk_21.11.2.bb",
+            "filename": "dpdk_21.11.4.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
             "id": 1535661,
@@ -613,11 +620,11 @@
             "pn": "dpdk",
             "pr": "r0",
             "provides": "dpdk ",
-            "pv": "21.11.2",
+            "pv": "21.11.4",
             "section": "base",
-            "srcrev": "7bcd45ce824d0ea2a9f30d16855613a93521851b",
+            "srcrev": "e185150c2ada84e637d14274ec456a3a4965487e",
             "summary": "",
-            "updated": "2023-05-14T20:05:11+0000"
+            "updated": "2023-07-16T22:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -625,7 +632,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk-module_20.11.6.bb",
+            "filename": "dpdk-module_20.11.8.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
             "id": 1535662,
@@ -636,11 +643,11 @@
             "pn": "dpdk-module",
             "pr": "r0",
             "provides": "dpdk-module ",
-            "pv": "20.11.6",
+            "pv": "20.11.8",
             "section": "base",
-            "srcrev": "73655c6414914c99a33010e9e7bdae9cafd24404",
+            "srcrev": "348875aab1c014ed1b913cf8976b5f8e009a1ebb",
             "summary": "",
-            "updated": "2023-05-14T20:05:11+0000"
+            "updated": "2023-07-16T22:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -671,7 +678,7 @@
             "bugtracker": "",
             "configopts": " -Denable_kmods=false                 -Dexamples=all  ",
             "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk_20.11.6.bb",
+            "filename": "dpdk_20.11.8.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
             "id": 1535664,
@@ -682,11 +689,11 @@
             "pn": "dpdk",
             "pr": "r0",
             "provides": "dpdk ",
-            "pv": "20.11.6",
+            "pv": "20.11.8",
             "section": "base",
-            "srcrev": "73655c6414914c99a33010e9e7bdae9cafd24404",
+            "srcrev": "348875aab1c014ed1b913cf8976b5f8e009a1ebb",
             "summary": "",
-            "updated": "2023-05-14T20:05:11+0000"
+            "updated": "2023-07-16T22:07:18+0000"
         },
         {
             "bbclassextend": "",
