@@ -485,9 +485,9 @@
             "id": 292,
             "name": "WRLINUX_10_22_BASE",
             "short_description": "Wind River Linux 10_22 Baseline",
-            "sort_priority": 20,
+            "sort_priority": 21,
             "update_environment": null,
-            "updated": "2023-07-18T00:07:24+0000",
+            "updated": "2023-07-24T00:07:29+0000",
             "updates_enabled": true
         }
     ],
@@ -500,10 +500,10 @@
             "id": 904828,
             "layer": 1,
             "local_path": "",
-            "updated": "2023-07-17T02:07:30+0000",
-            "vcs_last_commit": "2023-07-17T01:07:03+0000",
-            "vcs_last_fetch": "2023-07-17T02:07:30+0000",
-            "vcs_last_rev": "8249dbe09d4be51a2a5c69858e30993344a0d63d",
+            "updated": "2023-07-23T19:07:34+0000",
+            "vcs_last_commit": "2023-07-23T19:07:26+0000",
+            "vcs_last_fetch": "2023-07-23T19:07:34+0000",
+            "vcs_last_rev": "1141306f2afa7418a33557b185d9269cf7bd700e",
             "vcs_subdir": "meta",
             "version": "14",
             "yp_compatible_version": 42580
@@ -530,10 +530,10 @@
             "id": 908027,
             "layer": 473,
             "local_path": "",
-            "updated": "2023-07-16T22:07:18+0000",
-            "vcs_last_commit": "2023-07-11T02:07:55+0000",
-            "vcs_last_fetch": "2023-07-16T22:07:18+0000",
-            "vcs_last_rev": "c39ac6ee7f6feea34512764bb7548944deef1d58",
+            "updated": "2023-07-18T23:07:46+0000",
+            "vcs_last_commit": "2023-07-18T23:07:04+0000",
+            "vcs_last_fetch": "2023-07-18T23:07:46+0000",
+            "vcs_last_rev": "232d96d1a8d491503ae9a6293b4324e6a9ac9a73",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 42585
@@ -1219,7 +1219,7 @@
             "section": "bootloaders",
             "srcrev": "4debc57a3da6c3f4d3f89a637e99206f4cea0a96",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2023-07-16T22:07:16+0000"
+            "updated": "2023-07-18T23:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1587,7 +1587,7 @@
             "section": "base",
             "srcrev": "905eb58564581d951d148f45828e8c8a142a5938",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2023-07-16T22:07:16+0000"
+            "updated": "2023-07-18T23:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1863,7 +1863,7 @@
             "section": "bootloaders",
             "srcrev": "24098ea90dbaac7b16958e2f7d9f7a412ef1522a",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2023-07-16T22:07:15+0000"
+            "updated": "2023-07-18T23:07:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1986,29 +1986,6 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "ti-dm-fw.bb",
-            "filepath": "recipes-bsp/ti-dm-fw",
-            "homepage": "",
-            "id": 1829536,
-            "inherits": "deploy ti-secdev update-alternatives",
-            "layerbranch": 908027,
-            "license": "TI-TFL",
-            "pe": "",
-            "pn": "ti-dm-fw",
-            "pr": "r4.0",
-            "provides": "ti-dm-fw ",
-            "pv": "08.06.04",
-            "section": "base",
-            "srcrev": "905eb58564581d951d148f45828e8c8a142a5938",
-            "summary": "Common include for TI Linux firmware",
-            "updated": "2023-07-16T22:07:18+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
             "filename": "ti-eth-fw.bb",
             "filepath": "recipes-bsp/ti-eth-fw",
             "homepage": "",
@@ -2025,6 +2002,29 @@
             "srcrev": "905eb58564581d951d148f45828e8c8a142a5938",
             "summary": "Common include for TI Linux firmware",
             "updated": "2023-07-16T22:07:18+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
+            "filename": "u-boot-ti-staging_2021.01.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 1838112,
+            "inherits": "cml1 deploy kernel-arch pkgconfig python3-dir python3native ti-secdev uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 908027,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-ti-staging",
+            "pr": "r34",
+            "provides": "u-boot-ti-staging virtual/bootloader u-boot",
+            "pv": "2021.01+gitX",
+            "section": "bootloaders",
+            "srcrev": "3a5205e9803809f18edc59a40fd9df470f98a00f",
+            "summary": "u-boot bootloader for TI devices",
+            "updated": "2023-07-18T23:07:46+0000"
         }
     ],
     "wrtemplates": []
